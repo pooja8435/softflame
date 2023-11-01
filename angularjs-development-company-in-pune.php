@@ -71,7 +71,7 @@
         <section>
             <div class="header-inner two">
                 <div class="inner text-center">
-                    <h4 class="title text-white uppercase"><b>AngularJs Development in Pune, Bangalore, Delhi</b></h4>
+                    <h4 class="title text-white uppercase"><b>AngularJs Development in Pune, Bangalore, Delhi.</b></h4>
                 </div>
                 <div class="overlay bg-opacity-5"></div>
                 <img src="images/sheader.jpg" alt="AngularJs Development in Pune, Bangalore, Delhi" class="img-responsive" /> </div>
