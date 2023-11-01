@@ -1,0 +1,41 @@
+<!-- Head Stylesheets -->
+<link rel="stylesheet" type="text/css" href="css/theme-reset.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/dat-menu.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/theme-shortcodes.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/theme-responsive.css" media="screen" />
+
+
+<script language="JavaScript" src="js/gen_validatorv31.js" type="text/javascript"></script>
+
+
+<form name="quick_enquiry_frm" id="quick_enquiry_frm" method="post" action="email.php">
+    <div class="fluid form_textfield">
+        <input name="name" type="text" id="name" placeholder="Enter your Name" style="width:100%;padding:8px;" required/>
+    </div>
+    <div class="fluid form_textfield">
+        <input name="email" type="text" id="email_id" placeholder="Enter your email id" style="width:100%;padding:8px;" required/>
+    </div>
+    <div class="fluid form_textfield">
+        <input name="mobile" type="text" id="contact_no" placeholder="Enter your mobile no." maxlength="10" style="width:100%;padding:8px;" required/>
+    </div>
+    <div class="clr"></div>
+    <div id="form_textarea1" class="fluid">
+        <textarea name="enquiry" rows="4" id="message" placeholder="Write us your requirement" style="width:100%;padding:8px;font: 400 13.3333px Arial;" required></textarea>
+    </div>
+
+    <div class="clr"></div>
+
+    <button class="btn btn-2 btn-2h" type="submit" name="submit">Submit </button>
+</form>
+
+<script language="JavaScript">
+    // Code for validating the form
+    // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+    // for details
+    var frmvalidator = new Validator("contactform");
+    frmvalidator.addValidation("name", "req", "Please provide your name");
+    frmvalidator.addValidation("email", "req", "Please provide your email");
+    frmvalidator.addValidation("email", "email", "Please enter a valid email address");
+</script>
