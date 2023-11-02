@@ -1,0 +1,912 @@
+/*
+ Template Name : DOT.
+ Template By : Konnect Code
+ Author Website : http://www.konnectplugins.com/
+ */
+
+
+/* Table of Content
+==================================================
+
+ + Fonts
+ + Common css
+ + Loader, Top Bar CSS 
+ + Navigation+Logo CSS
+ + Header CSS
+ + About us CSS
+ + Services CSS
+ + Gallery CSS
+ + Blog/News and Courses  CSS
+ + Blog Single Css
+ + Our Team  CSS
+ + FAQ styles
+ + Testimonials CSS
+ + Contact Us CSS
+ + Footer CSS
+ + Buttons CSS
+ + Google Map CSS
+ + Login Page
+ + 404 Page
+ + Keyframes 
+ + Responsive Design CSS
+ 
+ 
+================================================
++ Fonts - Roboto
+================================================
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+
+/*
+================================================
++ Common Css
+================================================
+*/
+
+* {
+    position: relative;
+    outline: 0!important;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:before,
+:after {
+    transition: all ease-in-out .3s;
+    -webkit-transition: all ease-in-out .3s;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'roboto', sans-serif;
+    color: #333333;
+    webkit-tap-highlight-color: #222222;
+    overflow-x: hidden;
+    font-size: 15px;
+}
+
+::-moz-selection {
+    color: white;
+    text-shadow: none;
+    background: #222222;
+}
+
+::selection {
+    color: white;
+    text-shadow: none;
+    background: #222222;
+}
+
+img::selection {
+    color: white;
+    background: transparent;
+}
+
+img::-moz-selection {
+    color: white;
+    background: transparent;
+}
+
+hr.light {
+    border-color: white;
+}
+
+a {
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+a:hover,
+a:focus {
+    color: #6c6c6c;
+}
+
+
+/*----------------End Social Icons sidebar----------------*/
+
+
+/*--------------Enquiry Widget------------*/
+
+a.stickyEnquiryWidget {
+    width: 35px;
+    display: block;
+    height: 170px;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    background: url(../img/enquiry.png) no-repeat;
+    z-index: 999999;
+    -webkit-transition: all 1.5s ease;
+    -moz-transition: all 1.5s ease;
+    -ms-transition: all 1.5s ease;
+    -o-transition: all 1.5s ease;
+    transition: all 1.5s ease;
+}
+
+
+/*a.stickyEnquiryWidget:hover{
+    background: url(../images/enquiry.png) no-repeat;
+}*/
+
+
+/*end sticky*/
+
+section#services {
+    padding: 50px 0 33px;
+}
+
+.service-box {
+    background: #f1f1f1;
+    padding: 25px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.position-bar .service-box {
+    background: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.service-box-button {
+    margin-top: 15px;
+    font-size: 14px;
+    padding: 10px 25px;
+    color: #ffffff;
+    border-radius: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+}
+
+.service-box-button:hover,
+.service-box-button:active,
+.service-box-button:focus {
+    text-decoration: none;
+    background-color: #555;
+    color: #ffffff;
+}
+
+.service-box h3 {
+    font-weight: 400;
+    color: #000;
+    margin: 20px auto;
+}
+
+.service-box p {
+    margin-bottom: 0;
+}
+
+.service-box img {
+    margin-bottom: 5px;
+}
+
+
+/*
+================================================
++ Gallery  CSS
+================================================
+*/
+
+.modal-body {
+    padding: 0;
+}
+
+button.close {
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 99;
+    opacity: 1;
+    background: #ffffff;
+    padding: 4px 10px 5px;
+    border-radius: 20px;
+    color: #555;
+    font-weight: 500;
+}
+
+.gallery-box img {
+    margin: 15px auto;
+}
+
+.gallery-box img:hover {
+    cursor: -moz-zoom-in;
+    cursor: -webkit-zoom-in;
+    cursor: zoom-in;
+    opacity: 0.8;
+}
+
+
+/*
+================================================
++ Blog/News and Courses  CSS
+================================================
+*/
+
+.img-box img {
+    width: 100%;
+}
+
+.img-box span {
+    position: absolute;
+    z-index: 10;
+    color: #f1f1f1;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1pt;
+}
+
+ul.ul-course {
+    padding: 10px 20px;
+    background: #f9f9f9;
+}
+
+ul.ul-course li {
+    list-style: none;
+    font-size: 16px;
+    line-height: 40px;
+    border-bottom: 1px solid #eee;
+    color: #666666;
+}
+
+ul.ul-course li:last-child {
+    border-bottom: 0px;
+}
+
+ul.ul-course li span {
+    font-size: 19px;
+    color: #444444;
+    font-weight: bold;
+}
+
+ul.other-courses li {
+    list-style: none;
+}
+
+.article-box {
+    overflow: hidden;
+}
+
+.post-content-text {
+    width: 100%;
+    float: left;
+    position: absolute;
+    left: 0;
+    bottom: -45px;
+    padding-bottom: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.article-box:hover .post-content-text,
+.post-content-text:hover {
+    bottom: 0px;
+}
+
+.post-content-text h4 {
+    font-size: 16px;
+    color: #cccccc;
+    line-height: 23px;
+    font-weight: 400;
+    padding: 0 5px;
+}
+
+.post-content-text h4 span {
+    font-weight: 500;
+    margin-right: 10px;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.post-content-text .post-more {
+    padding: 5px;
+}
+
+.post-more a {
+    padding: 5px 20px;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.post-more a:active,
+.post-more a:focus,
+.post-more a:hover {
+    text-decoration: none;
+}
+
+.template-readmore {
+    padding: 5px 15px;
+    border: 1px solid;
+}
+
+.template-readmore:hover {
+    border: 1px solid;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.news-post a:hover {
+    text-decoration: none;
+}
+
+.news-post h3 a {
+    color: #282A2B;
+}
+
+.list-thumb {
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+}
+
+.list-thumb>div {
+    border: 1px solid #ffffff;
+    min-height: 320px;
+    background: rgba(0, 0, 0, 0.3);
+    transition: all .2s ease-in;
+}
+
+.list-thumb>div:hover {
+    background: rgba(0, 0, 0, 0);
+    transition: all .2s ease-in;
+}
+
+div.grid-container .post-preview,
+div.grid-sidebar-container .post-preview {
+    margin: 0;
+    padding: 10px;
+}
+
+.post-preview>a {
+    color: #333333;
+}
+
+.post-preview a:hover,
+.post-preview a:focus {
+    text-decoration: none;
+}
+
+.post-preview>a>.post-title {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: #666;
+}
+
+.post-box {
+    padding: 15px;
+    border-bottom: 5px solid rgba(241, 71, 66, 0);
+    background-color: #f9f9f9;
+}
+
+.post-box:hover {
+    padding: 15px;
+    border-bottom: 5px solid rgba(241, 71, 66, 0.7);
+    box-shadow: 0px 0px 20px 2px #c1c1c1;
+    background-color: #ffffff;
+    -moz-transform: scale(1.04);
+    -webkit-transform: scale(1.04);
+    transform: scale(1.04);
+}
+
+div.grid-container .post-preview>.post-box a>.post-title,
+div.grid-sidebar-container .post-preview>.post-box a>.post-title {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 27px;
+}
+
+.post-preview>a>.post-subtitle {
+    margin: 0;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.post-preview .post-meta {
+    color: #777777;
+    font-size: 15px;
+    margin-top: 0;
+}
+
+.grid-sidebar-container .post-preview .post-meta {
+    color: #777777;
+    font-size: 14px;
+    margin-top: 0;
+    padding: 5px 10px;
+    background: #f1f1f1;
+}
+
+.grid-sidebar-container .post-box {
+    padding: 12px;
+    border: 1px solid #f1f1f1;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+.grid-sidebar-container .list-thumb {
+    padding: 0px;
+    width: 100%;
+    background-size: cover;
+}
+
+.caption {
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    font-style: italic;
+    margin: 0;
+    display: block;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.pager {
+    margin: 20px 0 0;
+    text-align: justify;
+}
+
+.pager li>a,
+.pager li>span {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    padding: 15px 25px;
+    color: white;
+    border-radius: 0;
+}
+
+.pager li>a:hover,
+.pager li>a:focus,
+.pager li>a:active {
+    background-color: white;
+}
+
+.sidebar {
+    padding-left: 25px;
+}
+
+
+/*blog sidebar */
+
+.sidebar-social .fa {
+    font-size: 2em;
+    padding: 10px 0;
+    border: 1px solid #f1f1f1;
+    width: 50px;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+.sidebar .search-btn {
+    padding: 25px 10px;
+    border-radius: 0;
+    width: 230px;
+}
+
+.sidebar {
+    padding-left: 25px;
+}
+
+.sidebar h2 {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #555555;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1pt;
+}
+
+.sidebar h3 {
+    color: #ffffff;
+}
+
+.sidebar-post {
+    padding: 15px 5px;
+    border-bottom: 1px dashed #ccc;
+}
+
+.sidebar-post-last {
+    border-bottom: none;
+    padding: 15px 5px 5px 5px;
+}
+
+.sidebar-post>a {
+    font-size: 17px;
+    margin: 10px 0;
+    color: #777777;
+}
+
+.sidebar-post>a:hover {
+    text-decoration: none;
+}
+
+.sidebar-post>a::before {
+    font-family: FontAwesome;
+    content: "\f105";
+    margin-right: 6px;
+}
+
+.sidebar .post-meta {
+    font-size: 13px;
+    margin: 5px 0 0 0;
+    line-height: 1;
+    color: #999;
+}
+
+ul.sidebar-list {
+    padding: 0 0 0 10px;
+}
+
+.sidebar-list li {
+    list-style: none;
+}
+
+.sidebar-list li:before {
+    font-family: FontAwesome;
+    content: "\f105";
+    margin-right: 6px;
+}
+
+.sidebar-list li a {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #777;
+}
+
+.sidebar-list li a:hover,
+.sidebar-list li a:focus,
+.sidebar-list li a:active {
+    text-decoration: none;
+}
+
+.sidebar-tags {
+    margin: 20px 0 0 0;
+}
+
+.sidebar-tags a {
+    color: #b9b9b9;
+    border: 1px solid #b9b9b9;
+    border-radius: 2px;
+    padding: 5px 15px;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    transition: all .3s;
+}
+
+.sidebar-tags a:hover,
+.sidebar-tags a:active,
+.sidebar-tags a:focus {
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.sidebar-cta {
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
+
+.sidebar-cta div {
+    padding: 50px 20px;
+    border: 1px solid #fff;
+}
+
+button.btn-download {
+    background: #fff;
+    border: none;
+    color: #666;
+    font-size: 23px;
+    padding: 10px 15px;
+    margin: 10px auto;
+}
+
+.address-box .fa-facebook,
+.sidebar .fa-facebook {
+    color: #3b5998;
+}
+
+.address-box .fa-twitter,
+.sidebar .fa-twitter {
+    color: #0084b4;
+}
+
+.address-box .fa-google-plus,
+.sidebar .fa-google-plus {
+    color: #d34836;
+}
+
+.address-box .fa-whatsapp,
+.sidebar .fa-whatsapp {
+    color: #128c7e;
+}
+
+.address-box .fa-linkedin,
+.sidebar .fa-linkedin {
+    color: #0077b5;
+}
+
+.address-box .fa-youtube,
+.sidebar .fa-youtube {
+    color: #cd201f;
+}
+
+
+/*
+================================================
++ Blog Single Css
+================================================
+*/
+
+.list-container {
+    padding-right: 25px;
+    border-right: 1px solid #f1f1f1;
+}
+
+.single-post-heading {
+    font-size: 25px;
+    color: #111111;
+    font-weight: 500;
+}
+
+p.author-info {
+    background: #f6f6f6;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+p.post-meta {
+    color: #333;
+    margin: 15px 0 0 0;
+    font-size: 20px;
+}
+
+.post-meta a {
+    text-decoration: none;
+}
+
+.post-social-share span {
+    bottom: 3px;
+}
+
+.post-social-share .fa {
+    font-size: 23px;
+    margin: 0 2px;
+    padding: 5px;
+    border: 1px solid;
+    width: 40px;
+    text-align: center;
+}
+
+.post .comment-btn {
+    padding: 25px 10px;
+    border-radius: 0;
+    width: 100%;
+}
+
+.post .post-footer .input-group-addon a {
+    color: #454545;
+}
+
+.comments-list p {
+    margin: 5px 0 0 0;
+}
+
+.post .post-footer .comments-list {
+    padding: 0;
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.post .post-footer .comments-list .comment {
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.post .post-footer .comments-list .comment .avatar {
+    width: 35px;
+    height: 35px;
+}
+
+.post .post-footer .comments-list .comment .comment-heading {
+    display: block;
+    width: 100%;
+}
+
+.post .post-footer .comments-list .comment .comment-heading .user {
+    font-size: 14px;
+    font-weight: bold;
+    display: inline;
+    margin-top: 0;
+    margin-right: 10px;
+}
+
+.post .post-footer .comments-list .comment .comment-heading .time {
+    font-size: 12px;
+    color: #aaa;
+    margin-top: 0;
+    display: inline;
+}
+
+.post .post-footer .comments-list .comment .comment-body {
+    margin-left: 50px;
+}
+
+.post .post-footer .comments-list .comment>.comments-list {
+    margin-left: 50px;
+}
+
+.input-group-addon {
+    border-radius: 0;
+}
+
+
+/*
+================================================
++ Our Team  CSS
+================================================
+*/
+
+
+/*
+================================================
++ Buttons CSS
+================================================
+*/
+
+.btn-default {
+    color: #222222;
+    background-color: white;
+    border-color: white;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active,
+.open>.dropdown-toggle.btn-default {
+    color: #222222;
+    background-color: #f2f2f2;
+    border-color: #ededed;
+}
+
+.btn-default:active,
+.btn-default.active,
+.open>.dropdown-toggle.btn-default {
+    background-image: none;
+}
+
+.btn-default.disabled,
+.btn-default[disabled],
+fieldset[disabled] .btn-default,
+.btn-default.disabled:hover,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default:hover,
+.btn-default.disabled:focus,
+.btn-default[disabled]:focus,
+fieldset[disabled] .btn-default:focus,
+.btn-default.disabled.focus,
+.btn-default[disabled].focus,
+fieldset[disabled] .btn-default.focus,
+.btn-default.disabled:active,
+.btn-default[disabled]:active,
+fieldset[disabled] .btn-default:active,
+.btn-default.disabled.active,
+.btn-default[disabled].active,
+fieldset[disabled] .btn-default.active {
+    background-color: white;
+    border-color: white;
+}
+
+.btn-default .badge {
+    color: white;
+    background-color: #222222;
+}
+
+.btn-primary {
+    color: white;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open>.dropdown-toggle.btn-primary {
+    color: white;
+    background-color: #6c6c6c;
+    border-color: #6c6c6c;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open>.dropdown-toggle.btn-primary {
+    background-image: none;
+}
+
+.btn-primary .badge {
+    background-color: white;
+}
+
+.btn1 {
+    font-family: 'roboto', sans-serif;
+    border: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.btn-xl {
+    padding: 15px 30px;
+}
+
+.template-button {
+    font-size: 18px;
+    padding: 12px 38px;
+    font-weight: 400;
+    background: #fff;
+    border-radius: 40px;
+    font-family: 'roboto', sans-serif;
+    text-transform: uppercase;
+    float: left;
+    display: inline-block;
+}
+
+.dark-bg .template-button {
+    color: #fff;
+    display: inline-block;
+    float: none;
+    margin-top: 25px;
+}
+
+.template-button:hover,
+.template-button:focus,
+.template-button:active {
+    text-decoration: none;
+    padding: 12px 28px 12px 48px;
+}
+
+.dark-bg .template-button:hover,
+.dark-bg .template-button:active,
+.dark-bg .template-button:focus {
+    color: #fff;
+}

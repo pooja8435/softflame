@@ -213,6 +213,15 @@
     #myBtn:hover {
         background-color: #555;
     }
+    #header{
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+        background-color: #ffff; /* Orange background color */
+    transition: background-color 0.5s ease-in-out;
+
+    }
+    #header.scrolled {
+    background-color: #0000; /* Blue background color when scrolled */
+}
     </style>
 
     <script type="application/id+json">{
@@ -228,6 +237,20 @@
           ]
         }
     </script>
+    <script>
+// Add this script to your HTML file, preferably just before the </body> tag
+document.addEventListener('DOMContentLoaded', function() {
+    window.addEventListener('scroll', function() {
+        var header = document.getElementById('header');
+        if (window.scrollY > 0) {
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
+    });
+});
+</script>
+
 
 
 
@@ -264,7 +287,7 @@
 
 
     <div class="site_wrappe">
-        <div class="topbar orange2 topbar-padding">
+        <!-- <div class="topbar orange2 topbar-padding">
             <div class="container">
                 <div class="topbar-left-items">
                     <ul class="toplist toppadding pull-left paddtop1">
@@ -274,7 +297,7 @@
                                 href="tel:+918408898845">+91-8408898845</a></li>
                     </ul>
                 </div>
-                <!--end left-->
+                
 
                 <div class="topbar-right-items pull-right">
                     <ul class="toplist toppadding">
@@ -289,7 +312,7 @@
                     </ul>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="clearfix"></div>
 
         <div id="header">
@@ -423,8 +446,6 @@
 
                             </li>
                             <li class="dropdown"> <a href="blog.php" class="dropdown-toggle">Products</a>
-                            </li>
-                            <li class="dropdown"> <a href="blog.php" class="dropdown-toggle">Demonstration</a>
                             </li>
                             <li class="dropdown"> <a href="blog.php" class="dropdown-toggle">Portfolio</a>
                             </li>

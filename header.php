@@ -133,7 +133,34 @@
         background-color: #555;
     }
 
+    /* Header Styles */
+#header {
+    background-color: #FFA500; /* Orange background color */
+    transition: background-color 0.5s ease-in-out;
+}
+
+/* Change header color on scroll */
+#header.scrolled {
+    background-color: #1e88e5; /* Blue background color when scrolled */
+}
+
+
     </style>
+
+<script>
+// Add this script to your HTML file, preferably just before the </body> tag
+document.addEventListener('DOMContentLoaded', function() {
+    window.addEventListener('scroll', function() {
+        var header = document.getElementById('header');
+        if (window.scrollY > 0) {
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
+    });
+});
+</script>
+
 
 <body>
     <!-- startr Modal pop up -->
@@ -160,7 +187,7 @@
     <!--Sidebar Social Icons-->
 
     <div class="site_wrapper">
-        <div class="topbar orange2 topbar-padding">
+        <!-- <div class="topbar orange2 topbar-padding">
             <div class="container">
                 <div class="topbar-left-items">
                     <ul class="toplist toppadding pull-left paddtop1">
@@ -168,7 +195,7 @@
                         <li><a href="tel:+919145278333">+91 9021649159</a>, <a href="tel:+918446425690">+91-8446425690</a>, <a href="tel:+918408898845">+91-8408898845</a></li>
                     </ul>
                 </div>
-                <!--end left-->
+                
 
                 <div class="topbar-right-items pull-right">
                     <ul class="toplist toppadding">
@@ -180,7 +207,7 @@
                     </ul>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="clearfix"></div>
 
         <div id="header">
@@ -263,8 +290,6 @@
                             <li class="dropdown yamm-fw"> <a href="career.php" class="dropdown-toggle">Career</a>
                             </li>
                             <li class="dropdown"> <a href="blog.php" class="dropdown-toggle">Products</a>
-                            </li>
-                            <li class="dropdown"> <a href="blog.php" class="dropdown-toggle">Demonstration</a>
                             </li>
                             <li class="dropdown"> <a href="blog.php" class="dropdown-toggle">Portfolio</a>
                             </li>

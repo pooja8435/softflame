@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Softflame Admin</title>
+    <base href="/admin/" />
+    <meta name="keywords" content="HTML5,CSS3," />
+    <meta name="description" content="" />
+    <meta name="Author" content="Psd2allconversion [www.psd2allconversion.com]" />
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
+
+    <!-- CORE CSS -->
+    <link href="../../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../assets/plugins/metis-menu/metisMenu.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../assets/plugins/simple-line-icons-master/css/simple-line-icons.css" rel="stylesheet" type="text/css" />
+    <link href="../../assets/plugins/animate/animate.css" rel="stylesheet" type="text/css" />
+    <link href="../../assets/plugins/c3/c3.min.css" rel="stylesheet">
+    <link href="../../assets/plugins/widget/widget.css" rel="stylesheet">
+    <link href="../../assets/plugins/calendar/fullcalendar.min.css" rel="stylesheet">
+    <link href="../../assets/plugins/ui/jquery-ui.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../assets/plugins/toastr/toastr.min.css" />
+    <!-- THEME CSS -->
+    <link href="../../assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="../../assets/css/theme/dark.css" rel="stylesheet" type="text/css" />
+    <style>
+        a:not([href]):not([tabindex]) {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        .sidebar-nav ul a {
+            padding: 10px 20px;
+            color: #efefef !important;
+            cursor: pointer;
+        }
+        
+        .fa-angle-down {
+            float: right;
+            font-size: 14px;
+            color: #fff;
+            margin-top: 5px;
+        }
+        /* Icon when the collapsible content is hidden */
+    </style>
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- BEGIN HEADER & CONTENT dropdown-divider -->
+        <div class="clearfix"> </div>
+        <!-- END HEADER & CONTENT dropdown-divider -->
+
+        <!-- BEGIN CONTAINER -->
+
+        <app-root></app-root>
+
+        <!-- END CONTAINER -->
+    </div>
+    <!-- /wrapper -->
+
+
+
+
+    <!-- JAVASCRIPT FILES -->
+
+    <script type="text/javascript" src="../../assets/plugins/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="../../assets/plugins/metis-menu/metisMenu.min.js"></script>
+
+    <script type="text/javascript" src="../../assets/plugins/bootstrap/js/tether.min.js"></script>
+    <script type="text/javascript" src="../../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../assets/plugins/slim-scroll/jquery.slimscroll.min.js"></script>
+    <script src="../../assets/plugins/c3/d3.v3.min.js" charset="utf-8"></script>
+    <script src="../../assets/plugins/c3/c3.min.js"></script>
+
+    <script src="../../assets/plugins/calendar/moment.min.js"></script>
+    <script src="../../assets/plugins/calendar/fullcalendar.min.js"></script>
+    <script src="../../assets/plugins/ui/jquery-ui.js"></script>
+    <script src="../../assets/plugins/map/jquery-jvectormap-1.2.2.min.js"></script>
+    <script src="../../assets/plugins/map/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="../../assets/plugins/morris_chart/morris.js"></script>
+    <script src="../../assets/plugins/morris_chart/raphael-2.1.0.min.js"></script>
+    <!-- PAGE LEVEL FILES -->
+    <script src="../../assets/plugins/data-tables/jquery.dataTables.js"></script>
+    <script src="../../assets/plugins/data-tables/dataTables.tableTools.js"></script>
+    <script src="../../assets/plugins/data-tables/dataTables.bootstrap4.min.js"></script>
+    <script src="../../assets/plugins/data-tables/dataTables.responsive.js"></script>
+    <script src="../../assets/plugins/data-tables/tables-data.js"></script>
+    <!-- Custom FILES -->
+    <script type="text/javascript" src="../../assets/js/custom.js"></script>
+    <script src="../../assets/plugins/toastr/toastr.min.js"></script>
+    <script type="text/javascript" src="../../assets/js/index.js"></script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myDIV");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+
+            var y = document.getElementById("arrowactive");
+            if (x.style.display === "block") {
+                y.classList.add("fa-angle-down");
+                y.classList.remove("arrow");
+            } else {
+                y.classList.add("arrow");
+                y.classList.remove("fa-angle-down");
+            }
+        }
+    </script>
+
+<script src="runtime-es2015.js" type="module"></script><script src="runtime-es5.js" nomodule defer></script><script src="polyfills-es5.js" nomodule defer></script><script src="polyfills-es2015.js" type="module"></script><script src="styles-es2015.js" type="module"></script><script src="styles-es5.js" nomodule defer></script><script src="scripts.js" defer></script><script src="vendor-es2015.js" type="module"></script><script src="vendor-es5.js" nomodule defer></script><script src="main-es2015.js" type="module"></script><script src="main-es5.js" nomodule defer></script></body>
+
+</html>
