@@ -1,10 +1,7 @@
 <!doctype html>
-
 <html lang="en">
 
 <head>
-
-
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135022729-1"></script>
     <script>
@@ -13,6 +10,26 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-135022729-1');
+    </script>
+    <script>
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal");
+
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 150;
+
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active");
+                } else {
+                    reveals[i].classList.remove("active");
+                }
+            }
+        }
+        window.addEventListener("scroll", reveal);
+
+
     </script>
 
     <title>About SoftFlame | Web Design & Development Company </title>
@@ -43,14 +60,11 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900' rel='stylesheet'
         type='text/css'>
 
-    <!--[if lt IE 9]>
-<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-
     <!-- stylesheets -->
     <link rel="stylesheet" media="screen" href="js/bootstrap/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="js/mainmenu/menu.css" type="text/css" />
     <link rel="stylesheet" href="css/default.css" type="text/css" />
+    <link rel="stylesheet" href="css/about.css" type="text/css" />
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <link rel="stylesheet" href="css/colors/lightblue.css" type="text/css" />
     <link rel="stylesheet" href="css/layouts.css" type="text/css" />
@@ -76,11 +90,7 @@
 
 
 </head>
-<style>
-    .sec-padding {
-        padding: 50px;
-    }
-</style>
+
 <?php
 $menuactive = "about";
 include 'header.php'; ?>
@@ -88,13 +98,18 @@ include 'header.php'; ?>
 <div class="clearfix"></div>
 
 <section>
-    <div class="header-inner two">
-        <div class="inner text-center">
-            <h4 class="title text-white uppercase">About Us</h4>
-            <h5 class="text-white uppercase">Web development company in pune</h5>
+    <div class="background">
+        <div class="row">
+            <div class="col-md-9">
+                <div class="waviy">
+                    <h1 style="font-family: gabriola;">About Us </h1>
+                    <h5 class="text-white sub-head">
+                        <span>We are passionate about creating innovative software solutions that
+                            empower businesses to thrive in the digital age.</span>
+                    </h5>
+                </div>
+            </div>
         </div>
-        <div class="overlay bg-opacity-5"></div>
-        <img src="images/bg_8.jpg" alt="" class="img-responsive img_hight" />
     </div>
 </section>
 <!-- end header inner -->
@@ -118,59 +133,249 @@ include 'header.php'; ?>
 <div class="clearfix"></div>
 
 <section class="sec-padding">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 text-center">
-
-            </div>
+    <div class="container ">
+        <div class="row reveal">
+            <div class="col-xs-12 text-center"></div>
             <div class="clearfix"></div>
             <div class="col-md-6">
-                <h1><b><span style="color: blue; font-family: 'Playball', cursive !important;">Soft</span><span
-                            style="color: orange; font-family: 'Playball', cursive !important;">Flame</span><b></h1>
-                <h5 class="text-justify">At SoftFlame Solutions, we are passionate about creating innovative software solutions that empower
+                <h1><b><span class="blue-font" style=" font-family: gabriola">Soft</span><span class="orange-font"
+                            style=" font-family: gabriola">Flame</span><b>
+                </h1>
+                <h5 class="text-justify text-font">At SoftFlame Solutions, we are passionate about creating innovative
+                    software
+                    solutions that empower
                     businesses to thrive in the digital age. With a deep commitment to excellence and a team of
-                    dedicated professionals.<br>
+                    dedicated professionals.<br><br>
                     We work with some dynamic clients who are based either locally in Pune or across the Globe, from
                     start-ups to international brands.Our projects not only look great, they use the right tools that
-                    work for you and with your success comes ours. “Your Business We Care</h5>
+                    work for you and with your success comes ours. "Your Business We Care!"</h5>
+
+                <button style="font-family: gabriola" type="button" class="btn connect-btn"
+                    onclick="window.location.href='contact.php'">Let's Connect</button>
             </div>
-            <!-- <div class="col-md-6"> <img src="images/angular.jpg" alt="Angularjs" class="img-responsive" /> <br/>
-                        <h3 class="text-orange-2">Softflame solutions</h3>
-                        <h5 class="text-orange-2">Web Development Company In Pune - Why Work With Us</h5>
-                        <p>We work with some dynamic clients who are based either locally in Pune or across the Globe, from start-ups to international brands.Our projects not only look great, they use the right tools that work for you and with your success
-                            comes ours. “Your Business We Care”. </p>
-                        <br/>
+        </div>
+        <br><br>
+        <div class="row text-justify reveal">
+            <div class="col-md-6">
+                <img class="vision-img" src="images/vision.jpg">
+            </div>
+            <div class="col-md-6">
+                <h1><b><span class="blue-font" style=" font-family: gabriola">Our&nbsp;</span><span class="orange-font"
+                            style=" font-family: gabriola">Vision</span><b>
+                </h1>
+                <h5 class="text-font"> At Softflame Solutions, we envision a future where technology becomes a force for
+                    sustainability, social good, and global progress. We aspire to be at the forefront of this
+                    transformation, leading the charge in creating software solutions that not only drive business
+                    success but also have a positive impact on the world.<br><br>
+                    We envision a society where cutting-edge technology is accessible to all, leveling the playing field
+                    and bridging the digital divide. By pushing the boundaries of what is possible in software
+                    development, we aim to contribute to a more inclusive, sustainable, and interconnected world.
+                </h5>
+            </div>
+        </div>
+        <br><br>
+        <div class="row text-center reveal">
+            <h1><b><span class="blue-font" style=" font-family: gabriola">Our&nbsp;</span>
+                    <span class="orange-font" style="font-family: gabriola">Values</span>
+                    <b></h1>
+            <div class="col-md-3">
+                <div class="card our-values-card">
+                    <img class="our-values-img" style="" src="images/high-quality.png">
+                    <h3>Quality</h3>
+                    <div class="card-body">We are committed to delivering high-quality software that meets and exceeds
+                        our clients' expectations.</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card our-values-card">
+                    <img class="our-values-img" src="images/creative.png">
+                    <h3>Innovation</h3>
+                    <div class="card-body">Innovation is at the heart of what we do. We continuously explore new
+                        technologies and methodologies to stay ahead in the ever-evolving tech landscape.</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card our-values-card">
+                    <img class="our-values-img" src="images/client.png">
+                    <h3>Client-Centric</h3>
+                    <div class="card-body">Our clients' success is our success. We prioritize their needs and work
+                        collaboratively to achieve their goals.</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card our-values-card">
+                    <img class="our-values-img" src="images/collaboration.png">
+                    <h3>Integrity</h3>
+                    <div class="card-body">We uphold the highest ethical standards in all our interactions, fostering
+                        trust and long-term partnerships.</div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="row reveal strategy-div">
+            <div class="col-md-6">
+                <h1><b><span class="orange-font" style="font-family: gabriola">Working&nbsp;</span><span
+                            class="blue-font" style="font-family: gabriola">Strategy</span><b></h1>
+                <h5 class="text-font text-justify">At Softflame Solutions, our working strategy is built on a
+                    well-defined process
+                    that ensures the successful delivery of software solutions. We follow a systematic approach that can
+                    be summarized in the following key phases:</h5>
 
-                    </div> -->
-            <!--end item-->
+                <div class="strategy-steps">
+                    <ol>
+                        <li><b>Planning: </b>Our team collaborates closely with you to define the project scope,
+                            objectives, and a detailed roadmap. We
+                            establish a clear project plan, including timelines and resource allocation, to guide the
+                            project from inception to completion.</li>
+                        <li><b>Design: </b>We focus on creating intuitive and visually appealing designs that not only
+                            meet your
+                            requirements but also exceed your expectations. Our design phase is characterized by
+                            creativity, innovation, and an unwavering commitment to user-centric solutions.</li>
+                        <li><b>Development:</b> Once the design is finalized, our experienced software developers swing
+                            into action. We implement the project according to the specifications outlined in the
+                            planning phase. Our development process is driven by the latest technologies and industry
+                            best practices, ensuring that your software solution is not just functional but also
+                            scalable, secure, and efficient.</li>
+                        <li><b>Testing: </b> We conduct
+                            comprehensive testing to identify and rectify any issues, ensuring that your software
+                            solution is robust and free from defects. Our thorough testing process guarantees a seamless
+                            end-user experience.</li>
+                        <li><b>Release:</b> After rigorous testing and refinement, we are ready to release your software
+                            solution. We provide ongoing support and maintenance to address any
+                            post-launch needs and to ensure your solution remains up-to-date and high-performing.</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <img class="plan-img" src="images/pl.jpg">
+            </div>
+        </div>
+        <div class="row text-center reveal">
+            <div class="col-md-12">
+                <h1><b><span style="color: rgb(26,136,201); font-family: gabriola">Work&nbsp;</span><span
+                            style="color: rgb(251 85 32); font-family: gabriola">Culture</span><b></h1>
+                <h5 class="text-font">At Softflame Solutions, our work culture is the foundation of our success. We
+                    believe in fostering
+                    an environment that encourages creativity, collaboration, and personal growth.</h5>
+            </div>
+        </div>
 
-            <!-- <div class="col-md-6">
-                        <h5>– Who we are</h5>
-                        <p>Softflame solutions is an pioneer in IT outsourcing and the offshore software development business. We work with a wide range of clients in our endeavor to provide them cost effective and profitable solutions.we have a dedicated
-                            and experienced team of computer professionals.Our niche lies in the fact that we thoroughly understand today’s technologies to help you accomplish your business goals. </p>
-                        <br/>
-                        <h5>– Vision</h5>
-                        <p>Our vision is based on building Softflame solutions on three key statements:
-                            <ul>
-                                <li>1. Speed at which we work</li>
-                                <li>2. Quality of the work we deliver</li>
-                                <li>3. Trust we build during a business relationship.</li>
-                            </ul>
-                            We want to be a global leader delivering enterprise business management products and solutions. </p>
-                        <br/>
-                        <h5>– Our Working Strategy</h5>
-                        <ul>
-                            <li>Planning</li>
-                            <li>Design</li>
-                            <li> Development</li>
-                            <li>Testing</li>
-                            <li>Release</li>
-                        </ul>
+        <!-- <div class="container-test reveal">
+            <div class="card card-test" style="--clr: #009688">
+                <div class="img-box">
+                    <img src="images/collab.png">
+                </div>
+                <div class="content-test">
+                    <h3 class="text-center">Collaboration</h3>
+                    <p>
+                        We believe that the best solutions are born out of collaboration. Our team works
+                        closely
+                        with each other and with our clients to bring ideas to life.
+                    </p>
+                </div>
+            </div>
+            <div class="card card-test" style="--clr: #FF3E7F">
+                <div class="img-box">
+                    <img src="images/work-life-balance.png">
+                </div>
+                <div class="content-test">
+                    <h3 class="text-center">Work-Life Balance</h3>
+                    <p>
+                        We understand the importance of work-life balance and offer flexible working
+                        arrangements
+                        that promote well-being.
+                    </p>
+                </div>
+            </div>
+            <div class="card card-test" style="--clr: #03A9F4">
+                <div class="img-box">
+                    <img src="images/professionals.png">
+                </div>
+                <div class="content-test">
+                    <h3 class="text-center">Professional Development</h3>
+                    <p>
+                        We invest in our team's growth by providing training and opportunities for skill
+                        enhancement. We believe in the continuous development of our employees.
+                    </p>
+                </div>
+            </div>
+            <div class="card card-test" style="--clr: #03A9F4">
+                <div class="img-box">
+                    <img src="images/giving-back.png">
+                </div>
+                <div class="content-test">
+                    <h3 class="text-center">Giving Back</h3>
+                    <p>
+                        At Softflame Solutions, we're not just focused on profits. We believe in giving back
+                        to
+                        our community and the tech industry. We're involved in various charitable initiatives
+                        and
+                        knowledge-sharing programs to make a positive impact beyond our projects.
+                    </p>
+                </div>
+            </div>
+        </div> -->
 
-                        <br/>
-                    </div> -->
-            <!--end item-->
 
+        <!-- inspiration: https://dribbble.com/shots/3784003-Plant-description-page -->
+
+
+    </div>
+    <div class="row margins reveal">
+        <div class="wrap">
+            <div class="card-new ">
+                <div class="card-pic-wrap">
+                    <img class="new-img" src="images/collab.png"
+                        alt="A leafy plant">
+                </div>
+                <div class="card-content-new">
+                    <h3 class="new-text">Collaboration</h3>
+                    <p>We believe that the best solutions are born out of collaboration. Our team works
+                        closely
+                        with each other and with our clients to bring ideas to life.</p>
+                </div>
+            </div>
+            <div class="card-new flt-right reveal">
+                <div class="card-pic-wrap">
+                    <img class="new-img" src="images/work-life-balance.png"
+                        alt="Some pointy plants">
+                </div>
+                <div class="card-content-new">
+                    <h3 class="new-text">Work-Life Balance</h3>
+                    <p>We understand the importance of work-life balance and offer flexible working
+                        arrangements
+                        that promote well-being.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row margins reveal">
+        <div class="wrap">
+            <div class="card-new ">
+                <div class="card-pic-wrap">
+                    <img class="new-img" src="images/professionals.png"
+                        alt="A leafy plant">
+                </div>
+                <div class="card-content-new">
+                    <h3 class="new-text">Professional Development</h3>
+                    <p> We invest in our team's growth by providing training and opportunities for skill
+                        enhancement. We believe in the continuous development of our employees.</p>
+                </div>
+            </div>
+            <div class="card-new flt-right reveal">
+                <div class="card-pic-wrap">
+                    <img class="new-img" src="images/giving-back.png"
+                        alt="Some pointy plants">
+                </div>
+                <div class="card-content-new">
+                    <h3 class="new-text">Giving Back</h3>
+                    <p>At Softflame Solutions, we're not just focused on profits. We believe in giving back
+                        to
+                        our community and the tech industry. We're involved in various charitable initiatives
+                        and
+                        knowledge-sharing programs to make a positive impact beyond our projects.</p>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -178,7 +383,7 @@ include 'header.php'; ?>
 <div class="clearfix"></div>
 
 <!-- Modal Send us your requirement -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -222,7 +427,7 @@ include 'header.php'; ?>
             </form>
         </div>
     </div>
-</div>
+</div> -->
 <!-- / Modal Send us your requirement Ends -->
 
 <!--end section-->
