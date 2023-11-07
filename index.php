@@ -74,11 +74,32 @@
     <!-- <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css" />
     <link rel="stylesheet" href="css/owl.theme.default.min.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500&family=Nunito+Sans:opsz,wght@6..12,200&family=Open+Sans:wght@300;400;700&family=Poppins:wght@200;400;600&display=swap"
+        rel="stylesheet">
+
+        <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+   
+
+   
+    
+
+    <!-- Template Stylesheet -->
+   
+
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> 
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> -->
 
     <style>
+    
     .navbar-collapse.pull-right {
         margin: 0px 0px 0px 0px;
     }
@@ -213,15 +234,443 @@
     #myBtn:hover {
         background-color: #555;
     }
-    #header{
-        box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-        background-color: #ffff; /* Orange background color */
-    transition: background-color 0.5s ease-in-out;
+
+    #header {
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+        background-color: rgb(255, 255, 255);
+        /* Orange background color */
+        transition: background-color 0.5s ease-in-out;
 
     }
+
     #header.scrolled {
-    background-color: #0000; /* Blue background color when scrolled */
+        background-color: rgb(255, 255, 255);
+        /* Blue background color when scrolled */
+    }
+
+    #header .container {
+        width: 100%;
+    }
+
+    .navbar-nav>li>a {
+        font-family: 'Noto Sans', sans-serif;
+        text-transform: none;
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    .navbar-default .navbar-nav>li>a,
+    .navbar-default .navbar-text {
+        color: black;
+    }
+
+    .navbar-brand img {
+        max-width: 100%;
+        height: auto;
+        /* padding-top:10px;
+    margin-left:-50px; */
+    }
+
+    .box .box-title h4 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        line-height: 3rem;
+
+    }
+    .container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 20px;
 }
+
+.services-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card {
+  flex: 0 1 calc(25% - 20px);
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  background: #a2cfe9;
+  border-radius: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Nunito', sans-serif;
+}
+
+.card .icon {
+  width: 150px;
+  height: 150px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 80px;
+  border-radius: 50%;
+  color: #007bff;
+  border: 0px solid #007bff;
+  margin: -75px auto 0;
+  transition: transform 0.5s;
+}
+
+.card h2 {
+  font-size: 20px;
+
+  text-transform: uppercase;
+  margin: 25px 0;
+  position: relative;
+  line-height: 1.4;
+  font-family: 'Nunito', sans-serif;
+}
+
+.card h2:after,
+.card h2:before {
+  content: '';
+  width: 40px;
+  height: 30px;
+  position: absolute;
+  z-index: -1;
+}
+
+.card h2:after {
+  background: linear-gradient(to right, #fff, #007bff);
+  right: -5px;
+  top: -5px;
+}
+
+.card h2:before {
+  background: linear-gradient(to right, #007bff, #fff);
+  left: -5px;
+  bottom: -5px;
+}
+
+.card p {
+  font-size: 16px;
+  margin: 0 20px 20px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover .icon {
+  transform: rotate(360deg);
+}
+
+/* Update styles for tablet view (2 rows) */
+@media (max-width: 992px) {
+  .card {
+    flex: 0 1 calc(50% - 20px);
+    margin-bottom:100px;
+  }
+}
+
+/* Update styles for mobile view (4 rows) */
+@media (max-width: 576px) {
+  .card {
+    flex: 0 1 calc(100% - 20px);
+  }
+}
+
+.servicess{
+  max-width:1300px;
+}
+@media (max-width: 1300px) {
+  .servicess{
+  max-width:1200px;
+}
+
+}
+
+/* work process */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+
+.container {
+    /* max-width: 1200px !important; */
+    /* margin: 100px 0; */
+    font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    box-sizing: border-box;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/*-=-=-=-=-=-=-=-=-=-*/
+/* Column Grids */
+/*-=-=-=-=-=-=-=-=-= */
+
+.col_half { width: 49%; }
+.col_third { width: 32%; }
+.col_fourth { width: 23.5%; }
+.col_fifth { width: 18.4%; }
+.col_sixth { width: 15%; }
+.col_three_fourth { width: 74.5%;}
+.col_twothird{ width: 66%;}
+.col_half,
+.col_third,
+.col_twothird,
+.col_fourth,
+.col_three_fourth,
+.col_fifth{
+	position: relative;
+	display:inline;
+	display: inline-block;
+	float: left;
+	margin-right: 2%;
+	margin-bottom: 20px;
+}
+.end { margin-right: 0 !important; }
+.text-center {text-align: centesr !important;}
+/*-=-=-=-=-=-=-=-=-=-*/
+/* Style             */
+/*-=-=-=-=-=-=-=-=-= */
+* {
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+.at-work-process {
+  min-height:100px;
+  position:relative;
+  z-index:4;
+  overflow:hidden;
+  text-align:center;
+      transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.at-work-process-text {
+  line-height:40px;
+  transition: all 200ms linear 0s;
+      transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.at-work-process:hover .at-work-process-text{
+  -webkit-transform: translateY(-150%);
+  -moz-transform: translateY(-150%);
+  -ms-transform: translateY(-150%);
+  -o-transform: translateY(-150%);
+  transform: translateY(-150%);
+}
+
+.at-work-process:hover .at-work-process-details {
+  z-index: 2;
+  opacity: 1;
+  bottom: 0;
+  -webkit-transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  -ms-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+
+.at-work-process-number {
+  color:#1e83ec;
+  font-size: 50px;
+  font-weight:100;
+  letter-spacing: -2px;
+  display:block;
+}
+
+.at-work-process-number-text {
+  font-family:Open Sans ;
+  font-size:13px;
+  font-weight:600;
+  color: #000000;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.at-separator-thick {
+  background: #d4d4d4;
+  margin:3% auto;
+  height:4px;
+  width:30px;
+}
+
+.at-work-process-details {
+  bottom:-60px;
+  height:100%;
+  left:0;
+  opacity:0;
+  width:100%;
+  position:absolute;
+  display:block;
+}
+.at-work-process-details i {
+  color: #1e83ec;
+  margin-bottom:15px;
+  display:block;
+  font-size: 40px;
+}
+.at-work-process-details span{
+  font-size:11px;
+  line-height:15px;
+  text-transform:uppercase;
+}
+
+/* work process ends */
+
+
+header .item {
+  height: 100vh;
+  position: relative;
+}
+header .item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+header .item .cover {
+  padding: 75px 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+}
+header .item .cover .header-content {
+  position: relative;
+  padding: 56px;
+  overflow: hidden;
+}
+header .item .cover .header-content .line {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  border: 9px solid #fff;
+  -webkit-clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%);
+  clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%);
+}
+header .item .cover .header-content h2 {
+  font-weight: 300;
+  font-size: 35px;
+  color: #fff;
+}
+header .item .cover .header-content h1 {
+  font-size: 56px;
+  font-weight: 600;
+  margin: 5px 0 20px;
+  word-spacing: 3px;
+  color: #fff;
+}
+header .item .cover .header-content h4 {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 36px;
+  color: #fff;
+}
+header .owl-item.active h1 {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: fadeInDown;
+  animation-delay: 0.3s;
+}
+header .owl-item.active h2 {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: fadeInDown;
+  animation-delay: 0.3s;
+}
+header .owl-item.active h4 {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: fadeInUp;
+  animation-delay: 0.3s;
+}
+header .owl-item.active .line {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: fadeInLeft;
+  animation-delay: 0.3s;
+}
+header .owl-nav .owl-prev {
+  position: absolute;
+  left: 15px;
+  top: 43%;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+  background: rgba(0, 0, 0, 0.5) !important;
+  width: 40px;
+  cursor: pointer;
+  height: 40px;
+  position: absolute;
+  display: block;
+  z-index: 1000;
+  border-radius: 0;
+}
+header .owl-nav .owl-prev span {
+  font-size: 1.6875rem;
+  color: #fff;
+}
+header .owl-nav .owl-prev:focus {
+  outline: 0;
+}
+header .owl-nav .owl-prev:hover {
+  background: #000 !important;
+}
+header .owl-nav .owl-next {
+  position: absolute;
+  right: 15px;
+  top: 43%;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+  background: rgba(0, 0, 0, 0.5) !important;
+  width: 40px;
+  cursor: pointer;
+  height: 40px;
+  position: absolute;
+  display: block;
+  z-index: 1000;
+  border-radius: 0;
+}
+header .owl-nav .owl-next span {
+  font-size: 1.6875rem;
+  color: #fff;
+}
+header .owl-nav .owl-next:focus {
+  outline: 0;
+}
+header .owl-nav .owl-next:hover {
+  background: #000 !important;
+}
+header:hover .owl-prev {
+  left: 0px;
+  opacity: 1;
+}
+header:hover .owl-next {
+  right: 0px;
+  opacity: 1;
+}
+
+
+
     </style>
 
     <script type="application/id+json">{
@@ -238,18 +687,18 @@
         }
     </script>
     <script>
-// Add this script to your HTML file, preferably just before the </body> tag
-document.addEventListener('DOMContentLoaded', function() {
-    window.addEventListener('scroll', function() {
-        var header = document.getElementById('header');
-        if (window.scrollY > 0) {
-            header.classList.add('scrolled');
-        } else {
-            header.classList.remove('scrolled');
-        }
+    // Add this script to your HTML file, preferably just before the </body> tag
+    document.addEventListener('DOMContentLoaded', function() {
+        window.addEventListener('scroll', function() {
+            var header = document.getElementById('header');
+            if (window.scrollY > 0) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
     });
-});
-</script>
+    </script>
 
 
 
@@ -459,43 +908,53 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
         <!--end menu-->
+ 
 
 
         <!-- masterslider -->
-        <div class="master-slider ms-skin-default marg_tpslide" id="masterslider">
+        <!-- <div class="master-slider ms-skin-default marg_tpslide" id="masterslider"
+            style='background:rgba(24, 29, 56, .7);'>
 
-            <!-- slide 1 -->
+            
             <div class="ms-slide slide-1" data-delay="9">
                 <img src="js/masterslider/blank.gif" data-src="images/slide4.jpg"
                     alt="Website Developer in Pune, Bangalore, Delhi" />
 
-                <h3 class="ms-layer text76" style="left: 400px;top: 133px;" data-type="text" data-delay="500"
-                    data-ease="easeOutExpo" data-duration="1230" data-effect="left(250)"> Website</h3>
+                <h3 class="ms-layer text76"
+                    style="left: 400px;top: 133px;font-family: 'Poppins', sans-serif; font-weight:600; color:#ffff;"
+                    data-type="text" data-delay="500" data-ease="easeOutExpo" data-duration="1230"
+                    data-effect="left(250)"> Website</h3>
 
-                <h3 class="ms-layer text77" style="left: 200px;top: 300px;" data-type="text" data-delay="1000"
-                    data-ease="easeOutExpo" data-duration="1230" data-effect="right(250)"> Development</h3>
+                <h3 class="ms-layer text77"
+                    style="left: 200px;top: 300px;font-family: 'Poppins', sans-serif;font-weight:600; color:#1a88c9;"
+                    data-type="text" data-delay="1000" data-ease="easeOutExpo" data-duration="1230"
+                    data-effect="right(250)"> Development</h3>
 
-                <h3 class="ms-layer small-line" style="left: 370px;top: 400px;" data-type="text" data-delay="1500"
-                    data-ease="easeOutExpo" data-duration="1230" data-effect="left(250)"></h3>
+                <h3 class="ms-layer small-line" style="left: 370px;top: 400px;font-family: 'Poppins', sans-serif;"
+                    data-type="text" data-delay="1500" data-ease="easeOutExpo" data-duration="1230"
+                    data-effect="left(250)"></h3>
 
-                <h3 class="ms-layer text88" style="left: 350px;top: 405px;" data-type="text" data-delay="2000"
-                    data-ease="easeOutExpo" data-duration="1230" data-effect="right(250)"> We are creative</h3>
+                <h3 class="ms-layer text88" style="left: 350px;top: 405px;font-family: 'Poppins', sans-serif;"
+                    data-type="text" data-delay="2000" data-ease="easeOutExpo" data-duration="1230"
+                    data-effect="right(250)"> We are creative</h3>
 
                 <h3 class="ms-layer small-line" style="left: 370px;top:440px;" data-type="text" data-delay="2500"
                     data-ease="easeOutExpo" data-duration="1230" data-effect="left(250)"></h3>
             </div>
-            <!-- end slide 1 -->
-
-            <!-- slide 2 -->
+            
             <div class="ms-slide slide-2" data-delay="9">
 
                 <img src="js/masterslider/blank.gif" data-src="images/slide5.jpg" alt="Website Development in Pune" />
 
-                <h3 class="ms-layer text82" style="left: 430px;top: 180px;" data-type="text" data-delay="1500"
-                    data-ease="easeOutExpo" data-duration="1230" data-effect="left(250)"> Ecommerce </h3>
+                <h3 class="ms-layer text82"
+                    style="left: 430px;top: 180px;font-family: 'Poppins', sans-serif; font-weight:600; color:#f37248;"
+                    data-type="text" data-delay="1500" data-ease="easeOutExpo" data-duration="1230"
+                    data-effect="left(250)"> Ecommerce </h3>
 
-                <h3 class="ms-layer text83 marg_slidetext" style="left: 242px;top: 260px;" data-type="text"
-                    data-delay="2000" data-ease="easeOutExpo" data-duration="1230" data-effect="right(250)"> Development
+                <h3 class="ms-layer text83 marg_slidetext"
+                    style="left: 242px;top: 260px;font-family: 'Poppins', sans-serif;font-weight:600; color:#327cb2;"
+                    data-type="text" data-delay="2000" data-ease="easeOutExpo" data-duration="1230"
+                    data-effect="right(250)"> Development
                 </h3>
 
                 <h3 class="ms-layer small-line" style="left: 370px;top: 380px;" data-type="text" data-delay="2500"
@@ -507,22 +966,39 @@ document.addEventListener('DOMContentLoaded', function() {
                     data-ease="easeOutExpo" data-duration="1230" data-effect="left(250)"></h3>
 
             </div>
-            <!-- end slide 2 -->
-
-            <!-- slide 3 -->
+            
             <div class="ms-slide slide-3" data-delay="9">
                 <img src="js/masterslider/blank.gif" data-src="images/slide7.jpg"
                     alt="Website Developers in Pune, Bangalore, Delhi" />
             </div>
 
-            <!-- end slide 3 -->
+            
 
-        </div>
+        </div> -->
+       
+        <header>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="https://cdn.pixabay.com/photo/2017/10/24/10/30/business-2884023_960_720.jpg" alt="images not found">
+                    <div class="cover">
+                        <div class="container">
+                            <div class="header-content" style="font-family: 'Nunito', sans-serif;">
+                                <div class="line"></div>
+                                <h2>Transforming Ideas into Reality with</h2>
+                                <h1>Custom Software Development</h1>
+                                <h4>Bringing Innovation to Life</h4>
+                            </div>
+                        </div>
+                     </div>
+                </div>                    
+                
+            </div>
+        </header>
         <!-- end of masterslider -->
         <section class="engineering-details">
-            <div class="auto-container">
+            <!-- <div class="auto-container">
 
-                <!--Section Title-->
+                
                 <div class="sec-title col-md-12 text-center">
                     <h6 class="nopadding pad_top lspace-1">What We Do</h6>
                     <h1 class="paddtop1 dosis font-weight-5 lspace-sm">Our <span class="text-orange-2">Services</span>
@@ -541,165 +1017,294 @@ document.addEventListener('DOMContentLoaded', function() {
                                 hosting</strong> are few that we offer.</p>
                     </div>
                 </div>
+
+            </div> -->
+            <div class="servicess container py-5" style="margin-top: 20px; margin-bottom: 150px;">
+    <div class="row">
+        <!-- Title and Description Column -->
+        <div class="col-md-6" style="padding-right: 20px; padding-top:20px">
+            <div class="sec-title">
+                <h6 class="nopadding pad_top" style="font-family: 'Nunito', sans-serif; color:#f07f2c;" >Our Services</h6>
+                <h1 class="paddtop1 dosis font-weight-5" style="font-family: 'Nunito',sans-serif;font-weight: 700;line-height: 1.2;color: #181d38;" >What We Do</h1>
+                <div class="title-line-4 align-center" style="margin-left: 0;"></div>
+                <p class="init_text" style="font-family: 'Nunito', sans-serif;text-align: left;" >
+                    <!-- <strong>Softflame Solutions</strong> is founded by an experienced technical expert team. <strong>Softflame Solutions</strong> follows an agile development methodology and offers innovative solutions and services with the latest and trending technologies. We are passionate about client satisfaction and provide efficient solutions to help our clients connect to their business strategy.
+                    <a href="https://www.softflame.in/website-development-company-in-pune.php"><b>Website Development, Web Developers in Pune, Bangalore, Delhi</b></a>, tailor-made applications, ERPs, CRMs, CMS, LMS, e-commerce solutions, business-to-business applications, business-to-client applications, and managed hosting are a few of the services we offer. -->
+                    Founded by a team of experienced technical experts, Softflame Solutions follows an agile development methodology and offers innovative solutions and services using the latest and trending technologies. We are deeply committed to ensuring our clients' satisfaction by providing efficient solutions that align with their unique business strategies.
+                </p>
+                <p class="init_text" style="font-family: 'Nunito', sans-serif;text-align: left;" >
+                At <strong>Softflame Solutions</strong>, our service offerings span a wide range, including website development, web development in Pune, Bangalore, and Delhi, tailor-made applications, ERPs, CRMs, CMS, LMS, e-commerce solutions, and business-to-business and business-to-client applications. Additionally, we provide managed hosting solutions to support your digital needs.
+                </p>
             </div>
+        </div>
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                        <a href="website-development-company-in-pune.php">
-                            <div class="box">
-                                <div class="box-title">
-                                    <h4>Website Development in Pune, Bangalore, Delhi</h4>
-                                </div>
-                                <div class="box-content">
-                                    <p>SoftFlame Solutions is perfect for making your Website Development Company in
-                                        Pune, Bangalore, Delhi work for your business to grow in the market.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-3">
-                        <a href="android-app-development-company-in-pune.php">
-                            <div class="box">
-                                <div class="box-title">
+        <!-- Image Column -->
+        <div class="col-md-6 h-100 w-100" >
+            <!-- Add your image here -->
+            <img src="img/about-2.jpg" alt="Services Image" class="img-responsive" style="padding-top: 20px;">
+        </div>
+    </div>
+</div>
 
-                                    <h4>Mobile App Development Company in Pune, Bangalore, Delhi</h4>
-                                </div>
-                                <div class="box-content">
-                                    <p>We, at SoftFlame Solutions expertise in Mobile App Development Company in Pune,
-                                        which allow all range of App development solution.</p>
-                                </div>
-                            </div>
-                    </div>
-                    <div class="col-md-3">
-                        <a href="seo-company-in-pune.php">
-                            <div class="box">
-                                <div class="box-title">
+<div class="servicess container">
+  <div class="services-section">
+    <div class="card">
+    <a href="website-development-company-in-pune.php">
+      <div class="icon">
+        <!-- <i class="fab fa-apple"></i> -->
+        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M352 256c0 22.2-1.2 43.6-3.3 64H163.3c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64H348.7c2.2 20.4 3.3 41.8 3.3 64zm28.8-64H503.9c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64H380.8c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32H376.7c-10-63.9-29.8-117.4-55.3-151.6c78.3 20.7 142 77.5 171.9 151.6zm-149.1 0H167.7c6.1-36.4 15.5-68.6 27-94.7c10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5c11.6 26 20.9 58.2 27 94.7zm-209 0H18.6C48.6 85.9 112.2 29.1 190.6 8.4C165.1 42.6 145.3 96.1 135.3 160zM8.1 192H131.2c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64H8.1C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zM194.7 446.6c-11.6-26-20.9-58.2-27-94.6H344.3c-6.1 36.4-15.5 68.6-27 94.6c-10.5 23.6-22.2 40.7-33.5 51.5C272.6 508.8 263.3 512 256 512s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6C112.2 482.9 48.6 426.1 18.6 352H135.3zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6c25.5-34.2 45.2-87.7 55.3-151.6H493.4z"/></svg>
+      </div>
+      <h2>Website Development</h2>
+      <p>SoftFlame Solutions is perfect for making your Website Development Company in
+                                Pune, Bangalore, Delhi work for your business to grow in the market.</p>
+                                </a>
+    
+    </div>
+    <div class="card">
+      <div class="icon">
+       <!-- <i class="fab fa-android"></i> -->
+       <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+      </div>
+      <h2>App Development</h2>
+      <p>We, at SoftFlame Solutions expertise in Mobile App Development Company in Pune,
+                                which allow all range of App development solution.</p>
+      </div>
+      <div class="card">
+        <div class="icon">
+          <!-- <i class="fas fa-globe-europe"></i> -->
+          <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 460 512"><path d="M220.6 130.3l-67.2 28.2V43.2L98.7 233.5l54.7-24.2v130.3l67.2-209.3zm-83.2-96.7l-1.3 4.7-15.2 52.9C80.6 106.7 52 145.8 52 191.5c0 52.3 34.3 95.9 83.4 105.5v53.6C57.5 340.1 0 272.4 0 191.6c0-80.5 59.8-147.2 137.4-158zm311.4 447.2c-11.2 11.2-23.1 12.3-28.6 10.5-5.4-1.8-27.1-19.9-60.4-44.4-33.3-24.6-33.6-35.7-43-56.7-9.4-20.9-30.4-42.6-57.5-52.4l-9.7-14.7c-24.7 16.9-53 26.9-81.3 28.7l2.1-6.6 15.9-49.5c46.5-11.9 80.9-54 80.9-104.2 0-54.5-38.4-102.1-96-107.1V32.3C254.4 37.4 320 106.8 320 191.6c0 33.6-11.2 64.7-29 90.4l14.6 9.6c9.8 27.1 31.5 48 52.4 57.4s32.2 9.7 56.8 43c24.6 33.2 42.7 54.9 44.5 60.3s.7 17.3-10.5 28.5zm-9.9-17.9c0-4.4-3.6-8-8-8s-8 3.6-8 8 3.6 8 8 8 8-3.6 8-8z"/></svg>
+        </div>
+        <h2>SEO Company</h2>
+        <p>SEO Company in Pune, Bangalore, Delhi is the way for any business to garner
+                                higher volumes of qualified traffic and web popularity...</p>
+    </div>
+    <div class="card">
+        <div class="icon">
+          <!-- <i class="fas fa-globe-europe"></i> -->
+          <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><style>svg{fill:#305e91;width:60%;}</style><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+        </div>
+        <h2>Ecommerce</h2>
+        <p>SoftFlame Solutions brings unique features in Ecommerce Web Development Company
+                                in Pune, Bangalore, Delhi from startups to established companies.</p>
+    </div>
+  </div>
+</div>
+            
 
-                                    <h4>SEO Company in Pune, Bangalore, Delhi</h4>
-                                </div>
-                                <div class="box-content">
-                                    <p>SEO Company in Pune, Bangalore, Delhi is the way for any business to garner
-                                        higher volumes of qualified traffic and web popularity...</p>
-                                </div>
-                            </div>
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <a href="website-development-company-in-pune.php">
+                    <div class="box">
+                        <div class="box-title">
+                            <h4>Website Development in Pune, Bangalore, Delhi</h4>
+                        </div>
+                        <div class="box-content">
+                            <p>SoftFlame Solutions is perfect for making your Website Development Company in
+                                Pune, Bangalore, Delhi work for your business to grow in the market.</p>
+                        </div>
                     </div>
-                    <div class="col-md-3">
-                        <a href="ecommerce-development-company-in-pune.php">
-                            <div class="box">
-                                <div class="box-title">
-                                    <h4>Ecommerce Web Development Company in Pune, Bangalore, Delhi</h4>
-                                </div>
-                                <div class="box-content">
-                                    <p>SoftFlame Solutions brings unique features in Ecommerce Web Development Company
-                                        in Pune, Bangalore, Delhi from startups to established companies.</p>
-                                </div>
-                            </div>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="android-app-development-company-in-pune.php">
+                    <div class="box">
+                        <div class="box-title">
+
+                            <h4>Mobile App Development Company in Pune, Bangalore, Delhi</h4>
+                        </div>
+                        <div class="box-content">
+                            <p>We, at SoftFlame Solutions expertise in Mobile App Development Company in Pune,
+                                which allow all range of App development solution.</p>
+                        </div>
                     </div>
+            </div>
+            <div class="col-md-3">
+                <a href="seo-company-in-pune.php">
+                    <div class="box">
+                        <div class="box-title">
+
+                            <h4>SEO Company in Pune, Bangalore, Delhi</h4>
+                        </div>
+                        <div class="box-content">
+                            <p>SEO Company in Pune, Bangalore, Delhi is the way for any business to garner
+                                higher volumes of qualified traffic and web popularity...</p>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-md-3">
+                <a href="ecommerce-development-company-in-pune.php">
+                    <div class="box">
+                        <div class="box-title">
+                            <h4>Ecommerce Web Development Company in Pune, Bangalore, Delhi</h4>
+                        </div>
+                        <div class="box-content">
+                            <p>SoftFlame Solutions brings unique features in Ecommerce Web Development Company
+                                in Pune, Bangalore, Delhi from startups to established companies.</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div> -->
+    
+
+    </section>
+
+    
+
+    <section class="sec-padding">
+    <div class="container">
+    <div class="col-xs-12 text-center">
+                    <h6 class="nopadding" style="font-family:'Nunito', sans-serif;color:#f07f2c;">How We Do</h6>
+                    <h1 class="paddtop1 dosis font-weight-5" style="font-family:'Nunito', sans-serif;font-weight: 700;line-height: 1.2;color: #181d38;">Our Work Process</h1>
+                    <div class="title-line-4 align-center"></div>
                 </div>
-            </div>
-
-        </section>
-
-        <section class="sec-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 text-center">
-                        <h6 class="nopadding lspace-1">How We Do</h6>
-                        <h1 class="paddtop1 dosis font-weight-5 lspace-sm">Our Work Proce<span
-                                class="text-orange-2">ss</span></h1>
-                        <div class="title-line-4 align-center"></div>
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 text-center animate-in" data-anim-type="fade-in-right"
-                        data-anim-delay="100">
-                        <div class="feature-box-102 bmargin">
-                            <div class="number-1"></div>
-                            <br />
-                            <h4>User Analysis</h4>
-                            <p>Analysis of user requirement and planning.</p>
-                        </div>
-                    </div>
-                    <!--end item -->
-
-                    <div class="col-md-3 col-sm-6 col-xs-12 text-center animate-in" data-anim-type="fade-in-right"
-                        data-anim-delay="200">
-                        <div class="feature-box-102 bmargin">
-                            <div class="number-2"></div>
-                            <br />
-                            <h4>Designing</h4>
-                            <p>Designing phase which meets user requirement.</p>
-                        </div>
-                    </div>
-                    <!--end item -->
-
-                    <div class="col-md-3 col-sm-6 col-xs-12 text-center animate-in" data-anim-type="fade-in-right"
-                        data-anim-delay="300">
-                        <div class="feature-box-102 bmargin">
-                            <div class="number-3"></div>
-                            <br />
-                            <h4>Development</h4>
-                            <p>Development of application with quality assurance.</p>
-                        </div>
-                    </div>
-                    <!--end item -->
-
-                    <div class="col-md-3 col-sm-6 col-xs-12 text-center animate-in" data-anim-type="fade-in-right"
-                        data-anim-delay="400">
-                        <div class="feature-box-102 bmargin">
-                            <div class="number-4"></div>
-                            <br />
-                            <h4>Testing</h4>
-                            <p>Testing of application to check the performance.</p>
-                        </div>
-                    </div>
-                    <!--end item -->
+  <div class="col_fourth">
+    <div class="at-work-process position-relative overflow-hidden text-center">
+      <div class="at-work-process-text">
+        <span class="at-work-process-number">01</span>
+        <span class="at-work-process-number-text">User Analysis</span>
+        <div class="at-separator-thick"></div>
+      </div>
+      <div class="at-work-process-details">
+        <i class="fa fa-diamond" style="color:#f07f2c;"></i><span>Analysis of user requirement and planning.</span>
+      </div>
+    </div>
+  </div>
+  <div class="col_fourth text-center">
+    <div class="at-work-process position-relative overflow-hidden">
+      <div class="at-work-process-text">
+        <span class="at-work-process-number">02</span>
+        <span class="at-work-process-number-text">Designing</span>
+        <div class="at-separator-thick"></div>
+      </div>
+      <div class="at-work-process-details">
+        <i class="fa fa-magic" style="color:#f07f2c;"></i><span>Designing phase which meets user requirement.</span>
+      </div>
+    </div>
+  </div>
+  <div class="col_fourth text-center">
+    <div class="at-work-process position-relative overflow-hidden">
+      <div class="at-work-process-text">
+        <span class="at-work-process-number">03</span>
+        <span class="at-work-process-number-text">Development</span>
+        <div class="at-separator-thick"></div>
+      </div>
+      <div class="at-work-process-details">
+        <i class="fa fa-rocket" style="color:#f07f2c;"></i><span>Development of application with quality assurance.</span>
+      </div>
+    </div>
+  </div>
+  <div class="col_fourth text-center end">
+    <div class="at-work-process position-relative overflow-hidden">
+      <div class="at-work-process-text">
+        <span class="at-work-process-number">04</span>
+        <span class="at-work-process-number-text">Testing</span>
+        <div class="at-separator-thick"></div>
+      </div>
+      <div class="at-work-process-details">
+        <i class="fa fa-shopping-basket" style="color:#f07f2c;"></i><span>Testing of application to check the performance.</span>
+      </div>
+    </div>
+  </div>
+</div>
+        <!-- <div class="container">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <h6 class="nopadding lspace-1">How We Do</h6>
+                    <h1 class="paddtop1 dosis font-weight-5 lspace-sm">Our Work Proce<span
+                            class="text-orange-2">ss</span></h1>
+                    <div class="title-line-4 align-center"></div>
                 </div>
-            </div>
-        </section>
-
-
-
-
-
-        <section class="sec-padding-2">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-md-5 bmargin">
-                        <h1 class="font-weight-6">Why work <span class="text-orange-2">With Us</span></h1>
-                        <h5>Web Development Company in Pune, Bangalore, Delhi</h5>
-                        <p>We work with some dynamic clients who are based either locally in Pune or across the Globe
-                        </p>
+                <div class="clearfix"></div>
+                <div class="col-md-3 col-sm-6 col-xs-12 text-center animate-in" data-anim-type="fade-in-right"
+                    data-anim-delay="100">
+                    <div class="feature-box-102 bmargin">
+                        <div class="number-1"></div>
                         <br />
-                        <ul class="iconlist orange">
-                            <li><i class="fa fa-check"></i> Custom Websites at cheapest price. </li>
-                            <li><i class="fa fa-check"></i> Theme based website designing. </li>
-                            <li><i class="fa fa-check"></i> Ecommerce Development.</li>
-                            <li><i class="fa fa-check"></i> We provide responsive designs for your applications. </li>
-                            <li><i class="fa fa-check"></i> We deliver quality work. </li>
-                            <li><i class="fa fa-check"></i> We offer a professional web development at affordable rates.
-                            </li>
-                        </ul>
-                        <br /><br />
-                        <a class="btn btn-orange-2 dark btn-xround color-2" href="about.php">Read more <i
-                                class="fa fa-angle-right"></i></a>
-
+                        <h4>User Analysis</h4>
+                        <p>Analysis of user requirement and planning.</p>
                     </div>
-                    <!--end item-->
-
-                    <div class="col-md-7 bmargin">
-                        <img src="images/homeextra.jpg" alt="Website Development in Pune, Bangalore, Delhi"
-                            class="img-responsive" />
+                </div>
+               
+                <div class="col-md-3 col-sm-6 col-xs-12 text-center animate-in" data-anim-type="fade-in-right"
+                    data-anim-delay="200">
+                    <div class="feature-box-102 bmargin">
+                        <div class="number-2"></div>
+                        <br />
+                        <h4>Designing</h4>
+                        <p>Designing phase which meets user requirement.</p>
                     </div>
-                    <!--end item-->
+                </div>
+                
+
+                <div class="col-md-3 col-sm-6 col-xs-12 text-center animate-in" data-anim-type="fade-in-right"
+                    data-anim-delay="300">
+                    <div class="feature-box-102 bmargin">
+                        <div class="number-3"></div>
+                        <br />
+                        <h4>Development</h4>
+                        <p>Development of application with quality assurance.</p>
+                    </div>
+                </div>
+                
+
+                <div class="col-md-3 col-sm-6 col-xs-12 text-center animate-in" data-anim-type="fade-in-right"
+                    data-anim-delay="400">
+                    <div class="feature-box-102 bmargin">
+                        <div class="number-4"></div>
+                        <br />
+                        <h4>Testing</h4>
+                        <p>Testing of application to check the performance.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div> -->
+    </section>
+
+
+
+
+
+    <section class="sec-padding-2">
+        <div class="container" style="max-width:1200px">
+            <div class="row">
+
+                <div class="col-md-5 bmargin" style="font-family:'Nunito', sans-serif;">
+                    <h1 class="font-weight-6" style="font-family:'Nunito', sans-serif;font-weight: 700;line-height: 1.2;color: #181d38;">Why work <span class="text-orange-2">With Us</span></h1>
+                    <div class="title"><h5>Web Development Company in Pune, Bangalore, Delhi</h5>
+                    <p>We work with some dynamic clients who are based either locally in Pune or across the Globe
+                    </p></div>
+                    <br />
+                    <ul class="iconlist orange">
+                        <li><i class="fa fa-check"></i> Custom Websites at cheapest price. </li>
+                        <li><i class="fa fa-check"></i> Theme based website designing. </li>
+                        <li><i class="fa fa-check"></i> Ecommerce Development.</li>
+                        <li><i class="fa fa-check"></i> We provide responsive designs for your applications. </li>
+                        <li><i class="fa fa-check"></i> We deliver quality work. </li>
+                        <li><i class="fa fa-check"></i> We offer a professional web development at affordable rates.
+                        </li>
+                    </ul>
+                    <br /><br />
+                    <a class="btn btn-orange-2 dark btn-xround color-2" href="about.php">Read more <i
+                            class="fa fa-angle-right"></i></a>
 
                 </div>
-            </div>
-        </section>
+                <!--end item-->
 
-        <!-- Modal Send us your requirement -->
-        <!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="col-md-7 bmargin">
+                    <img src="images/homeextra.jpg" alt="Website Development in Pune, Bangalore, Delhi"
+                        class="img-responsive" />
+                </div>
+                <!--end item-->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Send us your requirement -->
+    <!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -738,9 +1343,426 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
             </div>
         </div> -->
-        <!-- / Modal Send us your requirement Ends -->
+    <!-- / Modal Send us your requirement Ends -->
 
-        <!--end section-->
+    <!--end section-->
 
 
-        <?php include 'footer.php';?>
+    <?php include 'footer.php';?>
+    <!-- <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script>
+    window.sr = ScrollReveal();
+
+  
+    sr.reveal('.sec-title', {
+        duration: 1000,
+        origin: 'left',
+        distance: '20px',
+        easing: 'ease-out',
+        reset: true,
+        viewFactor: 0.5 // Adjust this value as needed
+    });
+
+    sr.reveal('.img-responsive', {
+        duration: 1000,
+        origin: 'right',
+        distance: '20px',
+        easing: 'ease-out',
+        reset: true,
+        viewFactor: 0.5 // Adjust this value as needed
+    }); -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+<script>
+    window.sr = ScrollReveal();
+
+sr.reveal('.sec-title', {
+    duration: 1000,
+    origin: 'bottom',
+    distance: '20px',
+    easing: 'ease-out',
+    reset: true,
+    viewFactor: 0.5
+});
+
+sr.reveal('.init_text', {
+    duration: 1000,
+    origin: 'bottom',
+    distance: '20px',
+    easing: 'ease-out',
+    reset: true,
+    viewFactor: 0.5,
+    delay: 1000 // Add a delay to reveal the description after the image
+});
+
+sr.reveal('.img-responsive', {
+    duration: 1000,
+    origin: 'bottom',
+    distance: '20px',
+    easing: 'ease-out',
+    reset: true,
+    viewFactor: 0.5,
+    delay: 500 // Add a delay to reveal the image after the title
+});
+
+
+sr.reveal('.services-section', {
+    duration: 1000,
+    origin: 'bottom',
+    distance: '20px',
+    easing: 'ease-out',
+    reset: true,
+    viewFactor: 0.5,
+    delay: 1000 // Add a delay to reveal the description after the image
+});
+
+sr.reveal('.sec-padding', {
+    duration: 1000,
+    origin: 'bottom',
+    distance: '20px',
+    easing: 'ease-out',
+    reset: true,
+    viewFactor: 0.5,
+    // delay: 1000 // Add a delay to reveal the description after the image
+});
+
+sr.reveal('.font-weight-6', {
+    duration: 1000,
+    origin: 'bottom',
+    distance: '20px',
+    easing: 'ease-out',
+    reset: true,
+    viewFactor: 0.5,
+    delay: 1000 // Add a delay to reveal the description after the image
+});
+
+sr.reveal('.title', {
+    duration: 1000,
+    origin: 'bottom',
+    distance: '20px',
+    easing: 'ease-out',
+    reset: true,
+    viewFactor: 0.5,
+    delay: 500 // Add a delay to reveal the description after the image
+});
+
+sr.reveal('.iconlist', {
+    duration: 1000,
+    origin: 'bottom',
+    distance: '20px',
+    easing: 'ease-out',
+    reset: true,
+    viewFactor: 0.5,
+    delay: 500 // Add a delay to reveal the description after the image
+});
+
+
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    dots:false,
+    nav:true,
+    mouseDrag:false,
+    autoplay:true,
+    animateOut: 'slideOutUp',
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+});
+
+
+
+
+
+</script>
+
+
+<script>
+
+    (function($) {
+        "use strict";
+
+        // Spinner
+        var spinner = function() {
+            setTimeout(function() {
+                if ($('#spinner').length > 0) {
+                    $('#spinner').removeClass('show');
+                }
+            }, 1);
+        };
+        spinner();
+
+
+        // Initiate the wowjs
+        new WOW().init();
+
+
+        // Sticky Navbar
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 300) {
+                $('.sticky-top').css('top', '0px');
+            } else {
+                $('.sticky-top').css('top', '-100px');
+            }
+        });
+
+
+        // Dropdown on mouse hover
+        const $dropdown = $(".dropdown");
+        const $dropdownToggle = $(".dropdown-toggle");
+        const $dropdownMenu = $(".dropdown-menu");
+        const showClass = "show";
+
+        $(window).on("load resize", function() {
+            if (this.matchMedia("(min-width: 992px)").matches) {
+                $dropdown.hover(
+                    function() {
+                        const $this = $(this);
+                        $this.addClass(showClass);
+                        $this.find($dropdownToggle).attr("aria-expanded", "true");
+                        $this.find($dropdownMenu).addClass(showClass);
+                    },
+                    function() {
+                        const $this = $(this);
+                        $this.removeClass(showClass);
+                        $this.find($dropdownToggle).attr("aria-expanded", "false");
+                        $this.find($dropdownMenu).removeClass(showClass);
+                    }
+                );
+            } else {
+                $dropdown.off("mouseenter mouseleave");
+            }
+        });
+
+
+        // Back to top button
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 300) {
+                $('.back-to-top').fadeIn('slow');
+            } else {
+                $('.back-to-top').fadeOut('slow');
+            }
+        });
+        $('.back-to-top').click(function() {
+            $('html, body').animate({
+                scrollTop: 0
+            }, 1500, 'easeInOutExpo');
+            return false;
+        });
+
+
+        // Header carousel
+        $(".header-carousel").owlCarousel({
+            autoplay: true,
+            smartSpeed: 1500,
+            items: 1,
+            dots: false,
+            loop: true,
+            nav: true,
+            navText: [
+                '<i class="bi bi-chevron-left"></i>',
+                '<i class="bi bi-chevron-right"></i>'
+            ]
+        });
+
+
+        // Testimonials carousel
+        $(".testimonial-carousel").owlCarousel({
+            autoplay: true,
+            smartSpeed: 1000,
+            center: true,
+            margin: 24,
+            dots: true,
+            loop: true,
+            nav: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                768: {
+                    items: 2
+                },
+                992: {
+                    items: 3
+                }
+            }
+        });
+
+    })(jQuery);
+
+    /*
+     * jQuery Easing v1.4.1 - http://gsgd.co.uk/sandbox/jquery/easing/
+     * Open source under the BSD License.
+     * Copyright © 2008 George McGinley Smith
+     * All rights reserved.
+     * https://raw.github.com/gdsmith/jquery-easing/master/LICENSE
+     */
+
+    (function(factory) {
+        if (typeof define === "function" && define.amd) {
+            define(['jquery'], function($) {
+                return factory($);
+            });
+        } else if (typeof module === "object" && typeof module.exports === "object") {
+            exports = factory(require('jquery'));
+        } else {
+            factory(jQuery);
+        }
+    })(function($) {
+
+        // Preserve the original jQuery "swing" easing as "jswing"
+        if (typeof $.easing !== 'undefined') {
+            $.easing['jswing'] = $.easing['swing'];
+        }
+
+        var pow = Math.pow,
+            sqrt = Math.sqrt,
+            sin = Math.sin,
+            cos = Math.cos,
+            PI = Math.PI,
+            c1 = 1.70158,
+            c2 = c1 * 1.525,
+            c3 = c1 + 1,
+            c4 = (2 * PI) / 3,
+            c5 = (2 * PI) / 4.5;
+
+        // x is the fraction of animation progress, in the range 0..1
+        function bounceOut(x) {
+            var n1 = 7.5625,
+                d1 = 2.75;
+            if (x < 1 / d1) {
+                return n1 * x * x;
+            } else if (x < 2 / d1) {
+                return n1 * (x -= (1.5 / d1)) * x + .75;
+            } else if (x < 2.5 / d1) {
+                return n1 * (x -= (2.25 / d1)) * x + .9375;
+            } else {
+                return n1 * (x -= (2.625 / d1)) * x + .984375;
+            }
+        }
+
+        $.extend($.easing, {
+            def: 'easeOutQuad',
+            swing: function(x) {
+                return $.easing[$.easing.def](x);
+            },
+            easeInQuad: function(x) {
+                return x * x;
+            },
+            easeOutQuad: function(x) {
+                return 1 - (1 - x) * (1 - x);
+            },
+            easeInOutQuad: function(x) {
+                return x < 0.5 ?
+                    2 * x * x :
+                    1 - pow(-2 * x + 2, 2) / 2;
+            },
+            easeInCubic: function(x) {
+                return x * x * x;
+            },
+            easeOutCubic: function(x) {
+                return 1 - pow(1 - x, 3);
+            },
+            easeInOutCubic: function(x) {
+                return x < 0.5 ?
+                    4 * x * x * x :
+                    1 - pow(-2 * x + 2, 3) / 2;
+            },
+            easeInQuart: function(x) {
+                return x * x * x * x;
+            },
+            easeOutQuart: function(x) {
+                return 1 - pow(1 - x, 4);
+            },
+            easeInOutQuart: function(x) {
+                return x < 0.5 ?
+                    8 * x * x * x * x :
+                    1 - pow(-2 * x + 2, 4) / 2;
+            },
+            easeInQuint: function(x) {
+                return x * x * x * x * x;
+            },
+            easeOutQuint: function(x) {
+                return 1 - pow(1 - x, 5);
+            },
+            easeInOutQuint: function(x) {
+                return x < 0.5 ?
+                    16 * x * x * x * x * x :
+                    1 - pow(-2 * x + 2, 5) / 2;
+            },
+            easeInSine: function(x) {
+                return 1 - cos(x * PI / 2);
+            },
+            easeOutSine: function(x) {
+                return sin(x * PI / 2);
+            },
+            easeInOutSine: function(x) {
+                return -(cos(PI * x) - 1) / 2;
+            },
+            easeInExpo: function(x) {
+                return x === 0 ? 0 : pow(2, 10 * x - 10);
+            },
+            easeOutExpo: function(x) {
+                return x === 1 ? 1 : 1 - pow(2, -10 * x);
+            },
+            easeInOutExpo: function(x) {
+                return x === 0 ? 0 : x === 1 ? 1 : x < 0.5 ?
+                    pow(2, 20 * x - 10) / 2 :
+                    (2 - pow(2, -20 * x + 10)) / 2;
+            },
+            easeInCirc: function(x) {
+                return 1 - sqrt(1 - pow(x, 2));
+            },
+            easeOutCirc: function(x) {
+                return sqrt(1 - pow(x - 1, 2));
+            },
+            easeInOutCirc: function(x) {
+                return x < 0.5 ?
+                    (1 - sqrt(1 - pow(2 * x, 2))) / 2 :
+                    (sqrt(1 - pow(-2 * x + 2, 2)) + 1) / 2;
+            },
+            easeInElastic: function(x) {
+                return x === 0 ? 0 : x === 1 ? 1 :
+                    -pow(2, 10 * x - 10) * sin((x * 10 - 10.75) * c4);
+            },
+            easeOutElastic: function(x) {
+                return x === 0 ? 0 : x === 1 ? 1 :
+                    pow(2, -10 * x) * sin((x * 10 - 0.75) * c4) + 1;
+            },
+            easeInOutElastic: function(x) {
+                return x === 0 ? 0 : x === 1 ? 1 : x < 0.5 ?
+                    -(pow(2, 20 * x - 10) * sin((20 * x - 11.125) * c5)) / 2 :
+                    pow(2, -20 * x + 10) * sin((20 * x - 11.125) * c5) / 2 + 1;
+            },
+            easeInBack: function(x) {
+                return c3 * x * x * x - c1 * x * x;
+            },
+            easeOutBack: function(x) {
+                return 1 + c3 * pow(x - 1, 3) + c1 * pow(x - 1, 2);
+            },
+            easeInOutBack: function(x) {
+                return x < 0.5 ?
+                    (pow(2 * x, 2) * ((c2 + 1) * 2 * x - c2)) / 2 :
+                    (pow(2 * x - 2, 2) * ((c2 + 1) * (x * 2 - 2) + c2) + 2) / 2;
+            },
+            easeInBounce: function(x) {
+                return 1 - bounceOut(1 - x);
+            },
+            easeOutBounce: bounceOut,
+            easeInOutBounce: function(x) {
+                return x < 0.5 ?
+                    (1 - bounceOut(1 - 2 * x)) / 2 :
+                    (1 + bounceOut(2 * x - 1)) / 2;
+            }
+        });
+
+    });
+    </script>

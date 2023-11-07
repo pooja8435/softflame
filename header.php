@@ -134,15 +134,49 @@
     }
 
     /* Header Styles */
-#header {
-    background-color: #FFA500; /* Orange background color */
-    transition: background-color 0.5s ease-in-out;
-}
+    #header {
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+        background-color: rgb(255, 255, 255);
+        /* Orange background color */
+        transition: background-color 0.5s ease-in-out;
 
-/* Change header color on scroll */
-#header.scrolled {
-    background-color: #1e88e5; /* Blue background color when scrolled */
-}
+    }
+
+    #header.scrolled {
+        background-color: rgb(255, 255, 255);
+        /* Blue background color when scrolled */
+    }
+
+    #header .container {
+        width: 100%;
+    }
+
+.navbar-nav>li>a {
+        font-family: 'Noto Sans', sans-serif;
+        text-transform: none;
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    .navbar-default .navbar-nav>li>a,
+    .navbar-default .navbar-text {
+        color: black;
+    }
+
+    .navbar-brand img {
+        max-width: 100%;
+        height: auto;
+        /* padding-top:10px;
+    margin-left:-50px; */
+    }
+
+    .box .box-title h4 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        line-height: 3rem;
+
+    }
 
 
     </style>
