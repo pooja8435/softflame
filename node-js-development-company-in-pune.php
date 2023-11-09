@@ -156,9 +156,8 @@
 
     <style>
         .first-img {
-            height: 430px !important;
-            float: right !important;
-            margin-top: -40px !important;
+            height: 300px !important;
+            margin-left: 40px;
         }
         .second-img {
             height: 315px !important;
@@ -170,8 +169,8 @@
             border-top-right-radius: 25px;
             border-top-left-radius: 25px;
             border-bottom-right-radius: 25px;
-            border-left: 4px solid #ff894f;
-            border-bottom: 4px solid #ff894f;
+            border-left: 4px solid #7fcf71;
+            border-bottom: 4px solid #7fcf71;
         }
 
         .services-card:hover {
@@ -248,7 +247,7 @@
     </div>
 
     <div class="container">
-        <div class="row">
+        <div class="row margin-top">
             <div class="col-md-12" data-animation="zoomIn" data-animation-delay="300ms">
                 <h1 class="header-font text-center">Our Node.js Development Services</h1>
             </div>

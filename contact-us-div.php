@@ -92,6 +92,9 @@
     </script>
     
     <style>
+        .bg-contact{
+            background: aliceblue;
+        }
         .contact-img {
             height: 250px;
             margin-left: 45px;
@@ -109,7 +112,7 @@
 
 
 </head>
-<section class="sec-padding">
+<section class="sec-padding bg-contact">
     <div class="container">
         <div class="card">
             <div class="card-body">
