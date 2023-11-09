@@ -1,0 +1,112 @@
+/* Animation */
+
+[data-animation] {
+    opacity: 0;
+    animation-timing-function: cubic-bezier(.4, 0, .2, 1);
+    ;
+    animation-fill-mode: both;
+    animation-duration: 1s;
+}
+
+.animations-disabled {
+
+    &,
+    [data-animation] {
+        animation: none !important;
+        opacity: 1 !important;
+    }
+}
+
+.slideInLeft {
+    animation-name: slideInleft;
+}
+
+.slideInRight {
+    animation-name: slideInRight;
+}
+
+.flipInY {
+    animation-name: flipInY;
+}
+
+.zoomReverseIn {
+    animation-name: zoomReverseIn;
+}
+
+.zoomIn {
+    animation-name: zoomIn;
+}
+
+.zoomOut {
+    animation-name: zoomIn;
+    animation-direction: reverse;
+}
+
+.zoomReverseIn {
+    animation-name: zoomReverseIn;
+}
+
+.zoomReverseOut {
+    animation-name: zoomReverseIn;
+    animation-direction: reverse;
+}
+
+@keyframes slideInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes slideInleft {
+    0% {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes zoomIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes zoomReverseIn {
+    0% {
+        opacity: 0;
+        transform: scale(1.5);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes flipInY {
+    0% {
+        opacity: 0;
+        transform: rotateY(90deg);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
