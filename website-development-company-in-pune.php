@@ -1,41 +1,46 @@
- <!doctype html>
+<!doctype html>
 
 <html lang="en">
 
 <head>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135022729-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135022729-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'UA-135022729-1');
-</script>
+        gtag('config', 'UA-135022729-1');
+    </script>
 
     <title>Website Development in Pune | Web Development Company in Pune | Bangalore | Delhi</title>
-    <meta name="description" content ="Softflame Solutions is leading Website Development Company in Pune, Delhi, Bangalore. We are specializes in Web Development Company in Pune, Delhi, Bangalore,Web Developers in Pune, Delhi, Bangalore.Web Design Company in Pune, Web Development in Pune, Delhi, Bangalore with the cost-effective solutions for your website."/>
-    <meta name="keywords" content = "Website Development Company in Pune, Bangalore, Delhi, Web Development Company in Pune, Bangalore, Delhi"/>
+    <meta name="description"
+        content="Softflame Solutions is leading Website Development Company in Pune, Delhi, Bangalore. We are specializes in Web Development Company in Pune, Delhi, Bangalore,Web Developers in Pune, Delhi, Bangalore.Web Design Company in Pune, Web Development in Pune, Delhi, Bangalore with the cost-effective solutions for your website." />
+    <meta name="keywords"
+        content="Website Development Company in Pune, Bangalore, Delhi, Web Development Company in Pune, Bangalore, Delhi" />
     <meta name="robots" content="index, follow">
     <meta name="copyright" content="softflame.in">
     <meta name="language" content=“EN">
-	
+
     <meta charset="utf-8">
-   
+
     <!-- this styles only adds some repairs on idevices  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="css/theme.css" rel="stylesheet">
 
 
-	<link rel="canonical" href="https://www.softflame.in/"/>  
+    <link rel="canonical" href="https://www.softflame.in/" />
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <link rel="shortcut icon" href="images/fav NEW LOGO 2 ic (1).png" type="image/x-icon">
 
     <!-- Google fonts - witch you want to use - (rest you can just remove) -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
+    <link
+        href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic'
+        rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900' rel='stylesheet'
+        type='text/css'>
 
     <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -60,148 +65,340 @@
     <link rel="stylesheet" href="js/ytplayer/ytplayer.css" />
     <link rel="stylesheet" href="js/style-swicher/style-swicher.css" type="text/css" />
     <link rel="stylesheet" href="js/custom-scrollbar/jquery.mCustomScrollbar.css">
-    
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500&family=Nunito+Sans:opsz,wght@6..12,200&family=Open+Sans:wght@300;400;700&family=Poppins:wght@200;400;600&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/web-development-design.css" type="text/css" />
+    <link rel="stylesheet" href="css/text-animation.css" type="text/css" />
+
+    <script>
+        var Animation = function ({ offset } = { offset: 10 }) {
+            var _elements;
+
+            // Define a dobra superior, inferior e laterais da tela
+            var windowTop = offset * window.innerHeight / 100;
+            var windowBottom = window.innerHeight - windowTop;
+            var windowLeft = 0;
+            var windowRight = window.innerWidth;
+
+            function start(element) {
+                // Seta os atributos customizados
+                element.style.animationDelay = element.dataset.animationDelay;
+                element.style.animationDuration = element.dataset.animationDuration;
+                // Inicia a animacao setando a classe da animacao
+                element.classList.add(element.dataset.animation);
+                // Seta o elemento como animado
+                element.dataset.animated = "true";
+            }
+
+            function isElementOnScreen(element) {
+                // Obtem o boundingbox do elemento
+                var elementRect = element.getBoundingClientRect();
+                var elementTop =
+                    elementRect.top + parseInt(element.dataset.animationOffset) ||
+                    elementRect.top;
+                var elementBottom =
+                    elementRect.bottom - parseInt(element.dataset.animationOffset) ||
+                    elementRect.bottom;
+                var elementLeft = elementRect.left;
+                var elementRight = elementRect.right;
+
+                // Verifica se o elemento esta na tela
+                return (
+                    elementTop <= windowBottom &&
+                    elementBottom >= windowTop &&
+                    elementLeft <= windowRight &&
+                    elementRight >= windowLeft
+                );
+            }
+
+            // Percorre o array de elementos, verifica se o elemento está na tela e inicia animação
+            function checkElementsOnScreen(els = _elements) {
+                for (var i = 0, len = els.length; i < len; i++) {
+                    // Passa para o proximo laço se o elemento ja estiver animado
+                    if (els[i].dataset.animated) continue;
+
+                    isElementOnScreen(els[i]) && start(els[i]);
+                }
+            }
+
+            // Atualiza a lista de elementos a serem animados
+            function update() {
+                _elements = document.querySelectorAll(
+                    "[data-animation]:not([data-animated])"
+                );
+                checkElementsOnScreen(_elements);
+            }
+
+            // Inicia os eventos
+            window.addEventListener("load", update, false);
+            window.addEventListener("scroll", () => checkElementsOnScreen(_elements), { passive: true });
+            window.addEventListener("resize", () => checkElementsOnScreen(_elements), false);
+
+            // Retorna funcoes publicas
+            return {
+                start,
+                isElementOnScreen,
+                update
+            };
+        };
+
+        // Initialize
+        var options = {
+            offset: 20 //percentage of window
+        };
+        var animation = new Animation(options);
+    </script>
+
 
 </head>
 
-<?php include 'header.php';?>
-        <!--end menu-->
-        <div class="clearfix"></div>
+<?php include 'header.php'; ?>
+<!--end menu-->
+<div class="clearfix"></div>
 
-        <section>
-            <div class="header-inner two">
-                <div class="inner text-center">
-                    <h4 class="title text-white uppercase"><u>Website Development Company in Pune, Bangalore, Delhi</u></h4>
-                   <!--<h5 class="text-white uppercase">Looking for website development company in Pune, Bangalore, Delhi for your business growth then you are at the right place</h5>-->
+<section>
+    <div class="header-inner two">
+        <div class="inner text-center">
+            <h4 class="title text-white uppercase"><u>Website Development Company in Pune, Bangalore, Delhi</u></h4>
+            <!--<h5 class="text-white uppercase">Looking for website development company in Pune, Bangalore, Delhi for your business growth then you are at the right place</h5>-->
+        </div>
+        <div class="overlay bg-opacity-5"></div>
+        <img src="images/sheader.jpg" alt="Website Development Company in Pune, Bangalore, Delhi"
+            class="img-responsive" />
+    </div>
+</section>
+<!-- end header inner -->
+<div class="clearfix"></div>
+
+<section>
+    <div class="pagenation-holder">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+
                 </div>
-                <div class="overlay bg-opacity-5"></div>
-                <img src="images/sheader.jpg" alt="Website Development Company in Pune, Bangalore, Delhi" class="img-responsive" /> </div>
-        </section>
-        <!-- end header inner -->
-        <div class="clearfix"></div>
-
-        <section>
-            <div class="pagenation-holder">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            
-                        </div>
-                        <div class="col-md-6 text-right">
-                            <div class="pagenation_links"><a href="index.php">Home</a><i> / </i><a href="services.php">Services<a><i> / </i><a href="#">Website Development</a> </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--end section-->
-        <div class="clearfix"></div>
-
-        <section class="sec-padding">
-            <div class="container">
-                <div class="row">
-			
-		
-                    <div class="col-md-12 text-center page-header">
-						<h1>Website Development Company in Pune, Bangalore, Delhi</h1>
-                    </div>
-					
-					
-                    <div class="col-md-6 bmargin"><img src="images/resp.png" alt="Website Development Company in Pune, Bangalore, Delhi" class="img-responsive" /></div> 
-                    <div class="col-md-6 bmargin">
-                        <!--<h5 class="font-weight-4">Clean, user friendly and responsive design. </h5>-->
-						<p><b><u><a href="https://softflame.in/">SoftFlame Solutions</a></u></b> is perfect for making your website work for your business to grow in the market. We can create affordable website design for businesses that will create a word of mouth about your services to future customers.</p>
-                        <p>We provide better quality and web design with lowest rate as compared to market rate <b><u><a href="https://softflame.in/services.php"> Website Development Company Pune & Website Designing Solutions in Pune, Bangalore, Delhi</a></u></b> .</p>
-                        <p>Our <u><a href ="https://softflame.in/about.php">Website Development Company in Pune, Bangalore, Delhi</a></u> will get you the results that you always wanted. Our websites are <b>Clean, Clear, Responsive and Customized to your needs!</b></p>
-                        <br/>
-
-
-                        <!--end item-->
-
-                    </div>
-                    
-                    <div class="col-divider-margin-4"></div>
-
-
-                    
-                    <div class="col-md-6 bmargin">
-                        <h5 class="font-weight-4"><b>Search Engine Friendly</b> </h5>
-                        <p><b>SEO</b> is the process of maximizing the number of visitors to a particular website by ensuring that the site appears high on the list of results returned by a search engine.</p>
-                        <p>At SoftFlame solutions, we provide <b><u><a href="https://softflame.in/seo-company-in-pune.php">SEO Services in Pune, Bangalore, Delhi</a></u></b> for your business growth and to increase the number of visiters that will help you to find more opportunities. </p>
-                        <p>Frequently a website appears in the search results list, the more visitors it will receive from the search engine's users; these visitors can then be converted into customers</p>
-                        <br/>
-
-                        <!--end item-->
-                    </div>
-					<div class="col-md-6 bmargin"><img src="images/seo.jpg" alt="SEO Company in Pune, Bangalore, Delhi" class="img-responsive" /></div>
-                    
-                    <div class="col-divider-margin-4"></div>
-
-
-                    <div class="col-md-6 bmargin"><img src="images/expert.jpg" alt="Website Development Company in Pune, Bangalore, Delhi" class="img-responsive" /></div>
-                    <div class="col-md-6 bmargin">
-                        <h5 class="font-weight-4"><b>Expert team</b></h5>
-                        <p>We have a expert team of web developers, web programmers which delivers pioneering website programming services at a variety of web programming platform.</p>
-                        <p>We have the skills and expertise to help structure and mould your ideas and produce a set of designs that will not only be creatively striking but echo the values and ethos of your business.</p>
-                        <p>Web Experts can work with your existing website or build one that stands out from the crowd.</p>
-                        <br/>
-
-
-                        <!--end item-->
-
-                    </div>
-                </div>
-        </section>
-        
-        <!-- end section -->
-
-        <!--end section-->
-        <div class="clearfix"></div>
-
-        <!-- Modal Send us your requirement -->
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="myModalLabel">Send us your requirement</h4>
-                    </div>
-                    <form name="registrationForm" method="post" action="email.php" required>
-                        <div class="container">
-                            <div class="modal-body">
-                                <div class="form-group">
-                                    <label for="name">Name</label>
-                                    <input type="text" name="name" class="form-control" id="name" placeholder="Full Name" required>
-                                </div>
-                                <div class="form-group">
-                                    <label for="email">Email address</label>
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="Email Address" required>
-                                </div>
-                                <div class="form-group">
-                                    <label for="phone">Phone No.</label>
-                                    <input type="text" class="form                                                                                                                                                                                                         -control" name="mobile" id="phone" placeholder="Phone No." required>
-                                </div>
-
-
-                                <div class="form-group">
-                                    <textarea class="form-control" rows="5" name="enquiry" id="message" placeholder="Enter your message" required></textarea>
-                                </div>
-
-                            </div>
-
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn1 btn-default" data-dismiss="modal">Close</button>
-                            <button class="btn1 btn-primary" type="submit" name="submit"> <i class="fa fa-paper-plane-o"></i> Send</button>
-                        </div>
-                    </form>
+                <div class="col-md-6 text-right">
+                    <div class="pagenation_links"><a href="index.php">Home</a><i> / </i><a
+                            href="services.php">Services<a><i> / </i><a href="#">Website Development</a> </div>
                 </div>
             </div>
         </div>
-        <!-- / Modal Send us your requirement Ends -->
+    </div>
+</section>
+<!--end section-->
+<div class="clearfix"></div>
 
-        <!--end section-->
-        <div class="clearfix"></div>
+<section class="sec-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6" data-animation="slideInRight">
+                <h1 class="header-font"> Web Development Services</h1>
+                <p class="init_text text-font">SoftFlame Solutions is perfect for making your website work for your
+                    business to grow in the market. We can create affordable website design for businesses that will
+                    create a word of mouth about your services to future customers.</p>
+                <p class="init_text text-font">We provide better quality and web design with lowest rate as compared to
+                    market rate Website Development Company Pune & Website Designing Solutions in Pune, Bangalore, Delhi
+                </p>
+                <p class="init_text text-font">Our Website Development Company in Pune, Bangalore, Delhi will get you
+                    the results that you always wanted. Our websites are Clean, Clear, Responsive and Customized to your
+                    needs!
+                </p>
+            </div>
+            <div class="col-md-6">
+                <img data-animation="zoomIn" data-animation-delay="300ms" class="first-img"
+                    src="images/services/info/web-design.png">
+            </div>
+        </div>
+    </div>
 
-        <?php include 'footer.php';?>
+    <section id="advertisers" class="advertisers-service-sec pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="section-header text-center" data-animation="zoomIn" data-animation-delay="300ms">
+                    <h1 class="header-font margin-top">
+                        Our Web Development Services
+                    </h1>
+                </div>
+            </div>
+            <div class="row text-center margin-top">
+                <div class="col-md-4">
+                    <div class="service-card" data-animation="flipInY">
+                        <div class="icon-wrapper">
+                            <img class="icons-height" src="images/services/info/icon1.png">
+                        </div>
+                        <h3 class="text-font ">Custom Website Development</h3>
+                        <p>
+                            We create fully customized websites that reflect your brand's unique identity. Our websites
+                            are built from the ground up, ensuring a perfect match for your business needs.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card" data-animation="flipInY">
+                        <div class="icon-wrapper">
+                            <img class="icons-height" src="images/services/info/icon2.png">
+                        </div>
+                        <h3 class="text-font ">Responsive Web Design</h3>
+                        <p>
+                            In today's mobile-driven world, responsive design is paramount. We develop websites that
+                            adapt seamlessly to various devices and screen sizes, providing an optimal user experience.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card" data-animation="flipInY">
+                        <div class="icon-wrapper">
+                            <img class="icons-height" src="images/services/info/icon3.png">
+                        </div>
+                        <h3 class="text-font ">E-commerce Solutions</h3>
+                        <p>
+                            For businesses looking to sell products or services online, we offer e-commerce development
+                            services. Our e-commerce solutions are robust, secure, and designed to boost your online
+                            sales.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center margin-top">
+                <div class="col-md-4">
+                    <div class="service-card" data-animation="flipInY">
+                        <div class="icon-wrapper">
+                            <img class="icons-height" src="images/services/info/icon7.png">
+                        </div>
+                        <h3 class="text-font ">Security and Maintenance</h3>
+                        <p>
+                            Your website's security is our top priority. We provide regular updates, security patches,
+                            and ongoing maintenance to keep your site safe and up to date.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card" data-animation="flipInY">
+                        <div class="icon-wrapper">
+                            <img class="icons-height" src="images/services/info/icon5.png">
+                        </div>
+                        <h3 class="text-font ">Web Application Development</h3>
+                        <p>
+                            If your project requires complex functionality, we can develop web applications using modern
+                            technologies and frameworks to meet your specific requirements.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card" data-animation="flipInY">
+                        <div class="icon-wrapper">
+                            <img class="icons-height" src="images/services/info/icon6.png">
+                        </div>
+                        <h3 class="text-font ">Performance Optimization</h3>
+                        <p>
+                            We optimize websites for speed and performance, ensuring fast loading times and a smooth
+                            user experience.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="section-header text-center" data-animation="zoomIn" data-animation-delay="300ms">
+                    <h1 class="header-font margin-top">
+                        Search Engine Friendly
+                    </h1>
+                </div>
+                <div class="row margin-top">
+                    <div class="col-md-6">
+                        <img data-animation="zoomReverseIn" data-animation-delay="300ms" class="seo-height"
+                            src="images/services/info/seo.png">
+                    </div>
+                    <div class="col-md-6" data-animation="slideInLeft" data-animation-delay="300ms">
+                        <p class="init_text text-font">SEO is the process of maximizing the number of visitors to a
+                            particular
+                            website by ensuring that the site appears high on the list of results returned by a search
+                            engine.
+                        </p>
+                        <p class="init_text text-font">At SoftFlame solutions, we provide SEO Services in Pune,
+                            Bangalore,
+                            Delhi
+                            for your business growth and to increase the number of visiters that will help you to find
+                            more
+                            opportunities.
+                        </p>
+                        <p class="init_text text-font">Frequently a website appears in the search results list, the more
+                            visitors it will receive from the search engine's users; these visitors can then be
+                            converted
+                            into
+                            customers
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="col-md-4">
+                <div class="left-cards">
+                    <div class="card" style="padding:20px">
+                        <div class="card-body">
+                            <h3 class="text-font">Expertise</h3>
+                            <p class="text-font">Our team of experienced developers has a deep understanding of web
+                                technologies, ensuring
+                                the
+                                best solutions for you.</p>
+                        </div>
+                    </div>
+                    <div class="card" style="padding:20px">
+                        <div class="card-body">
+                            <h3 class="text-font">Custom Solutions</h3>
+                            <p class="text-font">We tailor our services to match your unique needs and goals, providing
+                                a truly customized
+                                experience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="choice-container">
+                    <div class="center-div">
+                        <h2>Why you choice Us ?</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the
+                            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                            of type
+                            and
+                            scrambled it to make a type specimen book. It has survived not only five centuries, but also
+                            the
+                            leap
+                            into electronic typesetting, remaining essentially unchanged.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="left-cards">
+                    <div class="card" style="padding:20px">
+                        <div class="card-body">
+                            <h3 class="text-font">Cost-Effective</h3>
+                            <p class="text-font"> Our services are competitively priced, making top-quality web
+                                development accessible to
+                                businesses of all sizes.</p>
+                        </div>
+                    </div>
+                    <div class="card" style="padding:20px">
+                        <div class="card-body">
+                            <h3 class="text-font">Client Satisfaction</h3>
+                            <p class="text-font">Your success is our success. We work closely with you to achieve your
+                                vision and exceed
+                                your expectations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+<?php include 'contact-us-div.php'; ?>
+<?php include 'footer.php'; ?>
