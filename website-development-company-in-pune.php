@@ -225,7 +225,7 @@
                 </div>
             </div>
             <div class="row text-center margin-top">
-                <div class="col-md-4">
+                <div class="col-md-4 col-12">
                     <div class="service-card" data-animation="flipInY">
                         <div class="icon-wrapper">
                             <img class="icons-height" src="images/services/info/icon1.png">
@@ -237,7 +237,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-12">
                     <div class="service-card" data-animation="flipInY">
                         <div class="icon-wrapper">
                             <img class="icons-height" src="images/services/info/icon2.png">
@@ -249,7 +249,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-12">
                     <div class="service-card" data-animation="flipInY">
                         <div class="icon-wrapper">
                             <img class="icons-height" src="images/services/info/icon3.png">
@@ -264,7 +264,7 @@
                 </div>
             </div>
             <div class="row text-center margin-top">
-                <div class="col-md-4">
+                <div class="col-md-4 col-12">
                     <div class="service-card" data-animation="flipInY">
                         <div class="icon-wrapper">
                             <img class="icons-height" src="images/services/info/icon7.png">
@@ -276,7 +276,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-12">
                     <div class="service-card" data-animation="flipInY">
                         <div class="icon-wrapper">
                             <img class="icons-height" src="images/services/info/icon5.png">
@@ -288,7 +288,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-12">
                     <div class="service-card" data-animation="flipInY">
                         <div class="icon-wrapper">
                             <img class="icons-height" src="images/services/info/icon6.png">
@@ -339,8 +339,8 @@
             </div>
         </div>
 
-        <div class="container">
-            <div class="col-md-4">
+        <!-- <div class="container">
+            <div class="col-md-4 col-12">
                 <div class="left-cards">
                     <div class="card" style="padding:20px">
                         <div class="card-body">
@@ -361,7 +361,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-12">
                 <div class="choice-container">
                     <div class="center-div">
                         <h2>Why you choice Us ?</h2>
@@ -377,7 +377,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-12">
                 <div class="left-cards">
                     <div class="card" style="padding:20px">
                         <div class="card-body">
@@ -397,7 +397,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </section>
 </section>
 <?php include 'contact-us-div.php'; ?>

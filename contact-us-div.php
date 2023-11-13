@@ -108,6 +108,13 @@
         .fa-arrow-right{
             margin-left: 16px;
         }
+        @media (max-width: 768px)  {
+    
+    .contact-img {
+        height: 185px;
+        margin-left: 45px;
+    }
+}
     </style>
 
 
@@ -126,7 +133,7 @@
                         <p class="text-font">Contact us to schedule a consultation, request a quote, or learn more about
                             our web
                             development services. Your success is our priority, and we're here to make it happen.</p>
-                            <button type="button" class="btn contact-btn header-font"
+                            <button type="button" class="btn contact-btn text-font"
                     onclick="window.location.href='contact.php'">Let's Connect</button>
                     </div>
                     <div class="col-md-4">

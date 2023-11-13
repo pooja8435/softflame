@@ -28,7 +28,7 @@
           display: inline-block;
           position: relative;
           z-index: 1;
-          max-width: 500px;
+          /* max-width: 500px; */
           height: 430px;
           margin: 30px 10px 30px;
           box-shadow: 0 6px 30px 0 rgba(0, 0, 0, .12);
@@ -177,4 +177,10 @@
     .reveal.active {
         transform: translateY(0);
         opacity: 1;
+    }
+
+    @media (max-width: 768px)  {
+        .shape-box{
+           width: 95%;
+        }
     }
