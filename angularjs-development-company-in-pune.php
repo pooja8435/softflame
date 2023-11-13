@@ -410,7 +410,7 @@
             </div>
         </div>
 
-        <div class="container">
+        <!-- <div class="container">
             <div class="col-md-4">
                 <div class="left-cards">
                     <div class="card" style="padding:20px">
@@ -473,7 +473,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </section>
 </section>
 <?php include 'contact-us-div.php'; ?>

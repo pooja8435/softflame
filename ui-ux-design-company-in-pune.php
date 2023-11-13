@@ -217,8 +217,7 @@
     <div class="header-inner two">
         <div class="inner text-center">
             <div class="face face--front">
-                <h4 class="title text-white uppercase">UI UX Design Company in Pune, Bangalore, Delhi</u></h4><img
-                    style="height:130px" src="images/services/info/user-centric.jpg">
+                <h4 class="title text-white uppercase">UI UX Design Company in Pune, Bangalore, Delhi</u></h4>
             </div>
             <div class="face face--back">
             </div>

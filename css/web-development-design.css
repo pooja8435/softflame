@@ -3,7 +3,7 @@
 }
 
 .text-font p {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito', sans-serif !important;
 
 }
 
@@ -154,4 +154,22 @@
     flex-direction: column;
     gap: 150px;
     margin-top: 70px;
+}
+@media (max-width: 768px)  {
+    .sec-padding{
+        padding: 0px !important;
+    }
+    .header-font{
+        font-size: 30px !important;
+    }
+    .first-img {
+        height: 190px;
+    }
+    .seo-height {
+        height: 155px;
+    }
+    .contact-img {
+        height: 185px;
+        margin-left: 45px;
+    }
 }
