@@ -2270,7 +2270,7 @@ sr.reveal('.img-responsive', {
     easing: 'ease-out',
     reset: true,
     viewFactor: 0.5,
-    delay: 500 // Add a delay to reveal the image after the title
+    // delay: 500 // Add a delay to reveal the image after the title
 });
 
 
@@ -2281,7 +2281,7 @@ sr.reveal('.services-section', {
     easing: 'ease-out',
     reset: true,
     viewFactor: 0.5,
-    delay: 500 // Add a delay to reveal the description after the image
+    // delay: 500 // Add a delay to reveal the description after the image
 });
 
 sr.reveal('.our-work', {
@@ -2291,7 +2291,7 @@ sr.reveal('.our-work', {
     easing: 'ease-out',
     reset: true,
     viewFactor: 0.5,
-    delay: 500 // Add a delay to reveal the description after the image
+    // delay: 500 // Add a delay to reveal the description after the image
 });
 
 sr.reveal('.font-weight-6', {
@@ -2301,7 +2301,7 @@ sr.reveal('.font-weight-6', {
     easing: 'ease-out',
     reset: true,
     viewFactor: 0.5,
-    delay: 500 // Add a delay to reveal the description after the image
+    // delay: 500 // Add a delay to reveal the description after the image
 });
 
 sr.reveal('.work-text', {
@@ -2331,7 +2331,7 @@ sr.reveal('.allText', {
     easing: 'ease-out',
     reset: true,
     viewFactor: 0.5,
-    delay: 500 // Add a delay to reveal the description after the image
+    // delay: 500 // Add a delay to reveal the description after the image
 });
 sr.reveal('.ultimateImg', {
     duration: 1000,
@@ -2340,7 +2340,7 @@ sr.reveal('.ultimateImg', {
     easing: 'ease-out',
     reset: true,
     viewFactor: 0.5,
-    delay: 1000 // Add a delay to reveal the description after the image
+    // delay: 1000 // Add a delay to reveal the description after the image
 });
 
 

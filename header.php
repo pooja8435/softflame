@@ -208,14 +208,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
     <!-- </div> -->
     <div class="sticky-icon">
-        <a href="https://www.instagram.com/softflame_solutions/" target="_blank" class="Instagram"><i
-                class="fa fa-instagram"></i> Instagram </a>
-        <a href="https://www.facebook.com/Softflame-Solutions-Pvt-Ltd-2173947799583603/" target="_blank"
-            class="Facebook"><i class="fa fa-facebook"></i> Facebook </a>
         <a href="https://www.linkedin.com/company/26552568/admin/" target="_blank" class="Youtube"><i
                 class="fa fa-linkedin"></i> Linkedin </a>
         <a href="https://twitter.com/SoftflameL" target="_blank" class="Twitter"><i class="fa fa-twitter"></i> </i>
             Twitter </a>
+        <a href="https://www.instagram.com/softflame_solutions/" target="_blank" class="Instagram"><i
+                class="fa fa-instagram"></i> Instagram </a>
+        <a href="https://www.facebook.com/Softflame-Solutions-Pvt-Ltd-2173947799583603/" target="_blank"
+            class="Facebook"><i class="fa fa-facebook"></i> Facebook </a>
+        
     </div>
 
     <!--Sidebar Social Icons-->
