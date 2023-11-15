@@ -122,12 +122,15 @@
 
 <section>
     <div class="header-inner two">
-        <div class="inner text-center">
-            <h4 class="title text-white uppercase"> MeteorJs Development Company in Pune, Bangalore, Delhi</h4>
+    <div class="inner text-center col-md-6 padding-top">
+            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">Meteor Js Development Company</h1>
+            <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune, Bangalore,
+                Delhi</h2>
         </div>
-        <div class="overlay bg-opacity-5"></div>
-        <img src="images/sheader.jpg" alt="MeteorJs Development Company in Pune, Bangalore, Delhi"
-            class="img-responsive" />
+        <div class="overlay bg-opacity-7"></div>
+        <img src="images/services/sub-nav/meteorjs.png" alt="Website Development Company in Pune, Bangalore, Delhi"
+            class="img-responsive sub-nav-img" />
+    </div>
     </div>
 </section>
 <!-- end header inner -->
@@ -171,7 +174,7 @@
         <div class="row">
             <div class="section-header text-center" data-animation="zoomIn" data-animation-delay="300ms">
                 <h1 class="header-font margin-top">
-                    Our Ionic App Development Services
+                    Our Meteor Js App Development Services
                 </h1>
             </div>
             <div class="row">

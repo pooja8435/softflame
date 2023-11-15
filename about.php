@@ -86,12 +86,91 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="css/text-animation.css" type="text/css" />
     <script>
         $(".navbar-nav").on('click', 'li', function () {
             $(".navbar-nav li.active").removeClass("active");
             // adding classname 'active' to current click li 
             $(this).addClass("active");
         });
+    </script>
+    <script>
+        var Animation = function ({ offset } = { offset: 10 }) {
+            var _elements;
+
+            // Define a dobra superior, inferior e laterais da tela
+            var windowTop = offset * window.innerHeight / 100;
+            var windowBottom = window.innerHeight - windowTop;
+            var windowLeft = 0;
+            var windowRight = window.innerWidth;
+
+            function start(element) {
+                // Seta os atributos customizados
+                element.style.animationDelay = element.dataset.animationDelay;
+                element.style.animationDuration = element.dataset.animationDuration;
+                // Inicia a animacao setando a classe da animacao
+                element.classList.add(element.dataset.animation);
+                // Seta o elemento como animado
+                element.dataset.animated = "true";
+            }
+
+            function isElementOnScreen(element) {
+                // Obtem o boundingbox do elemento
+                var elementRect = element.getBoundingClientRect();
+                var elementTop =
+                    elementRect.top + parseInt(element.dataset.animationOffset) ||
+                    elementRect.top;
+                var elementBottom =
+                    elementRect.bottom - parseInt(element.dataset.animationOffset) ||
+                    elementRect.bottom;
+                var elementLeft = elementRect.left;
+                var elementRight = elementRect.right;
+
+                // Verifica se o elemento esta na tela
+                return (
+                    elementTop <= windowBottom &&
+                    elementBottom >= windowTop &&
+                    elementLeft <= windowRight &&
+                    elementRight >= windowLeft
+                );
+            }
+
+            // Percorre o array de elementos, verifica se o elemento está na tela e inicia animação
+            function checkElementsOnScreen(els = _elements) {
+                for (var i = 0, len = els.length; i < len; i++) {
+                    // Passa para o proximo laço se o elemento ja estiver animado
+                    if (els[i].dataset.animated) continue;
+
+                    isElementOnScreen(els[i]) && start(els[i]);
+                }
+            }
+
+            // Atualiza a lista de elementos a serem animados
+            function update() {
+                _elements = document.querySelectorAll(
+                    "[data-animation]:not([data-animated])"
+                );
+                checkElementsOnScreen(_elements);
+            }
+
+            // Inicia os eventos
+            window.addEventListener("load", update, false);
+            window.addEventListener("scroll", () => checkElementsOnScreen(_elements), { passive: true });
+            window.addEventListener("resize", () => checkElementsOnScreen(_elements), false);
+
+            // Retorna funcoes publicas
+            return {
+                start,
+                isElementOnScreen,
+                update
+            };
+        };
+
+        // Initialize
+        var options = {
+            offset: 20 //percentage of window
+        };
+        var animation = new Animation(options);
     </script>
 
 
@@ -119,15 +198,29 @@ include 'header.php'; ?>
         </div>
     </div>
 </section> -->
-<section>
+<!-- <section>
     <div class="header-inner two">
         <div class="inner text-center waviy">
             <h2 class="title text-white header-font"><b>About Us</b></h2>
-            <h4 class="subtitle  text-white header-font">We are passionate about creating innovative software solutions that
-                            empower businesses to thrive in the digital age.</h4>
+            <h4 class="subtitle  text-white header-font">We are passionate about creating innovative software solutions
+                that
+                empower businesses to thrive in the digital age.</h4>
         </div>
         <div class="overlay bg-opacity-5"></div>
         <img src="images/about-us-header.jpg" alt="about Pune" class="img-responsive" />
+    </div>
+</section> -->
+<section>
+    <div class="header-inner two">
+    <div class="inner text-center col-md-6 padding-top">
+            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">iPhone/iOS App Development Company </h1>
+            <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune, Bangalore,
+                Delhi</h2>
+        </div>
+        <div class="overlay bg-opacity-7"></div>
+        <img src="images/services/sub-nav/iphone-banner.jpg" alt="Website Development Company in Pune, Bangalore, Delhi"
+            class="img-responsive sub-nav-img" />
+    </div>
     </div>
 </section>
 <!-- end header inner -->
@@ -137,9 +230,6 @@ include 'header.php'; ?>
     <div class="pagenation-holder">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-
-                </div>
                 <div class="col-md-12 text-center">
                     <div class="pagenation_links text-font font-16"><a href="index.php">Home</a><i> / </i> About</div>
                 </div>
@@ -251,23 +341,16 @@ include 'header.php'; ?>
                         <li>
                             <p class="text-font font-16"><b>Planning: </b>Our team collaborates closely with you to
                                 define the project scope,
-                                objectives, and a detailed roadmap. We
-                                establish a clear project plan, including timelines and resource allocation, to guide
-                                the
-                                project from inception to completion.</p>
+                                objectives, and a detailed roadmap. </p>
                         </li>
                         <li>
                             <p class="text-font font-16"><b>Design: </b>We focus on creating intuitive and visually
                                 appealing designs that not only
                                 meet your
-                                requirements but also exceed your expectations. Our design phase is characterized by
-                                creativity, innovation, and an unwavering commitment to user-centric solutions.</p>
+                                requirements but also exceed your expectations. </p>
                         </li>
                         <li>
-                            <p class="text-font font-16"><b>Development:</b> Once the design is finalized, our
-                                experienced software developers swing
-                                into action. We implement the project according to the specifications outlined in the
-                                planning phase. Our development process is driven by the latest technologies and
+                            <p class="text-font font-16"><b>Development:</b> Our development process is driven by the latest technologies and
                                 industry
                                 best practices, ensuring that your software solution is not just functional but also
                                 scalable, secure, and efficient.</p>
@@ -275,9 +358,7 @@ include 'header.php'; ?>
                         <li>
                             <p class="text-font font-16"><b>Testing: </b> We conduct
                                 comprehensive testing to identify and rectify any issues, ensuring that your software
-                                solution is robust and free from defects. Our thorough testing process guarantees a
-                                seamless
-                                end-user experience.</p>
+                                solution is robust and free from defects. </p>
                         </li>
                         <li>
                             <p class="text-font font-16"><b>Release:</b> After rigorous testing and refinement, we are
@@ -293,7 +374,7 @@ include 'header.php'; ?>
                 <img class="plan-img" src="images/pl.jpg">
             </div>
         </div>
-        <div class="row text-center reveal">
+        <div class="row text-center reveal margin-top">
             <div class="col-md-12">
                 <h2><b><span class="orange-font header-font">Work&nbsp;</span><span
                             class="blue-font header-font">Culture</span><b></h2>
@@ -304,46 +385,72 @@ include 'header.php'; ?>
         </div>
 
     </div>
-    <div class="row margins reveal">
+    <div class="row margins reveal margin-top">
         <div class="wrap">
-            <div class="card-new ">
-                <div class="card-pic-wrap">
-                    <img class="new-img" src="images/collab.png" alt="A leafy plant">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="card-new ">
+                        <div class="card-pic-wrap">
+                            <img class="new-img" src="images/collab.png" alt="A leafy plant">
+                        </div>
+                        <div class="card-content-new">
+                            <h3 class="new-text header-font">Collaboration</h3>
+                            <p class="text-font">We believe that the best solutions are born out of collaboration. Our
+                                team
+                                works
+                                closely
+                                with each other and with our clients to bring ideas to life.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="card-content-new">
-                    <h3 class="new-text header-font">Collaboration</h3>
-                    <p class="text-font">We believe that the best solutions are born out of collaboration. Our team
-                        works
-                        closely
-                        with each other and with our clients to bring ideas to life.</p>
+                <div class="col-md-4">
+                    <img class="arrow" src="images/services/info/arrow-right.png">
                 </div>
             </div>
-            <div class="card-new flt-right reveal">
-                <div class="card-pic-wrap">
-                    <img class="new-img" src="images/work-life-balance.png" alt="Some pointy plants">
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="arrow flt-right" src="images/services/info/arrow-left.png">
                 </div>
-                <div class="card-content-new">
-                    <h3 class="new-text header-font">Work-Life Balance</h3>
-                    <p class="text-font">We understand the importance of work-life balance and offer flexible working
-                        arrangements
-                        that promote well-being.</p>
+                <div class="col-md-8">
+                    <div class="card-new flt-right reveal">
+                        <div class="card-pic-wrap">
+                            <img class="new-img" src="images/work-life-balance.png" alt="Some pointy plants">
+                        </div>
+                        <div class="card-content-new">
+                            <h3 class="new-text header-font">Work-Life Balance</h3>
+                            <p class="text-font">We understand the importance of work-life balance and offer flexible
+                                working
+                                arrangements
+                                that promote well-being.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="row margins reveal">
         <div class="wrap">
-            <div class="card-new ">
-                <div class="card-pic-wrap">
-                    <img class="new-img" src="images/professionals.png" alt="A leafy plant">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="card-new ">
+                        <div class="card-pic-wrap">
+                            <img class="new-img" src="images/professionals.png" alt="A leafy plant">
+                        </div>
+                        <div class="card-content-new">
+                            <h3 class="new-text header-font">Professional Development</h3>
+                            <p class="text-font"> We invest in our team's growth by providing training and opportunities
+                                for
+                                skill
+                                enhancement. We believe in the continuous development of our employees.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="card-content-new">
-                    <h3 class="new-text header-font">Professional Development</h3>
-                    <p class="text-font"> We invest in our team's growth by providing training and opportunities for
-                        skill
-                        enhancement. We believe in the continuous development of our employees.</p>
+                <div class="col-md-4">
+                    <img class="arrow" src="images/services/info/arrow-right.png">
                 </div>
             </div>
+
+
             <div class="card-new flt-right reveal">
                 <div class="card-pic-wrap">
                     <img class="new-img" src="images/giving-back.png" alt="Some pointy plants">

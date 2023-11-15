@@ -413,175 +413,178 @@
         <!--end menu-->
         <section>
             <div class="header-inner two">
-                <div class="inner text-center">
-                    <h4 class="title text-white uppercase">Ecommerce Website Development Company in Pune, Bangalore,
-                        Delhi</h4>
+                <div class="inner text-center col-md-6 padding-top">
+                    <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">Ecommerce Website Development Company</h1>
+                    <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune,
+                        Bangalore,
+                        Delhi</h2>
                 </div>
-                <div class="overlay bg-opacity-5"></div>
-                <img src="images/sheader.jpg" alt="Ecommerce Website Development Company in Pune, Bangalore, Delhi"
-                    class="img-responsive" />
+                <div class="overlay bg-opacity-7"></div>
+                <img src="images/services/sub-nav/e-commerce-banner.jpg"
+                    alt="Website Development Company in Pune, Bangalore, Delhi" class="img-responsive sub-nav-img" />
             </div>
-        </section>
-        <!-- end header inner -->
+    </section>
+    <!-- end header inner -->
 
 
-        <section>
-            <div class="pagenation-holder">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                        </div>
-                        <div class="col-md-6 text-right">
-                            <div class="pagenation_links"><a href="index.php">Home</a><i> / </i><a
-                                    href="services.php">Services</a><i> / </i> <a href="#">Ecommerce Website Development
-                                    Company in Pune</a> </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
-        <section class="sec-padding">
+    <section>
+        <div class="pagenation-holder">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8" data-animation="slideInRight">
-                        <h1 class="header-font">Ecommerce Website Development</h1>
-                        <p class="init_text text-font">SoftFlame Solutions brings unique features in eCommerce website
-                            development in Pune, Bangalore, Delhi from startups to established companies. With our
-                            flexible eCommerce packages, you pay only for the features that you require.</p>
-                        <p class="init_text text-font">Our team of expert developers is dedicated to delivering
-                            cutting-edge software tailored to meet your unique business needs. Whether you're starting a
-                            new online venture or looking to enhance your existing e-commerce platform, we have the
-                            expertise to bring your vision to life.</p>
+                    <div class="col-md-6">
                     </div>
-                    <div class="col-md-4">
-                        <img data-animation="zoomIn" data-animation-delay="300ms" class="first-img"
-                            src="images/services/info/ecommerce-head.jpg">
+                    <div class="col-md-6 text-right">
+                        <div class="pagenation_links"><a href="index.php">Home</a><i> / </i><a
+                                href="services.php">Services</a><i> / </i> <a href="#">Ecommerce Website Development
+                                Company in Pune</a> </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <div class="container margin-top">
-                <div class="row" data-animation="zoomReverseIn">
-                    <h1 class="header-font text-center">Our Ecommerce Website Services</h1>
+    <section class="sec-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8" data-animation="slideInRight">
+                    <h1 class="header-font">Ecommerce Website Development</h1>
+                    <p class="init_text text-font">SoftFlame Solutions brings unique features in eCommerce website
+                        development in Pune, Bangalore, Delhi from startups to established companies. With our
+                        flexible eCommerce packages, you pay only for the features that you require.</p>
+                    <p class="init_text text-font">Our team of expert developers is dedicated to delivering
+                        cutting-edge software tailored to meet your unique business needs. Whether you're starting a
+                        new online venture or looking to enhance your existing e-commerce platform, we have the
+                        expertise to bring your vision to life.</p>
+                </div>
+                <div class="col-md-4">
+                    <img data-animation="zoomIn" data-animation-delay="300ms" class="first-img"
+                        src="images/services/info/ecommerce-head.jpg">
                 </div>
             </div>
+        </div>
 
-            <div class="container margin-top">
-                <div class="row">
-                    <div class="col-md-4">
-                        <img data-animation="zoomIn" data-animation-delay="300ms" class="store-img"
-                            src="images/services/info/store-front.png">
-                    </div>
-                    <div class="col-md-8" data-animation="slideInLeft">
-                        <h2 class="text-font">Beautiful Storefront</h2>
-                        <p class="init_text text-font">We analyze your business requirements and create sound design
-                            which is best-suited eCommerce solution for your online store. To lead the tough
-                            competition, you should have amazing visual appeal. Whether it is desktop, laptops or any
-                            smartphones, we make sure that your eCommerce store functions properly on all devices.</p>
-                        <p class="init_text text-font">HTML5 & CSS3 to enrich responsive interface and Rich-text
-                            description for products. Ability to search entire store, filters and sorting options for
-                            products. Unlimited product images with zoom features, facebook login and register.
-                        </p>
-                    </div>
+        <div class="container margin-top">
+            <div class="row" data-animation="zoomReverseIn">
+                <h1 class="header-font text-center">Our Ecommerce Website Services</h1>
+            </div>
+        </div>
+
+        <div class="container margin-top">
+            <div class="row">
+                <div class="col-md-4">
+                    <img data-animation="zoomIn" data-animation-delay="300ms" class="store-img"
+                        src="images/services/info/store-front.png">
+                </div>
+                <div class="col-md-8" data-animation="slideInLeft">
+                    <h2 class="text-font">Beautiful Storefront</h2>
+                    <p class="init_text text-font">We analyze your business requirements and create sound design
+                        which is best-suited eCommerce solution for your online store. To lead the tough
+                        competition, you should have amazing visual appeal. Whether it is desktop, laptops or any
+                        smartphones, we make sure that your eCommerce store functions properly on all devices.</p>
+                    <p class="init_text text-font">HTML5 & CSS3 to enrich responsive interface and Rich-text
+                        description for products. Ability to search entire store, filters and sorting options for
+                        products. Unlimited product images with zoom features, facebook login and register.
+                    </p>
                 </div>
             </div>
+        </div>
 
-            <div class="container margin-top">
-                <div class="row">
-                    <div class="col-md-8" data-animation="slideInRight">
-                        <h2 class="text-font">Customer Management</h2>
-                        <p class="init_text text-font">An eminent eCommerce website development company SoftFlame
-                            Solutions offers most flexible and scalable customer management system. We have brought
-                            exceptional management system to fulfill all your expectations.</p>
-                        <p class="init_text text-font">Completely customizable advanced management system with zero
-                            obstacles. Wish list, Order tracking features, Order View / print options for customers.
-                            Retry payment option for failed orders.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <img data-animation="zoomIn" data-animation-delay="300ms" class="customer-img"
-                            src="images/services/info/customer.jpg">
-                    </div>
+        <div class="container margin-top">
+            <div class="row">
+                <div class="col-md-8" data-animation="slideInRight">
+                    <h2 class="text-font">Customer Management</h2>
+                    <p class="init_text text-font">An eminent eCommerce website development company SoftFlame
+                        Solutions offers most flexible and scalable customer management system. We have brought
+                        exceptional management system to fulfill all your expectations.</p>
+                    <p class="init_text text-font">Completely customizable advanced management system with zero
+                        obstacles. Wish list, Order tracking features, Order View / print options for customers.
+                        Retry payment option for failed orders.</p>
+                </div>
+                <div class="col-md-4">
+                    <img data-animation="zoomIn" data-animation-delay="300ms" class="customer-img"
+                        src="images/services/info/customer.jpg">
                 </div>
             </div>
+        </div>
 
-            <div class="container margin-top">
-                <div class="row">
-                    <div class="col-md-4">
-                        <img data-animation="zoomIn" data-animation-delay="300ms" class="content-img"
-                            src="images/services/info/content.jpg">
-                    </div>
-                    <div class="col-md-8" data-animation="slideInLeft">
-                        <h2 class="text-font">Content Management</h2>
-                        <p class="init_text text-font">Our developers and designers served you with numerous add-ons,
-                            integrations and support features. We always wanted to better client centric services by
-                            delivering flexible models. Here are some features of our content management system.</p>
-                        <p class="init_text text-font">Full content management system Easy to use WYSIWYG editor with
-                            ability to add images and videos, SEO friendly pages, Contact forms, receive responses via
-                            emails Tree view Category Management Drag Drop category Sequencing Promotional Banners.
-                        </p>
-                    </div>
+        <div class="container margin-top">
+            <div class="row">
+                <div class="col-md-4">
+                    <img data-animation="zoomIn" data-animation-delay="300ms" class="content-img"
+                        src="images/services/info/content.jpg">
+                </div>
+                <div class="col-md-8" data-animation="slideInLeft">
+                    <h2 class="text-font">Content Management</h2>
+                    <p class="init_text text-font">Our developers and designers served you with numerous add-ons,
+                        integrations and support features. We always wanted to better client centric services by
+                        delivering flexible models. Here are some features of our content management system.</p>
+                    <p class="init_text text-font">Full content management system Easy to use WYSIWYG editor with
+                        ability to add images and videos, SEO friendly pages, Contact forms, receive responses via
+                        emails Tree view Category Management Drag Drop category Sequencing Promotional Banners.
+                    </p>
                 </div>
             </div>
+        </div>
 
-            <div class="container margin-top">
-                <div class="row">
-                    <div class="col-md-8" data-animation="slideInRight">
-                        <h2 class="text-font">Email/SMS Notifications</h2>
-                        <p class="init_text text-font">With deep industry knowledge and experience, our developers are
-                            abreast with every facts of eCommerce website development. Thus to minimize your fake users
-                            and orders headache we provide you practical solution that is email and sms notifications.
-                        </p>
-                        <p class="init_text text-font">Customer registration through email verification.After
-                            confirmation of order send Order status update notification through Email , SMS to
-                            Customers. Configure the order notifications email and SMS templates the way you want. Final
-                            checkout through OTP(One Time password) to stop fake order</p>
-                    </div>
-                    <div class="col-md-4">
-                        <img data-animation="zoomIn" data-animation-delay="300ms" class="emails-img"
-                            src="images/services/info/emails.jpg">
-                    </div>
+        <div class="container margin-top">
+            <div class="row">
+                <div class="col-md-8" data-animation="slideInRight">
+                    <h2 class="text-font">Email/SMS Notifications</h2>
+                    <p class="init_text text-font">With deep industry knowledge and experience, our developers are
+                        abreast with every facts of eCommerce website development. Thus to minimize your fake users
+                        and orders headache we provide you practical solution that is email and sms notifications.
+                    </p>
+                    <p class="init_text text-font">Customer registration through email verification.After
+                        confirmation of order send Order status update notification through Email , SMS to
+                        Customers. Configure the order notifications email and SMS templates the way you want. Final
+                        checkout through OTP(One Time password) to stop fake order</p>
+                </div>
+                <div class="col-md-4">
+                    <img data-animation="zoomIn" data-animation-delay="300ms" class="emails-img"
+                        src="images/services/info/emails.jpg">
                 </div>
             </div>
+        </div>
 
-            <div class="container margin-top">
-                <div class="row">
-                    <div class="col-md-4">
-                        <img data-animation="zoomIn" data-animation-delay="300ms" class="payment-img"
-                            src="images/services/info/payment.jpg">
-                    </div>
-                    <div class="col-md-8" data-animation="slideInLeft">
-                        <h2 class="text-font">Online Payments</h2>
-                        <p class="init_text text-font">For eCommerce store, Online payment Gateway integration is the
-                            ultimate secured and convenient option for payments. You name the payment gateway you want &
-                            we get it done for you. Being reliable eCommerce website development partner in India, we
-                            bring your business to the audience all over the globe.</p>
-                        <p class="init_text text-font">Buyers always prefer convenience in payments so we make sure
-                            about customers comfortability. All transactions will be done in the most secured way.
-                        </p>
-                    </div>
+        <div class="container margin-top">
+            <div class="row">
+                <div class="col-md-4">
+                    <img data-animation="zoomIn" data-animation-delay="300ms" class="payment-img"
+                        src="images/services/info/payment.jpg">
+                </div>
+                <div class="col-md-8" data-animation="slideInLeft">
+                    <h2 class="text-font">Online Payments</h2>
+                    <p class="init_text text-font">For eCommerce store, Online payment Gateway integration is the
+                        ultimate secured and convenient option for payments. You name the payment gateway you want &
+                        we get it done for you. Being reliable eCommerce website development partner in India, we
+                        bring your business to the audience all over the globe.</p>
+                    <p class="init_text text-font">Buyers always prefer convenience in payments so we make sure
+                        about customers comfortability. All transactions will be done in the most secured way.
+                    </p>
                 </div>
             </div>
+        </div>
 
-            <div class="container margin-top">
-                <div class="row">
-                    <div class="col-md-8" data-animation="slideInRight">
-                        <h2 class="text-font">Technical Support</h2>
-                        <p class="init_text text-font">We have overcame various industry and/or technological challenges
-                            through rigorous internal activities, research and solutions. We offer advanced services
-                            through innovative solutions, best business practices and cutting-edge technologies.
-                        </p>
-                        <p class="init_text text-font">Any technical or non-technical queries can be clarified with our
-                            dedicated support team at your convenience. Queries related to customization will swiftly be
-                            diverted to the concerned technical experts.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <img data-animation="zoomIn" data-animation-delay="300ms" class="support-img"
-                            src="images/services/info/support.jpg">
-                    </div>
+        <div class="container margin-top">
+            <div class="row">
+                <div class="col-md-8" data-animation="slideInRight">
+                    <h2 class="text-font">Technical Support</h2>
+                    <p class="init_text text-font">We have overcame various industry and/or technological challenges
+                        through rigorous internal activities, research and solutions. We offer advanced services
+                        through innovative solutions, best business practices and cutting-edge technologies.
+                    </p>
+                    <p class="init_text text-font">Any technical or non-technical queries can be clarified with our
+                        dedicated support team at your convenience. Queries related to customization will swiftly be
+                        diverted to the concerned technical experts.</p>
+                </div>
+                <div class="col-md-4">
+                    <img data-animation="zoomIn" data-animation-delay="300ms" class="support-img"
+                        src="images/services/info/support.jpg">
                 </div>
             </div>
+        </div>
 
-        </section>
-        <?php include 'contact-us-div.php'; ?>
-        <?php include 'footer.php'; ?>
+    </section>
+    <?php include 'contact-us-div.php'; ?>
+    <?php include 'footer.php'; ?>

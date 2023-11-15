@@ -216,14 +216,15 @@
 <section>
     <div class="header-inner two">
         <div class="inner text-center">
-            <div class="face face--front">
-                <h4 class="title text-white uppercase">UI UX Design Company in Pune, Bangalore, Delhi</u></h4>
-            </div>
-            <div class="face face--back">
-            </div>
-            <div class="overlay bg-opacity-5"></div>
-            <img src="images/sheader.jpg" alt="UI/UX Design Services in Pune, Bangalore, Delhi"
-                class="img-responsive" />
+        <div class="inner text-center col-md-6 padding-top">
+            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">UI/ UX Design Services Company</h1>
+            <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune, Bangalore,
+                Delhi</h2>
+        </div>
+        <div class="overlay bg-opacity-7"></div>
+        <img src="images/services/sub-nav/ui-ux-banner.jpg" alt="Website Development Company in Pune, Bangalore, Delhi"
+            class="img-responsive sub-nav-img" />
+    </div>
         </div>
 </section>
 <!-- end header inner -->

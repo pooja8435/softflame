@@ -197,13 +197,15 @@
 
 <section>
     <div class="header-inner two">
-        <div class="inner text-center">
-            <h3 class="text-font" class="title text-white uppercase">Node.js Development Company in Pune, Bangalore,
-                Delhi</h3>
+    <div class="inner text-center col-md-6 padding-top">
+            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">NodeJs Development
+                Company </h1>
+            <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune, Bangalore,
+                Delhi</h2>
         </div>
-        <div class="overlay bg-opacity-5"></div>
-        <img src="images/sheader.jpg" alt="Node.js Development Company in Pune, Bangalore, Delhi"
-            class="img-responsive" />
+        <div class="overlay bg-opacity-7"></div>
+        <img src="images/services/sub-nav/nodejs.jpg" alt="Website Development Company in Pune, Bangalore, Delhi"
+            class="img-responsive sub-nav-img" />
     </div>
 </section>
 <!-- end header inner -->

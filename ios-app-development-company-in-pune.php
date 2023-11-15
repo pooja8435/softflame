@@ -176,12 +176,15 @@
 
 <section>
     <div class="header-inner two">
-        <div class="inner text-center">
-            <h4 class="title text-white">iPhone/iOS App Development Company in Pune, Bangalore, Delhi</h4>
+    <div class="inner text-center col-md-6 padding-top">
+            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">iPhone/iOS App Development Company </h1>
+            <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune, Bangalore,
+                Delhi</h2>
         </div>
-        <div class="overlay bg-opacity-5"></div>
-        <img src="images/sheader.jpg" alt="iPhone/iOS App Development Company in Pune, Bangalore, Delhi"
-            class="img-responsive" />
+        <div class="overlay bg-opacity-7"></div>
+        <img src="images/services/sub-nav/iphone-banner.jpg" alt="Website Development Company in Pune, Bangalore, Delhi"
+            class="img-responsive sub-nav-img" />
+    </div>
     </div>
 </section>
 <!-- end header inner -->

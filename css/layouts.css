@@ -229,11 +229,11 @@ Gym layout Styles
 }
 
 .header-inner.two .overlay {
-    height: 468px;
+    height: 540px;
 }
 
 .header-inner.two {
-    height: 505px;
+    height: 540px !important;
 }
 
 .price-big {
