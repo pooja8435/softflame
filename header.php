@@ -298,11 +298,19 @@ document.addEventListener('DOMContentLoaded', function() {
                                                     <li><a href="managed-aws-services-in-pune.php"><i class="fa fa-angle-right"></i> &nbsp; AWS Managed Services</a></li>
                                                     <!-- <li><a href="seo-company-in-pune.php"><i class="fa fa-angle-right"></i> &nbsp; SEO Services</a></li> -->
                                                 </ul>
-                                                <ul class="col-sm-8 col-md-2 list-unstyled ">
+                                                <ul class="col-sm-8 col-md-3 list-unstyled ">
                                                     <li>
                                                         <p class="adjust_menu"> Digital Marketing </p>
                                                     </li>
-                                                    <li><a href="seo-company-in-pune.php"><i class="fa fa-angle-right"></i> &nbsp; SEO Services</a></li>
+                                                    <li><a href="seo-company-in-pune.php"><i
+                                                                class="fa fa-angle-right"></i> &nbsp; SEO Services</a>
+                                                    </li>
+                                                    <li><a href="seo-company-in-pune.php"><i
+                                                                class="fa fa-angle-right"></i> &nbsp; Content
+                                                            Marketing</a></li>
+                                                    <li><a href="seo-company-in-pune.php"><i
+                                                                class="fa fa-angle-right"></i> &nbsp; Pay-Per-Click
+                                                            (PPC) Advertising</a></li>
                                                 </ul>
 
                                             </div>

@@ -106,6 +106,7 @@
 
 .ban_img img {
     width: 100%;
+    height:500px;
 }
 
 .ban_text {
@@ -1273,12 +1274,12 @@ h1 {
   z-index: 2;
   left: 50px;
   top: 0;
-  width: 15%;
+  width: 10%;
   height: 5076px;
   background-size: 100%;
-  animation: 120s infiniteScroll linear infinite;
-  background-repeat-x: repeat;
-  background-image: url("img/softflame_logo.png");
+  /* animation: 120s infiniteScroll linear infinite;
+  background-repeat-x: repeat; */
+  background-image: url("img/fire-unscreen.gif");
 }
 .background-shapes2 {
   content: "";
@@ -1286,12 +1287,12 @@ h1 {
   z-index: 2;
   left: 80%;
   top: 0;
-  width: 15%;
+  width: 10%;
   height: 5076px;
   background-size: 100%;
   animation: 120s infiniteScroll linear infinite;
   background-repeat-x: repeat;
-  background-image: url("img/softflame_logo.png");
+  background-image: url("img/fire-unscreen.gif");
 }
 
 @-webkit-keyframes infiniteScroll {
@@ -1899,7 +1900,7 @@ include 'header.php';?>
                 </div>
             </div>
 
-            <div class="example-box">
+            <!-- <div class="example-box">
   <div class="background-shapes"></div>
   <h1>Contact Us</h1>
   <p>Want to build a modern and splendid web application</p>
@@ -1908,7 +1909,12 @@ include 'header.php';?>
                                     IN
                                     TOUCH</i></button>
                                     <div class="background-shapes2"></div>
-</div>
+</div> -->
+<?php
+    // Set the page title variable based on the current page
+    $pageTitle = "Angular Development"; // Replace "Page Name" with the actual name of your page
+    include('contact-us-div.php');
+?>
             <!-- <div class="foot-wrapper" style="width:100%;">
                 <div class="container">
                     <div class="row">
@@ -2307,6 +2313,14 @@ include 'header.php';?>
             distance: '20px', // Distance to reveal the element
             scale: 1.2, // Scale of the element (adjust as needed)
             reset: true 
+        });
+        sr.reveal('.ban_text', {
+            duration: 2000, // Animation duration in milliseconds
+            // delay:1000,
+            origin: 'top', // Animation starting point at the center
+            distance: '100px', // Distance to reveal the element
+            // scale: 1.2, // Scale of the element (adjust as needed)
+            reset: true
         });
     });
 </script>
