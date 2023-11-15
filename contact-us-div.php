@@ -119,7 +119,7 @@
 
 
 </head>
-<section class="sec-padding bg-contact">
+<!-- <section class="sec-padding bg-contact">
     <div class="container">
         <div class="card">
             <div class="card-body">
@@ -135,6 +135,31 @@
                             development services. Your success is our priority, and we're here to make it happen.</p>
                             <button type="button" class="btn contact-btn text-font"
                     onclick="window.location.href='contact.php'">Let's Connect</button>
+                    </div>
+                    <div class="col-md-4">
+                        <img data-animation="slideInRight" class="contact-img" src="images/contact-us.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+<!-- contact-us-div.php -->
+<section class="sec-padding bg-contact">
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-8" data-animation="zoomIn" data-animation-delay="300ms">
+                        <h1 class="header-font">Let's Discuss Your <?php echo $pageTitle; ?> Needs</h1>
+                        <p class="text-font">Ready to take your online presence to the next level? Get in touch with us
+                            today to discuss
+                            your <?php echo $pageTitle; ?> project. We're eager to learn more about your business and help you
+                            achieve your online goals.</p>
+                        <p class="text-font">Contact us to schedule a consultation, request a quote, or learn more about
+                            our <?php echo $pageTitle; ?> services. Your success is our priority, and we're here to make it happen.</p>
+                        <button type="button" class="btn contact-btn text-font"
+                            onclick="window.location.href='contact.php'">Let's Connect</button>
                     </div>
                     <div class="col-md-4">
                         <img data-animation="slideInRight" class="contact-img" src="images/contact-us.png">
