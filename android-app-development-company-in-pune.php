@@ -97,16 +97,16 @@
         }
 
         .first-img {
-            height: 435px !important;
+            height: 410px !important;
             float: right;
-            margin-top: -35px;
+            margin-top: -45px;
         }
 
         .android-card:hover {
             box-shadow: rgba(255, 172, 28, 0.199) -10px 10px, rgba(255, 172, 28, 0.19) -20px 20px;
         }
 
-        .android-card{
+        .android-card {
             margin: 40px;
             box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
         }
@@ -114,24 +114,30 @@
         .android-card .img {
             height: 155px !important;
             background-size: cover;
-            
+
         }
-        .img1{
+
+        .img1 {
             background: url("images/services/info/android-development.png");
         }
-        .img2{
+
+        .img2 {
             background: url("images/services/info/android-design.jpg");
         }
-        .img3{
+
+        .img3 {
             background: url("images/services/info/android-quality.jpg");
         }
-        .img4{
+
+        .img4 {
             background: url("images/services/info/android-planning.jpg");
         }
-        .img5{
+
+        .img5 {
             background: url("images/services/info/android-deployment.png");
         }
-        .img6{
+
+        .img6 {
             background: url("images/services/info/android-support.png");
         }
 
@@ -170,15 +176,15 @@
 
 <section>
     <div class="header-inner two">
-    <div class="inner text-center col-md-6 padding-top">
-            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">Android App Development Company</h1>
+        <div class="inner text-center col-md-6 padding-top">
+            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">Android App
+                Development Company</h1>
             <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune, Bangalore,
                 Delhi</h2>
         </div>
         <div class="overlay bg-opacity-7"></div>
-        <img src="images/services/sub-nav/android-banner.jpg" alt="Website Development Company in Pune, Bangalore, Delhi"
-            class="img-responsive sub-nav-img" />
-    </div>
+        <img src="images/services/sub-nav/android-banner.jpg"
+            alt="Website Development Company in Pune, Bangalore, Delhi" class="img-responsive sub-nav-img" />
     </div>
 </section>
 <!-- end header inner -->
@@ -325,5 +331,6 @@
     </div>
 </section>
 
-<?php include 'contact-us-div.php'; ?>
+<?php $pageTitle = "Android App Development"; // Replace "Page Name" with the actual name of your page
+include('contact-us-div.php'); ?>
 <?php include 'footer.php'; ?>

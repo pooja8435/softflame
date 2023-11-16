@@ -479,5 +479,6 @@
         </div> -->
     </section>
 </section>
-<?php include 'contact-us-div.php'; ?>
+<?php $pageTitle = "AngularJs App Development"; // Replace "Page Name" with the actual name of your page
+    include('contact-us-div.php'); ?>
 <?php include 'footer.php'; ?>

@@ -16,13 +16,13 @@
           margin-top: 10px;
       }
 
-      .text-font p{
-        font-family: "noto sans", sans-serif;
-    }
+      .text-font p {
+          font-family: "noto sans", sans-serif;
+      }
 
-    .header-font {
-        font-family: 'Nunito', sans-serif;
-    }
+      .header-font {
+          font-family: 'Nunito', sans-serif;
+      }
 
       .shape-box {
           display: inline-block;
@@ -37,8 +37,22 @@
           height: 376px;
       }
 
-      .icon-img{
-        height: 42px !important;
+      .sub-nav-img {
+          height: 540px;
+          width: 100%;
+      }
+
+      .font-family {
+          font-family: 'Nunito', sans-serif;
+      }
+
+
+      .text-font p {
+          font-family: 'Nunito', sans-serif !important;
+      }
+
+      .icon-img {
+          height: 42px !important;
       }
 
       .shape-box_half {
@@ -102,7 +116,7 @@
           margin-top: 8px;
           font-weight: 700;
           font-size: 24px;
-          text-transform:capitalize;
+          text-transform: capitalize;
           color: #292b2c;
       }
 
@@ -168,19 +182,28 @@
       }
 
       .reveal {
-        position: relative;
-        transform: translateY(150px);
-        opacity: 0;
-        transition: 1s all ease;
-    }
+          position: relative;
+          transform: translateY(150px);
+          opacity: 0;
+          transition: 1s all ease;
+      }
 
-    .reveal.active {
-        transform: translateY(0);
-        opacity: 1;
-    }
+      .padding-top {
+          padding-top: 175px !important;
+      }
 
-    @media (max-width: 768px)  {
-        .shape-box{
-           width: 95%;
-        }
-    }
+      .sub-nav-head {
+          font-size: 55px;
+          font-weight: 600;
+      }
+
+      .reveal.active {
+          transform: translateY(0);
+          opacity: 1;
+      }
+
+      @media (max-width: 768px) {
+          .shape-box {
+              width: 95%;
+          }
+      }

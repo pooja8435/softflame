@@ -429,20 +429,17 @@
 
 
     <section>
-        <div class="pagenation-holder">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                    </div>
-                    <div class="col-md-6 text-right">
-                        <div class="pagenation_links"><a href="index.php">Home</a><i> / </i><a
-                                href="services.php">Services</a><i> / </i> <a href="#">Ecommerce Website Development
-                                Company in Pune</a> </div>
-                    </div>
+    <div class="pagenation-holder">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="pagenation_links text-font font-16"><a href="index.php">Home</a><i> / </i><a
+                            href="services.php">Services</a><i> / </i>Ecommerce App Development</div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <section class="sec-padding">
         <div class="container">
@@ -586,5 +583,6 @@
         </div>
 
     </section>
-    <?php include 'contact-us-div.php'; ?>
+    <?php $pageTitle = "Ecommerce App Development"; // Replace "Page Name" with the actual name of your page
+    include('contact-us-div.php'); ?>
     <?php include 'footer.php'; ?>

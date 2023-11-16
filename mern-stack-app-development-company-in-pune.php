@@ -160,37 +160,38 @@
     </script>
     <script>
         new WOW({
-  offset: 200
-}).init();
+            offset: 200
+        }).init();
 
-var animateCss = [
-  "bounce", "flash", "pulse", "rubberBand", "shake", "swing", "tada", "wobble", "jello",
-  "bounceIn", "bounceInDown", "bounceInLeft", "bounceInRight", "bounceInUp",
-  "fadeIn", "fadeInDown", "fadeInDownBig", "fadeInLeft", "fadeInLeftBig", "fadeInRight", "fadeInRightBig", "fadeInUp", "fadeInUpBig", "flip", "flipInX", "flipInY",
-  "lightSpeedIn", "rotateIn", "rotateInDownLeft", "rotateInDownRight", "rotateInUpLeft", "rotateInUpRight",
-  "slideInUp", "slideInDown", "slideInLeft", "slideInRight",
-  "zoomIn", "zoomInDown", "zoomInLeft", "zoomInRight", "zoomInUp",
-  "rollIn"
-];
+        var animateCss = [
+            "bounce", "flash", "pulse", "rubberBand", "shake", "swing", "tada", "wobble", "jello",
+            "bounceIn", "bounceInDown", "bounceInLeft", "bounceInRight", "bounceInUp",
+            "fadeIn", "fadeInDown", "fadeInDownBig", "fadeInLeft", "fadeInLeftBig", "fadeInRight", "fadeInRightBig", "fadeInUp", "fadeInUpBig", "flip", "flipInX", "flipInY",
+            "lightSpeedIn", "rotateIn", "rotateInDownLeft", "rotateInDownRight", "rotateInUpLeft", "rotateInUpRight",
+            "slideInUp", "slideInDown", "slideInLeft", "slideInRight",
+            "zoomIn", "zoomInDown", "zoomInLeft", "zoomInRight", "zoomInUp",
+            "rollIn"
+        ];
 
-var placeholder = $(".placeholder");
-var colorCounter = 0;
+        var placeholder = $(".placeholder");
+        var colorCounter = 0;
 
-for (i = 0; i < animateCss.length; i++) {
-  var word = "<div class=\"word\"></div>";
-  $(word).appendTo(placeholder);
+        for (i = 0; i < animateCss.length; i++) {
+            var word = "<div class=\"word\"></div>";
+            $(word).appendTo(placeholder);
 
-  for (j = 0; j < animateCss[i].length; j++) {
-    var letterDiv = "<div data-wow-delay=\"" + (j * 0.1).toFixed(2) + "s\"  class=\"letter wow " + animateCss[i] + " color" + colorCounter % 7 + "\">" + animateCss[i][j] + "</div>";
-    $(letterDiv).appendTo($(".word").last());
-    colorCounter++;
-  }
+            for (j = 0; j < animateCss[i].length; j++) {
+                var letterDiv = "<div data-wow-delay=\"" + (j * 0.1).toFixed(2) + "s\"  class=\"letter wow " + animateCss[i] + " color" + colorCounter % 7 + "\">" + animateCss[i][j] + "</div>";
+                $(letterDiv).appendTo($(".word").last());
+                colorCounter++;
+            }
 
-}
+        }
     </script>
     <style>
         .first-img {
-            height: 270px !important;
+            height: 335px !important;
+            margin-top: 25px;
         }
 
         .mean-container {
@@ -222,7 +223,8 @@ for (i = 0; i < animateCss.length; i++) {
         .mean-cards-img {
             height: 140px;
         }
-        .second-img{
+
+        .second-img {
             height: 370px !important;
         }
     </style>
@@ -236,12 +238,14 @@ for (i = 0; i < animateCss.length; i++) {
 <section>
     <div class="header-inner two">
         <div class="inner text-center col-md-6 padding-top">
-            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">MEAN Stack Development Company </h1>
-            <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family"> Pune, Bangalore, Delhi</h2>
+            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">MERN Stack
+                Development Company </h1>
+            <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family"> Pune, Bangalore,
+                Delhi</h2>
             <!-- <button type="button" class="btn text-font sub-nav-btn" onclick="window.location.href='contact.php'">Contact Us</button> -->
         </div>
         <div class="overlay bg-opacity-7"></div>
-        <img  src="images/services/sub-nav/mean-stack.jpg" alt="Website Development Company in Pune, Bangalore, Delhi"
+        <img src="images/services/sub-nav/mean-stack.jpg" alt="Website Development Company in Pune, Bangalore, Delhi"
             class="img-responsive sub-nav-img" />
     </div>
 </section>
@@ -254,7 +258,7 @@ for (i = 0; i < animateCss.length; i++) {
             <div class="row">
                 <div class="col-md-12 text-center">
                     <div class="pagenation_links text-font font-16"><a href="index.php">Home</a><i> / </i><a
-                            href="services.php">Services</a><i> / </i>Mean Stack Development</div>
+                            href="services.php">Services</a><i> / </i>Mern Stack Development</div>
                 </div>
             </div>
         </div>
@@ -267,7 +271,7 @@ for (i = 0; i < animateCss.length; i++) {
     <div class="container">
         <div class="row">
             <div class="col-md-6" data-animation="slideInRight">
-                <h1 class="header-font">Mean Stack</h1>
+                <h1 class="header-font">Mern Stack</h1>
                 <p class="init_text text-font">MEAN is a collection of JavaScript-based technologies — MongoDB,
                     Express.js, AngularJS, and Node.js — used to develop web applications. From the client and server
                     sides to databases, MEAN is a full-stack development toolkit. Play through the following five
@@ -282,7 +286,8 @@ for (i = 0; i < animateCss.length; i++) {
                 </p>
             </div>
             <div class="col-md-6">
-                <img class="first-img margin-top" data-animation="zoomIn" data-animation-delay="300ms" src="images/services/info/meanstack.png">
+                <img class="first-img " data-animation="zoomIn" data-animation-delay="300ms"
+                    src="images/services/info/mern-stack.png">
             </div>
         </div>
     </div>
@@ -309,8 +314,8 @@ for (i = 0; i < animateCss.length; i++) {
         </div>
         <div class="card mean-cards">
             <div class="card-body">
-                <h3 class="text-font">Angular</h3>
-                <img class="mean-cards-img" src="images/services/info/angular.png">
+                <h3 class="text-font">React</h3>
+                <img class="mean-cards-img" src="images/services/info/react-logo.png">
                 <p class="text-font">Craft engaging and user-friendly web interfaces with Angular. Our frontend
                     developers create responsive and dynamic web applications that captivate your users.</p>
             </div>
@@ -327,7 +332,7 @@ for (i = 0; i < animateCss.length; i++) {
 
     <div class="container">
         <div class="row">
-        <div class="col-md-6">
+            <div class="col-md-6">
                 <img data-animation="flipInY" class="second-img" src="images/services/info/mean-img1.png">
             </div>
             <div class="col-md-6" data-animation="zoomIn" data-animation-delay="300ms">
@@ -345,7 +350,7 @@ for (i = 0; i < animateCss.length; i++) {
                     so finding answers to questions or hiring help is going to be much easier using these technologies.
                 </p>
             </div>
-            
+
         </div>
     </div>
 
@@ -401,6 +406,6 @@ for (i = 0; i < animateCss.length; i++) {
 
 <!--end section-->
 
-<?php $pageTitle = "Mean Stack Development"; // Replace "Page Name" with the actual name of your page
-    include('contact-us-div.php'); ?>
+<?php $pageTitle = "Mern Stack Development"; // Replace "Page Name" with the actual name of your page
+include('contact-us-div.php'); ?>
 <?php include 'footer.php'; ?>

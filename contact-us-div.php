@@ -90,14 +90,19 @@
         };
         var animation = new Animation(options);
     </script>
-    
+
     <style>
-        .bg-contact{
+        .bg-contact {
             background: aliceblue;
         }
+
         .contact-img {
             height: 250px;
             margin-left: 45px;
+        }
+
+        .clr-black {
+            color: #575a7b;
         }
 
         .contact-btn {
@@ -105,16 +110,18 @@
             border-radius: 20px;
             background: linear-gradient(to right, rgba(255, 175, 75, 1) 0%, rgba(240, 81, 24, 1) 68%, rgba(240, 81, 24, 1) 100%);
         }
-        .fa-arrow-right{
+
+        .fa-arrow-right {
             margin-left: 16px;
         }
-        @media (max-width: 768px)  {
-    
-    .contact-img {
-        height: 185px;
-        margin-left: 45px;
-    }
-}
+
+        @media (max-width: 768px) {
+
+            .contact-img {
+                height: 185px;
+                margin-left: 45px;
+            }
+        }
     </style>
 
 
@@ -151,13 +158,21 @@
             <div class="card-body">
                 <div class="row">
                     <div class="col-md-8" data-animation="zoomIn" data-animation-delay="300ms">
-                        <h1 class="header-font">Let's Discuss Your <?php echo $pageTitle; ?> Needs</h1>
-                        <p class="text-font">Ready to take your online presence to the next level? Get in touch with us
+                        <h1 class="header-font">Let's Discuss Your
+                            <?php echo $pageTitle; ?> Needs
+                        </h1>
+                        <p class="text-font clr-black">Ready to take your online presence to the next level? Get in touch with us
                             today to discuss
-                            your <?php echo $pageTitle; ?> project. We're eager to learn more about your business and help you
-                            achieve your online goals.</p>
-                        <p class="text-font">Contact us to schedule a consultation, request a quote, or learn more about
-                            our <?php echo $pageTitle; ?> services. Your success is our priority, and we're here to make it happen.</p>
+                            your
+                            <?php echo $pageTitle; ?> project. We're eager to learn more about your business and help
+                            you
+                            achieve your online goals.
+                        </p>
+                        <p class="text-font clr-black">Contact us to schedule a consultation, request a quote, or learn more about
+                            our
+                            <?php echo $pageTitle; ?> services. Your success is our priority, and we're here to make it
+                            happen.
+                        </p>
                         <button type="button" class="btn contact-btn text-font"
                             onclick="window.location.href='contact.php'">Let's Connect</button>
                     </div>

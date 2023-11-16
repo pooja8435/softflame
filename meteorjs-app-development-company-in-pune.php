@@ -140,11 +140,9 @@
     <div class="pagenation-holder">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                </div>
-                <div class="col-md-6 text-right">
-                    <div class="pagenation_links"><a href="index.php">Home</a><i> / </i><a
-                            href="services.php">Services</a><i> / </i> <a href="#"> Meteor Js Development</a> </div>
+                <div class="col-md-12 text-center">
+                    <div class="pagenation_links text-font font-16"><a href="index.php">Home</a><i> / </i><a
+                            href="services.php">Services</a><i> / </i>MeteorJs App Development</div>
                 </div>
             </div>
         </div>
@@ -275,5 +273,6 @@
     </div>
 </section>
 
-<?php include 'contact-us-div.php'; ?>
+<?php $pageTitle = "MeteorJs App Development"; // Replace "Page Name" with the actual name of your page
+    include('contact-us-div.php'); ?>
 <?php include 'footer.php'; ?>

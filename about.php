@@ -183,42 +183,16 @@ include 'header.php'; ?>
 <!--end menu-->
 <div class="clearfix"></div>
 
-<!-- <section>
-    <div class="background">
-        <div class="row">
-            <div class="col-md-9">
-                <div class="waviy">
-                    <h2 id="bounceTxt" class="text-white header-font bounce">About Us </h2>
-                    <h5 class="text-white sub-head  text-font">
-                        <span>We are passionate about creating innovative software solutions that
-                            empower businesses to thrive in the digital age.</span>
-                    </h5>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
-<!-- <section>
-    <div class="header-inner two">
-        <div class="inner text-center waviy">
-            <h2 class="title text-white header-font"><b>About Us</b></h2>
-            <h4 class="subtitle  text-white header-font">We are passionate about creating innovative software solutions
-                that
-                empower businesses to thrive in the digital age.</h4>
-        </div>
-        <div class="overlay bg-opacity-5"></div>
-        <img src="images/about-us-header.jpg" alt="about Pune" class="img-responsive" />
-    </div>
-</section> -->
 <section>
     <div class="header-inner two">
     <div class="inner text-center col-md-6 padding-top">
-            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">iPhone/iOS App Development Company </h1>
-            <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune, Bangalore,
-                Delhi</h2>
+            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">About Us</h1>
+            <h3 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">We are passionate about creating innovative software solutions
+                that
+                empower businesses to thrive in the digital age.</h3>
         </div>
         <div class="overlay bg-opacity-7"></div>
-        <img src="images/services/sub-nav/iphone-banner.jpg" alt="Website Development Company in Pune, Bangalore, Delhi"
+        <img src="images/about-us-banner.jpg" alt="Website Development Company in Pune, Bangalore, Delhi"
             class="img-responsive sub-nav-img" />
     </div>
     </div>

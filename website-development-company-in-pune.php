@@ -181,8 +181,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <div class="pagenation_links"><a href="index.php">Home</a><i> / </i><a
-                            href="services.php">Services<a><i> / </i><a>Website Development<a> </div>
+                    <div class="pagenation_links text-font font-16"><a href="index.php">Home</a><i> / </i><a
+                            href="services.php">Services</a><i> / </i>Web App Development</div>
                 </div>
             </div>
         </div>
@@ -196,13 +196,13 @@
         <div class="row">
             <div class="col-md-6" data-animation="slideInRight">
                 <h1 class="header-font"> Web Development Services</h1>
-                <p class="init_text text-font">SoftFlame Solutions is perfect for making your website work for your
+                <p class="init_text text-font clr-black">SoftFlame Solutions is perfect for making your website work for your
                     business to grow in the market. We can create affordable website design for businesses that will
                     create a word of mouth about your services to future customers.</p>
-                <p class="init_text text-font">We provide better quality and web design with lowest rate as compared to
+                <p class="init_text text-font clr-black">We provide better quality and web design with lowest rate as compared to
                     market rate Website Development Company Pune & Website Designing Solutions in Pune, Bangalore, Delhi
                 </p>
-                <p class="init_text text-font">Our Website Development Company in Pune, Bangalore, Delhi will get you
+                <p class="init_text text-font clr-black">Our Website Development Company in Pune, Bangalore, Delhi will get you
                     the results that you always wanted. Our websites are Clean, Clear, Responsive and Customized to your
                     needs!
                 </p>
@@ -230,7 +230,7 @@
                             <img class="icons-height" src="images/services/info/icon1.png">
                         </div>
                         <h3 class="text-font ">Custom Website Development</h3>
-                        <p>
+                        <p class="text-font">
                             We create fully customized websites that reflect your brand's unique identity. Our websites
                             are built from the ground up, ensuring a perfect match for your business needs.
                         </p>
@@ -242,7 +242,7 @@
                             <img class="icons-height" src="images/services/info/icon2.png">
                         </div>
                         <h3 class="text-font ">Responsive Web Design</h3>
-                        <p>
+                        <p class="text-font">
                             In today's mobile-driven world, responsive design is paramount. We develop websites that
                             adapt seamlessly to various devices and screen sizes, providing an optimal user experience.
                         </p>
@@ -254,7 +254,7 @@
                             <img class="icons-height" src="images/services/info/icon3.png">
                         </div>
                         <h3 class="text-font ">E-commerce Solutions</h3>
-                        <p>
+                        <p class="text-font">
                             For businesses looking to sell products or services online, we offer e-commerce development
                             services. Our e-commerce solutions are robust, secure, and designed to boost your online
                             sales.
@@ -269,7 +269,7 @@
                             <img class="icons-height" src="images/services/info/icon7.png">
                         </div>
                         <h3 class="text-font ">Security and Maintenance</h3>
-                        <p>
+                        <p class="text-font">
                             Your website's security is our top priority. We provide regular updates, security patches,
                             and ongoing maintenance to keep your site safe and up to date.
                         </p>
@@ -281,7 +281,7 @@
                             <img class="icons-height" src="images/services/info/icon5.png">
                         </div>
                         <h3 class="text-font ">Web Application Development</h3>
-                        <p>
+                        <p class="text-font">
                             If your project requires complex functionality, we can develop web applications using modern
                             technologies and frameworks to meet your specific requirements.
                         </p>
@@ -293,7 +293,7 @@
                             <img class="icons-height" src="images/services/info/icon6.png">
                         </div>
                         <h3 class="text-font ">Performance Optimization</h3>
-                        <p>
+                        <p class="text-font">
                             We optimize websites for speed and performance, ensuring fast loading times and a smooth
                             user experience.
                         </p>
@@ -399,5 +399,6 @@
         </div> -->
     </section>
 </section>
-<?php include 'contact-us-div.php'; ?>
+<?php $pageTitle = "Web Development"; // Replace "Page Name" with the actual name of your page
+    include('contact-us-div.php'); ?>
 <?php include 'footer.php'; ?>

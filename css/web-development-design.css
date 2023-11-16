@@ -4,7 +4,10 @@
 
 .text-font p {
     font-family: 'Nunito', sans-serif !important;
+}
 
+.clr-black{
+color:#575a7b;
 }
 
 .bg-opacity-7 {
