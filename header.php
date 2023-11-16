@@ -6,6 +6,7 @@
     .container {
         max-width: 1372px;
     }
+
     .sticky-icon {
         z-index: 9999;
         position: fixed;
@@ -39,7 +40,7 @@
     }
 
     /*.search_icon a:hover i  {
-	transform:rotate(360deg);}*/
+    transform:rotate(360deg);}*/
     .Facebook {
         background-color: #2C80D3;
         color: #FFF;
@@ -151,7 +152,7 @@
         width: 100%;
     }
 
-.navbar-nav>li>a {
+    .navbar-nav>li>a {
         font-family: 'Noto Sans', sans-serif;
         text-transform: none;
         font-weight: 500;
@@ -177,22 +178,20 @@
         line-height: 3rem;
 
     }
-
-
-    </style>
+</style>
 
 <script>
-// Add this script to your HTML file, preferably just before the </body> tag
-document.addEventListener('DOMContentLoaded', function() {
-    window.addEventListener('scroll', function() {
-        var header = document.getElementById('header');
-        if (window.scrollY > 0) {
-            header.classList.add('scrolled');
-        } else {
-            header.classList.remove('scrolled');
-        }
+    // Add this script to your HTML file, preferably just before the </body> tag
+    document.addEventListener('DOMContentLoaded', function () {
+        window.addEventListener('scroll', function () {
+            var header = document.getElementById('header');
+            if (window.scrollY > 0) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
     });
-});
 </script>
 
 
@@ -204,7 +203,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="col-sm-6 col-xs-12 text-center text-white purchase-button">
             <a href="#" type="button" data-toggle="modal" data-target="#myModal" class="stickyEnquiryWidget" id="enquiry_button"></a>
         </div> -->
-        <!-- <div class="col-sm-6 col-xs-12 text-center text-white purchase-button"> <a type="button" class="template-button launch-modal" href="#" data-toggle="modal" data-target="#myModal"><i class="" aria-hidden="true"></i> Enquiry Now</a> </div> -->
+    <!-- <div class="col-sm-6 col-xs-12 text-center text-white purchase-button"> <a type="button" class="template-button launch-modal" href="#" data-toggle="modal" data-target="#myModal"><i class="" aria-hidden="true"></i> Enquiry Now</a> </div> -->
 
     <!-- </div> -->
     <div class="sticky-icon">
@@ -216,7 +215,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 class="fa fa-instagram"></i> Instagram </a>
         <a href="https://www.facebook.com/Softflame-Solutions-Pvt-Ltd-2173947799583603/" target="_blank"
             class="Facebook"><i class="fa fa-facebook"></i> Facebook </a>
-        
+
     </div>
 
     <!--Sidebar Social Icons-->
@@ -250,15 +249,19 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="navbar navbar-default yamm">
 
                     <div class="navbar-header">
-                        <button type="button" data-toggle="collapse" data-target="#navbar-collapse-grid" class="navbar-toggle two three"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-                        <a href="index.php" class="navbar-brand"><img src="images/logo web.png" alt="SoftFlame Solutions" /></a>
+                        <button type="button" data-toggle="collapse" data-target="#navbar-collapse-grid"
+                            class="navbar-toggle two three"><span class="icon-bar"></span><span
+                                class="icon-bar"></span><span class="icon-bar"></span></button>
+                        <a href="index.php" class="navbar-brand"><img src="images/logo web.png" class="mobileSizeLogo"
+                                alt="Website Development Company Pune, Bangalore, Delhi" /></a>
                     </div>
 
                     <div id="navbar-collapse-grid" class="navbar-collapse collapse pull-right">
-                    <ul class="nav navbar-nav" id="navlist">
-                            <li class="dropdown"> <a href="index.php" >Home</a>
+                        <ul class="nav navbar-nav" id="navlist">
+                            <li class="dropdown"> <a href="index.php" class="active">Home</a>
+
                             </li>
-                            <li class="dropdown yamm-fw"><a href="about.php">About Us</a>
+                            <li class="dropdown yamm-fw"><a href="about.php" class="dropdown-toggle">About Us</a>
 
                             </li>
                             <li class="dropdown yamm-fw"> <a href="services.php" class="dropdown-toggle">Services</a>
@@ -267,35 +270,68 @@ document.addEventListener('DOMContentLoaded', function() {
                                         <!-- Content container to add padding -->
                                         <div class="yamm-content">
                                             <div class="row">
-                                                <ul class="col-sm-8 col-md-4 list-unstyled mg_top">
+                                                <ul class="col-sm-8 col-md-3 list-unstyled ">
                                                     <li>
-                                                        <p class="adjust_menu" > Web development </p>
+                                                        <p class="adjust_menu">Web Development</p>
                                                     </li>
-                                                    <li class="mg_top"><a href="website-development-company-in-pune.php"><i class="fa fa-angle-right"></i> &nbsp; Website Development</a></li>
-                                                    <li><a href="mean-stack-app-development-company-in-pune.php"><i class="fa fa-angle-right"></i> &nbsp; Mean Stack App Development</a></li>
-                                                    <li><a href="node-js-development-company-in-pune.php"><i class="fa fa-angle-right"></i> &nbsp; Node Js Development</a></li>
-                                                    <li><a href="angularjs-development-company-in-pune.php"><i class="fa fa-angle-right"></i> &nbsp; Angular Js Development</a></li>
-                                                    <li><a href="ui-ux-design-company-in-pune.php"><i class="fa fa-angle-right"></i> &nbsp; UX Design Services</a></li>
-                                                    <li><a href="ecommerce-development-company-in-pune.php"><i class="fa fa-angle-right"></i> &nbsp; Ecommerce Development</a></li>
+                                                    <li><a href="website-development-company-in-pune.php"><i
+                                                                class="fa fa-angle-right"></i> &nbsp; Website
+                                                            Development</a></li>
+                                                    <li><a href="mean-stack-app-development-company-in-pune.php"><i
+                                                                class="fa fa-angle-right"></i> &nbsp; Mean Stack App
+                                                            Development</a></li>
+                                                            <li><a href="mern-stack-app-development-company-in-pune.php"><i
+                                                                class="fa fa-angle-right"></i> &nbsp; Mern Stack App
+                                                            Development</a></li>
+                                                    <li><a href="node-js-development-company-in-pune.php"><i
+                                                                class="fa fa-angle-right"></i> &nbsp; Node Js
+                                                            Development</a></li>
+                                                    <li><a href="angularjs-development-company-in-pune.php"><i
+                                                                class="fa fa-angle-right"></i> &nbsp; Angular Js
+                                                            Development</a></li>
+                                                    <li><a href="ui-ux-design-company-in-pune.php"><i
+                                                                class="fa fa-angle-right"></i> &nbsp; UX Design
+                                                            Services</a></li>
+                                                    <li><a href="ecommerce-development-company-in-pune.php"><i
+                                                                class="fa fa-angle-right"></i> &nbsp; Ecommerce
+                                                            Development</a></li>
                                                 </ul>
-                                                <ul class="col-sm-8 col-md-4 list-unstyled ">
+                                                <ul class="col-sm-8 col-md-3 list-unstyled ">
                                                     <li>
-                                                        <p class="adjust_menu"> Mobile app development </p>
+                                                        <p class="adjust_menu">Mobile App Development</p>
                                                     </li>
-                                                    <li><a href="ios-app-development-company-in-pune.php"><i class="fa fa-angle-right"></i> &nbsp; iPhone/iPad App Development</a></li>
-                                                    <li><a href="android-app-development-company-in-pune.php"><i class="fa fa-angle-right"></i> &nbsp; Android App Development</a></li>
-                                                    <li><a href="cordova-phonegap-app-development-company-in-pune.php"><i class="fa fa-angle-right"></i> &nbsp; Cordova/ PhonGap Development</a></li>
-                                                    <li><a href="ionic-app-development-company-in-pune.php"><i class="fa fa-angle-right"></i> &nbsp; Ionic Framework App Development</a></li>
-                                                    <li><a href="cross-platform-app-development-company-in-pune.php"><i class="fa fa-angle-right"></i> &nbsp; Cross Platform App Development</a></li>
-                                                    <li><a href="meteorjs-app-development-company-in-pune.php"><i class="fa fa-angle-right"></i> &nbsp; Meteor Js Development</a></li>
+                                                    <li><a href="ios-app-development-company-in-pune.php"><i
+                                                                class="fa fa-angle-right"></i> &nbsp; iPhone/iPad App
+                                                            Development</a></li>
+                                                    <li><a href="android-app-development-company-in-pune.php"><i
+                                                                class="fa fa-angle-right"></i> &nbsp; Android App
+                                                            Development</a></li>
+                                                    <li><a href="cordova-phonegap-app-development-company-in-pune.php"><i
+                                                                class="fa fa-angle-right"></i> &nbsp; Cordova/ PhonGap
+                                                            Development</a></li>
+                                                    <li><a href="ionic-app-development-company-in-pune.php"><i
+                                                                class="fa fa-angle-right"></i> &nbsp; Ionic Framework
+                                                            App Development</a></li>
+                                                    <li><a href="cross-platform-app-development-company-in-pune.php"><i
+                                                                class="fa fa-angle-right"></i> &nbsp; Cross Platform App
+                                                            Development</a></li>
+                                                    <li><a href="meteorjs-app-development-company-in-pune.php"><i
+                                                                class="fa fa-angle-right"></i> &nbsp; Meteor Js
+                                                            Development</a></li>
                                                 </ul>
                                                 <ul class="col-sm-8 col-md-3 list-unstyled ">
                                                     <li>
                                                         <p class="adjust_menu"> AWS Cloud </p>
                                                     </li>
-                                                    <li><a href="aws-cloud-consulting-services-in-pune.php"><i class="fa fa-angle-right"></i> &nbsp; AWS Cloud Consulting</a></li>
-                                                    <li><a href="aws-cloud-migration-services-in-pune.php"><i class="fa fa-angle-right"></i> &nbsp; AWS Cloud Migration</a></li>
-                                                    <li><a href="managed-aws-services-in-pune.php"><i class="fa fa-angle-right"></i> &nbsp; AWS Managed Services</a></li>
+                                                    <li><a href="aws-cloud-consulting-services-in-pune.php"><i
+                                                                class="fa fa-angle-right"></i> &nbsp; AWS Cloud
+                                                            Consulting</a></li>
+                                                    <li><a href="aws-cloud-migration-services-in-pune.php"><i
+                                                                class="fa fa-angle-right"></i> &nbsp; AWS Cloud
+                                                            Migration</a></li>
+                                                    <li><a href="managed-aws-services-in-pune.php"><i
+                                                                class="fa fa-angle-right"></i> &nbsp; AWS Managed
+                                                            Services</a></li>
                                                     <!-- <li><a href="seo-company-in-pune.php"><i class="fa fa-angle-right"></i> &nbsp; SEO Services</a></li> -->
                                                 </ul>
                                                 <ul class="col-sm-8 col-md-3 list-unstyled ">
@@ -312,44 +348,42 @@ document.addEventListener('DOMContentLoaded', function() {
                                                                 class="fa fa-angle-right"></i> &nbsp; Pay-Per-Click
                                                             (PPC) Advertising</a></li>
                                                 </ul>
-
                                             </div>
                                         </div>
                                     </li>
                                 </ul>
                             </li>
-                            <li class="dropdown"> <a href="javascript:void(0);" class="dropdown-toggle">Hire Resources</a>
+                            <li class="dropdown"> <a href="javascript:void(0);" class="dropdown-toggle">Hire
+                                    Resources</a>
                                 <ul class="dropdown-menu three" role="menu">
-                                    <li><a href="hire-angularjs-developer-pune.php"><i class="fa fa-angle-right"></i> Hire Angular JS Developer </a></li>                            
-                                    <li><a href="hire-ios-app-developer-pune.php"><i class="fa fa-angle-right"></i> Hire iOS Developer</a></li>
-                                    <li><a href="hire-react-native-app-developer-pune.php"><i class="fa fa-angle-right"></i> Hire React Native Developer</a></li>
-                                    <li><a href="hire-mean-stack-app-developer-pune.php"><i class="fa fa-angle-right"></i> Hire MEAN Stack Developer</a></li>
-                                    <li><a href="hire-flutter-native-app-developer-pune.php"><i class="fa fa-angle-right"></i> Hire Flutter Developer</a></li>
-                                    <li><a href="hire-ionic-app-developer-pune.php"><i class="fa fa-angle-right"></i> Hire Ionic App Developer</a></li>
-                                    <li><a href="hire-nodejs-developer-pune.php"><i class="fa fa-angle-right"></i> Hire Node Js Developer</a></li>
-                                    <li><a href="hire-php-developer-pune.php"><i class="fa fa-angle-right"></i> Hire PHP Developer</a></li>               
+                                    <li><a href="hire-angularjs-developer-pune.php"><i class="fa fa-angle-right"></i>
+                                            Hire Angular JS Developer </a></li>
+                                    <li><a href="hire-ios-app-developer-pune.php"><i class="fa fa-angle-right"></i> Hire
+                                            iOS Developer</a></li>
+                                    <li><a href="hire-react-native-app-developer-pune.php"><i
+                                                class="fa fa-angle-right"></i> Hire React Native Developer</a></li>
+                                    <li><a href="hire-mean-stack-app-developer-pune.php"><i
+                                                class="fa fa-angle-right"></i> Hire MEAN Stack Developer</a></li>
+                                    <li><a href="hire-flutter-native-app-developer-pune.php"><i
+                                                class="fa fa-angle-right"></i> Hire Flutter Developer</a></li>
+                                    <li><a href="hire-ionic-app-developer-pune.php"><i class="fa fa-angle-right"></i>
+                                            Hire Ionic App Developer</a></li>
+                                    <li><a href="hire-nodejs-developer-pune.php"><i class="fa fa-angle-right"></i> Hire
+                                            Node Js Developer</a></li>
+                                    <li><a href="hire-php-developer-pune.php"><i class="fa fa-angle-right"></i> Hire PHP
+                                            Developer</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown yamm-fw"> <a href="career.php" class="dropdown-toggle">Career</a>
+
                             </li>
                             <li class="dropdown"> <a href="blog.php" class="dropdown-toggle">Products</a>
                             </li>
                             <li class="dropdown"> <a href="blog.php" class="dropdown-toggle">Portfolio</a>
                             </li>
                             <li class="dropdown"> <a href="blog.php" class="dropdown-toggle">Blog</a>
-                                <!-- <ul class="dropdown-menu three" role="menu">
-                                <li> <a href="blog.php">Blog Full Width</a> </li>
-                                <li> <a href="blog2.php">Blog 3Columns</a> </li>
-                                <li> <a href="blog3.php">Blog Standard</a> </li>
-                                <li> <a href="blog-post.php">Single Post</a> </li>
-                            </ul> -->
                             </li>
                             <li class="dropdown"> <a href="contact.php" class="dropdown-toggle align-1">Contact</a>
-                                <!-- <ul class="dropdown-menu align-1 two" role="menu">
-                                    <li> <a href="contact.php">Contact Variation 1</a> </li>
-                                    <li> <a href="contact2.php">Contact Variation 2</a> </li>
-                                    <li> <a href="contact3.php">Contact Variation 3</a> </li>
-                                </ul> -->
                             </li>
                         </ul>
                     </div>

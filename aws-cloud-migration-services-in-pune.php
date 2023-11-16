@@ -60,7 +60,14 @@
     <link rel="stylesheet" href="js/ytplayer/ytplayer.css" />
     <link rel="stylesheet" href="js/style-swicher/style-swicher.css" type="text/css" />
     <link rel="stylesheet" href="js/custom-scrollbar/jquery.mCustomScrollbar.css">
-   
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500&family=Nunito+Sans:opsz,wght@6..12,200&family=Open+Sans:wght@300;400;700&family=Poppins:wght@200;400;600&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/web-development-design.css" type="text/css" />
+    <link rel="stylesheet" href="css/text-animation.css" type="text/css" />
     
 
 </head>
@@ -69,13 +76,17 @@
       
 
         <section>
-            <div class="header-inner two">
-                <div class="inner text-center">
-                    <h4 class="title text-white uppercase">AWS Cloud Migration</h4>
-                </div>
-                <div class="overlay bg-opacity-5"></div>
-                <img src="images/sheader.jpg" alt="AWS Cloud Migration Services in Pune, Bangalore, Delhi" class="img-responsive" /> </div>
-        </section>
+    <div class="header-inner two">
+        <div class="inner text-center col-md-6 padding-top">
+            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">AWS Cloud Migration</h1>
+            <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune, Bangalore,
+                Delhi</h2>
+        </div>
+        <div class="overlay bg-opacity-7"></div>
+        <img src="images/services/sub-nav/android-banner.jpg"
+            alt="Website Development Company in Pune, Bangalore, Delhi" class="img-responsive sub-nav-img" />
+    </div>
+</section>
         <!-- end header inner -->
    
         <section>

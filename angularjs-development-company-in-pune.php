@@ -238,11 +238,16 @@
 
 <section>
     <div class="header-inner two">
-        <div class="inner text-center">
-            <h4 class="title text-white uppercase"><b>AngularJs Development in Pune, Bangalore, Delhi.</b></h4>
+    <div class="inner text-center col-md-6 padding-top">
+            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">AngularJs Development
+                Company </h1>
+            <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune, Bangalore,
+                Delhi</h2>
         </div>
-        <div class="overlay bg-opacity-5"></div>
-        <img src="images/sheader.jpg" alt="AngularJs Development in Pune, Bangalore, Delhi" class="img-responsive" />
+        <div class="overlay bg-opacity-7"></div>
+        <img src="images/services/sub-nav/angularjs.jpg" alt="Website Development Company in Pune, Bangalore, Delhi"
+            class="img-responsive sub-nav-img" />
+    </div>
     </div>
 </section>
 <!-- end header inner -->
@@ -251,11 +256,9 @@
     <div class="pagenation-holder">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                </div>
-                <div class="col-md-6 text-right">
-                    <div class="pagenation_links"><a href="index.php">Home</a><i> / </i><a
-                            href="services.php">Services</a><i> / </i> <a href="#">Angular js development</a> </div>
+                <div class="col-md-12 text-center">
+                    <div class="pagenation_links text-font font-16"><a href="index.php">Home</a><i> / </i><a
+                            href="services.php">Services</a><i> / </i>AngularJs App Development</div>
                 </div>
             </div>
         </div>
@@ -269,7 +272,7 @@
         <div class="row">
             <div class="col-md-6" data-animation="slideInRight">
                 <h1 class="header-font"> AngularJs Development Services</h1>
-                <p class="init_text text-font">Welcome to [Your Company Name], where we harness the power of Angular.js
+                <p class="init_text text-font">Welcome to SoftFlame Solutions, where we harness the power of Angular.js
                     to create dynamic and feature-rich web applications. Our skilled team of Angular.js developers is
                     dedicated to delivering solutions that redefine user experiences and elevate your digital presence.
                 </p>
@@ -476,5 +479,6 @@
         </div> -->
     </section>
 </section>
-<?php include 'contact-us-div.php'; ?>
+<?php $pageTitle = "AngularJs App Development"; // Replace "Page Name" with the actual name of your page
+    include('contact-us-div.php'); ?>
 <?php include 'footer.php'; ?>
