@@ -15,16 +15,16 @@
         gtag('config', 'UA-135022729-1');
     </script>
 
-    <title>Node.Js Development Company in Pune | Bangalore | Delhi | SoftFlame Solutions</title>
+    <title>Mean Stack App Development Company in Pune | Bangalore | Delhi | MEAN Stack Development Company in Pune |
+        Bangalore | Delhi</title>
     <meta charset="utf-8">
-
     <!-- Meta -->
     <meta name="keywords"
-        content="SoftFlame Solutions - Node.Js Development Company in Pune, Bangalore, Delhi, Website company in Pune, Bangalore, Delhi,Web development company in Pune, Bangalore, Delhi,Website design in pune,Web design pune,Web development company, Ecommerce website design,ecommerce websites development,SEO services pune,seo company in Pune, Bangalore, Delhi" />
+        content="Mean Stack App Development Company in Pune, Bangalore, Delhi, website company in Pune, Bangalore, Delhi,web development company in pune,website design in Pune, Bangalore, Delhi,web design company,web design pune,web development company, website design company, ecommerce website design,ecommerce websites development,SEO services pune,seo company in Pune, Bangalore, Delhi" />
     <meta name="author" content="">
     <meta name="robots" content="" />
     <meta name="description"
-        content="Node.Js Development Company in Pune, Bangalore, Delhi. Node.js application development company in Pune, Bangalore, Delhi. who makes development productive & efficient. Know More." />
+        content="Mean Stack App Development Company in Pune, Bangalore, Delhi - SoftFlame Solutions offers Mean Stack App Development Services using  MongoDB, Express.js, AngularJS & Node.js technologies. Contact now for more info." />
 
     <!-- this styles only adds some repairs on idevices  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -73,8 +73,13 @@
         href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/web-development-design.css" type="text/css" />
-    <link rel="stylesheet" href="css/text-animation.css" type="text/css" />
-
+    <script>
+        $(".navbar-nav").on('click', 'li', function () {
+            $(".navbar-nav li.active").removeClass("active");
+            // adding classname 'active' to current click li 
+            $(this).addClass("active");
+        });
+    </script>
     <script>
         var Animation = function ({ offset } = { offset: 10 }) {
             var _elements;
@@ -153,41 +158,76 @@
         };
         var animation = new Animation(options);
     </script>
+    <script>
+        new WOW({
+            offset: 200
+        }).init();
 
+        var animateCss = [
+            "bounce", "flash", "pulse", "rubberBand", "shake", "swing", "tada", "wobble", "jello",
+            "bounceIn", "bounceInDown", "bounceInLeft", "bounceInRight", "bounceInUp",
+            "fadeIn", "fadeInDown", "fadeInDownBig", "fadeInLeft", "fadeInLeftBig", "fadeInRight", "fadeInRightBig", "fadeInUp", "fadeInUpBig", "flip", "flipInX", "flipInY",
+            "lightSpeedIn", "rotateIn", "rotateInDownLeft", "rotateInDownRight", "rotateInUpLeft", "rotateInUpRight",
+            "slideInUp", "slideInDown", "slideInLeft", "slideInRight",
+            "zoomIn", "zoomInDown", "zoomInLeft", "zoomInRight", "zoomInUp",
+            "rollIn"
+        ];
+
+        var placeholder = $(".placeholder");
+        var colorCounter = 0;
+
+        for (i = 0; i < animateCss.length; i++) {
+            var word = "<div class=\"word\"></div>";
+            $(word).appendTo(placeholder);
+
+            for (j = 0; j < animateCss[i].length; j++) {
+                var letterDiv = "<div data-wow-delay=\"" + (j * 0.1).toFixed(2) + "s\"  class=\"letter wow " + animateCss[i] + " color" + colorCounter % 7 + "\">" + animateCss[i][j] + "</div>";
+                $(letterDiv).appendTo($(".word").last());
+                colorCounter++;
+            }
+
+        }
+    </script>
     <style>
         .first-img {
-            height: 300px !important;
-            margin-left: 40px;
+            height: 335px !important;
+            margin-top: 25px;
         }
+
+        .mean-container {
+            padding: 120px 80px;
+            display: flex;
+            flex-direction: row;
+            transform-style: preserve-3d;
+        }
+
+        .mean-cards {
+            min-width: 240px;
+
+            padding: 16px 24px 32px;
+            margin-left: -32px;
+            will-change: transform;
+            transition: all 1s ease;
+            background: white;
+            cursor: pointer;
+            border-radius: 16px;
+            box-shadow: -1rem 0 8rem #cfcdcd;
+        }
+
+        .mean-cards:hover {
+
+            margin-right: 48px;
+            transform: translate(0, -40px);
+        }
+
+        .mean-cards-img {
+            height: 140px;
+        }
+
         .second-img {
-            height: 315px !important;
-        }
-
-        .services-card {
-            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-            padding: 20px;
-            border-top-right-radius: 25px;
-            border-top-left-radius: 25px;
-            border-bottom-right-radius: 25px;
-            border-left: 4px solid #7fcf71;
-            border-bottom: 4px solid #7fcf71;
-        }
-
-        .services-card:hover {
-            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-            padding: 20px;
-            border-top-right-radius: 25px;
-            border-top-left-radius: 25px;
-            border-bottom-right-radius: 25px;
-            border-left: 4px solid #79aff5;
-            border-bottom: 4px solid #79aff5;
-        }
-
-        h4 {
-            font-weight: 600;
+            height: 370px !important;
         }
     </style>
-
 
 
 </head>
@@ -197,14 +237,15 @@
 
 <section>
     <div class="header-inner two">
-    <div class="inner text-center col-md-6 padding-top">
-            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">NodeJs Development
-                Company </h1>
-            <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune, Bangalore,
+        <div class="inner text-center col-md-6 padding-top">
+            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">MERN Stack
+                Development Company </h1>
+            <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family"> Pune, Bangalore,
                 Delhi</h2>
+            <!-- <button type="button" class="btn text-font sub-nav-btn" onclick="window.location.href='contact.php'">Contact Us</button> -->
         </div>
         <div class="overlay bg-opacity-7"></div>
-        <img src="images/services/sub-nav/nodejs.jpg" alt="Website Development Company in Pune, Bangalore, Delhi"
+        <img src="images/services/sub-nav/mean-stack.jpg" alt="Website Development Company in Pune, Bangalore, Delhi"
             class="img-responsive sub-nav-img" />
     </div>
 </section>
@@ -215,124 +256,101 @@
     <div class="pagenation-holder">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                </div>
-                <div class="col-md-6 text-right">
-                    <div class="pagenation_links"><a href="index.php">Home</a><i> / </i><a
-                            href="services.php">services</a><i> / </i> <a href="#">node js development</a> </div>
+                <div class="col-md-12 text-center">
+                    <div class="pagenation_links text-font font-16"><a href="index.php">Home</a><i> / </i><a
+                            href="services.php">Services</a><i> / </i>Mern Stack Development</div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+<!--end section-->
+
 
 <section class="sec-padding">
     <div class="container">
         <div class="row">
-            <div class="col-md-6" data-animation="slideInRight" data-animation-delay="300ms">
-                <h1 class="header-font"> Node.js Development Company </h1>
-                <p class="text-font" class="init_text text-font">We, at SoftFlame Solutions believe in innovation, rapid
-                    execution and
-                    quality deliverables. Being an emerging Node.js Development Company in Pune, Bangalore, Delhi, we
-                    like to learn new things and to use cutting edge technologies. Custom Services Development is easy
-                    because they are composed of small modules which are piped together.</p>
-                <p class="text-font" class="init_text text-font">we specialize in leveraging the robust capabilities of
-                    Node.js to deliver
-                    cutting-edge software solutions. Our team of experienced Node.js developers is dedicated to crafting
-                    high-performance applications that meet the unique requirements of your business.
+            <div class="col-md-6" data-animation="slideInRight">
+                <h1 class="header-font">Mern Stack</h1>
+                <p class="init_text text-font">MEAN is a collection of JavaScript-based technologies — MongoDB,
+                    Express.js, AngularJS, and Node.js — used to develop web applications. From the client and server
+                    sides to databases, MEAN is a full-stack development toolkit. Play through the following five
+                    courses to become a MEAN stack developer and earn a new badge!</p>
+                <p class="init_text text-font">MEAN stack is basically a collection of JavaScript-based web development
+                    technologies that includes MongoDB, ExpressJS, AngularJS and NodeJS. These technologies work
+                    together to develop a web application. AngularJS being client makes AJAX calls to ExpressJS
+                    returning response in JSON format.
+                </p>
+                <p class="init_text text-font">ExpressJS that is running on NodeJS Server further communicate with
+                    MongoDB as persistent medium
                 </p>
             </div>
             <div class="col-md-6">
-                <img class="first-img" data-animation="zoomIn" data-animation-delay="300ms" src="images/services/info/nodejs-head.png">
+                <img class="first-img " data-animation="zoomIn" data-animation-delay="300ms"
+                    src="images/services/info/mern-stack.png">
+            </div>
+        </div>
+    </div>
+
+    <div class="container mean-container">
+
+        <div class="card mean-cards">
+            <div class="card-body">
+                <h3 class="text-font">MongoDB</h3>
+                <img class="mean-cards-img" src="images/services/info/mongo.png">
+                <p class="text-font">Harness the flexibility and scalability of MongoDB to store and manage your
+                    data. We design efficient database architectures that ensure high performance and data
+                    security.</p>
+            </div>
+        </div>
+        <div class="card mean-cards">
+            <div class="card-body">
+                <h3 class="text-font">Express.js</h3>
+                <img class="mean-cards-img" src="images/services/info/express.png">
+                <p class="text-font">We use Express.js to build a solid foundation for your web applications,
+                    enabling rapid development of APIs and backend services while maintaining code
+                    maintainability.</p>
+            </div>
+        </div>
+        <div class="card mean-cards">
+            <div class="card-body">
+                <h3 class="text-font">React</h3>
+                <img class="mean-cards-img" src="images/services/info/react-logo.png">
+                <p class="text-font">Craft engaging and user-friendly web interfaces with Angular. Our frontend
+                    developers create responsive and dynamic web applications that captivate your users.</p>
+            </div>
+        </div>
+        <div class="card mean-cards">
+            <div class="card-body">
+                <h3 class="text-font">Node.js</h3>
+                <img class="mean-cards-img" src="images/services/info/node.png">
+                <p class="text-font">Leverage the speed and efficiency of Node.js to power your real-time and
+                    server-side applications. Our experts build robust and performant server-side code.</p>
             </div>
         </div>
     </div>
 
     <div class="container">
-        <div class="row margin-top">
-            <div class="col-md-12" data-animation="zoomIn" data-animation-delay="300ms">
-                <h1 class="header-font text-center">Our Node.js Development Services</h1>
-            </div>
-        </div>
-        <div class="row margin-top">
-            <div class="col-md-4">
-                <div class="card services-card" data-animation="flipInY" data-animation-delay="300ms" >
-                    <div class="card-body">
-                        <h4 class="text-font"> Custom Application Development</h4>
-                        <p class="text-font">Tailored solutions to address your specific business needs, ensuring
-                            optimal performance and
-                            scalability.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card services-card" data-animation="flipInY" data-animation-delay="300ms">
-                    <div class="card-body">
-                        <h4 class="text-font">API Development and Integration</h4>
-                        <p class="text-font">Seamless integration of APIs to enhance communication between different
-                            software components
-                            and third-party services.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card services-card" data-animation="flipInY" data-animation-delay="300ms">
-                    <div class="card-body">
-                        <h4 class="text-font"> Real-time Application Development</h4>
-                        <p class="text-font">Building responsive and real-time applications, including chat
-                            applications, gaming
-                            platforms, and collaborative tools.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row margin-top">
-            <div class="col-md-4">
-                <div class="card services-card" data-animation="flipInY" data-animation-delay="300ms">
-                    <div class="card-body">
-                        <h4 class="text-font">Microservices Architecture</h4>
-                        <p class="text-font">Designing scalable and modular applications through microservices
-                            architecture for improved
-                            flexibility and maintainability.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card services-card" data-animation="flipInY" data-animation-delay="300ms">
-                    <div class="card-body">
-                        <h4 class="text-font">Node.js Consulting</h4>
-                        <p class="text-font">Expert guidance on incorporating Node.js into your existing infrastructure,
-                            optimizing
-                            performance, and addressing challenges.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card services-card" data-animation="flipInY" data-animation-delay="300ms">
-                    <div class="card-body">
-                        <h4 class="text-font"> Performance Optimization</h4>
-                        <p class="text-font">Fine-tuning and optimizing existing Node.js applications for enhanced
-                            speed, efficiency, and
-                            resource utilization.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container margin-top">
-        <div class="row margin-top">
+        <div class="row">
             <div class="col-md-6">
-                        <img class="second-img" data-animation="zoomReverseIn" data-animation-delay="300ms" src="images/services/info/node2.png">
-                    </div>
-            <div class="col-md-6" data-animation="slideInLeft" data-animation-delay="300ms">
-                <h1 class="header-font">Build Lightening Fast Web Applications with NodeJS</h1>
-                <p class="text-font" class="init_text text-font">SoftFlame Solutions is emerging Node.js applications development company in Pune, Bangalore, Delhi, India. Node.js easily builds a high performance application. Node.js meets all our technical expectations with simplifying work. With Node.js, large applications are divided into small applications modules which are interlinked to form a giant system.</p>
-                <p class="text-font" class="init_text text-font">we specialize in leveraging the robust capabilities of
-                Node.js makes it possible to merge front end and back end developers into one unit which makes development efficient. It handles lots of request that are I/O driven very perfectly. Most importantly, Node.js scales very nicely.
+                <img data-animation="flipInY" class="second-img" src="images/services/info/mean-img1.png">
+            </div>
+            <div class="col-md-6" data-animation="zoomIn" data-animation-delay="300ms">
+                <h1 class="header-font">Why Mean Stack?</h1>
+                <p class="init_text text-font">The acronym “MEAN” stands for “MongoDB Express.js AngularJS Node.js” and
+                    represents a group of technologies which are known to synergize well together. The major benefit of
+                    the MEAN stack is that it’s extremely quick to prototype with. Node.js allows you to use Javascript
+                    on the backend as well as the frontend which can save you from having to learn a separate language.
+                </p>
+                <p class="init_text text-font">In addition, the NoSQL nature of MongoDB allows you to quickly change and
+                    alter the data layer without having to worry about migrations, which is a very valuable attribute
+                    when you’re trying to build a product without clear specifications.
+                </p>
+                <p class="init_text text-font">Finally, these technologies have a lot of community support behind them
+                    so finding answers to questions or hiring help is going to be much easier using these technologies.
                 </p>
             </div>
-            
+
         </div>
     </div>
 
@@ -345,7 +363,7 @@
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
                         aria-hidden="true">&times;</span></button>
-                <h4 class="text-font" class="modal-title" id="myModalLabel">Send us your requirement</h4>
+                <h4 class="modal-title" id="myModalLabel">Send us your requirement</h4>
             </div>
             <form name="registrationForm" method="post" action="email.php" required>
                 <div class="container">
@@ -387,7 +405,7 @@
 <!-- / Modal Send us your requirement Ends -->
 
 <!--end section-->
-<?php include 'contact-us-div.php'; ?>
 
-
+<?php $pageTitle = "Mern Stack Development"; // Replace "Page Name" with the actual name of your page
+include('contact-us-div.php'); ?>
 <?php include 'footer.php'; ?>

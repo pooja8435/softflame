@@ -84,7 +84,8 @@
             background-color: #e8e8ef;
         }
         .first-img {
-            height: 310px !important;
+            height: 318px !important;
+    margin-left: 175px; 
         }
 
         /* .text-justify {
@@ -109,13 +110,15 @@
 
 <section>
     <div class="header-inner two">
-        <div class="inner text-center">
-            <h4 class="title text-white uppercase"> Cordova/PhoneGap Mobile App Development Company in Pune, Bangalore,
-                Delhi</h4>
+    <div class="inner text-center col-md-6 padding-top">
+            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">Cordova/ PhoneGap Development Company</h1>
+            <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune, Bangalore,
+                Delhi</h2>
         </div>
-        <div class="overlay bg-opacity-5"></div>
-        <img src="images/sheader.jpg" alt="Cordova/PhoneGap Mobile App Development Company in Pune, Bangalore, Delhi"
-            class="img-responsive" />
+        <div class="overlay bg-opacity-7"></div>
+        <img src="images/services/sub-nav/cordova-banner.png" alt="Website Development Company in Pune, Bangalore, Delhi"
+            class="img-responsive sub-nav-img" />
+    </div>
     </div>
 </section>
 <!-- end header inner -->
@@ -125,16 +128,12 @@
     <div class="pagenation-holder">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                </div>
-                <div class="col-md-6 text-right">
-                    <div class="pagenation_links"><a href="index.php">Home</a><i> / </i><a
-                            href="services.php">Services</a><i> / </i> <a href="#">Cordova/ PhonGap Development</a>
-                    </div>
+                <div class="col-md-12 text-center">
+                    <div class="pagenation_links text-font font-16"><a href="index.php">Home</a><i> / </i><a
+                            href="services.php">Services</a><i> / </i>Cordova-Phongap Development</div>
                 </div>
             </div>
         </div>
-    </div>
 </section>
 <!--end section-->
 <section class="sec-padding">
@@ -153,7 +152,7 @@
             </div>
             <div class="col-md-6">
                 <img data-animation="zoomIn" data-animation-delay="300ms" class="first-img"
-                    src="images/services/info/phongap-vs-cordova.jpg">
+                    src="images/services/info/cordova1.png">
             </div>
         </div>
     </div>
@@ -278,5 +277,7 @@
     </div>
 </section>
 
-<?php include 'contact-us-div.php'; ?>
+
+<?php $pageTitle = "Cordova/PhonGap Development"; // Replace "Page Name" with the actual name of your page
+    include('contact-us-div.php'); ?>
 <?php include 'footer.php'; ?>

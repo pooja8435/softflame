@@ -71,50 +71,141 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="css/text-animation.css" type="text/css" />
+        <script>
+        var Animation = function ({ offset } = { offset: 10 }) {
+            var _elements;
 
-    <script>
-        function reveal() {
-            var reveals = document.querySelectorAll(".reveal");
+            // Define a dobra superior, inferior e laterais da tela
+            var windowTop = offset * window.innerHeight / 100;
+            var windowBottom = window.innerHeight - windowTop;
+            var windowLeft = 0;
+            var windowRight = window.innerWidth;
 
-            for (var i = 0; i < reveals.length; i++) {
+            function start(element) {
+                // Seta os atributos customizados
+                element.style.animationDelay = element.dataset.animationDelay;
+                element.style.animationDuration = element.dataset.animationDuration;
+                // Inicia a animacao setando a classe da animacao
+                element.classList.add(element.dataset.animation);
+                // Seta o elemento como animado
+                element.dataset.animated = "true";
+            }
+
+            function isElementOnScreen(element) {
+                // Obtem o boundingbox do elemento
+                var elementRect = element.getBoundingClientRect();
+                var elementTop =
+                    elementRect.top + parseInt(element.dataset.animationOffset) ||
+                    elementRect.top;
+                var elementBottom =
+                    elementRect.bottom - parseInt(element.dataset.animationOffset) ||
+                    elementRect.bottom;
+                var elementLeft = elementRect.left;
+                var elementRight = elementRect.right;
+
+                // Verifica se o elemento esta na tela
+                return (
+                    elementTop <= windowBottom &&
+                    elementBottom >= windowTop &&
+                    elementLeft <= windowRight &&
+                    elementRight >= windowLeft
+                );
+            }
+
+            // Percorre o array de elementos, verifica se o elemento está na tela e inicia animação
+            function checkElementsOnScreen(els = _elements) {
+                for (var i = 0, len = els.length; i < len; i++) {
+                    // Passa para o proximo laço se o elemento ja estiver animado
+                    if (els[i].dataset.animated) continue;
+
+                    isElementOnScreen(els[i]) && start(els[i]);
+                }
+            }
+
+            // Atualiza a lista de elementos a serem animados
+            function update() {
+                _elements = document.querySelectorAll(
+                    "[data-animation]:not([data-animated])"
+                );
+                checkElementsOnScreen(_elements);
+            }
+
+            // Inicia os eventos
+            window.addEventListener("load", update, false);
+            window.addEventListener("scroll", () => checkElementsOnScreen(_elements), { passive: true });
+            window.addEventListener("resize", () => checkElementsOnScreen(_elements), false);
+
+            // Retorna funcoes publicas
+            return {
+                start,
+                isElementOnScreen,
+                update
+            };
+        };
+
+        // Initialize
+        var options = {
+            offset: 20 //percentage of window
+        };
+        var animation = new Animation(options);
+    </script>
+    <!-- <script>
+        
+        function () {
+            var s = document.querySelectorAll(".");
+
+            for (var i = 0; i < s.length; i++) {
                 var windowHeight = window.innerHeight;
-                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementTop = s[i].getBoundingClientRect().top;
                 var elementVisible = 150;
 
                 if (elementTop < windowHeight - elementVisible) {
-                    reveals[i].classList.add("active");
+                    s[i].classList.add("active");
                 } else {
-                    reveals[i].classList.remove("active");
+                    s[i].classList.remove("active");
                 }
             }
         }
-        window.addEventListener("scroll", reveal);
+        window.addEventListener("scroll", );
 
 
-    </script>
+    </script> -->
 
 </head>
 
 <?php include 'header.php'; ?>
 
-
 <section>
     <div class="header-inner two">
-        <div class="inner text-center">
-            <h2 class="title text-white uppercase header-font"><b>Services</b></h2>
-            <h4 class="subtitle header-font">We offer wide range of software services in pune for your business
-                enhancement</h4>
+    <div class="inner text-center col-md-6 padding-top">
+            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">Services</h1>
+            <h3 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">We offer wide range of software services in pune for your business
+                enhancement</h3>
         </div>
-        <div class="overlay bg-opacity-5"></div>
-        <img src="images/services/services-head.jpg" alt="Services Pune" class="img-responsive" />
+        <div class="overlay bg-opacity-7"></div>
+        <img src="images/services-banner.jpg" alt="Website Development Company in Pune, Bangalore, Delhi"
+            class="img-responsive sub-nav-img" />
+    </div>
     </div>
 </section>
-<!-- end header inner -->
+
+<section>
+    <div class="pagenation-holder">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="pagenation_links text-font font-16"><a href="index.php">Home</a><i> / </i> Services</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <section>
     <div class="box-wrapper box-div">
-        <figure class="shape-box shape-box_half reveal">
+        <figure class="shape-box shape-box_half" data-animation="slideInUp">
             <img src="images/services/web-development.jpg" alt="web">
             <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
             <figcaption>
@@ -128,7 +219,7 @@
             </figcaption>
             <span class="after"></span>
         </figure>
-        <figure class="shape-box shape-box_half reveal">
+        <figure class="shape-box shape-box_half " data-animation="slideInUp" data-animation-delay="200ms">
             <img src="images/services/meanstack.jpg">
             <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
             <figcaption>
@@ -142,7 +233,7 @@
             </figcaption>
             <span class="after"></span>
         </figure>
-        <figure class="shape-box shape-box_half reveal">
+        <figure class="shape-box shape-box_half " data-animation="slideInUp" data-animation-delay="400ms">
             <img src="images/services/3.jpg">
             <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
             <figcaption>
@@ -156,7 +247,7 @@
             </figcaption>
             <span class="after"></span>
         </figure>
-        <figure class="shape-box shape-box_half reveal">
+        <figure class="shape-box shape-box_half " data-animation="slideInUp" data-animation-delay="600ms">
             <img src="images/services/angular.png">
             <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
             <figcaption>
@@ -170,7 +261,7 @@
             </figcaption>
             <span class="after"></span>
         </figure>
-        <figure class="shape-box shape-box_half reveal">
+        <figure class="shape-box shape-box_half " data-animation="slideInUp" >
             <img src="images/services/ux.jpg" alt="">
             <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
             <figcaption>
@@ -184,7 +275,7 @@
             </figcaption>
             <span class="after"></span>
         </figure>
-        <figure class="shape-box shape-box_half reveal">
+        <figure class="shape-box shape-box_half " data-animation="slideInUp" data-animation-delay="200ms">
             <img src="images/services/ecom.png">
             <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
             <figcaption>
@@ -198,7 +289,7 @@
             </figcaption>
             <span class="after"></span>
         </figure>
-        <figure class="shape-box shape-box_half reveal">
+        <figure class="shape-box shape-box_half " data-animation="slideInUp" data-animation-delay="400ms">
             <img src="images/services/iphone.png">
             <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
             <figcaption>
@@ -212,7 +303,7 @@
             </figcaption>
             <span class="after"></span>
         </figure>
-        <figure class="shape-box shape-box_half reveal">
+        <figure class="shape-box shape-box_half " data-animation="slideInUp" data-animation-delay="600ms">
             <img src="images/services/android.jpg">
             <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
             <figcaption>
@@ -225,7 +316,7 @@
             </figcaption>
             <span class="after"></span>
         </figure>
-        <figure class="shape-box shape-box_half reveal">
+        <figure class="shape-box shape-box_half " data-animation="slideInUp">
             <img src="images/services/cordova.png" alt="">
             <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
             <figcaption>
@@ -239,7 +330,7 @@
             </figcaption>
             <span class="after"></span>
         </figure>
-        <figure class="shape-box shape-box_half reveal">
+        <figure class="shape-box shape-box_half " data-animation="slideInUp" data-animation-delay="200ms">
             <img src="images/services/ionic.png">
             <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
             <figcaption>
@@ -252,7 +343,7 @@
             </figcaption>
             <span class="after"></span>
         </figure>
-        <figure class="shape-box shape-box_half reveal">
+        <figure class="shape-box shape-box_half " data-animation="slideInUp" data-animation-delay="400ms">
             <img src="images/services/cross-app.jpg">
             <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
             <figcaption>
@@ -267,7 +358,7 @@
             </figcaption>
             <span class="after"></span>
         </figure>
-        <figure class="shape-box shape-box_half reveal">
+        <figure class="shape-box shape-box_half " data-animation="slideInUp" data-animation-delay="600ms">
             <img src="images/services/meteor.png">
             <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
             <figcaption>
@@ -281,7 +372,7 @@
             </figcaption>
             <span class="after"></span>
         </figure>
-        <figure class="shape-box shape-box_half reveal">
+        <figure class="shape-box shape-box_half " data-animation="slideInUp" >
             <img src="images/services/cloud-consulting.jpg" alt="">
             <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
             <figcaption>
@@ -296,7 +387,7 @@
             </figcaption>
             <span class="after"></span>
         </figure>
-        <figure class="shape-box shape-box_half reveal">
+        <figure class="shape-box shape-box_half " data-animation="slideInUp" data-animation-delay="200ms">
             <img src="images/services/aws.png">
             <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
             <figcaption>
@@ -309,7 +400,7 @@
             </figcaption>
             <span class="after"></span>
         </figure>
-        <figure class="shape-box shape-box_half reveal">
+        <figure class="shape-box shape-box_half " data-animation="slideInUp" data-animation-delay="400ms">
             <img src="images/services/cloudManagement.png">
             <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
             <figcaption>
@@ -324,7 +415,7 @@
             </figcaption>
             <span class="after"></span>
         </figure>
-        <figure class="shape-box shape-box_half reveal">
+        <figure class="shape-box shape-box_half " data-animation="slideInUp" data-animation-delay="600ms">
             <img src="images/services/react.png">
             <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
             <figcaption>
@@ -344,57 +435,6 @@
 
 
 <!-- end section -->
-
-
-<!-- Modal Send us your requirement -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                        aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Send us your requirement</h4>
-            </div>
-            <form name="registrationForm" method="post" action="email.php" required>
-                <div class="container">
-                    <div class="modal-body">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Full Name"
-                                required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email address</label>
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Email Address"
-                                required>
-                        </div>
-                        <div class="form-group">
-                            <label for="phone">Phone No.</label>
-                            <input type="text" class="form-control" name="mobile" id="phone" placeholder="Phone No."
-                                required>
-                        </div>
-
-
-                        <div class="form-group">
-                            <textarea class="form-control" rows="5" name="enquiry" id="message"
-                                placeholder="Enter your message" required></textarea>
-                        </div>
-
-                    </div>
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn1 btn-default" data-dismiss="modal">Close</button>
-                    <button class="btn1 btn-primary" type="submit" name="submit"> <i class="fa fa-paper-plane-o"></i>
-                        Send</button>
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
-<!-- / Modal Send us your requirement Ends -->
-
-<!--end section-->
 <div class="clearfix"></div>
 
 <?php include 'footer.php'; ?>

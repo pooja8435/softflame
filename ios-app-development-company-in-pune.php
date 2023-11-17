@@ -165,6 +165,9 @@
             height: 60px;
             float: right;
         }
+        .first-img{
+            float: right !important;
+        }
     </style>
 
 
@@ -176,12 +179,15 @@
 
 <section>
     <div class="header-inner two">
-        <div class="inner text-center">
-            <h4 class="title text-white">iPhone/iOS App Development Company in Pune, Bangalore, Delhi</h4>
+    <div class="inner text-center col-md-6 padding-top">
+            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">iPhone/iOS App Development Company </h1>
+            <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune, Bangalore,
+                Delhi</h2>
         </div>
-        <div class="overlay bg-opacity-5"></div>
-        <img src="images/sheader.jpg" alt="iPhone/iOS App Development Company in Pune, Bangalore, Delhi"
-            class="img-responsive" />
+        <div class="overlay bg-opacity-7"></div>
+        <img src="images/services/sub-nav/iphone-banner.jpg" alt="Website Development Company in Pune, Bangalore, Delhi"
+            class="img-responsive sub-nav-img" />
+    </div>
     </div>
 </section>
 <!-- end header inner -->
@@ -191,12 +197,9 @@
     <div class="pagenation-holder">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                </div>
-                <div class="col-md-6 text-right">
-                    <div class="pagenation_links"><a href="index.php">Home</a><i> / </i><a
-                            href="services.php">Services</a><i> / </i> <a href="#">iPhone/iPad App Development
-                            Company</a> </div>
+                <div class="col-md-12 text-center">
+                    <div class="pagenation_links text-font font-16"><a href="index.php">Home</a><i> / </i><a
+                            href="services.php">Services</a><i> / </i>Iphone-Ipad App Development</div>
                 </div>
             </div>
         </div>
@@ -398,5 +401,6 @@
     </div>
 </section>
 
-<?php include 'contact-us-div.php'; ?>
+<?php $pageTitle = "IOS App Development"; // Replace "Page Name" with the actual name of your page
+    include('contact-us-div.php'); ?>
 <?php include 'footer.php'; ?>
