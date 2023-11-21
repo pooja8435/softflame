@@ -1291,7 +1291,7 @@ p.awesome_line {
 
 h1 {
     font-family: Montserrat, sans-serif;
-    color: white;
+    /* color: white; */
     font-weight: 600;
     letter-spacing: 2px;
     text-transform: uppercase;
