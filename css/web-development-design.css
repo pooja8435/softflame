@@ -6,33 +6,36 @@
     font-family: 'Nunito', sans-serif !important;
 }
 
-.clr-black{
-color:#575a7b;
+.clr-black {
+    color: #575a7b;
 }
 
 .bg-opacity-7 {
     background-color: rgba(0, 0, 0, 0.7);
 }
-.sub-nav-img{
+
+.sub-nav-img {
     height: 540px;
     width: 100%;
 }
+
 .font-16 {
     font-size: 16px;
     margin-top: 20px;
 }
-.sub-nav-btn{
+
+.sub-nav-btn {
     background-color: white;
     color: black;
     border-radius: 24px;
 }
 
-.sub-nav-head{
+.sub-nav-head {
     font-size: 55px;
     font-weight: 600;
 }
 
-.padding-top{
+.padding-top {
     padding-top: 175px !important;
 }
 
@@ -46,9 +49,23 @@ color:#575a7b;
     line-height: 1.2;
     /* color: #181d38; */
 }
-.font-family{
+
+.center-line:before {
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: #f91942;
+    position: absolute;
+    left: 0px;
+    bottom: -10px;
+    right: 0;
+    margin: 0 auto;
+}
+
+.font-family {
     font-family: 'Nunito', sans-serif;
 }
+
 .first-img {
     height: 400px;
 }
@@ -186,19 +203,24 @@ color:#575a7b;
     gap: 150px;
     margin-top: 70px;
 }
-@media (max-width: 768px)  {
-    .sec-padding{
+
+@media (max-width: 768px) {
+    .sec-padding {
         padding: 0px !important;
     }
-    .header-font{
+
+    .header-font {
         font-size: 30px !important;
     }
+
     .first-img {
         height: 190px;
     }
+
     .seo-height {
         height: 155px;
     }
+
     .contact-img {
         height: 185px;
         margin-left: 45px;

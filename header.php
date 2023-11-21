@@ -358,10 +358,10 @@
                                                     <li><a href="seo-company-in-pune.php"><i
                                                                 class="fa fa-angle-right"></i> &nbsp; SEO Services</a>
                                                     </li>
-                                                    <li><a href="seo-company-in-pune.php"><i
+                                                    <li><a href="content-marketing-service.php"><i
                                                                 class="fa fa-angle-right"></i> &nbsp; Content
                                                             Marketing</a></li>
-                                                    <li><a href="seo-company-in-pune.php"><i
+                                                    <li><a href="pay-per-click-advertising.php"><i
                                                                 class="fa fa-angle-right"></i> &nbsp; Pay-Per-Click
                                                             (PPC) Advertising</a></li>
                                                 </ul>

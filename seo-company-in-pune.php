@@ -178,7 +178,7 @@
 
         .first-img {
             height: 305px !important;
-            float: right;
+            /* float: right; */
         }
 
         /* .text-justify {
@@ -197,7 +197,7 @@
 
         .store-img {
             margin-top: -18px;
-            height: 305px !important;
+            height: 260px !important;
         }
 
         .customer-img {
@@ -205,18 +205,17 @@
         }
 
         .content-img {
-            height: 260px;
-            margin-top: -30px;
+            height: 240px;
+    margin-top: 15px;
         }
 
         .emails-img {
-            height: 220px;
-            float: right;
+            height: 335px;
         }
 
         .payment-img {
-            height: 220px;
-            margin-top: -20px;
+            height: 316px;
+    float: right;
         }
 
         .support-img {
@@ -272,18 +271,20 @@
                     checking it for errors and potential optimizations.</p>
                 <p class="init_text text-font">Pages with errors, problems in on-page optimization, duplicate content,
                     internal link texts and more than 100 additional criteria of your website will be checked and
-                    displayed in accessible analyses.</p>
+                    displayed in accessible analyses.Crawling is the process used by search engine web crawlers (bots or
+                    spiders) to visit and download a page and extract its links in order to discover additional pages.
+                </p>
             </div>
             <div class="col-md-4">
                 <img data-animation="zoomIn" data-animation-delay="300ms" class="first-img"
-                    src="images/services/info/ecommerce-head.jpg">
+                    src="images/services/info/Seo-head.png">
             </div>
         </div>
     </div>
 
     <div class="container margin-top">
         <div class="row" data-animation="zoomReverseIn">
-            <h1 class="header-font text-center">Our Ecommerce Website Services</h1>
+            <h1 class="header-font text-center center-line">Our SEO Services</h1>
         </div>
     </div>
 
@@ -291,7 +292,7 @@
         <div class="row">
             <div class="col-md-4">
                 <img data-animation="zoomIn" data-animation-delay="300ms" class="store-img"
-                    src="images/services/info/store-front.png">
+                    src="images/services/info/monitoring.jpg">
             </div>
             <div class="col-md-8" data-animation="slideInLeft">
                 <h2 class="text-font">Keyword Monitoring</h2>
@@ -324,7 +325,7 @@
             </div>
             <div class="col-md-4">
                 <img data-animation="zoomIn" data-animation-delay="300ms" class="customer-img"
-                    src="images/services/info/customer.jpg">
+                    src="images/services/info/Backlink-Analysis.png">
             </div>
         </div>
     </div>
@@ -333,7 +334,7 @@
         <div class="row">
             <div class="col-md-4">
                 <img data-animation="zoomIn" data-animation-delay="300ms" class="content-img"
-                    src="images/services/info/content.jpg">
+                    src="images/services/info/strategy.jpg">
             </div>
             <div class="col-md-8" data-animation="slideInLeft">
                 <h2 class="text-font">Creating a Strategy for Search Engine Optimization</h2>
@@ -374,7 +375,7 @@
             </div>
             <div class="col-md-4">
                 <img data-animation="zoomIn" data-animation-delay="300ms" class="emails-img"
-                    src="images/services/info/emails.jpg">
+                    src="images/services/info/mobile-vs-desktop.png">
             </div>
         </div>
     </div>
@@ -383,7 +384,7 @@
         <div class="row">
             <div class="col-md-4">
                 <img data-animation="zoomIn" data-animation-delay="300ms" class="payment-img"
-                    src="images/services/info/payment.jpg">
+                    src="images/services/info/SEO-Strategy.png">
             </div>
             <div class="col-md-8" data-animation="slideInLeft">
                 <h2 class="text-font">Working on an SEO strategy for your business</h2>
@@ -408,5 +409,5 @@
 
 </section>
 <?php $pageTitle = "Seo Services"; // Replace "Page Name" with the actual name of your page
-    include('contact-us-div.php'); ?>
+include('contact-us-div.php'); ?>
 <?php include 'footer.php'; ?>
