@@ -207,7 +207,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12" data-animation="zoomIn">
-                <h1 class="header-font text-center"> AWS Cloud Consulting</h1>
+                <h1 class="header-font text-center center-line"> AWS Cloud Consulting</h1>
                 <p class="init_text text-font text-center">We, at SoftFlame Solutions help developers and IT departments
                     understand the infrastructure services such as database storage, networking, deliverance and
                     application deployment. We help you navigate the complete AWS pack of powerful cloud services.</p>
@@ -236,7 +236,7 @@
                     security, and efficiency.
 
                 </p>
-                <h3 class="text-font">Key Offerings:</h3>
+                
                 <ul class="ex2">
                     <li><b>AWS Architecture Design: </b>Customized cloud architecture to meet your specific software
                         requirements.</li>
@@ -259,7 +259,7 @@
                     manage the entire migration process, ensuring a smooth and secure transition to AWS.
 
                 </p>
-                <h3 class="text-font">Key Offerings:</h3>
+                
                 <ul class="ex2">
                     <li><b>Application Migration: </b>Move your applications to AWS, leveraging the full potential of
                         cloud services.</li>
@@ -289,7 +289,7 @@
                     automation. Our consultants will help you implement CI/CD pipelines, automate manual processes, and
                     improve collaboration between development and operations teams.
                 </p>
-                <h3 class="text-font">Key Offerings:</h3>
+                
                 <ul class="ex2">
                     <li><b>Continuous Integration/Continuous Deployment (CI/CD): </b>Streamline your development
                         pipeline for faster and more reliable releases.
@@ -314,7 +314,7 @@
                     ensure adherence to industry regulations.
 
                 </p>
-                <h3 class="text-font">Key Offerings:</h3>
+                
                 <ul class="ex2">
                     <li><b>Security Assessments: </b>Evaluate and enhance the security of your AWS environment.</li>
                     <li><b>Identity and Access Management (IAM):</b>Control access to your AWS resources with precision.
@@ -345,7 +345,7 @@
                     strategies to optimize your AWS spending.
 
                 </p>
-                <h3 class="text-font">Key Offerings:</h3>
+                
                 <ul class="ex2">
                     <li><b>Cost Analysis: </b>Assess your AWS spending and identify areas for optimization.</li>
                     <li><b>Resource Right-Sizing: </b>Optimize resource allocation for better performance and

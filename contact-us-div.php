@@ -115,6 +115,10 @@
             margin-left: 16px;
         }
 
+        .header-font{
+            color: black !important;
+        }
+
         @media (max-width: 768px) {
 
             .contact-img {
