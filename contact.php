@@ -201,9 +201,10 @@
 <section class="sec-padding">
     <div class="container">
         <!-- <div class="card form-card"> -->
-        <div class="row">
-            <h1 class="header-font text-center">Let's Talk</h1>
-            <!-- <p>Write us your requirement.</p> -->
+        <h1 class="header-font text-center"  data-animation="slideInUp">Contact Us</h1>
+        <h3 class="font-family text-center"  data-animation="slideInUp">Let's talk about your project. Fill out the form below or contact us
+            directly.</h3>
+        <div class="row margin-top"  data-animation="zoomIn" data-animation-delay="500ms">
             <div class="col-md-6">
                 <img class="contact-form-img" src="images/contact-us-illus.png">
             </div>
@@ -211,12 +212,10 @@
                 <div class="smart-forms bmargin">
                     <form name="quick_enquiry_frm" id="quick_enquiry_frm" method="post" action="email.php">
                         <div class="fluid form_textfield">
-                            <input name="name" type="text" id="name" placeholder="Enter your Name"
-                             required />
+                            <input name="name" type="text" id="name" placeholder="Enter your Name" required />
                         </div>
                         <div class="fluid form_textfield">
-                            <input name="email" type="text" id="email_id" placeholder="Enter your email id"
-                             required />
+                            <input name="email" type="text" id="email_id" placeholder="Enter your email id" required />
                         </div>
                         <div class="fluid form_textfield">
                             <input name="mobile" type="text" id="contact_no" placeholder="Enter your mobile no."
@@ -225,7 +224,7 @@
                         <div class="clr"></div>
                         <div id="form_textarea1" class="fluid">
                             <textarea name="enquiry" rows="4" id="message" placeholder="Write us your requirement"
-                                 required></textarea>
+                                required></textarea>
                         </div>
 
                         <div class="clr"></div>
@@ -233,30 +232,107 @@
                         <button class="btn btn-form" type="submit" name="submit">Submit </button>
                     </form>
                 </div>
-            <!-- </div> -->
-        </div>
+                <!-- </div> -->
+            </div>
         </div>
     </div>
 
     <div class="container margin-top-145">
         <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-8">
-                <h1 class="header-font text-center">Find Us on Google Map</h1>
-                <div class="address-map">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <h1 class="header-font text-center" data-animation="zoomReverseIn">Find Us on Google Map</h1>
+                <div class="address-map" data-animation="slideInUp">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2674.9803151522938!2d73.82816952588456!3d18.529198547176293!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6f4d36203950565a!2sSoftFlame%20Solutions%20Pvt.%20Ltd%20%7C%20Website%20%26%20Mobile%20App%20Development%20Company%20Pune%20%7C%20Digital%20Marketing!5e0!3m2!1sen!2sin!4v1569567451625!5m2!1sen!2sin"
                         width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                 </div>
             </div>
-            <div class="col-md-2"></div>
+            <div class="col-md-1"></div>
         </div>
     </div>
 
 
-    <div class="container">
+    <div class="container margin-top">
         <div class="row">
-            
+            <h4 class="text-font text-center" data-animation="slideInUp">Get In Touch</h4>
+            <h1 class="header-font text-center" data-animation="slideInUp">We Are <span class="text-orange-2">Located At</span></h1>
+            <div class="title-line-4 align-center"></div>
+        </div>
+        <div class="row">
+            <section id="advertisers" class="advertisers-service-sec pt-5 pb-5">
+                <div class="container">
+                    <div class="row text-center margin-top">
+                        <div class="col-md-4 col-12">
+                            <div class="service-card" data-animation="flipInY">
+                                <div class="icon-wrapper">
+                                    <img class="icons-height" src="images/pune.png">
+                                </div>
+                                <div class="font-family">
+                                    <h3 class="text-font ">Pune Office (Headquarters)</h3>
+                                    <p>
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <strong>Address:</strong>
+                                        <a href="https://goo.gl/maps/5rMNMck8SoDzzbG1A" target="_blank"> 9-New
+                                            Ajay,S.B.Road,Pune-16</a><br><br>
+                                        <i class="fa fa-phone"></i>
+                                        <strong>Phone:</strong>
+                                        <a href="tel:+919021649159">+919021649159</a><br><br>
+                                        <i class="fa fa-envelope"></i>
+                                        <a
+                                            href="mailto:info@softflame.in?subject=Enquiry%20Message%20to%20the%20softslame%20slolutions">
+                                            info@softflame.in</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-12">
+                            <div class="service-card" data-animation="flipInY">
+                                <div class="icon-wrapper">
+                                    <img class="icons-height" src="images/bangalore.png">
+                                </div>
+                                <div class="font-family">
+                                    <h3 class="text-font ">Banglore Office</h3>
+                                    <p><i class="fa fa-map-marker"
+                                            aria-hidden="true"></i><strong>Address:</strong><a>145/146,
+                                            Saikutira, NewMico Layout,
+                                            Hongasandra,Bangalore-560068</a><br><br>
+                                        <i class="fa fa-phone"></i> Phone: <a href="tel:+91 9021649159"> +91-9899706569
+                                            / 8446425690</a><br><br>
+
+                                        <i class="fa fa-envelope"></i><a
+                                            href="mailto:info@softflame.in?subject=Enquiry%20Message%20to%20the%20softslame%20slolutions">
+                                            info@softflame.in</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-12">
+                            <div class="service-card" data-animation="flipInY">
+                                <div class="icon-wrapper">
+                                    <img class="icons-height" src="images/red-fort.png">
+                                </div>
+                                <div class="font-family">
+                                    <h3 class="text-font ">Delhi Office</h3>
+                                    <p><i class="fa fa-map-marker" aria-hidden="true"></i><strong>Address:</strong><a>
+                                            North India
+                                            Delhi Office, Shop No G5 Plot No 10, Express
+                                            Arcade
+                                            Tower,Netaji Subhash Place,
+                                            Pitampura,
+                                            Delhi-110034</a><br><br>
+                                        <i class="fa fa-phone"></i> Phone: <a href="tel:+919899706569"> +91-9899706569
+                                        </a><br><br>
+                                        <i class="fa fa-envelope"></i><a
+                                            href="mailto:info@softflame.in?subject=Enquiry%20Message%20to%20the%20softslame%20slolutions">
+                                            info@softflame.in</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
     </div>
 </section>
@@ -277,7 +353,7 @@
                 <h4 class="">Pune Office (Headquarters)</h4>
                 <div class="footer-title-bottomstrip"></div>
                 <ul class="address-info no-border">
-                    <li><i class="fa fa-map-marker" aria-hidden="true"></i><strong>Address:</strong><a
+                    <i class="fa fa-map-marker" aria-hidden="true"></i><strong>Address:</strong><a
                             href="https://goo.gl/maps/5rMNMck8SoDzzbG1A" target="_blank"> 9-New Ajay,S.B.Road,<br><span
                                 class="adjust_mar1">Pune-16</span></a></li>
                     <li><i class="fa fa-phone"></i> Phone: <a href="tel:+919021649159">+91 9021649159</a></li>
