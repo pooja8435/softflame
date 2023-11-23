@@ -86,7 +86,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="css/text-animation.css" type="text/css" />
+    <link rel="stylesheet" href="css/text-animation.css" type="text/css" />
     <script>
         $(".navbar-nav").on('click', 'li', function () {
             $(".navbar-nav li.active").removeClass("active");
@@ -185,9 +185,10 @@ include 'header.php'; ?>
 
 <section>
     <div class="header-inner two">
-    <div class="inner text-center col-md-6 padding-top">
+        <div class="inner text-center col-md-6 padding-top">
             <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">About Us</h1>
-            <h3 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">We are passionate about creating innovative software solutions
+            <h3 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">We are passionate
+                about creating innovative software solutions
                 that
                 empower businesses to thrive in the digital age.</h3>
         </div>
@@ -220,7 +221,7 @@ include 'header.php'; ?>
             <div class="col-xs-12 text-center"></div>
             <div class="clearfix"></div>
             <div class="col-md-6">
-                <h2><b><span class="blue-font header-font">Soft</span><span
+                <h2 class="text-center-mobile"><b><span class="blue-font header-font">Soft</span><span
                             class="header-font orange-font">Flame</span><b>
                 </h2>
                 <h5 class="text-justify text-font">At SoftFlame Solutions, we are passionate about creating innovative
@@ -236,7 +237,7 @@ include 'header.php'; ?>
                     onclick="window.location.href='contact.php'">Let's Connect</button>
             </div>
             <div class="col-md-6">
-                <img class="office-img" src="images/office-pic.jpg">
+                <img class="office-img display-none" src="images/office-pic.jpg">
             </div>
         </div>
         <br><br>
@@ -245,7 +246,7 @@ include 'header.php'; ?>
                 <img class="vision-img" src="images/vision.jpg">
             </div>
             <div class="col-md-6">
-                <h2><b><span class="blue-font header-font">Our&nbsp;</span><span
+                <h2 class="text-center-mobile"><b><span class="blue-font header-font">Our&nbsp;</span><span
                             class="orange-font header-font">Vision</span><b>
                 </h2>
                 <h5 class="text-font"> At Softflame Solutions, we envision a future where technology becomes a force for
@@ -260,7 +261,7 @@ include 'header.php'; ?>
         </div>
         <br><br>
         <div class="row text-center reveal">
-            <h2><b><span class="blue-font header-font">Our&nbsp;</span>
+            <h2 class="text-center-mobile"><b><span class="blue-font header-font">Our&nbsp;</span>
                     <span class="orange-font header-font">Values</span>
                     <b></h2>
             <div class="col-md-3">
@@ -303,7 +304,7 @@ include 'header.php'; ?>
         <br><br>
         <div class="row reveal strategy-div">
             <div class="col-md-6">
-                <h2><b><span class="orange-font header-font">Working&nbsp;</span><span
+                <h2 class="text-center-mobile"><b><span class="orange-font header-font">Working&nbsp;</span><span
                             class="blue-font header-font">Strategy</span><b></h2>
                 <h5 class="text-font text-justify">At Softflame Solutions, our working strategy is built on a
                     well-defined process
@@ -324,7 +325,8 @@ include 'header.php'; ?>
                                 requirements but also exceed your expectations. </p>
                         </li>
                         <li>
-                            <p class="text-font font-16"><b>Development:</b> Our development process is driven by the latest technologies and
+                            <p class="text-font font-16"><b>Development:</b> Our development process is driven by the
+                                latest technologies and
                                 industry
                                 best practices, ensuring that your software solution is not just functional but also
                                 scalable, secure, and efficient.</p>
@@ -345,12 +347,12 @@ include 'header.php'; ?>
                 </div>
             </div>
             <div class="col-md-6 text-center">
-                <img class="plan-img" src="images/pl.jpg">
+                <img class="plan-img display-none" src="images/pl.jpg">
             </div>
         </div>
         <div class="row text-center reveal margin-top">
             <div class="col-md-12">
-                <h2><b><span class="orange-font header-font">Work&nbsp;</span><span
+                <h2 class="text-center-mobile"><b><span class="orange-font header-font">Work&nbsp;</span><span
                             class="blue-font header-font">Culture</span><b></h2>
                 <h5 class="text-font">At Softflame Solutions, our work culture is the foundation of our success. We
                     believe in fostering
@@ -362,10 +364,10 @@ include 'header.php'; ?>
     <div class="row margins reveal margin-top">
         <div class="wrap">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-8 col-12">
                     <div class="card-new ">
                         <div class="card-pic-wrap">
-                            <img class="new-img" src="images/collab.png" alt="A leafy plant">
+                            <img class="new-img display-none" src="images/collab.png" alt="A leafy plant">
                         </div>
                         <div class="card-content-new">
                             <h3 class="new-text header-font">Collaboration</h3>
@@ -378,17 +380,17 @@ include 'header.php'; ?>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <img class="arrow" src="images/services/info/arrow-right.png">
+                    <img class="arrow display-none" src="images/services/info/arrow-right.png">
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4">
-                    <img class="arrow flt-right" src="images/services/info/arrow-left.png">
+                    <img class="arrow display-none flt-right" src="images/services/info/arrow-left.png">
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8 col-12">
                     <div class="card-new flt-right reveal">
                         <div class="card-pic-wrap">
-                            <img class="new-img" src="images/work-life-balance.png" alt="Some pointy plants">
+                            <img class="new-img display-none" src="images/work-life-balance.png" alt="Some pointy plants">
                         </div>
                         <div class="card-content-new">
                             <h3 class="new-text header-font">Work-Life Balance</h3>
@@ -405,10 +407,10 @@ include 'header.php'; ?>
     <div class="row margins reveal">
         <div class="wrap">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-8 col-12">
                     <div class="card-new ">
                         <div class="card-pic-wrap">
-                            <img class="new-img" src="images/professionals.png" alt="A leafy plant">
+                            <img class="new-img display-none" src="images/professionals.png" alt="A leafy plant">
                         </div>
                         <div class="card-content-new">
                             <h3 class="new-text header-font">Professional Development</h3>
@@ -420,23 +422,34 @@ include 'header.php'; ?>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <img class="arrow" src="images/services/info/arrow-right.png">
+                    <img class="arrow display-none" src="images/services/info/arrow-right.png">
                 </div>
             </div>
 
-
-            <div class="card-new flt-right reveal">
-                <div class="card-pic-wrap">
-                    <img class="new-img" src="images/giving-back.png" alt="Some pointy plants">
-                </div>
-                <div class="card-content-new">
-                    <h3 class="new-text header-font">Giving Back</h3>
-                    <p class="text-font">At Softflame Solutions, we're not just focused on profits. We believe in giving
-                        back
-                        to
-                        our community and the tech industry. We're involved in various charitable initiatives
-                        and
-                        knowledge-sharing programs to make a positive impact beyond our projects.</p>
+            <div class="row reveal">
+                <div class="wrap">
+                    <div class="row">
+                        <div class="col-md-4">
+                        </div>
+                        <div class="col-md-8 col-12">
+                            <div class="card-new flt-right">
+                                <div class="card-pic-wrap">
+                                    <img class="new-img display-none" src="images/giving-back.png" alt="Some pointy plants">
+                                </div>
+                                <div class="card-content-new">
+                                    <h3 class="new-text header-font">Giving Back</h3>
+                                    <p class="text-font">At Softflame Solutions, we're not just focused on profits. We
+                                        believe in giving
+                                        back
+                                        to
+                                        our community and the tech industry. We're involved in various charitable
+                                        initiatives
+                                        and
+                                        knowledge-sharing programs to make a positive impact beyond our projects.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

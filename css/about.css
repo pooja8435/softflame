@@ -136,7 +136,7 @@
         transition: 1s all ease;
     }
 
-    .font-family{
+    .font-family {
         font-family: 'Nunito', sans-serif;
     }
 
@@ -152,26 +152,28 @@
     .bg-opacity-7 {
         background-color: rgba(0, 0, 0, 0.7);
     }
-    .sub-nav-img{
+
+    .sub-nav-img {
         height: 540px;
         width: 100%;
     }
-    .sub-nav-btn{
+
+    .sub-nav-btn {
         background-color: white;
         color: black;
         border-radius: 24px;
     }
-    
-    .sub-nav-head{
+
+    .sub-nav-head {
         font-size: 55px;
         font-weight: 600;
     }
-    
-    .padding-top{
+
+    .padding-top {
         padding-top: 175px !important;
     }
 
-    .arrow{
+    .arrow {
         margin-top: 60px;
     }
 
@@ -361,10 +363,12 @@
             width: 100%;
             border-radius: 5px 5px 0 0;
 
-            img {
-                bottom: 20px;
-                position: relative;
-            }
+
+        }
+
+        img {
+            bottom: 20px;
+            position: relative;
         }
 
         .card-content {
@@ -404,7 +408,51 @@
         }
 
         .sec-padding {
-            padding: 10px;
+            padding: 10px !important;
         }
+
+        .display-none {
+            display: none;
+        }
+
+        .card-new {
+            flex-direction: column;
+        }
+
+        .header-inner.two .overlay {
+            height: 520px !important;
+        }
+
+        .header-inner.two {
+            margin-top: -90px !important;
+        }
+
+        h1 {
+            font-size: 24px !important;
+        }
+
+        h3 {
+            font-size: 18px !important;
+        }
+
+        h5 {
+            font-size: 16px !important;
+        }
+
+        p {
+            font-size: 14px !important;
+        }
+
+        .text-center-mobile {
+            text-align: center;
+        }
+        .strategy-div{
+            margin-top: unset;
+        }
+        .card-content-new {
+            padding: 1em 2em 2em;
+        }
+
+
 
     }

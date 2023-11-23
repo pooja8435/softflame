@@ -328,7 +328,7 @@ for (i = 0; i < animateCss.length; i++) {
     <div class="container">
         <div class="row">
         <div class="col-md-6">
-                <img data-animation="flipInY" class="second-img" src="images/services/info/mean-img1.png">
+                <img data-animation="flipInY" class="second-img display-none" src="images/services/info/mean-img1.png">
             </div>
             <div class="col-md-6" data-animation="zoomIn" data-animation-delay="300ms">
                 <h1 class="header-font">Why Mean Stack?</h1>
@@ -350,56 +350,6 @@ for (i = 0; i < animateCss.length; i++) {
     </div>
 
 </section>
-
-<!-- Modal Send us your requirement -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                        aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Send us your requirement</h4>
-            </div>
-            <form name="registrationForm" method="post" action="email.php" required>
-                <div class="container">
-                    <div class="modal-body">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Full Name"
-                                required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email address</label>
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Email Address"
-                                required>
-                        </div>
-                        <div class="form-group">
-                            <label for="phone">Phone No.</label>
-                            <input type="text" class="form-control" name="mobile" id="phone" placeholder="Phone No."
-                                required>
-                        </div>
-
-
-                        <div class="form-group">
-                            <textarea class="form-control" rows="5" name="enquiry" id="message"
-                                placeholder="Enter your message" required></textarea>
-                        </div>
-
-                    </div>
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn1 btn-default" data-dismiss="modal">Close</button>
-                    <button class="btn1 btn-primary" type="submit" name="submit"> <i class="fa fa-paper-plane-o"></i>
-                        Send</button>
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
-<!-- / Modal Send us your requirement Ends -->
-
-<!--end section-->
 
 <?php $pageTitle = "Mean Stack Development"; // Replace "Page Name" with the actual name of your page
     include('contact-us-div.php'); ?>

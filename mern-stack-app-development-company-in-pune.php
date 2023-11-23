@@ -158,36 +158,6 @@
         };
         var animation = new Animation(options);
     </script>
-    <script>
-        new WOW({
-            offset: 200
-        }).init();
-
-        var animateCss = [
-            "bounce", "flash", "pulse", "rubberBand", "shake", "swing", "tada", "wobble", "jello",
-            "bounceIn", "bounceInDown", "bounceInLeft", "bounceInRight", "bounceInUp",
-            "fadeIn", "fadeInDown", "fadeInDownBig", "fadeInLeft", "fadeInLeftBig", "fadeInRight", "fadeInRightBig", "fadeInUp", "fadeInUpBig", "flip", "flipInX", "flipInY",
-            "lightSpeedIn", "rotateIn", "rotateInDownLeft", "rotateInDownRight", "rotateInUpLeft", "rotateInUpRight",
-            "slideInUp", "slideInDown", "slideInLeft", "slideInRight",
-            "zoomIn", "zoomInDown", "zoomInLeft", "zoomInRight", "zoomInUp",
-            "rollIn"
-        ];
-
-        var placeholder = $(".placeholder");
-        var colorCounter = 0;
-
-        for (i = 0; i < animateCss.length; i++) {
-            var word = "<div class=\"word\"></div>";
-            $(word).appendTo(placeholder);
-
-            for (j = 0; j < animateCss[i].length; j++) {
-                var letterDiv = "<div data-wow-delay=\"" + (j * 0.1).toFixed(2) + "s\"  class=\"letter wow " + animateCss[i] + " color" + colorCounter % 7 + "\">" + animateCss[i][j] + "</div>";
-                $(letterDiv).appendTo($(".word").last());
-                colorCounter++;
-            }
-
-        }
-    </script>
     <style>
         .first-img {
             height: 335px !important;
@@ -245,7 +215,7 @@
             <!-- <button type="button" class="btn text-font sub-nav-btn" onclick="window.location.href='contact.php'">Contact Us</button> -->
         </div>
         <div class="overlay bg-opacity-7"></div>
-        <img src="images/services/sub-nav/mean-stack.jpg" alt="Website Development Company in Pune, Bangalore, Delhi"
+        <img src="images/services/sub-nav/mern-banner.jpg" alt="Website Development Company in Pune, Bangalore, Delhi"
             class="img-responsive sub-nav-img" />
     </div>
 </section>
@@ -333,7 +303,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <img data-animation="flipInY" class="second-img" src="images/services/info/mean-img1.png">
+                <img data-animation="flipInY" class="second-img display-none" src="images/services/info/mean-img1.png">
             </div>
             <div class="col-md-6" data-animation="zoomIn" data-animation-delay="300ms">
                 <h1 class="header-font">Why Mean Stack?</h1>
@@ -355,56 +325,6 @@
     </div>
 
 </section>
-
-<!-- Modal Send us your requirement -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                        aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Send us your requirement</h4>
-            </div>
-            <form name="registrationForm" method="post" action="email.php" required>
-                <div class="container">
-                    <div class="modal-body">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Full Name"
-                                required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email address</label>
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Email Address"
-                                required>
-                        </div>
-                        <div class="form-group">
-                            <label for="phone">Phone No.</label>
-                            <input type="text" class="form-control" name="mobile" id="phone" placeholder="Phone No."
-                                required>
-                        </div>
-
-
-                        <div class="form-group">
-                            <textarea class="form-control" rows="5" name="enquiry" id="message"
-                                placeholder="Enter your message" required></textarea>
-                        </div>
-
-                    </div>
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn1 btn-default" data-dismiss="modal">Close</button>
-                    <button class="btn1 btn-primary" type="submit" name="submit"> <i class="fa fa-paper-plane-o"></i>
-                        Send</button>
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
-<!-- / Modal Send us your requirement Ends -->
-
-<!--end section-->
 
 <?php $pageTitle = "Mern Stack Development"; // Replace "Page Name" with the actual name of your page
 include('contact-us-div.php'); ?>
