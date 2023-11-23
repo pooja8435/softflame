@@ -1111,6 +1111,16 @@ p.awesome_line {
     transition: all .5s ease 0;
     transition: all 0.5s ease 0s;
 }
+.item {
+    height: 350px; /* Set a fixed height for the cards */
+    overflow: hidden; /* Enable vertical scrolling for overflowing content */
+}
+/* Add additional styles for responsiveness if necessary */
+@media (max-width: 768px) {
+    .col-lg-4 {
+        flex: 0 0 100%; /* Make columns full width on small screens */
+    }
+}
 
 .item:hover {
     background: #2d5284;
@@ -1774,26 +1784,20 @@ include 'header.php';?>
                 <div class="col-lg-4 col-sm-6">
                     <div class="item card1"> <span class="icon feature_box_col_one"><i class="fa fa-globe"></i></span>
                         <h6>High-end security</h6>
-                        <p>When you hire a dedicated app developer from our company, rest assured of top-notch security
-                            for your project. Our commitment to delivering projects as promised, even in unforeseen
-                            circumstances, ensures a reliable and secure app development <br>process.</p>
+                        <p>When you hire a dedicated app developer from us, your project enjoys top-notch security and a commitment to on-time delivery, even in unforeseen circumstances.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="item card2"> <span class="icon feature_box_col_two"><i class="fa fa-anchor"></i></span>
                         <h6>Availability</h6>
-                        <p>Ensure the timely completion of your project by hiring a skilled developer from our company.
-                            Our commitment to availability guarantees that, even if the assigned developer faces
-                            challenges, another capable developer will step in, maintaining project momentum.</p>
+                        <p>Ensure timely project completion by choosing our skilled developers, backed by a commitment to availability, guaranteeing a seamless transition if challenges arise.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="item card3"> <span class="icon feature_box_col_three"><i
                                 class="fa fa-hourglass-half"></i></span>
                         <h6>Professionalism</h6>
-                        <p>Elevate your mobile app development with our company's team of skilled professionals
-                            possessing the best expertise. Our developers are dedicated to delivering high-quality work,
-                            ensuring professionalism in every aspect of the development process.</p>
+                        <p>Elevate your mobile app development with our team's expertise, where high-end security, dedication, and professionalism converge for a superior development experience.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">

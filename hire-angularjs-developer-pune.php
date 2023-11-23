@@ -1081,8 +1081,12 @@ p.awesome_line {
     -webkit-transition: all .5s ease 0;
     transition: all .5s ease 0;
     transition: all 0.5s ease 0s;
+    
 }
-
+.item {
+    height: 350px; /* Set a fixed height for the cards */
+    overflow: hidden; /* Enable vertical scrolling for overflowing content */
+}
 .item:hover {
     background: #2d5284;
     box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.2);
@@ -1233,6 +1237,14 @@ p.awesome_line {
     padding: 3px 7px;
     border-radius: 30px;
 }
+
+/* Add additional styles for responsiveness if necessary */
+@media (max-width: 768px) {
+    .col-lg-4 {
+        flex: 0 0 100%; /* Make columns full width on small screens */
+    }
+}
+
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600');
 
@@ -1858,7 +1870,7 @@ include 'header.php';?>
                         <div class="col-lg-4 col-sm-6">
                             <div class="item card1"> <span class="icon feature_box_col_one"><i class="fa fa-globe"></i></span>
                                 <h6>Trained and Well Revised</h6>
-                                <p>Our developers are well aware of the latest technologies. We encourage our developers to attend conferences and training to stay updated with the technology.</p>
+                                <p>our developers stay ahead with the latest technologies through conferences and training, ensuring cutting-edge solutions for your projects.</p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-sm-6">
@@ -2233,7 +2245,7 @@ include 'header.php';?>
             delay: 500,
             origin: 'center', // Animation starting point at the center
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true 
         });
         sr.reveal('.text1', {
@@ -2249,7 +2261,7 @@ include 'header.php';?>
             delay: 500,
             origin: 'center', // Animation starting point at the center
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true 
         });
         sr.reveal('.text2', {
@@ -2271,7 +2283,7 @@ include 'header.php';?>
             delay: 500,
             origin: 'center', // Animation starting point at the center
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true 
         });
         sr.reveal('.card2', {
@@ -2279,7 +2291,7 @@ include 'header.php';?>
             delay: 1000,
             origin: 'center', // Animation starting point at the center
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true 
         });
         sr.reveal('.card3', {
@@ -2287,7 +2299,7 @@ include 'header.php';?>
             delay: 1500,
             origin: 'center', // Animation starting point at the center
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true 
         });
         sr.reveal('.card4', {
@@ -2295,7 +2307,7 @@ include 'header.php';?>
             delay: 500,
             origin: 'center', // Animation starting point at the center
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true 
         });
         sr.reveal('.card5', {
@@ -2303,7 +2315,7 @@ include 'header.php';?>
             delay: 1000,
             origin: 'center', // Animation starting point at the center
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true 
         });
         sr.reveal('.card6', {
@@ -2311,7 +2323,7 @@ include 'header.php';?>
             delay: 1500,
             origin: 'center', // Animation starting point at the center
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true 
         });
         sr.reveal('.ban_text', {
@@ -2319,7 +2331,7 @@ include 'header.php';?>
             // delay:1000,
             origin: 'top', // Animation starting point at the center
             distance: '100px', // Distance to reveal the element
-            // scale: 1.2, // Scale of the element (adjust as needed)
+            // scale: 1, // Scale of the element (adjust as needed)
             reset: true
         });
     });

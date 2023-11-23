@@ -790,6 +790,7 @@ background-color: #fff;
 border-radius: 10px;
 padding: 40px 30px;
 overflow: hidden;
+height:300px;
 }
 
 .section-services .single-service .content {
@@ -1040,6 +1041,16 @@ margin-bottom: 30px;
 -webkit-transition: all .5s ease 0;
 transition: all .5s ease 0;
 transition: all 0.5s ease 0s;
+}
+.item {
+    height: 350px; /* Set a fixed height for the cards */
+    overflow: hidden; /* Enable vertical scrolling for overflowing content */
+}
+/* Add additional styles for responsiveness if necessary */
+@media (max-width: 768px) {
+    .col-lg-4 {
+        flex: 0 0 100%; /* Make columns full width on small screens */
+    }
 }
 
 .item:hover {
@@ -1464,9 +1475,9 @@ border-image-repeat: initial;
 }
 
 .responsive-container-block.Container {
-margin-top: 80px;
+/* margin-top: 80px; */
 margin-right: auto;
-margin-bottom: 50px;
+/* margin-bottom: 50px; */
 margin-left: auto;
 justify-content: center;
 align-items: center;
@@ -2802,7 +2813,7 @@ $menuactive = "about";
         sr.reveal('.card1', {
             duration: 1000, // Animation duration in milliseconds
             delay: 500,
-            origin: 'center', // Animation starting point at the center
+            origin: 'center', 
             distance: '20px', // Distance to reveal the element
             scale: 1.2, // Scale of the element (adjust as needed)
             reset: true
@@ -2810,7 +2821,7 @@ $menuactive = "about";
         sr.reveal('.card2', {
             duration: 1000, // Animation duration in milliseconds
             delay: 1000,
-            origin: 'center', // Animation starting point at the center
+            origin: 'center', 
             distance: '20px', // Distance to reveal the element
             scale: 1.2, // Scale of the element (adjust as needed)
             reset: true
@@ -2818,7 +2829,7 @@ $menuactive = "about";
         sr.reveal('.card3', {
             duration: 1000, // Animation duration in milliseconds
             delay: 1500,
-            origin: 'center', // Animation starting point at the center
+            origin: 'center', 
             distance: '20px', // Distance to reveal the element
             scale: 1.2, // Scale of the element (adjust as needed)
             reset: true
@@ -2826,7 +2837,7 @@ $menuactive = "about";
         sr.reveal('.card4', {
             duration: 1000, // Animation duration in milliseconds
             delay: 2000,
-            origin: 'center', // Animation starting point at the center
+            origin: 'center', 
             distance: '20px', // Distance to reveal the element
             scale: 1.2, // Scale of the element (adjust as needed)
             reset: true
@@ -2834,7 +2845,7 @@ $menuactive = "about";
         sr.reveal('.card5', {
             duration: 1000, // Animation duration in milliseconds
             delay: 2400,
-            origin: 'center', // Animation starting point at the center
+            origin: 'center', 
             distance: '20px', // Distance to reveal the element
             scale: 1.2, // Scale of the element (adjust as needed)
             reset: true
@@ -2842,7 +2853,7 @@ $menuactive = "about";
         sr.reveal('.card6', {
             duration: 1000, // Animation duration in milliseconds
             delay: 2800,
-            origin: 'center', // Animation starting point at the center
+            origin: 'center', 
             distance: '20px', // Distance to reveal the element
             scale: 1.2, // Scale of the element (adjust as needed)
             reset: true
@@ -2857,7 +2868,7 @@ $menuactive = "about";
         sr.reveal('.ser', {
             duration: 1000, // Animation duration in milliseconds
             delay: 500,
-            origin: 'center', // Animation starting point at the center
+            origin: 'center', 
             distance: '20px', // Distance to reveal the element
             scale: 1.2, // Scale of the element (adjust as needed)
             reset: true
