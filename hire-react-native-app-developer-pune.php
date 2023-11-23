@@ -794,6 +794,7 @@ p,a,h1,h2,h3,h4,h5,h6,ul,li {
     border-radius: 10px;
     padding: 40px 30px;
     overflow: hidden;
+    height:300px;
 }
 
 .section-services .single-service .content {
@@ -1044,6 +1045,16 @@ p.awesome_line {
     -webkit-transition: all .5s ease 0;
     transition: all .5s ease 0;
     transition: all 0.5s ease 0s;
+}
+.item {
+    height: 350px; /* Set a fixed height for the cards */
+    overflow: hidden; /* Enable vertical scrolling for overflowing content */
+}
+/* Add additional styles for responsiveness if necessary */
+@media (max-width: 768px) {
+    .col-lg-4 {
+        flex: 0 0 100%; /* Make columns full width on small screens */
+    }
 }
 
 .item:hover {

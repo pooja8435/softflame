@@ -1041,6 +1041,16 @@ p.awesome_line {
     transition: all .5s ease 0;
     transition: all 0.5s ease 0s;
 }
+.item {
+    height: 350px; /* Set a fixed height for the cards */
+    overflow: hidden; /* Enable vertical scrolling for overflowing content */
+}
+/* Add additional styles for responsiveness if necessary */
+@media (max-width: 768px) {
+    .col-lg-4 {
+        flex: 0 0 100%; /* Make columns full width on small screens */
+    }
+}
 
 .item:hover {
     background: #2d5284;
@@ -1208,7 +1218,7 @@ p.awesome_line {
   font-family: system-ui, sans-serif;
   color: hsl(0 0% 95%);
   
-  /* width: fit-content; */
+  width:1000px;
   /* max-width: 30rem; */
   margin-block: 0;
   margin-inline: auto;

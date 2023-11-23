@@ -743,7 +743,7 @@ hr {
   font-family: system-ui, sans-serif;
   color: hsl(0 0% 95%);
   
-  /* width: fit-content; */
+  width: fit-content;
   /* max-width: 30rem; */
   margin-block: 0;
   margin-inline: auto;
