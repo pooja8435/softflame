@@ -276,22 +276,22 @@
                 </p>
             </div>
             <div class="col-md-4">
-                <img data-animation="zoomIn" data-animation-delay="300ms" class="first-img"
+                <img data-animation="zoomIn" data-animation-delay="300ms" class="first-img "
                     src="images/services/info/Seo-head.png">
             </div>
         </div>
     </div>
 
-    <div class="container margin-top">
+    <div class="container margin-top mobile-margin-30">
         <div class="row" data-animation="zoomReverseIn">
             <h1 class="header-font text-center center-line">Our SEO Services</h1>
         </div>
     </div>
 
-    <div class="container margin-top">
+    <div class="container margin-top mobile-margin-30">
         <div class="row">
             <div class="col-md-4">
-                <img data-animation="zoomIn" data-animation-delay="300ms" class="store-img"
+                <img data-animation="zoomIn" data-animation-delay="300ms" class="store-img display-none"
                     src="images/services/info/monitoring.jpg">
             </div>
             <div class="col-md-8" data-animation="slideInLeft">
@@ -309,7 +309,7 @@
         </div>
     </div>
 
-    <div class="container margin-top">
+    <div class="container margin-top mobile-margin-30">
         <div class="row">
             <div class="col-md-8" data-animation="slideInRight">
                 <h2 class="text-font">Backlink Analysis</h2>
@@ -324,16 +324,16 @@
                 </p>
             </div>
             <div class="col-md-4">
-                <img data-animation="zoomIn" data-animation-delay="300ms" class="customer-img"
+                <img data-animation="zoomIn" data-animation-delay="300ms" class="customer-img display-none"
                     src="images/services/info/Backlink-Analysis.png">
             </div>
         </div>
     </div>
 
-    <div class="container margin-top">
+    <div class="container margin-top mobile-margin-30">
         <div class="row">
             <div class="col-md-4">
-                <img data-animation="zoomIn" data-animation-delay="300ms" class="content-img"
+                <img data-animation="zoomIn" data-animation-delay="300ms" class="content-img display-none"
                     src="images/services/info/strategy.jpg">
             </div>
             <div class="col-md-8" data-animation="slideInLeft">
@@ -352,7 +352,7 @@
         </div>
     </div>
 
-    <div class="container margin-top">
+    <div class="container margin-top mobile-margin-30">
         <div class="row">
             <div class="col-md-8" data-animation="slideInRight">
                 <h2 class="text-font">Understand that the mobile market today is bigger than desktops</h2>
@@ -374,16 +374,16 @@
                 </p>
             </div>
             <div class="col-md-4">
-                <img data-animation="zoomIn" data-animation-delay="300ms" class="emails-img"
+                <img data-animation="zoomIn" data-animation-delay="300ms" class="emails-img display-none"
                     src="images/services/info/mobile-vs-desktop.png">
             </div>
         </div>
     </div>
 
-    <div class="container margin-top">
+    <div class="container margin-top mobile-margin-30">
         <div class="row">
             <div class="col-md-4">
-                <img data-animation="zoomIn" data-animation-delay="300ms" class="payment-img"
+                <img data-animation="zoomIn" data-animation-delay="300ms" class="payment-img display-none"
                     src="images/services/info/SEO-Strategy.png">
             </div>
             <div class="col-md-8" data-animation="slideInLeft">

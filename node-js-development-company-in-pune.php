@@ -159,6 +159,7 @@
             height: 300px !important;
             margin-left: 40px;
         }
+
         .second-img {
             height: 315px !important;
         }
@@ -197,7 +198,7 @@
 
 <section>
     <div class="header-inner two">
-    <div class="inner text-center col-md-6 padding-top">
+        <div class="inner text-center col-md-6 padding-top">
             <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">NodeJs Development
                 Company </h1>
             <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune, Bangalore,
@@ -231,19 +232,22 @@
         <div class="row">
             <div class="col-md-6" data-animation="slideInRight" data-animation-delay="300ms">
                 <h1 class="header-font"> Node.js Development Company </h1>
-                <p class="text-font" class="init_text text-font">We, at SoftFlame Solutions believe in innovation, rapid
+                <p class="init_text  text-font" class="init_text text-font">We, at SoftFlame Solutions believe in
+                    innovation, rapid
                     execution and
                     quality deliverables. Being an emerging Node.js Development Company in Pune, Bangalore, Delhi, we
                     like to learn new things and to use cutting edge technologies. Custom Services Development is easy
                     because they are composed of small modules which are piped together.</p>
-                <p class="text-font" class="init_text text-font">we specialize in leveraging the robust capabilities of
+                <p class="init_text  text-font" class="init_text text-font">we specialize in leveraging the robust
+                    capabilities of
                     Node.js to deliver
                     cutting-edge software solutions. Our team of experienced Node.js developers is dedicated to crafting
                     high-performance applications that meet the unique requirements of your business.
                 </p>
             </div>
             <div class="col-md-6">
-                <img class="first-img" data-animation="zoomIn" data-animation-delay="300ms" src="images/services/info/nodejs-head.png">
+                <img class="first-img" data-animation="zoomIn" data-animation-delay="300ms"
+                    src="images/services/info/nodejs-head.png">
             </div>
         </div>
     </div>
@@ -254,64 +258,68 @@
                 <h1 class="header-font text-center">Our Node.js Development Services</h1>
             </div>
         </div>
-        <div class="row margin-top">
+        <div class="row margin-top mobile-margin-30">
             <div class="col-md-4">
-                <div class="card services-card" data-animation="flipInY" data-animation-delay="300ms" >
+                <div class="card services-card" data-animation="flipInY" data-animation-delay="300ms">
                     <div class="card-body">
                         <h4 class="text-font"> Custom Application Development</h4>
-                        <p class="text-font">Tailored solutions to address your specific business needs, ensuring
+                        <p class="init_text text-font">Tailored solutions to address your specific business needs,
+                            ensuring
                             optimal performance and
                             scalability.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mobile-margin-30">
                 <div class="card services-card" data-animation="flipInY" data-animation-delay="300ms">
                     <div class="card-body">
                         <h4 class="text-font">API Development and Integration</h4>
-                        <p class="text-font">Seamless integration of APIs to enhance communication between different
+                        <p class="init_text  text-font">Seamless integration of APIs to enhance communication between
+                            different
                             software components
                             and third-party services.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mobile-margin-30">
                 <div class="card services-card" data-animation="flipInY" data-animation-delay="300ms">
                     <div class="card-body">
                         <h4 class="text-font"> Real-time Application Development</h4>
-                        <p class="text-font">Building responsive and real-time applications, including chat
+                        <p class="init_text text-font">Building responsive and real-time applications, including chat
                             applications, gaming
                             platforms, and collaborative tools.</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row margin-top">
+        <div class="row margin-top mobile-margin-30">
             <div class="col-md-4">
                 <div class="card services-card" data-animation="flipInY" data-animation-delay="300ms">
                     <div class="card-body">
                         <h4 class="text-font">Microservices Architecture</h4>
-                        <p class="text-font">Designing scalable and modular applications through microservices
+                        <p class="init_text text-font">Designing scalable and modular applications through microservices
                             architecture for improved
                             flexibility and maintainability.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mobile-margin-30">
                 <div class="card services-card" data-animation="flipInY" data-animation-delay="300ms">
                     <div class="card-body">
                         <h4 class="text-font">Node.js Consulting</h4>
-                        <p class="text-font">Expert guidance on incorporating Node.js into your existing infrastructure,
+                        <p class="init_text text-font">Expert guidance on incorporating Node.js into your existing
+                            infrastructure,
                             optimizing
                             performance, and addressing challenges.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mobile-margin-30">
                 <div class="card services-card" data-animation="flipInY" data-animation-delay="300ms">
                     <div class="card-body">
                         <h4 class="text-font"> Performance Optimization</h4>
-                        <p class="text-font">Fine-tuning and optimizing existing Node.js applications for enhanced
+                        <p class="init_text text-font">Fine-tuning and optimizing existing Node.js applications for
+                            enhanced
                             speed, efficiency, and
                             resource utilization.</p>
                     </div>
@@ -320,74 +328,33 @@
         </div>
     </div>
 
-    <div class="container margin-top">
-        <div class="row margin-top">
+    <div class="container margin-top mobile-margin-30">
+        <div class="row margin-top mobile-margin-30">
             <div class="col-md-6">
-                        <img class="second-img" data-animation="zoomReverseIn" data-animation-delay="300ms" src="images/services/info/node2.png">
-                    </div>
+                <img class="second-img display-none" data-animation="zoomReverseIn" data-animation-delay="300ms"
+                    src="images/services/info/node2.png">
+            </div>
             <div class="col-md-6" data-animation="slideInLeft" data-animation-delay="300ms">
                 <h1 class="header-font">Build Lightening Fast Web Applications with NodeJS</h1>
-                <p class="text-font" class="init_text text-font">SoftFlame Solutions is emerging Node.js applications development company in Pune, Bangalore, Delhi, India. Node.js easily builds a high performance application. Node.js meets all our technical expectations with simplifying work. With Node.js, large applications are divided into small applications modules which are interlinked to form a giant system.</p>
-                <p class="text-font" class="init_text text-font">we specialize in leveraging the robust capabilities of
-                Node.js makes it possible to merge front end and back end developers into one unit which makes development efficient. It handles lots of request that are I/O driven very perfectly. Most importantly, Node.js scales very nicely.
+                <p class="init_text text-font" class="init_text text-font">SoftFlame Solutions is emerging Node.js
+                    applications development company in Pune, Bangalore, Delhi, India. Node.js easily builds a high
+                    performance application. Node.js meets all our technical expectations with simplifying work. With
+                    Node.js, large applications are divided into small applications modules which are interlinked to
+                    form a giant system.</p>
+                <p class="init_text text-font" class="init_text text-font">we specialize in leveraging the robust
+                    capabilities of
+                    Node.js makes it possible to merge front end and back end developers into one unit which makes
+                    development efficient. It handles lots of request that are I/O driven very perfectly. Most
+                    importantly, Node.js scales very nicely.
                 </p>
             </div>
-            
+
         </div>
     </div>
 
 </section>
-
-<!-- Modal Send us your requirement -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                        aria-hidden="true">&times;</span></button>
-                <h4 class="text-font" class="modal-title" id="myModalLabel">Send us your requirement</h4>
-            </div>
-            <form name="registrationForm" method="post" action="email.php" required>
-                <div class="container">
-                    <div class="modal-body">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Full Name"
-                                required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email address</label>
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Email Address"
-                                required>
-                        </div>
-                        <div class="form-group">
-                            <label for="phone">Phone No.</label>
-                            <input type="text" class="form-control" name="mobile" id="phone" placeholder="Phone No."
-                                required>
-                        </div>
-
-
-                        <div class="form-group">
-                            <textarea class="form-control" rows="5" name="enquiry" id="message"
-                                placeholder="Enter your message" required></textarea>
-                        </div>
-
-                    </div>
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn1 btn-default" data-dismiss="modal">Close</button>
-                    <button class="btn1 btn-primary" type="submit" name="submit"> <i class="fa fa-paper-plane-o"></i>
-                        Send</button>
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
-<!-- / Modal Send us your requirement Ends -->
-
-<!--end section-->
-<?php include 'contact-us-div.php'; ?>
+<?php $pageTitle = "NodeJs Serivces"; // Replace "Page Name" with the actual name of your page
+include('contact-us-div.php'); ?>
 
 
 <?php include 'footer.php'; ?>

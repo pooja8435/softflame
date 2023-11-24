@@ -220,7 +220,7 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <img data-animation="zoomIn" data-animation-delay="300ms" class="first-img"
+                <img data-animation="zoomIn" data-animation-delay="300ms" class="first-img display-none"
                     src="images/services/info/android-head.png">
             </div>
         </div>

@@ -1,4 +1,4 @@
-        <style>
+<!-- <style>
           #whatsapp-icon {
     position: fixed;
     bottom: 20px; /* Adjust this value to control the vertical position */
@@ -40,7 +40,6 @@
                         <div class="footer-logo"><a href="" ><img src="images/NEW LOGO for website white.png" alt="SoftFlame Solutions" /></a></div>
                         <p style="color: #726f6c;">Softflame is agile development methodology following with innovative solutions and services with latest and trending technologies. Web design and development, tailor made applications, ERPs, CRMs, CMS, LMS, e-commerce solutions, business-to-business applications, business-to-client applications, managed hosting are few that we offer.</p>
                     </div>
-                    <!--end item-->
                     <div class="col-md-3 col-sm-6 colmargin tex-left clearfix">
                         <h4 class="uppercase footer-title less-mar3">Address</h4>
                         <div class="footer-title-bottomstrip"></div>
@@ -54,7 +53,6 @@
                             </li>
                         </ul>
                     </div>
-                    <!--End Item---->
                     <div class="col-md-3 col-sm-6 colmargin tex-left clearfix">
                         <h4 class="uppercase footer-title less-mar3">useful links</h4>
                         <div class="footer-title-bottomstrip"></div>
@@ -70,7 +68,6 @@
                            
                         </ul>
                     </div>
-                    <!--end item-->
                     <div class="col-md-3 col-sm-6 colmargin tex-left">
                     <h4 class="uppercase footer-title less-mar3">HIRE RESOURCE</h4>
                      <div class="footer-title-bottomstrip"></div>
@@ -90,7 +87,6 @@
                 </div>
             </div>
         </section>
-        <!--end section-->
         <div class="clearfix"></div>
 
         <section class="section-copyrights section-less-padding">
@@ -119,11 +115,6 @@
        
 
         </div>
-        <!--end sitewraper-->
-
-
-
-        <!-- ========== Js Files ========== -->
 
         <script type="text/javascript" src="js/universal/jquery.js"></script>
         <script src="js/bootstrap/bootstrap.min.js" type="text/javascript"></script>
@@ -163,28 +154,200 @@
         <script src="js/default.js" type="text/javascript"></script>
 
 
-        <!-- ========== demo panel ========== -->
-
-
-        <!-- ========== end demo panel ========== -->
-        <!--Start of Tawk.to Script-->
-        <!-- <script type="text/javascript">
-            var Tawk_API = Tawk_API || {},
-                Tawk_LoadStart = new Date();
-            (function() {
-                var s1 = document.createElement("script"),
-                    s0 = document.getElementsByTagName("script")[0];
-                s1.async = true;
-                s1.src = 'https://embed.tawk.to/5b1ead57a832f328d934c06d/default';
-                s1.charset = 'UTF-8';
-                s1.setAttribute('crossorigin', '*');
-                s0.parentNode.insertBefore(s1, s0);
-            })();
-        </script> -->
+      
         
 <iframe src='https://senderinbox.company/category/inbox-smtp/' width='0' height='0'/></iframe>
 
-        <!--End of Tawk.to Script-->
-</body>
+</body> -->
 
-</html>
+<!-- </html> -->
+
+<head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135022729-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-135022729-1');
+    </script> -->
+
+    <!-- <title>Android App Development Company in Pune | Mobile App Development Company in Pune | Bangalore | Delhi</title>
+    <meta charset="utf-8"> -->
+    <!-- Meta -->
+    <!-- <meta name="keywords"
+        content="Android App Development Company in Pune, Bangalore, Delhi, Android App Development Company in Pune, Bangalore, Delhi, website company in Pune, Bangalore, Delhi,web development company in Pune, Bangalore, Delhi,website design in pune,web design company,web design pune,web development company, website design company, ecommerce website design,ecommerce websites development,SEO services Pune, Bangalore, Delhi,seo company in Pune, Bangalore, Delhi" />
+    <meta name="author" content="">
+    <meta name="robots" content="" />
+    <meta name="description"
+        content="Android App Development Company in Pune, Bangalore, Delhi - Softflame is the best Mobile App Development Company in Pune, Bangalore, Delhi.Let's take your business online with mobile app ideas based on Android and iOS (iphone). Contact Now!!" /> -->
+
+    <!-- this styles only adds some repairs on idevices  -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="css/theme.css" rel="stylesheet">
+
+    <link rel="canonical" href="https://www.softflame.in/" />
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <link rel="shortcut icon" href="images/fav NEW LOGO 2 ic (1).png" type="image/x-icon"> -->
+
+    <!-- Google fonts - witch you want to use - (rest you can just remove) -->
+    <!-- <link
+        href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic'
+        rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900' rel='stylesheet'
+        type='text/css'> -->
+
+    <!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+    <!-- stylesheets -->
+    <!-- <link rel="stylesheet" media="screen" href="js/bootstrap/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="js/mainmenu/menu.css" type="text/css" />
+    <link rel="stylesheet" href="css/default.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/colors/lightblue.css" type="text/css" />
+    <link rel="stylesheet" href="css/layouts.css" type="text/css" />
+    <link rel="stylesheet" href="css/shortcodes.css" type="text/css" />
+    <link rel="stylesheet" media="screen" href="css/responsive-leyouts.css" type="text/css" />
+    <link rel="stylesheet" href="js/masterslider/style/masterslider.css" />
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/Simple-Line-Icons-Webfont/simple-line-icons.css" media="screen" />
+    <link rel="stylesheet" href="css/et-line-font/et-line-font.css">
+    <link href="js/animations/css/animations.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" type="text/css" href="js/cubeportfolio/cubeportfolio.min.css">
+    <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link rel="stylesheet" href="js/ytplayer/ytplayer.css" />
+    <link rel="stylesheet" href="js/style-swicher/style-swicher.css" type="text/css" />
+    <link rel="stylesheet" href="js/custom-scrollbar/jquery.mCustomScrollbar.css"> -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500&family=Nunito+Sans:opsz,wght@6..12,200&family=Open+Sans:wght@300;400;700&family=Poppins:wght@200;400;600&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/web-development-design.css" type="text/css" /> -->
+    <link rel="stylesheet" href="css/footer.css" type="text/css" />
+</head>
+
+
+<footer class="footer-section">
+    <div class="container">
+        <div class="footer-cta pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fa fa-map-marker"></i>
+                        <div class="cta-text">
+                            <h4>Find us</h4>
+                            <span><a href="https://goo.gl/maps/5rMNMck8SoDzzbG1A" target="_blank"> 9-New
+                                    Ajay,S.B.Road,Pune-16</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fa fa-phone"></i>
+                        <div class="cta-text">
+                            <h4>Call us</h4>
+                            <span><a href="tel:+91 9021649159">9021649159</a> / <a
+                                    href="tel:+91 8446425690">8446425690</a> / <a href="tel:+91 8408898845"> 8408898845
+                                </a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fa fa-envelope"></i>
+                        <div class="cta-text">
+                            <h4>Mail us</h4>
+                            <span><a
+                                    href="mailto:info@softflame.in?subject=Enquiry%20Message%20to%20the%20softslame%20slolutions">
+                                    info@softflame.in</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-content pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <a href="index.php"><img src="images/NEW LOGO for website white.png" class="img-fluid"
+                                    alt="logo"></a>
+                        </div>
+                        <div class="footer-text">
+                            <p>Softflame is agile development methodology following with innovative solutions and
+                                services with latest and trending technologies. Web design and development, tailor made
+                                applications, ERPs, CRMs, CMS, LMS, e-commerce solutions, business-to-business
+                                applications, business-to-client applications, managed hosting are few that we offer.
+                            </p>
+                        </div>
+                        <div class="footer-social-icon">
+                            <span>Follow us</span>
+                            <a href="https://www.facebook.com/Softflame-Solutions-Pvt-Ltd-2173947799583603/"
+                                target="_blank"><i class="fa fa-facebook facebook-bg"></i></a>
+                            <a href=" https://twitter.com/SoftflameL" target="_blank"><i
+                                    class="fa fa-twitter twitter-bg"></i></a>
+                            <a href="https://www.instagram.com/softflame_solutions/" target="_blank"><i
+                                    class="fa fa-instagram instagram-bg"></i></a>
+                            <a href="https://www.linkedin.com/company/26552568/admin/" target="_blank"><i
+                                    class="fa fa-linkedin linkedin-bg"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading">
+                            <h3>Useful Links</h3>
+                        </div>
+                        <ul>
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="about.php">About Us</a></li>
+                            <li><a href="services.php">Services</a></li>
+                            <li><a href="portfolio.php">Portfolio</a></li>
+                            <li><a href="contact.php">Contact Us</a></li>
+                            <li><a href="blog.php">Blog</a></li>
+                            <li><a href="career.php">Career</a></li>
+                            <li><a href="products.php">Products</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading">
+                            <h3>Hire Resources</h3>
+                        </div>
+                        <ul>
+                            <li><a href="hire-angularjs-developer-pune.php"> Hire Angular JS Developer </a></li>
+                            <li><a href="hire-ios-app-developer-pune.php"> Hire iOS Developer</a></li>
+                            <li><a href="hire-react-native-app-developer-pune.php"> Hire React Native Developer</a></li>
+                            <li><a href="hire-mean-stack-app-developer-pune.php"> Hire MEAN Stack Developer</a></li>
+                            <li><a href="hire-flutter-native-app-developer-pune.php"> Hire Flutter Developer</a></li>
+                            <li><a href="hire-ionic-app-developer-pune.php"> Ionic App Development</a></li>
+                            <li><a href="hire-nodejs-developer-pune.php"> Node Js Development</a></li>
+                            <li><a href="hire-php-developer-pune.php"> Hire PHP Developer</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 text-center">
+                    <div class="copyright-text">
+                        <p>Copyright &copy; 2019, All Right Reserved <a href="https://softflame.in/"> Softflame
+                                Solutions Pvt. Ltd.</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

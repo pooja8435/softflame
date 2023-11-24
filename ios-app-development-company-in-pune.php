@@ -224,7 +224,7 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <img data-animation="zoomIn" data-animation-delay="300ms" class="first-img"
+                <img data-animation="zoomIn" data-animation-delay="300ms" class="first-img display-none"
                     src="images/iphonedevelop.png">
             </div>
         </div>
@@ -260,7 +260,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="card  icard" data-animation="zoomReverseIn">
+                    <div class="card mobile-margin-30 icard" data-animation="zoomReverseIn">
                         <div class="card icard-body">
                             <div class="row">
                                 <div class="col-md-10">
@@ -284,7 +284,7 @@
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <div class="card  icard" data-animation="zoomReverseIn">
+                    <div class="card mobile-margin-30 icard" data-animation="zoomReverseIn">
                         <div class="card icard-body">
                             <div class="row">
                                 <div class="col-md-10">
@@ -305,7 +305,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="card  icard" data-animation="zoomReverseIn">
+                    <div class="card mobile-margin-30 icard" data-animation="zoomReverseIn">
                         <div class="card icard-body">
                             <div class="row">
                                 <div class="col-md-10">
@@ -325,7 +325,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row mobile-margin-30">
                 <div class="col-md-6">
                     <div class="card  icard" data-animation="zoomReverseIn">
                         <div class="card icard-body">
@@ -349,7 +349,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="card  icard" data-animation="zoomReverseIn">
+                    <div class="card mobile-margin-30 icard" data-animation="zoomReverseIn">
                         <div class="card icard-body">
                             <div class="row">
                                 <div class="col-md-10">
@@ -374,7 +374,7 @@
     <div class="container">
         <div class="row">
             <div class="section-header text-center" data-animation="zoomIn" data-animation-delay="300ms">
-                <h1 class="header-font margin-top">
+                <h1 class="header-font margin-top mobile-margin-30">
                     Build Interactive iOS Applications
                 </h1>
             </div>
@@ -383,7 +383,7 @@
                     <img data-animation="zoomReverseIn" data-animation-delay="300ms" class="seo-height"
                         src="images/services/info/ios-app-development-services.png">
                 </div>
-                <div class="col-md-6" data-animation="slideInLeft" data-animation-delay="300ms">
+                <div class="col-md-6 mobile-margin-30" data-animation="slideInLeft" data-animation-delay="300ms">
                     <p class="init_text text-font">We provide a complete range of Mobile App Development Services in
                         Pune, Bangalore, Delhi for startup , midsize company , and enterprises , We work as long term
                         associate model , where we provide complete end to end solution from development , support
