@@ -187,7 +187,7 @@ color:white;
 }
 
 .ban_text strong span {
-    font-size: 28px;
+    font-size: 20px;
     line-height: 35px;
     letter-spacing: 2px;
 }
@@ -195,6 +195,7 @@ color:white;
 .ban_text p {
     font-size: 14px;
     line-height: 20px;
+    margin:7px 2px 7px;
 }
 
 .ban_text a {
@@ -205,8 +206,9 @@ color:white;
 
 @media only screen and (max-width: 767px) {
 .ban_img img {
-    min-height: 290px;
+    /* min-height: 290px; */
     object-fit: cover;
+    height:auto;
 }
 }
 
@@ -520,7 +522,7 @@ padding-left: 10px;
 }
 
 .responsive-container-block.Container.bottomContainer {
-margin-top: 80px;
+/* margin-top: 80px; */
 margin-right: auto;
 margin-bottom: 50px;
 margin-left: auto;
@@ -594,7 +596,7 @@ bottom: 10%;
 }
 
 .responsive-container-block.Container.bottomContainer {
-padding-top: 10px;
+/* padding-top: 10px; */
 padding-right: 0px;
 padding-bottom: 10px;
 padding-left: 0px;
@@ -633,6 +635,14 @@ padding-bottom: 0px;
 padding-left: 0px;
 }
 
+.responsive-container-block.Container.bottomContainer{
+    margin-top:0px !important;
+  }
+
+  .feat{
+    margin-top:0px !important;
+  }
+
 .responsive-container-block.Container {
 flex-direction: column;
 height: auto;
@@ -648,7 +658,7 @@ font-size: 24px;
 }
 
 .text-blk.description {
-text-align: center;
+text-align: justify;
 font-size: 18px;
 }
 
@@ -674,14 +684,14 @@ margin-left: auto;
 }
 
 .responsive-container-block.Container.bottomContainer {
-margin-top: 50px;
+/* margin-top: 50px; */
 margin-right: auto;
-margin-bottom: 50px;
+/* margin-bottom: 50px; */
 margin-left: auto;
 }
 
 .allText.bottomText {
-margin-top: 40px;
+/* margin-top: 40px; */
 margin-right: 0px;
 margin-bottom: 0px;
 margin-left: 0px;
@@ -721,7 +731,7 @@ text-align: left;
 }
 
 .text-blk.description {
-text-align: left;
+text-align: justify;
 }
 
 .ultimateImg {
@@ -750,7 +760,7 @@ top: 80%;
 }
 
 .allText.bottomText {
-margin-top: 100px;
+/* margin-top: 100px; */
 margin-right: 0px;
 margin-bottom: 0px;
 margin-left: 0px;
@@ -805,7 +815,7 @@ width: 100%;
 }
 
 .allText.bottomText {
-margin-top: 50px;
+/* margin-top: 50px; */
 margin-right: 0px;
 margin-bottom: 0px;
 margin-left: 0px;
@@ -826,7 +836,7 @@ width: 55%;
 }
 
 .allText.bottomText {
-margin-top: 75px;
+/* margin-top: 75px; */
 margin-right: 0px;
 margin-bottom: 0px;
 margin-left: 0px;
@@ -1358,7 +1368,7 @@ top: auto;
 .responsive-container-block.textSide {
     margin-top: 0px;
     margin-right: 0px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     margin-left: 0px;
     width: 100%;
 }
@@ -1375,19 +1385,31 @@ top: auto;
 @media (max-width: 768px) {
 .responsive-container-block.textSide {
     width: 100%;
-    align-items: center;
+    /* align-items: center; */
     flex-direction: column;
     justify-content: center;
 }
 
+.responsive-container-block.bigContainer{
+      margin-top:0px !important;
+      margin-bottom:0px !important;
+    }
+    .text-blk.description{
+      margin-bottom:0px !important;
+    }
+    .responsive-container-block.textSide{
+      margin-top:0px !important;
+    }
+
 .text-blk.subHeading {
-    text-align: center;
+    text-align: justify;
     font-size: 17px;
     max-width: 520px;
 }
 
 .text-blk.heading {
-    text-align: center;
+    text-align: left;
+    font-size:20px !important;
 }
 
 .imgContainer {
@@ -1414,7 +1436,7 @@ top: auto;
     width: 100%;
     margin-top: 0px;
     margin-right: 0px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     margin-left: 0px;
 }
 
@@ -1449,6 +1471,7 @@ top: auto;
 .mainImg {
     max-width: 100%;
     height: auto;
+    margin-top:50px;
 }
 
 .blueDots {
@@ -1484,7 +1507,7 @@ top: auto;
     padding-right: 20px;
     padding-bottom: 10px;
     padding-left: 20px;
-    padding: 0 30px 0 30px;
+    padding: 0 65px 0 30px;
 }
 
 .redDots {
@@ -1504,7 +1527,7 @@ top: auto;
 .responsive-container-block.textSide {
     margin-top: 40px;
     margin-right: 0px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     margin-left: 0px;
 }
 
@@ -1710,6 +1733,9 @@ transition: all 0.5s ease 0s;
 @media (max-width: 768px) {
     .col-lg-4 {
         flex: 0 0 100%; /* Make columns full width on small screens */
+    }
+    .imgHide{
+      display:none;
     }
 }
 
@@ -1930,7 +1956,7 @@ include 'header.php';?>
 
 <div class="responsive-container-block bigContainer" style="margin-top:-100px;">
         <div class="responsive-container-block Container">
-            <div class="imgContainer img1" data-sr="enter left, scale up 20%, reset">
+            <div class="imgContainer img1 imgHide" data-sr="enter left, scale up 20%, reset">
                 <img class="blueDots" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/aw3.svg">
                 <img class="mainImg" src="img/nodejs.png">
             </div>
@@ -1954,7 +1980,7 @@ include 'header.php';?>
 
     <div class="responsive-container-block bigContainer">
   <div class="responsive-container-block Container bottomContainer">
-    <div class="ultimateImg">
+    <div class="ultimateImg imgHide">
       <img class="mainImg img2" src="img/nodejs.webp">
       <!-- <div class="purpleBox">
         <p class="purpleText">
@@ -2323,9 +2349,9 @@ include 'header.php';?>
         sr.reveal('.img1', {
             duration: 1000, // Animation duration in milliseconds
             delay: 500,
-            origin: 'center', // Animation starting point at the center
+            origin: 'bottom', // Animation starting point at the center
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true
         });
         sr.reveal('.text1', {
@@ -2339,9 +2365,9 @@ include 'header.php';?>
         sr.reveal('.img2', {
             duration: 1000, // Animation duration in milliseconds
             delay: 1000,
-            origin: 'center', // Animation starting point at the center
+            origin: 'bottom', // Animation starting point at the center
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true
         });
         sr.reveal('.text2', {
@@ -2362,49 +2388,49 @@ include 'header.php';?>
         sr.reveal('.card1', {
             duration: 1000, // Animation duration in milliseconds
             delay: 500,
-            origin: 'center', 
+            origin: 'bottom', 
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true
         });
         sr.reveal('.card2', {
             duration: 1000, // Animation duration in milliseconds
             delay: 1000,
-            origin: 'center', 
+            origin: 'bottom', 
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true
         });
         sr.reveal('.card3', {
             duration: 1000, // Animation duration in milliseconds
             delay: 1500,
-            origin: 'center', 
+            origin: 'bottom', 
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true
         });
         sr.reveal('.card4', {
             duration: 1000, // Animation duration in milliseconds
             delay: 2000,
-            origin: 'center', 
+            origin: 'bottom', 
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true
         });
         sr.reveal('.card5', {
             duration: 1000, // Animation duration in milliseconds
             delay: 2400,
-            origin: 'center', 
+            origin: 'bottom', 
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true
         });
         sr.reveal('.card6', {
             duration: 1000, // Animation duration in milliseconds
             delay: 2800,
-            origin: 'center', 
+            origin: 'bottom', 
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true
         });
     });

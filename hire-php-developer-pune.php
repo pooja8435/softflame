@@ -186,7 +186,7 @@ color:white;
 }
 
 .ban_text strong span {
-    font-size: 28px;
+    font-size: 20px;
     line-height: 35px;
     letter-spacing: 2px;
 }
@@ -194,6 +194,7 @@ color:white;
 .ban_text p {
     font-size: 14px;
     line-height: 20px;
+    margin:7px 2px 7px;
 }
 
 .ban_text a {
@@ -204,8 +205,9 @@ color:white;
 
 @media only screen and (max-width: 767px) {
 .ban_img img {
-    min-height: 290px;
+    /* min-height: 290px; */
     object-fit: cover;
+    height:auto;
 }
 }
 
@@ -544,19 +546,20 @@ top: auto;
 @media (max-width: 768px) {
 .responsive-container-block.textSide {
     width: 100%;
-    align-items: center;
+    /* align-items: center; */
     flex-direction: column;
     justify-content: center;
 }
 
 .text-blk.subHeading {
-    text-align: center;
+    text-align: justify;
     font-size: 17px;
     max-width: 520px;
 }
 
 .text-blk.heading {
-    text-align: center;
+    text-align: left;
+    font-size:20px !important;
 }
 
 .imgContainer {
@@ -671,7 +674,7 @@ top: auto;
 }
 
 .responsive-container-block.textSide {
-    margin-top: 40px;
+    /* margin-top: 40px; */
     margin-right: 0px;
     margin-bottom: 50px;
     margin-left: 0px;
@@ -1579,9 +1582,9 @@ padding-left: 10px;
 }
 
 .responsive-container-block.Container.bottomContainer {
-margin-top: 80px;
+/* margin-top: 80px; */
 margin-right: auto;
-margin-bottom: 50px;
+/* margin-bottom: 50px; */
 margin-left: auto;
 }
 
@@ -1626,7 +1629,7 @@ line-height: 32px;
 }
 
 .text-blk.description {
-text-align: left;
+text-align: justify;
 line-height: 24px;
 }
 
@@ -1653,9 +1656,9 @@ bottom: 10%;
 }
 
 .responsive-container-block.Container.bottomContainer {
-padding-top: 10px;
+/* padding-top: 10px; */
 padding-right: 0px;
-padding-bottom: 10px;
+/* padding-bottom: 10px; */
 padding-left: 0px;
 max-width: 930px;
 }
@@ -1691,6 +1694,23 @@ padding-right: 0px;
 padding-bottom: 0px;
 padding-left: 0px;
 }
+.responsive-container-block.Container.bottomContainer{
+    margin-top:0px !important;
+  }
+
+  .feat{
+    margin-top:0px !important;
+  }
+
+  .responsive-container-block.bigContainer{
+    margin-bottom:0px !important;
+    margin-top:0px !important;
+  }
+
+  .section-head h4{
+    font-size:20px !important;
+    margin-top:20px;
+  }
 
 .responsive-container-block.Container {
 flex-direction: column;
@@ -1726,16 +1746,16 @@ margin-left: 0px;
 }
 
 .responsive-container-block.Container {
-margin-top: 80px;
+/* margin-top: 80px; */
 margin-right: auto;
-margin-bottom: 50px;
+/* margin-bottom: 50px; */
 margin-left: auto;
 }
 
 .responsive-container-block.Container.bottomContainer {
-margin-top: 50px;
+/* margin-top: 50px; */
 margin-right: auto;
-margin-bottom: 50px;
+/* margin-bottom: 50px; */
 margin-left: auto;
 }
 
@@ -1780,7 +1800,7 @@ text-align: left;
 }
 
 .text-blk.description {
-text-align: left;
+text-align: justify;
 }
 
 .ultimateImg {
@@ -1818,9 +1838,9 @@ margin-left: 0px;
 
 @media (max-width: 500px) {
 .responsive-container-block.Container {
-padding-top: 10px;
+/* padding-top: 10px; */
 padding-right: 0px;
-padding-bottom: 10px;
+/* padding-bottom: 10px; */
 padding-left: 0px;
 width: 100%;
 max-width: 100%;
@@ -1893,7 +1913,7 @@ margin-left: 0px;
 
 .responsive-container-block.bigContainer {
 padding-top: 10px;
-padding-right: 20px;
+padding-right: 60px;
 padding-bottom: 10px;
 padding-left: 20px;
 }
@@ -2471,7 +2491,7 @@ $menuactive = "about";
             <div class="row">
                 <div class="section-head col-sm-12">
                     <h4><span>Why Choose</span> Us?</h4>
-                    <p>Reasons Why You Should Hire A Dedicated PHP Developer Form Our Company<</p>
+                    <p>Reasons Why You Should Hire A Dedicated PHP Developer Form Our Company</p>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="item card1"> <span class="icon feature_box_col_one"><i class="fa fa-globe"></i></span>
@@ -2774,9 +2794,9 @@ $menuactive = "about";
         sr.reveal('.img1', {
             duration: 1000, // Animation duration in milliseconds
             delay: 500,
-            origin: 'center', // Animation starting point at the center
+            origin: 'bottom', // Animation starting point at the center
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true
         });
         sr.reveal('.text1', {
@@ -2790,9 +2810,9 @@ $menuactive = "about";
         sr.reveal('.img2', {
             duration: 1000, // Animation duration in milliseconds
             delay: 1000,
-            origin: 'center', // Animation starting point at the center
+            origin: 'bottom', // Animation starting point at the bottom
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true
         });
         sr.reveal('.text2', {
@@ -2813,49 +2833,49 @@ $menuactive = "about";
         sr.reveal('.card1', {
             duration: 1000, // Animation duration in milliseconds
             delay: 500,
-            origin: 'center', 
+            origin: 'bottom', 
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true
         });
         sr.reveal('.card2', {
             duration: 1000, // Animation duration in milliseconds
             delay: 1000,
-            origin: 'center', 
+            origin: 'bottom', 
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true
         });
         sr.reveal('.card3', {
             duration: 1000, // Animation duration in milliseconds
             delay: 1500,
-            origin: 'center', 
+            origin: 'bottom', 
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true
         });
         sr.reveal('.card4', {
             duration: 1000, // Animation duration in milliseconds
             delay: 2000,
-            origin: 'center', 
+            origin: 'bottom', 
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true
         });
         sr.reveal('.card5', {
             duration: 1000, // Animation duration in milliseconds
             delay: 2400,
-            origin: 'center', 
+            origin: 'bottom', 
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true
         });
         sr.reveal('.card6', {
             duration: 1000, // Animation duration in milliseconds
             delay: 2800,
-            origin: 'center', 
+            origin: 'bottom', 
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true
         });
         sr.reveal('.process_heading', {
@@ -2868,9 +2888,9 @@ $menuactive = "about";
         sr.reveal('.ser', {
             duration: 1000, // Animation duration in milliseconds
             delay: 500,
-            origin: 'center', 
+            origin: 'bottom', 
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true
         });
     });

@@ -190,7 +190,7 @@
     }
 
     .ban_text strong span {
-        font-size: 28px;
+        font-size: 20px;
         line-height: 35px;
         letter-spacing: 2px;
     }
@@ -198,6 +198,7 @@
     .ban_text p {
         font-size: 14px;
         line-height: 20px;
+        margin:7px 2px 7px;
     }
 
     .ban_text a {
@@ -208,8 +209,14 @@
 
 @media only screen and (max-width: 767px) {
     .ban_img img {
-        min-height: 290px;
+        /*min-height: 290px;*/
         object-fit: cover;
+        height:auto;
+    }
+    .responsive-container-block.bigContainer{
+        margin-top:0px !important;
+        margin-bottom:0px !important;
+        padding:0 65px 0 30px;;
     }
 }
 
@@ -224,7 +231,7 @@
 
 @media only screen and (max-width: 480px) {
     .ban_text strong span {
-        font-size: 22px;
+        font-size: 20px;
         line-height: 31px;
         letter-spacing: 1px;
     }
@@ -548,19 +555,20 @@ hr {
 @media (max-width: 768px) {
     .responsive-container-block.textSide {
         width: 100%;
-        align-items: center;
+        /* align-items: center; */
         flex-direction: column;
         justify-content: center;
     }
 
     .text-blk.subHeading {
-        text-align: center;
+        text-align: justify;
         font-size: 17px;
         max-width: 520px;
     }
 
     .text-blk.heading {
-        text-align: center;
+        text-align: left;
+        font-size:20px !important
     }
 
     .imgContainer {
@@ -573,6 +581,10 @@ hr {
 
     .imgContainer {
         width: 30px;
+    }
+
+    .imgHide{
+        display:none;
     }
 
     .responsive-container-block.Container {
@@ -657,7 +669,7 @@ hr {
         padding-right: 20px;
         padding-bottom: 10px;
         padding-left: 20px;
-        padding: 0 30px 0 30px;
+        padding: 0 65px 0 30px;
     }
 
     .redDots {
@@ -1055,6 +1067,9 @@ p.awesome_line {
     .col-lg-4 {
         flex: 0 0 100%; /* Make columns full width on small screens */
     }
+    .section-head h4{
+        font-size:20px !important;
+    }
 }
 
 .item:hover {
@@ -1223,7 +1238,7 @@ p.awesome_line {
   font-family: system-ui, sans-serif;
   color: hsl(0 0% 95%);
   
-  /* width: fit-content; */
+  width: fit-content;
   /* max-width: 30rem; */
   margin-block: 0;
   margin-inline: auto;
@@ -1613,7 +1628,7 @@ include 'header.php';?>
 
     <div class="responsive-container-block bigContainer">
         <div class="responsive-container-block Container">
-            <div class="imgContainer img1" data-sr="enter left, scale up 20%, reset">
+            <div class="imgContainer img1 imgHide" data-sr="enter left, scale up 20%, reset">
                 <img class="blueDots" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/aw3.svg">
                 <img class="mainImg" src="img/react.png">
             </div>
@@ -1622,8 +1637,7 @@ include 'header.php';?>
                 5 Simple Steps to Hire React Native app  <span style="color: #f15a29;">Developer</span></h2>
                     
                 </p>
-                <p class="text-blk subHeading">
-                We are very much aware of the dilemma while hiring!!!
+                <p class="text-blk subHeading">We are very much aware of the dilemma while hiring!!!
                 </p>
                 <!-- <p class="text-blk subHeading">
                         <b>AngularJS</b> is a Powerful structural framework for dynamic web apps
@@ -1651,7 +1665,7 @@ include 'header.php';?>
         </div>
     </div>
     <div class="container number-list">
-    <p class="head" style="font-size: 34px;font-weight: 700;text-align: center;margin-bottom:20px;">
+    <p class="head text-blk heading" style="font-size: 34px;font-weight: 700;text-align: center;margin-bottom:20px;">
                 5 Simple <span style="color: #f15a29;">Steps</span></h2>
                 </p><hr style="margin-bottom:20px;">
 <ol class="lists">
@@ -2125,9 +2139,9 @@ include 'header.php';?>
         sr.reveal('.img1', {
             duration: 1000, // Animation duration in milliseconds
             delay: 500,
-            origin: 'center', // Animation starting point at the center
+            origin: 'bottom', // Animation starting point at the center
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true
         });
         sr.reveal('.text1', {
@@ -2155,9 +2169,9 @@ include 'header.php';?>
         sr.reveal('.ser', {
             duration: 1000, // Animation duration in milliseconds
             delay: 500,
-            origin: 'center', // Animation starting point at the center
+            origin: 'bottom', // Animation starting point at the center
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true
         });
         sr.reveal('.section-head', {
@@ -2170,49 +2184,49 @@ include 'header.php';?>
         sr.reveal('.card1', {
             duration: 1000, // Animation duration in milliseconds
             delay: 500,
-            origin: 'center', // Animation starting point at the center
+            origin: 'bottom', // Animation starting point at the center
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true
         });
         sr.reveal('.card2', {
             duration: 1000, // Animation duration in milliseconds
             delay: 1000,
-            origin: 'center', // Animation starting point at the center
+            origin: 'bottom', // Animation starting point at the center
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true
         });
         sr.reveal('.card3', {
             duration: 1000, // Animation duration in milliseconds
             delay: 1500,
-            origin: 'center', // Animation starting point at the center
+            origin: 'bottom', // Animation starting point at the center
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true
         });
         sr.reveal('.card4', {
             duration: 1000, // Animation duration in milliseconds
             delay: 2000,
-            origin: 'center', // Animation starting point at the center
+            origin: 'bottom', // Animation starting point at the center
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true
         });
         sr.reveal('.card5', {
             duration: 1000, // Animation duration in milliseconds
             delay: 2400,
-            origin: 'center', // Animation starting point at the center
+            origin: 'bottom', // Animation starting point at the center
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true
         });
         sr.reveal('.card6', {
             duration: 1000, // Animation duration in milliseconds
             delay: 2800,
-            origin: 'center', // Animation starting point at the center
+            origin: 'bottom', // Animation starting point at the center
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true
         });
         sr.reveal('.head', {
@@ -2225,9 +2239,9 @@ include 'header.php';?>
         sr.reveal('.lists', {
             duration: 1000, // Animation duration in milliseconds
             delay: 500,
-            origin: 'center', // Animation starting point at the center
+            origin: 'bottom', // Animation starting point at the center
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true
         });
         
