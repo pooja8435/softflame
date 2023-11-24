@@ -201,7 +201,7 @@
 <section class="sec-padding">
     <div class="container">
         <!-- <div class="card form-card"> -->
-        <h1 class="header-font text-center"  data-animation="slideInUp">Contact Us</h1>
+        <h1 class="header-font text-center"  data-animation="slideInUp">Contact <span class="text-orange-2">Us</span></h1>
         <h3 class="font-family text-center"  data-animation="slideInUp">Let's talk about your project. Fill out the form below or contact us
             directly.</h3>
         <div class="row margin-top mobile-margin-30"  data-animation="zoomIn" data-animation-delay="500ms">
@@ -241,7 +241,8 @@
         <div class="row">
             <div class="col-md-1"></div>
             <div class="col-md-10">
-                <h1 class="header-font text-center" data-animation="zoomReverseIn">Find Us on Google Map</h1>
+                <h1 class="header-font text-center" data-animation="zoomReverseIn">Find Us on <span class="text-orange-2">Google Map<span></h1>
+                <div class="title-line-4 align-center"></div>
                 <div class="address-map" data-animation="slideInUp">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2674.9803151522938!2d73.82816952588456!3d18.529198547176293!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6f4d36203950565a!2sSoftFlame%20Solutions%20Pvt.%20Ltd%20%7C%20Website%20%26%20Mobile%20App%20Development%20Company%20Pune%20%7C%20Digital%20Marketing!5e0!3m2!1sen!2sin!4v1569567451625!5m2!1sen!2sin"

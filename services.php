@@ -252,7 +252,7 @@
             <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
             <figcaption>
                 <div class="show-cont">
-                <img class="icon-img" src="images/services/icons/nodejs.png">
+                <img class="icon-img" src="images/services/icons/angularjs.png">
                     <h4 class="card-main-title header-font">angular js</h4>
                 </div>
                 <p class="card-content">We are offering reliable AngularJS consulting and development services for our
@@ -421,11 +421,11 @@
             <figcaption>
                 <div class="show-cont">
                 <img class="icon-img" src="images/services/icons/atom.png">
-                    <h4 class="card-main-title header-font">react js</h4>
+                    <h4 class="card-main-title header-font">Mern Stack</h4>
                 </div>
-                <p class="card-content">We are offering reliable AngularJS consulting and development services for our
-                    esteemed clients</p>
-                <a href="#" class="read-more-btn">Read More</a>
+                <p class="card-content">MERN is a collection of JavaScript-based technologies used to develop web
+                    applications</p>
+                <a href="mern-stack-app-development-company-in-pune.php" class="read-more-btn">Read More</a>
             </figcaption>
             <span class="after"></span>
         </figure>
