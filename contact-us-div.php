@@ -165,14 +165,14 @@
                         <h1 class="header-font">Let's Discuss Your
                             <?php echo $pageTitle; ?> Needs
                         </h1>
-                        <p class="text-font clr-black">Ready to take your online presence to the next level? Get in touch with us
+                        <p class="init_text text-font clr-black">Ready to take your online presence to the next level? Get in touch with us
                             today to discuss
                             your
                             <?php echo $pageTitle; ?> project. We're eager to learn more about your business and help
                             you
                             achieve your online goals.
                         </p>
-                        <p class="text-font clr-black">Contact us to schedule a consultation, request a quote, or learn more about
+                        <p class="init_text text-font clr-black">Contact us to schedule a consultation, request a quote, or learn more about
                             our
                             <?php echo $pageTitle; ?> services. Your success is our priority, and we're here to make it
                             happen.

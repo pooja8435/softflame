@@ -354,7 +354,7 @@
         </div>
     </div>
 
-    <div class="container margin-top">
+    <div class="container margin-top mobile-margin-30">
         <div class="row">
             <div class="col-md-6" data-animation="slideInRight">
                 <h1 class="header-font">Why Cloud Migration?</h1>
@@ -372,13 +372,13 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <img data-animation="zoomIn" data-animation-delay="300ms" class="first-img"
+                <img data-animation="zoomIn" data-animation-delay="300ms" class="first-img display-none"
                     src="images/services/info/cloud-migration-img1.png">
             </div>
         </div>
     </div>
 
-    <div class="container margin-top" data-animation="slideInUp">
+    <div class="container margin-top mobile-margin-30" data-animation="slideInUp">
         <div class="row text-center">
             <div class="col-md-12">
                 <h1 class="header-font">AWS Cloud Migration Process</h1>
@@ -460,7 +460,7 @@
     </div>
 
 
-    <div class="container margin-top" data-animation="slideInUp">
+    <div class="container margin-top mobile-margin-30" data-animation="slideInUp">
         <div class="row text-center">
             <div class="col-md-12">
                 <h1 class="header-font">Benefits of Cloud Migration:</h1>
@@ -468,14 +468,14 @@
         </div>
     </div>
 
-    <div class="container" style="margin:70px;">
+    <div class="container sqr-container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-12">
                 <div class="card" data-animation="zoomIn">
-                    <div class="card-body" style="padding:30px">
-                        <div style="display:flex">
+                    <div class="card-body sqr-card">
+                        <div class="card-display" >
                             <div class="div">
-                                <img height="140" src="images/services/icons/future.png">
+                                <img class="sqr-img" src="images/services/icons/future.png">
                             </div>
                             <div class="text-div">
                                 <h3 class="font-family" style="color: #f3a30b;">Prepare for Future Needs</h3>
@@ -486,12 +486,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-12">
                 <div class="card" data-animation="zoomIn">
-                    <div class="card-body" style="padding:30px">
-                        <div style="display:flex">
+                    <div class="card-body sqr-card">
+                        <div class="card-display">
                             <div class="div">
-                                <img height="140" src="images/services/icons/low-cost.png">
+                                <img class="sqr-img" src="images/services/icons/low-cost.png">
                             </div>
                             <div class="text-div">
                                 <h3 class="font-family" style="color: #00009f;">Lower Infrastructure Costs</h3>
@@ -504,16 +504,16 @@
             </div>
         </div>
 
-        <div class="horizontal-line" data-animation="slideInRight" data-animation-delay="500ms"></div>
-        <div class="vertical-line" data-animation="slideInUp" data-animation-delay="500ms"></div>
+        <div class="horizontal-line display-none" data-animation="slideInRight" data-animation-delay="500ms"></div>
+        <div class="vertical-line display-none" data-animation="slideInUp" data-animation-delay="500ms"></div>
 
         <div class="row">
             <div class="col-md-6">
                 <div class="card" data-animation="zoomIn">
-                    <div class="card-body" style="padding:30px">
-                        <div style="display:flex">
+                    <div class="card-body sqr-card sqr-card">
+                        <div class="card-display">
                             <div class="div">
-                                <img height="140" src="images/services/icons/business-increase.png">
+                                <img class="sqr-img"  src="images/services/icons/business-increase.png">
                             </div>
                             <div class="text-div">
                                 <h3 class="font-family" style="color: #00009f;">Increase Business Agility</h3>
@@ -526,10 +526,10 @@
             </div>
             <div class="col-md-6">
                 <div class="card" data-animation="zoomIn">
-                    <div class="card-body" style="padding:30px">
-                        <div style="display:flex">
+                    <div class="card-body sqr-card">
+                        <div class="card-display">
                             <div class="div">
-                                <img height="140" src="images/services/icons/disaster-recovery.png">
+                                <img class="sqr-img" src="images/services/icons/disaster-recovery.png">
                             </div>
                             <div class="text-div">
                                 <h3 class="font-family" style="color: #f3a30b;">Disaster Recovery</h3>
