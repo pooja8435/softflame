@@ -271,6 +271,21 @@
     }
     .first-img {
         height: 126px !important;
+        margin-left: unset !important;
+    }
+    .mobile-margin-30{
+        margin-top: 30px !important;
+    }
+    .icard{
+        margin: 10px !important;
+        padding: 10px !important;
+    }
+    .android-card {
+        margin: 15px !important;
+    }
+    ul.ex2 li {
+        line-height: 1.5 !important;
+        background-size: 25px !important;
     }
     
 }

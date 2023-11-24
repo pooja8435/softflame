@@ -225,7 +225,7 @@
     <div class="container margin-top">
         <div class="row">
             <div class="col-md-4">
-                <img data-animation="zoomIn" data-animation-delay="300ms" class="store-img"
+                <img data-animation="zoomIn" data-animation-delay="300ms" class="store-img display-none"
                     src="images/services/info/cloud-infra.jpg">
             </div>
             <div class="col-md-8" data-animation="slideInLeft">
@@ -271,7 +271,7 @@
 
             </div>
             <div class="col-md-4">
-                <img data-animation="zoomIn" data-animation-delay="300ms" class="customer-img"
+                <img data-animation="zoomIn" data-animation-delay="300ms" class="customer-img display-none"
                     src="images/services/info/cloud-migration.jpg">
             </div>
         </div>
@@ -280,7 +280,7 @@
     <div class="container margin-top">
         <div class="row">
             <div class="col-md-4">
-                <img data-animation="zoomIn" data-animation-delay="300ms" class="content-img"
+                <img data-animation="zoomIn" data-animation-delay="300ms" class="content-img display-none"
                     src="images/services/info/cloud-automation.jpg">
             </div>
             <div class="col-md-8" data-animation="slideInLeft">
@@ -326,7 +326,7 @@
 
             </div>
             <div class="col-md-4">
-                <img data-animation="zoomIn" data-animation-delay="300ms" class="emails-img"
+                <img data-animation="zoomIn" data-animation-delay="300ms" class="emails-img display-none"
                     src="images/services/info/cloud-security.jpg">
             </div>
         </div>
@@ -335,7 +335,7 @@
     <div class="container margin-top">
         <div class="row">
             <div class="col-md-4">
-                <img data-animation="zoomIn" data-animation-delay="300ms" class="payment-img"
+                <img data-animation="zoomIn" data-animation-delay="300ms" class="payment-img display-none"
                     src="images/services/info/cloud-cost.png">
             </div>
             <div class="col-md-8" data-animation="slideInLeft">

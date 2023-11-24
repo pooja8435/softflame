@@ -455,22 +455,22 @@
                         expertise to bring your vision to life.</p>
                 </div>
                 <div class="col-md-4">
-                    <img data-animation="zoomIn" data-animation-delay="300ms" class="first-img"
+                    <img data-animation="zoomIn" data-animation-delay="300ms" class="first-img display-none"
                         src="images/services/info/ecommerce-head.jpg">
                 </div>
             </div>
         </div>
 
-        <div class="container margin-top">
+        <div class="container mobile-margin-30 margin-top">
             <div class="row" data-animation="zoomReverseIn">
                 <h1 class="header-font text-center">Our Ecommerce Website Services</h1>
             </div>
         </div>
 
-        <div class="container margin-top">
+        <div class="container mobile-margin-30 margin-top">
             <div class="row">
                 <div class="col-md-4">
-                    <img data-animation="zoomIn" data-animation-delay="300ms" class="store-img"
+                    <img data-animation="zoomIn" data-animation-delay="300ms" class="store-img display-none"
                         src="images/services/info/store-front.png">
                 </div>
                 <div class="col-md-8" data-animation="slideInLeft">
@@ -487,7 +487,7 @@
             </div>
         </div>
 
-        <div class="container margin-top">
+        <div class="container mobile-margin-30 margin-top">
             <div class="row">
                 <div class="col-md-8" data-animation="slideInRight">
                     <h2 class="text-font">Customer Management</h2>
@@ -499,16 +499,16 @@
                         Retry payment option for failed orders.</p>
                 </div>
                 <div class="col-md-4">
-                    <img data-animation="zoomIn" data-animation-delay="300ms" class="customer-img"
+                    <img data-animation="zoomIn" data-animation-delay="300ms" class="customer-img display-none"
                         src="images/services/info/customer.jpg">
                 </div>
             </div>
         </div>
 
-        <div class="container margin-top">
+        <div class="container mobile-margin-30 margin-top">
             <div class="row">
                 <div class="col-md-4">
-                    <img data-animation="zoomIn" data-animation-delay="300ms" class="content-img"
+                    <img data-animation="zoomIn" data-animation-delay="300ms" class="content-img display-none"
                         src="images/services/info/content.jpg">
                 </div>
                 <div class="col-md-8" data-animation="slideInLeft">
@@ -524,7 +524,7 @@
             </div>
         </div>
 
-        <div class="container margin-top">
+        <div class="container mobile-margin-30 margin-top">
             <div class="row">
                 <div class="col-md-8" data-animation="slideInRight">
                     <h2 class="text-font">Email/SMS Notifications</h2>
@@ -538,16 +538,16 @@
                         checkout through OTP(One Time password) to stop fake order</p>
                 </div>
                 <div class="col-md-4">
-                    <img data-animation="zoomIn" data-animation-delay="300ms" class="emails-img"
+                    <img data-animation="zoomIn" data-animation-delay="300ms" class="emails-img display-none"
                         src="images/services/info/emails.jpg">
                 </div>
             </div>
         </div>
 
-        <div class="container margin-top">
+        <div class="container mobile-margin-30 margin-top">
             <div class="row">
                 <div class="col-md-4">
-                    <img data-animation="zoomIn" data-animation-delay="300ms" class="payment-img"
+                    <img data-animation="zoomIn" data-animation-delay="300ms" class="payment-img display-none"
                         src="images/services/info/payment.jpg">
                 </div>
                 <div class="col-md-8" data-animation="slideInLeft">
@@ -563,7 +563,7 @@
             </div>
         </div>
 
-        <div class="container margin-top">
+        <div class="container mobile-margin-30 margin-top">
             <div class="row">
                 <div class="col-md-8" data-animation="slideInRight">
                     <h2 class="text-font">Technical Support</h2>
@@ -576,7 +576,7 @@
                         diverted to the concerned technical experts.</p>
                 </div>
                 <div class="col-md-4">
-                    <img data-animation="zoomIn" data-animation-delay="300ms" class="support-img"
+                    <img data-animation="zoomIn" data-animation-delay="300ms" class="support-img display-none"
                         src="images/services/info/support.jpg">
                 </div>
             </div>

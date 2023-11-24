@@ -297,7 +297,7 @@
                     </h1>
                 </div>
             </div>
-            <div class="row text-center margin-top">
+            <div class="row text-center margin-top mobile-margin-30">
                 <div class="col-md-4">
                     <div class="angular-card" data-animation="flipInY">
                         <div class="bg">
@@ -310,7 +310,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mobile-margin-30" >
                     <div class="angular-card" data-animation="flipInY">
                         <div class="bg">
                         </div>
@@ -323,7 +323,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mobile-margin-30">
                     <div class="angular-card" data-animation="flipInY">
                         <div class="bg">
                         </div>
@@ -336,7 +336,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row text-center margin-top">
+            <div class="row text-center margin-top mobile-margin-30">
                 <div class="col-md-4">
                     <div class="angular-card" data-animation="flipInY">
                         <div class="bg">
@@ -349,7 +349,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mobile-margin-30">
                     <div class="angular-card" data-animation="flipInY">
                         <div class="bg">
                         </div>
@@ -361,7 +361,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mobile-margin-30">
                     <div class="angular-card" data-animation="flipInY">
                         <div class="bg">
                         </div>
@@ -383,9 +383,9 @@
                         Rely on us for full stack MEAN Application Development
                     </h1>
                 </div>
-                <div class="row margin-top">
+                <div class="row margin-top mobile-margin-30">
                     <div class="col-md-6">
-                        <img data-animation="zoomReverseIn" data-animation-delay="300ms" class="features-height"
+                        <img data-animation="zoomReverseIn" data-animation-delay="300ms" class="features-height display-none"
                             src="images/services/info/angularJs-features.png">
                     </div>
                     <div class="col-md-6" data-animation="slideInLeft" data-animation-delay="300ms">
@@ -413,70 +413,6 @@
             </div>
         </div>
 
-        <!-- <div class="container">
-            <div class="col-md-4">
-                <div class="left-cards">
-                    <div class="card" style="padding:20px">
-                        <div class="card-body">
-                            <h3 class="text-font">Expertise</h3>
-                            <p class="text-font">Our team of experienced developers has a deep understanding of web
-                                technologies, ensuring
-                                the
-                                best solutions for you.</p>
-                        </div>
-                    </div>
-                    <div class="card" style="padding:20px">
-                        <div class="card-body">
-                            <h3 class="text-font">Custom Solutions</h3>
-                            <p class="text-font">We tailor our services to match your unique needs and goals,
-                                providing
-                                a truly customized
-                                experience.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="choice-container">
-                    <div class="center-div">
-                        <h2>Why you choice Us ?</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                            has
-                            been the
-                            industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                            galley
-                            of type
-                            and
-                            scrambled it to make a type specimen book. It has survived not only five centuries, but
-                            also
-                            the
-                            leap
-                            into electronic typesetting, remaining essentially unchanged.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="left-cards">
-                    <div class="card" style="padding:20px">
-                        <div class="card-body">
-                            <h3 class="text-font">Cost-Effective</h3>
-                            <p class="text-font"> Our services are competitively priced, making top-quality web
-                                development accessible to
-                                businesses of all sizes.</p>
-                        </div>
-                    </div>
-                    <div class="card" style="padding:20px">
-                        <div class="card-body">
-                            <h3 class="text-font">Client Satisfaction</h3>
-                            <p class="text-font">Your success is our success. We work closely with you to achieve
-                                your
-                                vision and exceed
-                                your expectations.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
     </section>
 </section>
 <?php $pageTitle = "AngularJs App Development"; // Replace "Page Name" with the actual name of your page

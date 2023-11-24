@@ -410,20 +410,20 @@
 
             </div>
             <div class="col-md-6">
-                <img data-animation="zoomIn" data-animation-delay="300ms" class="first-img"
+                <img data-animation="zoomIn" data-animation-delay="300ms" class="first-img display-none"
                     src="images/services/info/pay-per-click.png">
 
             </div>
         </div>
     </div>
 
-    <div class="container margin-top">
+    <div class="container margin-top mobile-margin-30">
         <div class="row" data-animation="zoomReverseIn">
             <h1 class="header-font text-center center-line">Our PPC Services</h1>
         </div>
     </div>
 
-    <div class="container margin-top">
+    <div class="container margin-top mobile-margin-30">
         <div class="row">
             <div class="col-md-4">
                 <div class="card list-card card1" data-animation="flipInY">
@@ -443,7 +443,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mobile-margin-30">
                 <div class="card list-card card2" data-animation="flipInY">
                     <div class="card-body">
                         <ul class="olcards">
@@ -460,7 +460,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mobile-margin-30">
                 <div class="card list-card card3" data-animation="flipInY">
                     <div class="card-body">
                         <ul class="olcards">
@@ -479,7 +479,7 @@
             </div>
         </div>
 
-        <div class="row margin-top">
+        <div class="row margin-top mobile-margin-30">
             <div class="col-md-4">
                 <div class="card list-card card4" data-animation="flipInY">
                     <div class="card-body">
@@ -497,7 +497,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mobile-margin-30">
                 <div class="card list-card card5" data-animation="flipInY">
                     <div class="card-body">
                         <ul class="olcards">
@@ -514,7 +514,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mobile-margin-30">
                 <div class="card list-card card6" data-animation="flipInY">
                     <div class="card-body">
                         <ul class="olcards">
@@ -536,7 +536,7 @@
 
     </div>
 
-    <div class="container margin-top">
+    <div class="container margin-top mobile-margin-30">
         <div class="row">
             <div class="col-md-6" data-animation="slideInRight">
                 <h1 class="header-font">Why Pay Per Click?</h1>
@@ -551,7 +551,7 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <img data-animation="zoomIn" data-animation-delay="300ms" class="seco-img"
+                <img data-animation="zoomIn" data-animation-delay="300ms" class="seco-img display-none"
                     src="images/services/info/PPC-Pay-Per-Click-head.png">
             </div>
         </div>

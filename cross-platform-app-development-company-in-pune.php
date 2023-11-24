@@ -287,7 +287,7 @@
             </div>
             <div class="row margin-top">
                 <div class="col-md-6">
-                    <img data-animation="zoomReverseIn" data-animation-delay="300ms" class="features-height"
+                    <img data-animation="zoomReverseIn" data-animation-delay="300ms" class="features-height display-none"
                         src="images/services/info/cross-plat.jpg">
                 </div>
                 <div class="col-md-6" data-animation="slideInLeft" data-animation-delay="300ms">

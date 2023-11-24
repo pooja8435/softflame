@@ -488,23 +488,23 @@
     <div class="container ">
         <div class="row">
             <div class="col-md-4">
-                <img data-animation="zoomIn" data-animation-delay="300ms" class="store-img" src="images/aws5.png">
+                <img data-animation="zoomIn" data-animation-delay="300ms" class="store-img display-none" src="images/aws5.png">
             </div>
 
             <div class="col-md-8" data-animation="slideInLeft">
                 <h2 class="text-font">AWS Managed Services</h2>
-                <p class="text-font text-16">Amazon Web Services (AWS) is a powerful Infrastructure as a Service
+                <p class="init_text text-font text-16">Amazon Web Services (AWS) is a powerful Infrastructure as a Service
                     platform, and for certain applications and workloads, itís an ideal complement to traditional
                     deployment models. But successfully and economically navigating the labyrinthine platform requires
                     both niche expertise and a lot of timeóresources many IT teams cannot spare.
 
                 </p>
-                <p class="text-font text-16">AWS is as complex as it is powerful. Choosing the right instances and tools
+                <p class="init_text text-font text-16">AWS is as complex as it is powerful. Choosing the right instances and tools
                     for your applications, designing redundant and secure environments, managing the migration,
                     optimizing deployments ó it requires expertise and a whole lot of time.
 
                 </p>
-                <p class="text-font text-16">Service First Support for AWS by SoftFlame Solutions eliminates the
+                <p class="init_text text-font text-16">Service First Support for AWS by SoftFlame Solutions eliminates the
                     complexities so you can focus on results.certified engineers and architects at softflame help you
                     secure, maintain and optimize public cloud environments so your team can devote its efforts to the
                     applications hosted there.
@@ -515,14 +515,14 @@
         </div>
     </div>
 
-    <section class="we-offer-area text-center bg-gray margin-top">
+    <section class="we-offer-area text-center bg-gray margin-top mobile-margin-30">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <h1 class="header-font center-line" data-animation="zoomIn" data-animation-delay="300ms">Our AWS Managed Services Include</h1>
                 </div>
             </div>
-            <div class="row our-offer-items less-carousel margin-top">
+            <div class="row our-offer-items less-carousel margin-top mobile-margin-30">
                 <div class="col-md-2"></div>
                 <div class="col-md-4 col-sm-6 equal-height" data-animation="flipInY" data-animation-delay="300ms">
                     <div class="item">
@@ -571,11 +571,11 @@
         </div>
     </section>
 
-    <div class="container margin-top">
+    <div class="container margin-top mobile-margin-30">
         <div class="row">
             <div class="col-md-8" data-animation="slideInRight">
                 <h2 class="text-font">Key points for Managed services for a cloud environment</h2>
-                <p class="text-font text-16">Right from SysOps, security management, and backups to disaster recovery we
+                <p class="init_text text-font text-16">Right from SysOps, security management, and backups to disaster recovery we
                     provide end to end AWS Managed Services. We are AWS Managed Services Pune partners.
                 </p>
 
@@ -589,7 +589,7 @@
 
             </div>
             <div class="col-md-4">
-                <img data-animation="zoomIn" data-animation-delay="300ms" class="customer-img"
+                <img data-animation="zoomIn" data-animation-delay="300ms" class="customer-img display-none"
                     src="images/services/info/managed-services.png">
             </div>
         </div>

@@ -163,6 +163,7 @@
             height: 200px;
             border-radius: 20px;
             font-weight: 600;
+            overflow: scroll;
         }
 
         .face--front {
@@ -250,32 +251,32 @@
         <div class="row">
             <div class="col-md-6" data-animation="slideInRight" data-animation-delay="300ms">
                 <h1 class="header-font">UI/ UX Design Services </h1>
-                <p class="text-font" class="init_text text-font">We, at SoftFlame Solutions specialized in handcrafting
+                <p class="init_text text-font" >We, at SoftFlame Solutions specialized in handcrafting
                     beautiful UI / UX designs that meet our client’s vision and goals. For us, delivering exceptional UX
                     goes beyond being user-centered; it is mainly about being content-centric. Our team of UX
                     strategists, information architects, visual designers and content strategists look at the larger
                     constellation of touch points with audiences to craft innovative design experiences.With our
                     human-centered brand-centric approach and top-notch capabilities, consider of getting thoughtful
                     user experience and move from ease-of-use to ‘delight-to-use’.</p>
-                <p class="text-font" class="init_text text-font">The objective of the User Interface (UI) and User
+                <p  class="init_text text-font">The objective of the User Interface (UI) and User
                     Experience (UX) design and development are to deliver a thoughtful end user experience. Henceforth,
                     we take a user-centric design approach to every product we develop. Be it web or mobile apps.
                 </p>
             </div>
             <div class="col-md-6">
-                <img class="first-img" data-animation="zoomIn" data-animation-delay="300ms"
+                <img class="first-img display-none" data-animation="zoomIn" data-animation-delay="300ms"
                     src="images/services/info/ux-ui.png">
             </div>
         </div>
     </div>
 
     <div class="container">
-        <div class="row margin-top">
+        <div class="row margin-top mobile-margin-30">
             <div class="col-md-12" data-animation="zoomIn" data-animation-delay="300ms">
                 <h1 class="header-font text-center">Our UI/UX Development Services</h1>
             </div>
         </div>
-        <div class="row margin-top">
+        <div class="row margin-top mobile-margin-30">
             <div class="col-md-4">
                 <div class="card services-card" data-animation="flipInY" data-animation-delay="300ms">
                     <div class="card-body">
@@ -293,7 +294,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mobile-margin-30">
                 <div class="card services-card" data-animation="flipInY" data-animation-delay="300ms">
                     <div class="card-body">
                         <div class="face face--front">
@@ -312,7 +313,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mobile-margin-30">
                 <div class="card services-card" data-animation="flipInY" data-animation-delay="300ms">
                     <div class="card-body">
                         <div class="face face--front">
@@ -331,7 +332,7 @@
                 </div>
             </div>
         </div>
-        <div class="row margin-top">
+        <div class="row margin-top mobile-margin-30">
             <div class="col-md-4">
                 <div class="card services-card" data-animation="flipInY" data-animation-delay="300ms">
                     <div class="card-body">
@@ -349,7 +350,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mobile-margin-30">
                 <div class="card services-card" data-animation="flipInY" data-animation-delay="300ms">
                     <div class="card-body">
                         <div class="face face--front">
@@ -366,7 +367,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mobile-margin-30">
                 <div class="card services-card" data-animation="flipInY" data-animation-delay="300ms">
                     <div class="card-body">
                         <div class="face face--front">
@@ -386,19 +387,19 @@
         </div>
     </div>
 
-    <div class="container margin-top">
+    <div class="container margin-top mobile-margin-30">
         <div class="row margin-top">
             <div class="col-md-6">
-                <img class="second-img" data-animation="zoomReverseIn" data-animation-delay="300ms"
+                <img class="second-img display-none" data-animation="zoomReverseIn" data-animation-delay="300ms"
                     src="images/services/info/creative-mind.png">
             </div>
             <div class="col-md-6" data-animation="slideInLeft" data-animation-delay="300ms">
                 <h1 class="header-font">Build Creative UX/UI with us.</h1>
-                <p class="text-font" class="init_text text-font">SOFTFLAME being the Best UI UX Design Company in Pune,
+                <p class="init_text text-font" >SOFTFLAME being the Best UI UX Design Company in Pune,
                     Bangalore, Delhi adopts not only the structured process right from blueprints, wireframes,
                     prototypes to mockups, but also infuse life into designs. Focusing on the core needs of end users is
                     the central part of the entire process of developing an ideal user experience at Multidots.</p>
-                <p class="text-font" class="init_text text-font">Simply put, our core strengths lie in the simplicity of
+                <p  class="init_text text-font">Simply put, our core strengths lie in the simplicity of
                     our design, yet providing ultra-modern and exhilarating designs and experiences to our client’s
                     customers. Perfection in user flow and finesse in each design elements is what we attempt to achieve
                     with our skilled team of designers and developers.

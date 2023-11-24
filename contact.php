@@ -204,11 +204,11 @@
         <h1 class="header-font text-center"  data-animation="slideInUp">Contact Us</h1>
         <h3 class="font-family text-center"  data-animation="slideInUp">Let's talk about your project. Fill out the form below or contact us
             directly.</h3>
-        <div class="row margin-top"  data-animation="zoomIn" data-animation-delay="500ms">
-            <div class="col-md-6">
+        <div class="row margin-top mobile-margin-30"  data-animation="zoomIn" data-animation-delay="500ms">
+            <div class="col-md-6 col-12 mobile-margin-30">
                 <img class="contact-form-img" src="images/contact-us-illus.png">
             </div>
-            <div class="col-md-6 form-div">
+            <div class="col-md-6 col-12 form-div mobile-margin-30">
                 <div class="smart-forms bmargin">
                     <form name="quick_enquiry_frm" id="quick_enquiry_frm" method="post" action="email.php">
                         <div class="fluid form_textfield">
@@ -237,7 +237,7 @@
         </div>
     </div>
 
-    <div class="container margin-top-145">
+    <div class="container margin-top-145 mobile-margin-30">
         <div class="row">
             <div class="col-md-1"></div>
             <div class="col-md-10">
@@ -253,7 +253,7 @@
     </div>
 
 
-    <div class="container margin-top">
+    <div class="container margin-top mobile-margin-30">
         <div class="row">
             <h4 class="text-font text-center" data-animation="slideInUp">Get In Touch</h4>
             <h1 class="header-font text-center" data-animation="slideInUp">We Are <span class="text-orange-2">Located At</span></h1>
@@ -262,7 +262,7 @@
         <div class="row">
             <section id="advertisers" class="advertisers-service-sec pt-5 pb-5">
                 <div class="container">
-                    <div class="row text-center margin-top">
+                    <div class="row text-center margin-top mobile-margin-30">
                         <div class="col-md-4 col-12">
                             <div class="service-card" data-animation="flipInY">
                                 <div class="icon-wrapper">
@@ -286,7 +286,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 col-12">
+                        <div class="col-md-4 col-12 mobile-margin-30">
                             <div class="service-card" data-animation="flipInY">
                                 <div class="icon-wrapper">
                                     <img class="icons-height" src="images/bangalore.png">
@@ -307,7 +307,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 col-12">
+                        <div class="col-md-4 col-12 mobile-margin-30">
                             <div class="service-card" data-animation="flipInY">
                                 <div class="icon-wrapper">
                                     <img class="icons-height" src="images/red-fort.png">
