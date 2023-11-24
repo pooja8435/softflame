@@ -189,8 +189,7 @@ include 'header.php'; ?>
             <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">About Us</h1>
             <h3 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">We are passionate
                 about creating innovative software solutions
-                that
-                empower businesses to thrive in the digital age.</h3>
+                </h3>
         </div>
         <div class="overlay bg-opacity-7"></div>
         <img src="images/about-us-banner.jpg" alt="Website Development Company in Pune, Bangalore, Delhi"
@@ -222,16 +221,16 @@ include 'header.php'; ?>
             <div class="clearfix"></div>
             <div class="col-md-6">
                 <h2 class="text-center-mobile"><b><span class="blue-font header-font">Soft</span><span
-                            class="header-font orange-font">Flame</span><b>
+                            class="header-font orange-font">Flame</span></b>
                 </h2>
-                <h5 class="text-justify text-font">At SoftFlame Solutions, we are passionate about creating innovative
+                <p class="text-justify text-font">At SoftFlame Solutions, we are passionate about creating innovative
                     software
                     solutions that empower
                     businesses to thrive in the digital age. With a deep commitment to excellence and a team of
                     dedicated professionals.<br><br>
                     We work with some dynamic clients who are based either locally in Pune or across the Globe, from
                     start-ups to international brands.Our projects not only look great, they use the right tools that
-                    work for you and with your success comes ours. "Your Business We Care!"</h5>
+                    work for you and with your success comes ours. "Your Business We Care!"</p>
 
                 <button type="button" class="btn connect-btn header-font"
                     onclick="window.location.href='contact.php'">Let's Connect</button>
@@ -247,16 +246,16 @@ include 'header.php'; ?>
             </div>
             <div class="col-md-6">
                 <h2 class="text-center-mobile"><b><span class="blue-font header-font">Our&nbsp;</span><span
-                            class="orange-font header-font">Vision</span><b>
+                            class="orange-font header-font">Vision</span></b>
                 </h2>
-                <h5 class="text-font"> At Softflame Solutions, we envision a future where technology becomes a force for
+                <p class="text-font"> At Softflame Solutions, we envision a future where technology becomes a force for
                     sustainability, social good, and global progress. We aspire to be at the forefront of this
                     transformation, leading the charge in creating software solutions that not only drive business
                     success but also have a positive impact on the world.<br><br>
                     We envision a society where cutting-edge technology is accessible to all, leveling the playing field
                     and bridging the digital divide. By pushing the boundaries of what is possible in software
                     development, we aim to contribute to a more inclusive, sustainable, and interconnected world.
-                </h5>
+                </p>
             </div>
         </div>
         <br><br>
@@ -306,10 +305,10 @@ include 'header.php'; ?>
             <div class="col-md-6">
                 <h2 class="text-center-mobile"><b><span class="orange-font header-font">Working&nbsp;</span><span
                             class="blue-font header-font">Strategy</span><b></h2>
-                <h5 class="text-font text-justify">At Softflame Solutions, our working strategy is built on a
+                <p class="text-font text-justify">At Softflame Solutions, our working strategy is built on a
                     well-defined process
                     that ensures the successful delivery of software solutions. We follow a systematic approach that can
-                    be summarized in the following key phases:</h5>
+                    be summarized in the following key phases:</p>
 
                 <div class="strategy-steps">
                     <ol>
@@ -353,10 +352,10 @@ include 'header.php'; ?>
         <div class="row text-center reveal margin-top">
             <div class="col-md-12">
                 <h2 class="text-center-mobile"><b><span class="orange-font header-font">Work&nbsp;</span><span
-                            class="blue-font header-font">Culture</span><b></h2>
-                <h5 class="text-font">At Softflame Solutions, our work culture is the foundation of our success. We
+                            class="blue-font header-font">Culture</span></b></h2>
+                <p class="text-font">At Softflame Solutions, our work culture is the foundation of our success. We
                     believe in fostering
-                    an environment that encourages creativity, collaboration, and personal growth.</h5>
+                    an environment that encourages creativity, collaboration, and personal growth.</p>
             </div>
         </div>
 

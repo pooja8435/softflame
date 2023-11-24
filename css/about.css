@@ -3,7 +3,9 @@
     }
 
     .text-font {
-        font-family: "noto sans", sans-serif;
+        font-family: 'Nunito', sans-serif !important;
+        font-size: 17px;
+        font-weight: 400;
     }
 
     .header-font {
