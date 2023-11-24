@@ -116,22 +116,20 @@
         }
 
         .store-img {
-            margin-top: 30px;
-            height: 200px !important;
+            height: 290px !important;
         }
 
         .customer-img {
-            height: 220px !important;
-            margin-top: 10px;
-}
+            height: 295px !important;
+            margin-top mobile-margin-30: -35px;
+        }
 
         .content-img {
-            height: 220px;
-    margin-top: 38px;
+            height: 270px;
         }
 
         .emails-img {
-            height: 235px;
+            height: 240px;
         }
 
         .payment-img {
@@ -152,11 +150,12 @@
             padding-left: 2.5em;
             line-height: 2.0;
             background-size: 30px;
+            text-align: justify;
             font-family: 'Nunito', sans-serif !important;
         }
 
-        .margin-top {
-            margin-top: 135px !important;
+        .margin-top mobile-margin-30 {
+            margin-top mobile-margin-30: 135px !important;
         }
 
         .text-16 {
@@ -173,9 +172,10 @@
 
 
 <section>
-<div class="header-inner two">
+    <div class="header-inner two">
         <div class="inner text-center col-md-6 padding-top">
-            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">AWS Cloud Consulting</h1>
+            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">AWS Cloud
+                Consulting</h1>
             <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune,
                 Bangalore,
                 Delhi</h2>
@@ -216,13 +216,13 @@
         </div>
     </div>
 
-    <!-- <div class="container margin-top">
+    <!-- <div class="container margin-top mobile-margin-30">
         <div class="row" data-animation="zoomReverseIn">
             <h1 class="header-font text-center">Our Ecommerce Website Services</h1>
         </div>
     </div> -->
 
-    <div class="container margin-top">
+    <div class="container margin-top mobile-margin-30">
         <div class="row">
             <div class="col-md-4">
                 <img data-animation="zoomIn" data-animation-delay="300ms" class="store-img display-none"
@@ -230,13 +230,13 @@
             </div>
             <div class="col-md-8" data-animation="slideInLeft">
                 <h2 class="text-font">Cloud Infrastructure Consulting</h2>
-                <p class="text-font text-16">Empower your software solutions with robust and scalable cloud
+                <p class="init_text text-font text-16">Empower your software solutions with robust and scalable cloud
                     infrastructure. Our expert consultants
                     will assess your business needs and design a tailored AWS cloud architecture to enhance performance,
                     security, and efficiency.
 
                 </p>
-                
+
                 <ul class="ex2">
                     <li><b>AWS Architecture Design: </b>Customized cloud architecture to meet your specific software
                         requirements.</li>
@@ -250,16 +250,16 @@
         </div>
     </div>
 
-    <div class="container margin-top">
+    <div class="container margin-top mobile-margin-30">
         <div class="row">
             <div class="col-md-8" data-animation="slideInRight">
                 <h2 class="text-font">Cloud Migration Services</h2>
-                <p class="text-font text-16">Transition your applications and data to the cloud with minimal disruption.
+                <p class="init_text text-font text-16">Transition your applications and data to the cloud with minimal disruption.
                     Our experienced team will
                     manage the entire migration process, ensuring a smooth and secure transition to AWS.
 
                 </p>
-                
+
                 <ul class="ex2">
                     <li><b>Application Migration: </b>Move your applications to AWS, leveraging the full potential of
                         cloud services.</li>
@@ -277,7 +277,7 @@
         </div>
     </div>
 
-    <div class="container margin-top">
+    <div class="container margin-top mobile-margin-30">
         <div class="row">
             <div class="col-md-4">
                 <img data-animation="zoomIn" data-animation-delay="300ms" class="content-img display-none"
@@ -285,11 +285,11 @@
             </div>
             <div class="col-md-8" data-animation="slideInLeft">
                 <h2 class="text-font">DevOps and Automation</h2>
-                <p class="text-font text-16">Accelerate your software development lifecycle with DevOps practices and
+                <p class="init_text text-font text-16">Accelerate your software development lifecycle with DevOps practices and
                     automation. Our consultants will help you implement CI/CD pipelines, automate manual processes, and
                     improve collaboration between development and operations teams.
                 </p>
-                
+
                 <ul class="ex2">
                     <li><b>Continuous Integration/Continuous Deployment (CI/CD): </b>Streamline your development
                         pipeline for faster and more reliable releases.
@@ -305,16 +305,16 @@
         </div>
     </div>
 
-    <div class="container margin-top">
+    <div class="container margin-top mobile-margin-30">
         <div class="row">
             <div class="col-md-8" data-animation="slideInRight">
                 <h2 class="text-font">Security and Compliance</h2>
-                <p class="text-font text-16">Ensure the security and compliance of your applications and data in the AWS
+                <p class="init_text text-font text-16">Ensure the security and compliance of your applications and data in the AWS
                     cloud. Our consultants will assess your current security posture, implement best practices, and
                     ensure adherence to industry regulations.
 
                 </p>
-                
+
                 <ul class="ex2">
                     <li><b>Security Assessments: </b>Evaluate and enhance the security of your AWS environment.</li>
                     <li><b>Identity and Access Management (IAM):</b>Control access to your AWS resources with precision.
@@ -332,7 +332,7 @@
         </div>
     </div>
 
-    <div class="container margin-top">
+    <div class="container margin-top mobile-margin-30">
         <div class="row">
             <div class="col-md-4">
                 <img data-animation="zoomIn" data-animation-delay="300ms" class="payment-img display-none"
@@ -340,12 +340,12 @@
             </div>
             <div class="col-md-8" data-animation="slideInLeft">
                 <h2 class="text-font">Cloud Cost Optimization</h2>
-                <p class="text-font text-16">Maximize the value of your AWS investment with strategic cost management.
+                <p class="init_text text-font text-16">Maximize the value of your AWS investment with strategic cost management.
                     Our consultants will analyze your cloud usage, identify cost-saving opportunities, and implement
                     strategies to optimize your AWS spending.
 
                 </p>
-                
+
                 <ul class="ex2">
                     <li><b>Cost Analysis: </b>Assess your AWS spending and identify areas for optimization.</li>
                     <li><b>Resource Right-Sizing: </b>Optimize resource allocation for better performance and
@@ -360,5 +360,5 @@
 
 </section>
 <?php $pageTitle = "Aws Cloud Consulting Services"; // Replace "Page Name" with the actual name of your page
-    include('contact-us-div.php'); ?>
+include('contact-us-div.php'); ?>
 <?php include 'footer.php'; ?>

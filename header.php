@@ -394,7 +394,7 @@
                             <li class="dropdown yamm-fw"> <a href="career.php" class="dropdown-toggle">Career</a>
 
                             </li>
-                            <li class="dropdown"> <a href="blog.php" class="dropdown-toggle">Products</a>
+                            <li class="dropdown"> <a href="products.php" class="dropdown-toggle">Products</a>
                             </li>
                             <li class="dropdown"> <a href="blog.php" class="dropdown-toggle">Portfolio</a>
                             </li>
