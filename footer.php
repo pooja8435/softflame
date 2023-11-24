@@ -241,7 +241,7 @@
             <div class="row">
                 <div class="col-xl-4 col-md-4 mb-30">
                     <div class="single-cta">
-                        <i class="fa fa-map-marker"></i>
+                        <i class="fa fa-map-marker display-none"></i>
                         <div class="cta-text">
                             <h4>Find us</h4>
                             <span><a href="https://goo.gl/maps/5rMNMck8SoDzzbG1A" target="_blank"> 9-New
@@ -251,7 +251,7 @@
                 </div>
                 <div class="col-xl-4 col-md-4 mb-30">
                     <div class="single-cta">
-                        <i class="fa fa-phone"></i>
+                        <i class="fa fa-phone display-none"></i>
                         <div class="cta-text">
                             <h4>Call us</h4>
                             <span><a href="tel:+91 9021649159">9021649159</a> / <a
@@ -262,7 +262,7 @@
                 </div>
                 <div class="col-xl-4 col-md-4 mb-30">
                     <div class="single-cta">
-                        <i class="fa fa-envelope"></i>
+                        <i class="fa fa-envelope display-none"></i>
                         <div class="cta-text">
                             <h4>Mail us</h4>
                             <span><a

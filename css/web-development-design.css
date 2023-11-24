@@ -203,6 +203,18 @@
     gap: 150px;
     margin-top: 70px;
 }
+.sqr-img{
+    height: 140px !important;
+}
+.sqr-card{
+    padding:30px
+}
+.sqr-container{
+    margin:70px;
+}
+.card-display{
+    display: flex;
+}
 
 @media only screen and (max-width: 768px) {
     .sec-padding {
@@ -212,6 +224,10 @@
     .header-font {
         font-size: 30px !important;
     } */
+
+    .sqr-img{
+        height: 60px !important;
+    }
 
     .first-img {
         height: 190px;
@@ -286,6 +302,19 @@
     ul.ex2 li {
         line-height: 1.5 !important;
         background-size: 25px !important;
+    }
+    .sqr-card{
+        padding:0x;
+    }
+    .sqr-container{
+        margin:0px;
+    }
+    .sqr-img{
+        height: 60px;
+    }
+    .card-display{
+        flex-direction: column;
+        align-items: center;
     }
     
 }
