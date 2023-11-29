@@ -23,6 +23,10 @@
       .header-font {
           font-family: 'Nunito', sans-serif;
       }
+      .font-16 {
+        font-size: 16px;
+        margin-top: 20px;
+    }
 
       .shape-box {
           display: inline-block;
@@ -47,7 +51,7 @@
       }
 
 
-      .text-font p {
+      .text-font  {
           font-family: 'Nunito', sans-serif !important;
       }
 

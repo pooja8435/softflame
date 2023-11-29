@@ -72,7 +72,7 @@
         href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/text-animation.css" type="text/css" />
-    <link rel="stylesheet" href="css/products.css" type="text/css" />
+    <link rel="stylesheet" href="css/products-info.css" type="text/css" />
     <script>
         var Animation = function ({ offset } = { offset: 10 }) {
             var _elements;
@@ -158,13 +158,18 @@
 <section>
     <div class="header-inner two">
         <div class="inner text-center col-md-6 padding-top">
-            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">Our Products</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">Uber Clone
+                    </h1>
+                </div>
+            </div>
             <!-- <h3 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">We offer wide range
                 of software services in pune for your business
                 enhancement</h3> -->
         </div>
-        <div class="overlay bg-opacity-7"></div>
-        <img src="images/products-banner.png" alt="Website Development Company in Pune, Bangalore, Delhi"
+        <div class="overlay bg-opacity-5"></div>
+        <img src="images/products/banner/uber-banner.jpg" alt="Website Development Company in Pune, Bangalore, Delhi"
             class="img-responsive sub-nav-img" />
     </div>
     </div>
@@ -186,93 +191,132 @@
 
 <section class="sec-padding">
     <div class="row">
+        <div class="col-md-6" data-animation="slideInRight">
+            <h1 class="header-font">Uber Clone: Modern Mobility Solution</h1>
+            <p class="init_text text-font clr-black">Revolutionize transportation with our cutting-edge Uber Clone.
+                Experience sleek and intuitive user interfaces. </p>
+            <p class="init_text text-font clr-black">Enjoy a robust backend that powers seamless ride-hailing, secure
+                payments, and real-time tracking.
+            </p>
+            <p class="init_text text-font clr-black">Elevate your business with our customizable solution for efficient,
+                reliable, and user-friendly on-demand transportation.
+            </p>
+            <div class="contact-btn-div"><button type="button" class="btn contact-btn-blue text-font"
+                    onclick="window.location.href='contact.php'">Contact Us</button>
+            </div>
+
+        </div>
+        <div class="col-md-6">
+            <img data-animation="zoomIn" data-animation-delay="300ms" class="first-img"
+                src="images/products/info/uber-img-1.png">
+        </div>
+    </div>
+    <div class="row margin-top-70">
+        <div class="col-md-12" data-animation="zoomReverseIn">
+            <h1 class="header-font text-center">Why Choose Our taxi Service apps ?</h1>
+        </div>
+    </div>
+    <div class="row margin-top-70">
         <div class="col-md-4">
-            <div class="card">
-                <img class="card__background" src="images/products/taxi.jpg" />
-                <div class="card__content | flow">
-                    <div class="card__content--container | flow">
-                        <h2 class="card__title">Uber Clone</h2>
-                        <p class="card__description">
-                        Revolutionize transportation with our cutting-edge Uber Clone.
-                        </p>
+            <div class="card choose-card">
+                <div class="flex">
+                    <div class="div">
+                        <h3 class="text-font">Convenience</h3>
+                        <p class="text-font">Our user-friendly taxi app offers seamless booking and real-time tracking,
+                            ensuring
+                            hassle-free travel.</p>
                     </div>
-                    <button class="card__button" onclick="window.location.href='uber-clone.php'">Read more</button>
+                    <img class="img-60" src="images/products/info/hand.png">
                 </div>
             </div>
         </div>
         <div class="col-md-4">
-            <div class="card">
-                <img class="card__background" src="images/products/shopping.jpg" />
-                <div class="card__content | flow">
-                    <div class="card__content--container | flow">
-                        <h2 class="card__title">Amazon/Flipkart Clone</h2>
-                        <p class="card__description">
-                        Experience the synergy of Amazon and Flipkart in our innovative app.
-                        </p>
+            <div class="card choose-card">
+                <div class="flex">
+                    <div class="div">
+                        <h3 class="text-font">Wide Coverage</h3>
+                        <p class="text-font">Enjoy extensive coverage, whether it's city commuting, airport transfers,
+                            or
+                            long-distance trips.</p>
                     </div>
-                    <button class="card__button"  onclick="window.location.href='amazon-clone.php'">Read more</button>
+                    <img class="img-60" src="images/products/info/wide.png">
                 </div>
             </div>
         </div>
         <div class="col-md-4">
-            <div class="card">
-                <img class="card__background" src="images/products/netflix.jpg" />
-                <div class="card__content | flow">
-                    <div class="card__content--container | flow">
-                        <h2 class="card__title">Netflix Clone</h2>
-                        <p class="card__description">
-                        Creating cutting-edge multiplayer streaming platforms inspired by Netflix.
-                        </p>
+            <div class="card choose-card">
+                <div class="flex">
+                    <div class="div">
+                        <h3 class="text-font">Time-Efficiency</h3>
+                        <p class="text-font">Say goodbye to waiting. Our app connects you with nearby drivers swiftly,
+                            reducing
+                            wait times.</p>
                     </div>
-                    <button class="card__button" onclick="window.location.href='netflix-clone.php'">Read more</button>
+                    <img class="img-60" src="images/products/info/clock.png">
                 </div>
             </div>
         </div>
     </div>
-    <div class="row margin-top-80">
+    <div class="row margin-top-70">
         <div class="col-md-4">
-            <div class="card">
-                <img class="card__background" src="images/products/byjus.jpeg" />
-                <div class="card__content | flow">
-                    <div class="card__content--container | flow">
-                        <h2 class="card__title">Byju's Clone</h2>
-                        <p class="card__description">
-                        Explore a world of interactive and engaging learning with BYJU's App.
-                        </p>
+            <div class="card choose-card">
+                <div class="flex">
+                    <div class="div">
+                        <h3 class="text-font">Safety First</h3>
+                        <p class="text-font">Your safety matters. We implement stringent safety measures, including
+                            driver
+                            verification and SOS options.</p>
                     </div>
-                    <button class="card__button" onclick="window.location.href='byjus-clone.php'">Read more</button>
+                    <img class="img-60" src="images/products/info/safety-at-work.png">
                 </div>
             </div>
         </div>
         <div class="col-md-4">
-            <div class="card">
-                <img class="card__background" src="images/products/urban.jpg" />
-                <div class="card__content | flow">
-                    <div class="card__content--container | flow">
-                        <h2 class="card__title">UrbanClap Clone</h2>
-                        <p class="card__description">
-                        Explore an unparalleled solution for discovering trustworthy local services.
+            <div class="card choose-card">
+                <div class="flex">
+                    <div class="div">
+                        <h3 class="text-font">Transparent Pricing</h3>
+                        <p class="text-font">No surprises! Get upfront fare estimates and transparent pricing for your
+                            journey.
                         </p>
                     </div>
-                    <button class="card__button" onclick="window.location.href='urban-clone.php'">Read more</button>
+                    <img class="img-60" src="images/products/info/pricing.png">
                 </div>
             </div>
         </div>
-        <!-- <div class="col-md-4">
-            <div class="card">
-                <img class="card__background" src="images/products/grocery.jpg" />
-                <div class="card__content | flow">
-                    <div class="card__content--container | flow">
-                        <h2 class="card__title">Colombia</h2>
-                        <p class="card__description">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum in
-                            labore laudantium deserunt fugiat numquam.
-                        </p>
+        <div class="col-md-4">
+            <div class="card choose-card">
+                <div class="flex">
+                    <div class="div">
+                        <h3 class="text-font">Customer Satisfaction</h3>
+                        <p class="text-font">Join thousands of satisfied riders who rely on our app for dependable and
+                            comfortable journeys.</p>
+
                     </div>
-                    <button class="card__button">Read more</button>
+                    <img class="img-60" src="images/products/info/customer.png">
                 </div>
             </div>
-        </div> -->
+        </div>
+    </div>
+    <div class="row margin-top-70">
+        <div class="col-md-6" data-animation="slideInRight">
+            <h1 class="header-font">Discover Our Unique Approach</h1>
+            <p class="init_text text-font clr-black">At our Taxi, we're committed to redefining the way you experience
+                transportation. With a strong focus on innovation and technology, we're setting new standards in the
+                industry. Our advanced mobile app technology ensures a seamless and user-friendly booking process,
+                putting the power to hail a ride in the palm of your hand.</p>
+            <p class="init_text text-font clr-black">What truly sets us apart is our unwavering dedication to top-notch
+                customer support. Our team is always ready to assist you, ensuring that your journey is smooth, safe,
+                and comfortable from start to finish. Join us in creating a future of convenient and reliable rides for
+                all, as we work tirelessly to make transportation a seamless part of your daily life.
+            </p>
+        </div>
+        <div class="col-md-6">
+            <div class="car" data-animation="slideInLeft" data-animation-delay="600ms">
+                <img src="images/products/info/car.png" alt="">
+
+            </div>
+        </div>
     </div>
 
 </section>
@@ -280,5 +324,7 @@
 
 <!-- end section -->
 <div class="clearfix"></div>
+<?php $pageTitle = "Product"; // Replace "Page Name" with the actual name of your page
+    include('contact-us-div.php'); ?>
 
 <?php include 'footer.php'; ?>

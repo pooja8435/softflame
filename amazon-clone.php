@@ -72,7 +72,7 @@
         href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/text-animation.css" type="text/css" />
-    <link rel="stylesheet" href="css/products.css" type="text/css" />
+    <link rel="stylesheet" href="css/products-info.css" type="text/css" />
     <script>
         var Animation = function ({ offset } = { offset: 10 }) {
             var _elements;
@@ -158,13 +158,18 @@
 <section>
     <div class="header-inner two">
         <div class="inner text-center col-md-6 padding-top">
-            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">Our Products</h1>
+            <div class="row">
+                <div class="col-md-8">
+                    <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">Amazon /
+                        Flipkart Clone</h1>
+                </div>
+            </div>
             <!-- <h3 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">We offer wide range
                 of software services in pune for your business
                 enhancement</h3> -->
         </div>
-        <div class="overlay bg-opacity-7"></div>
-        <img src="images/products-banner.png" alt="Website Development Company in Pune, Bangalore, Delhi"
+        <div class="overlay bg-opacity-5"></div>
+        <img src="images/products/banner/amazon-banner.jpg" alt="Website Development Company in Pune, Bangalore, Delhi"
             class="img-responsive sub-nav-img" />
     </div>
     </div>
@@ -186,93 +191,78 @@
 
 <section class="sec-padding">
     <div class="row">
-        <div class="col-md-4">
-            <div class="card">
-                <img class="card__background" src="images/products/taxi.jpg" />
-                <div class="card__content | flow">
-                    <div class="card__content--container | flow">
-                        <h2 class="card__title">Uber Clone</h2>
-                        <p class="card__description">
-                        Revolutionize transportation with our cutting-edge Uber Clone.
+        <div class="col-md-6" data-animation="slideInRight">
+            <h1 class="header-font">Welcome to the Future of Shopping</h1>
+            <p class="init_text text-font clr-black">Experience the synergy of Amazon and Flipkart in our innovative
+                app. Discover a world of choices, seamless shopping, and incredible convenience. Embrace the evolution
+                of e-commerce with us!</p>
+            <div class="card list-card">
+                <div class="card-body list-card-body">
+                    <div><img class="img-40" src="images/products/info/fast-delivery.png"></div>
+                    <div>
+                        <h4 class="mb-0 text-font">Fast Delivery</h4>
+                        <p class="text-font">Get your orders delivered quickly and efficiently, ensuring you receive
+                            your products in no
+                            time.
                         </p>
                     </div>
-                    <button class="card__button" onclick="window.location.href='uber-clone.php'">Read more</button>
                 </div>
+            </div>
+            <div class="card list-card">
+                <div class="card-body list-card-body">
+                    <div><img class="img-40" src="images/products/info/customer-service.png"></div>
+                    <div>
+                        <h4 class="mb-0 text-font">24/7 Customer Support</h4>
+                        <p class="text-font">We're here to assist you around the clock. Our support team is always ready
+                            to help, anytime you need it.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card list-card">
+                <div class="card-body list-card-body">
+                    <div><img class="img-40" src="images/products/info/money.png"></div>
+                    <div>
+                        <h4 class="mb-0 text-font">Secure Payments</h4>
+                        <p class="text-font">Shop with confidence knowing that your payments are securely processed,
+                            protecting your financial information.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-btn-div"><button type="button" class="btn contact-btn-blue text-font"
+                    onclick="window.location.href='contact.php'">Contact Us</button>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="card">
-                <img class="card__background" src="images/products/shopping.jpg" />
-                <div class="card__content | flow">
-                    <div class="card__content--container | flow">
-                        <h2 class="card__title">Amazon/Flipkart Clone</h2>
-                        <p class="card__description">
-                        Experience the synergy of Amazon and Flipkart in our innovative app.
-                        </p>
-                    </div>
-                    <button class="card__button"  onclick="window.location.href='amazon-clone.php'">Read more</button>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card">
-                <img class="card__background" src="images/products/netflix.jpg" />
-                <div class="card__content | flow">
-                    <div class="card__content--container | flow">
-                        <h2 class="card__title">Netflix Clone</h2>
-                        <p class="card__description">
-                        Creating cutting-edge multiplayer streaming platforms inspired by Netflix.
-                        </p>
-                    </div>
-                    <button class="card__button" onclick="window.location.href='netflix-clone.php'">Read more</button>
-                </div>
-            </div>
+        <div class="col-md-6">
+            <img data-animation="zoomIn" data-animation-delay="300ms" src="images/products/info/amazon-img-1.png">
         </div>
     </div>
-    <div class="row margin-top-80">
+
+    <div class="row margin-top-70">
         <div class="col-md-4">
-            <div class="card">
-                <img class="card__background" src="images/products/byjus.jpeg" />
-                <div class="card__content | flow">
-                    <div class="card__content--container | flow">
-                        <h2 class="card__title">Byju's Clone</h2>
-                        <p class="card__description">
-                        Explore a world of interactive and engaging learning with BYJU's App.
-                        </p>
-                    </div>
-                    <button class="card__button" onclick="window.location.href='byjus-clone.php'">Read more</button>
-                </div>
+            <div class="car" data-animation="slideInLeft" data-animation-delay="600ms">
+                <img class="shopping-cart" src="images/products/info/shopping-cart.png" alt="">
+
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="card">
-                <img class="card__background" src="images/products/urban.jpg" />
-                <div class="card__content | flow">
-                    <div class="card__content--container | flow">
-                        <h2 class="card__title">UrbanClap Clone</h2>
-                        <p class="card__description">
-                        Explore an unparalleled solution for discovering trustworthy local services.
-                        </p>
-                    </div>
-                    <button class="card__button" onclick="window.location.href='urban-clone.php'">Read more</button>
-                </div>
-            </div>
+        <div class="col-md-8" data-animation="slideInRight">
+            <h1 class="header-font">Why Choose Our Amazon/Flipkart Clone Script</h1>
+            <p class="init_text text-font clr-black">We're SoftFlame Solutions, a leading mobile app development company.
+                Our Amazon/Flipkart Clone Script offers a great way to create your online store and connect with
+                customers worldwide. This script easily becomes a part of your eCommerce website, making it perfect for
+                entrepreneurs starting online product sales.</p>
+            <p class="init_text text-font clr-black">Our Amazon/Flipkart clone platform comes with essential features
+                ready to use, ensuring a quick launch of your online store. By choosing us, you get a pre-built
+                foundation that saves you time and effort. We also offer high flexibility and customization, tailoring
+                the platform to your unique needs.
+            </p>
+            <p class="init_text text-font clr-black">The internet's impact has led businesses to use online tools, such as websites, social media, and ready-made
+            eCommerce apps. These tools help companies attract millions of potential customers globally. Using these
+            platforms, businesses can reach people everywhere, regardless of location. This global reach lets you tap
+            into various markets, stimulate growth, and expand your customer base significantly.</p>
         </div>
-        <!-- <div class="col-md-4">
-            <div class="card">
-                <img class="card__background" src="images/products/grocery.jpg" />
-                <div class="card__content | flow">
-                    <div class="card__content--container | flow">
-                        <h2 class="card__title">Colombia</h2>
-                        <p class="card__description">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum in
-                            labore laudantium deserunt fugiat numquam.
-                        </p>
-                    </div>
-                    <button class="card__button">Read more</button>
-                </div>
-            </div>
-        </div> -->
+
     </div>
 
 </section>
@@ -280,5 +270,7 @@
 
 <!-- end section -->
 <div class="clearfix"></div>
+<?php $pageTitle = "Product"; // Replace "Page Name" with the actual name of your page
+    include('contact-us-div.php'); ?>
 
 <?php include 'footer.php'; ?>

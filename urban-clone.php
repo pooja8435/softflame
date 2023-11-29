@@ -72,7 +72,7 @@
         href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/text-animation.css" type="text/css" />
-    <link rel="stylesheet" href="css/products.css" type="text/css" />
+    <link rel="stylesheet" href="css/products-info.css" type="text/css" />
     <script>
         var Animation = function ({ offset } = { offset: 10 }) {
             var _elements;
@@ -158,13 +158,17 @@
 <section>
     <div class="header-inner two">
         <div class="inner text-center col-md-6 padding-top">
-            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">Our Products</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">urban Clone</h1>
+                </div>
+            </div>
             <!-- <h3 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">We offer wide range
                 of software services in pune for your business
                 enhancement</h3> -->
         </div>
-        <div class="overlay bg-opacity-7"></div>
-        <img src="images/products-banner.png" alt="Website Development Company in Pune, Bangalore, Delhi"
+        <div class="overlay bg-opacity-5"></div>
+        <img src="images/products/banner/urban-banner.jpg" alt="Website Development Company in Pune, Bangalore, Delhi"
             class="img-responsive sub-nav-img" />
     </div>
     </div>
@@ -186,97 +190,22 @@
 
 <section class="sec-padding">
     <div class="row">
-        <div class="col-md-4">
-            <div class="card">
-                <img class="card__background" src="images/products/taxi.jpg" />
-                <div class="card__content | flow">
-                    <div class="card__content--container | flow">
-                        <h2 class="card__title">Uber Clone</h2>
-                        <p class="card__description">
-                        Revolutionize transportation with our cutting-edge Uber Clone.
-                        </p>
-                    </div>
-                    <button class="card__button" onclick="window.location.href='uber-clone.php'">Read more</button>
-                </div>
-            </div>
+        <div class="col-md-6" data-animation="slideInRight">
+            <h1 class="header-font">UrbanClap Clone App</h1>
+            <p class="init_text text-font clr-black">Explore an unparalleled solution for discovering trustworthy local
+                services. Seamlessly book hassle-free appointments and connect with dependable professionals, ushering
+                in a new era of convenience.</p>
+            <p class="init_text text-font clr-black">Our innovative platform redefines service accessibility, empowering
+                you to effortlessly access a wide range of services.
+            </p>
         </div>
-        <div class="col-md-4">
-            <div class="card">
-                <img class="card__background" src="images/products/shopping.jpg" />
-                <div class="card__content | flow">
-                    <div class="card__content--container | flow">
-                        <h2 class="card__title">Amazon/Flipkart Clone</h2>
-                        <p class="card__description">
-                        Experience the synergy of Amazon and Flipkart in our innovative app.
-                        </p>
-                    </div>
-                    <button class="card__button"  onclick="window.location.href='amazon-clone.php'">Read more</button>
-                </div>
-            </div>
+        <div class="col-md-6">
+            <img data-animation="zoomIn" data-animation-delay="300ms" class="first-img"
+                src="images/products/info/urban-img-1.png">
         </div>
-        <div class="col-md-4">
-            <div class="card">
-                <img class="card__background" src="images/products/netflix.jpg" />
-                <div class="card__content | flow">
-                    <div class="card__content--container | flow">
-                        <h2 class="card__title">Netflix Clone</h2>
-                        <p class="card__description">
-                        Creating cutting-edge multiplayer streaming platforms inspired by Netflix.
-                        </p>
-                    </div>
-                    <button class="card__button" onclick="window.location.href='netflix-clone.php'">Read more</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row margin-top-80">
-        <div class="col-md-4">
-            <div class="card">
-                <img class="card__background" src="images/products/byjus.jpeg" />
-                <div class="card__content | flow">
-                    <div class="card__content--container | flow">
-                        <h2 class="card__title">Byju's Clone</h2>
-                        <p class="card__description">
-                        Explore a world of interactive and engaging learning with BYJU's App.
-                        </p>
-                    </div>
-                    <button class="card__button" onclick="window.location.href='byjus-clone.php'">Read more</button>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card">
-                <img class="card__background" src="images/products/urban.jpg" />
-                <div class="card__content | flow">
-                    <div class="card__content--container | flow">
-                        <h2 class="card__title">UrbanClap Clone</h2>
-                        <p class="card__description">
-                        Explore an unparalleled solution for discovering trustworthy local services.
-                        </p>
-                    </div>
-                    <button class="card__button" onclick="window.location.href='urban-clone.php'">Read more</button>
-                </div>
-            </div>
-        </div>
-        <!-- <div class="col-md-4">
-            <div class="card">
-                <img class="card__background" src="images/products/grocery.jpg" />
-                <div class="card__content | flow">
-                    <div class="card__content--container | flow">
-                        <h2 class="card__title">Colombia</h2>
-                        <p class="card__description">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum in
-                            labore laudantium deserunt fugiat numquam.
-                        </p>
-                    </div>
-                    <button class="card__button">Read more</button>
-                </div>
-            </div>
-        </div> -->
     </div>
 
 </section>
-
 
 <!-- end section -->
 <div class="clearfix"></div>
