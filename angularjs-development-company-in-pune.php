@@ -238,7 +238,7 @@
 
 <section>
     <div class="header-inner two">
-    <div class="inner text-center col-md-6 padding-top">
+    <div class="inner text-center col-md-6 col-sm-12 padding-top">
             <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">AngularJs Development
                 Company </h1>
             <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune, Bangalore,
@@ -270,7 +270,7 @@
 <section class="sec-padding">
     <div class="container">
         <div class="row">
-            <div class="col-md-6" data-animation="slideInRight">
+            <div class="col-md-6 col-sm-12" data-animation="slideInRight">
                 <h1 class="header-font"> AngularJs Development Services</h1>
                 <p class="init_text text-font">Welcome to SoftFlame Solutions, where we harness the power of Angular.js
                     to create dynamic and feature-rich web applications. Our skilled team of Angular.js developers is
@@ -281,7 +281,7 @@
                     data and business logic
                 </p>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-12">
                 <img data-animation="zoomIn" data-animation-delay="300ms" class="first-img"
                     src="images/services/info/angular.png">
             </div>
@@ -384,11 +384,11 @@
                     </h1>
                 </div>
                 <div class="row margin-top mobile-margin-30">
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-sm-12">
                         <img data-animation="zoomReverseIn" data-animation-delay="300ms" class="features-height display-none"
                             src="images/services/info/angularJs-features.png">
                     </div>
-                    <div class="col-md-6" data-animation="slideInLeft" data-animation-delay="300ms">
+                    <div class="col-md-6 col-sm-12" data-animation="slideInLeft" data-animation-delay="300ms">
                         <p class="init_text text-font">SoftFlame Solutions is an emerging AngularJS Development
                             Company
                             in Pune, Bangalore, Delhi for Mobile Applications and Web Applications Development in
