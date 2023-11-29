@@ -187,7 +187,7 @@
     }
 
     .ban_text strong span {
-        font-size: 28px;
+        font-size: 20px;
         line-height: 35px;
         letter-spacing: 2px;
     }
@@ -195,6 +195,7 @@
     .ban_text p {
         font-size: 14px;
         line-height: 20px;
+        margin:7px 2px 7px;
     }
 
     .ban_text a {
@@ -205,8 +206,9 @@
 
 @media only screen and (max-width: 767px) {
     .ban_img img {
-        min-height: 290px;
+        /* min-height: 290px; */
         object-fit: cover;
+        height:auto;
     }
 }
 
@@ -545,19 +547,29 @@ hr {
 @media (max-width: 768px) {
     .responsive-container-block.textSide {
         width: 100%;
-        align-items: center;
+        /* align-items: center; */
         flex-direction: column;
         justify-content: center;
     }
+    .responsive-container-block.bigContainer{
+        margin-top:0px !important;
+        margin-bottom:0px !important;
+        padding:0 65px 0 30px;
+    }
+
+    .imgHide{
+        display:none;
+    }
 
     .text-blk.subHeading {
-        text-align: center;
+        text-align: justify;
         font-size: 17px;
         max-width: 520px;
     }
 
     .text-blk.heading {
-        text-align: center;
+        text-align: left;
+        font-size:20px !important;
     }
 
     .imgContainer {
@@ -654,7 +666,7 @@ hr {
         padding-right: 20px;
         padding-bottom: 10px;
         padding-left: 20px;
-        padding: 0 30px 0 30px;
+        padding: 0 65px 0 30px;
     }
 
     .redDots {
@@ -916,7 +928,7 @@ include 'header.php';?>
                           </p>
                 <!-- <img class="redDots" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/cw3.svg"> -->
             </div>
-            <div class="imgContainer img2" data-sr="enter left, scale up 20%, reset">
+            <div class="imgContainer img2 imgHide" data-sr="enter left, scale up 20%, reset">
                 <img class="blueDots" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/aw3.svg">
                 <img class="mainImg" src="img/mean.png">
             </div>
@@ -962,7 +974,7 @@ include 'header.php';?>
 
         <div class="responsive-container-block bigContainer">
         <div class="responsive-container-block Container">
-            <div class="imgContainer img1" data-sr="enter left, scale up 20%, reset">
+            <div class="imgContainer img1 imgHide" data-sr="enter left, scale up 20%, reset">
                 <img class="blueDots" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/aw3.svg">
                 <img class="mainImg" src="img/meanstack.jpg">
             </div>
@@ -1000,7 +1012,7 @@ include 'header.php';?>
         </div>
     </div>
     <div class="container number-list" style="margin-bottom:40px;">
-    <p class="head" style="font-size: 34px;font-weight: 700;text-align: center;margin-bottom:20px;">
+    <p class="head text-blk heading" style="font-size: 34px;font-weight: 700;text-align: center;margin-bottom:20px;">
                 5 Simple <span style="color: #f15a29;">Steps</span></h2>
                 </p><hr style="margin-bottom:20px;">
 <ol class="lists">
@@ -1279,9 +1291,9 @@ include 'header.php';?>
         sr.reveal('.img1', {
             duration: 1000, // Animation duration in milliseconds
             delay: 500,
-            origin: 'center', // Animation starting point at the center
+            origin: 'bottom', // Animation starting point at the center
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true
         });
         sr.reveal('.text1', {
@@ -1295,9 +1307,9 @@ include 'header.php';?>
         sr.reveal('.img2', {
             duration: 1000, // Animation duration in milliseconds
             delay: 1000,
-            origin: 'center', // Animation starting point at the center
+            origin: 'bottom', // Animation starting point at the center
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true
         });
         sr.reveal('.text2', {
@@ -1318,9 +1330,9 @@ include 'header.php';?>
         sr.reveal('.lists', {
             duration: 1000, // Animation duration in milliseconds
             delay:500,
-            origin: 'center', // Animation starting point
+            origin: 'bottom', // Animation starting point
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element
+            scale: 1, // Scale of the element
             reset: true // Reset the animation after it's been revealed
         });
         sr.reveal('.head', {

@@ -211,8 +211,9 @@
 
 @media only screen and (max-width: 767px) {
     .ban_img img {
-        min-height: 290px;
+        /* min-height: 290px; */
         object-fit: cover;
+        height:auto;
     }
 }
 
@@ -394,7 +395,7 @@
 
 .responsive-cell-block.wk-desk-6.wk-ipadp-6.wk-tab-12.wk-mobile-12 {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     padding-top: 10px;
     padding-right: 15px;
@@ -549,14 +550,14 @@
     }
 
     .text-blk.subHeading {
-        text-align: center;
+        /* text-align: center; */
         font-size: 17px;
         max-width: 520px;
     }
 
-    .text-blk.heading {
+    /* .text-blk.heading {
         text-align: center;
-    }
+    } */
 
     .imgContainer {
         opacity: 0.8;
@@ -653,6 +654,11 @@
         padding-bottom: 10px;
         padding-left: 20px;
         padding: 0 30px 0 30px;
+        margin-top:0px;
+        margin-bottom:20px;
+    }
+    .imgContainer{
+        display:none;
     }
 
     .redDots {
@@ -687,9 +693,9 @@
 
     .explore {
         padding-top: 17px;
-        padding-right: 0px;
+        padding-right: 10px;
         padding-bottom: 17px;
-        padding-left: 0px;
+        padding-left: 10px;
         width: 100%;
     }
 
@@ -938,9 +944,9 @@ body {
     }
 }
 
-a {
+/* a {
     padding-top: 20px;
-}
+} */
 
 h1,
 h2,
@@ -2280,7 +2286,7 @@ include 'header.php';?>
         });
         sr.reveal('.card1', {
             duration: 1000, // Animation duration in milliseconds
-            delay: 500,
+            // delay: 500,
             origin: 'center', // Animation starting point at the center
             distance: '20px', // Distance to reveal the element
             scale: 1, // Scale of the element (adjust as needed)
@@ -2288,7 +2294,7 @@ include 'header.php';?>
         });
         sr.reveal('.card2', {
             duration: 1000, // Animation duration in milliseconds
-            delay: 1000,
+            // delay: 1000,
             origin: 'center', // Animation starting point at the center
             distance: '20px', // Distance to reveal the element
             scale: 1, // Scale of the element (adjust as needed)
@@ -2296,7 +2302,7 @@ include 'header.php';?>
         });
         sr.reveal('.card3', {
             duration: 1000, // Animation duration in milliseconds
-            delay: 1500,
+            // delay: 1500,
             origin: 'center', // Animation starting point at the center
             distance: '20px', // Distance to reveal the element
             scale: 1, // Scale of the element (adjust as needed)
@@ -2304,7 +2310,7 @@ include 'header.php';?>
         });
         sr.reveal('.card4', {
             duration: 1000, // Animation duration in milliseconds
-            delay: 500,
+            // delay: 500,
             origin: 'center', // Animation starting point at the center
             distance: '20px', // Distance to reveal the element
             scale: 1, // Scale of the element (adjust as needed)
@@ -2312,7 +2318,7 @@ include 'header.php';?>
         });
         sr.reveal('.card5', {
             duration: 1000, // Animation duration in milliseconds
-            delay: 1000,
+            // delay: 1000,
             origin: 'center', // Animation starting point at the center
             distance: '20px', // Distance to reveal the element
             scale: 1, // Scale of the element (adjust as needed)
@@ -2320,7 +2326,7 @@ include 'header.php';?>
         });
         sr.reveal('.card6', {
             duration: 1000, // Animation duration in milliseconds
-            delay: 1500,
+            // delay: 1500,
             origin: 'center', // Animation starting point at the center
             distance: '20px', // Distance to reveal the element
             scale: 1, // Scale of the element (adjust as needed)

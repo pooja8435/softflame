@@ -409,14 +409,19 @@ hr {
     }
 
     .text-blk.subHeading {
-        text-align: center;
+        /* text-align: center; */
         font-size: 17px;
         max-width: 520px;
     }
 
-    .text-blk.heading {
+    .timeline-main
+.timeline-wrap::before{
+    left:95% !important;
+}
+
+    /* .text-blk.heading {
         text-align: center;
-    }
+    } */
 
     .imgContainer {
         opacity: 0.8;
@@ -512,7 +517,13 @@ hr {
         padding-right: 20px;
         padding-bottom: 10px;
         padding-left: 20px;
-        padding: 0 30px 0 30px;
+        padding: 0 70px 0 30px;
+        margin-top:0px;
+        margin-bottom:0px;
+    }
+    .timeline-main{
+        margin-top:0px !important;
+        padding-right:45px !important;
     }
 
     .redDots {
@@ -694,7 +705,7 @@ hr {
     }
 
     .ban_text strong span {
-        font-size: 28px;
+        font-size: 20px;
         line-height: 35px;
         letter-spacing: 2px;
     }
@@ -702,6 +713,7 @@ hr {
     .ban_text p {
         font-size: 14px;
         line-height: 20px;
+        margin:7px 2px 7px;
     }
 
     .ban_text a {
@@ -712,8 +724,9 @@ hr {
 
 @media only screen and (max-width: 767px) {
     .ban_img img {
-        min-height: 290px;
+        /* min-height: 290px; */
         object-fit: cover;
+        height:auto;
     }
 }
 
@@ -728,7 +741,7 @@ hr {
 
 @media only screen and (max-width: 480px) {
     .ban_text strong span {
-        font-size: 22px;
+        font-size: 20px;
         line-height: 31px;
         letter-spacing: 1px;
     }
@@ -1120,6 +1133,10 @@ p.awesome_line {
     .col-lg-4 {
         flex: 0 0 100%; /* Make columns full width on small screens */
     }
+    .item {
+    height: 370px; /* Set a fixed height for the cards */
+    overflow: hidden; /* Enable vertical scrolling for overflowing content */
+}
 }
 
 .item:hover {
@@ -2141,7 +2158,7 @@ include 'header.php';?>
             delay: 500,
             origin: 'center', // Animation starting point at the center
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true
         });
         sr.reveal('.text1', {
@@ -2157,7 +2174,7 @@ include 'header.php';?>
             delay: 500,
             origin: 'center', // Animation starting point at the center
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true
         });
         sr.reveal('.text2', {
@@ -2179,7 +2196,7 @@ include 'header.php';?>
             delay: 500,
             origin: 'center', // Animation starting point at the center
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true
         });
         sr.reveal('.card2', {
@@ -2187,7 +2204,7 @@ include 'header.php';?>
             delay: 1000,
             origin: 'center', // Animation starting point at the center
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true
         });
         sr.reveal('.card3', {
@@ -2195,7 +2212,7 @@ include 'header.php';?>
             delay: 1500,
             origin: 'center', // Animation starting point at the center
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true
         });
         sr.reveal('.card4', {
@@ -2203,7 +2220,7 @@ include 'header.php';?>
             delay: 500,
             origin: 'center', // Animation starting point at the center
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true
         });
         sr.reveal('.card5', {
@@ -2211,7 +2228,7 @@ include 'header.php';?>
             delay: 1000,
             origin: 'center', // Animation starting point at the center
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true
         });
         sr.reveal('.card6', {
@@ -2219,7 +2236,7 @@ include 'header.php';?>
             delay: 1500,
             origin: 'center', // Animation starting point at the center
             distance: '20px', // Distance to reveal the element
-            scale: 1.2, // Scale of the element (adjust as needed)
+            scale: 1, // Scale of the element (adjust as needed)
             reset: true
         });
         sr.reveal('.tcard1', {
