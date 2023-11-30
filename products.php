@@ -71,8 +71,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="css/text-animation.css" type="text/css" />
-        <script>
+    <link rel="stylesheet" href="css/text-animation.css" type="text/css" />
+    <link rel="stylesheet" href="css/products.css" type="text/css" />
+    <script>
         var Animation = function ({ offset } = { offset: 10 }) {
             var _elements;
 
@@ -150,41 +151,20 @@
         };
         var animation = new Animation(options);
     </script>
-    <!-- <script>
-        
-        function () {
-            var s = document.querySelectorAll(".");
-
-            for (var i = 0; i < s.length; i++) {
-                var windowHeight = window.innerHeight;
-                var elementTop = s[i].getBoundingClientRect().top;
-                var elementVisible = 150;
-
-                if (elementTop < windowHeight - elementVisible) {
-                    s[i].classList.add("active");
-                } else {
-                    s[i].classList.remove("active");
-                }
-            }
-        }
-        window.addEventListener("scroll", );
-
-
-    </script> -->
-
 </head>
 
 <?php include 'header.php'; ?>
 
 <section>
     <div class="header-inner two">
-    <div class="inner text-center col-md-6 padding-top">
-            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">Services</h1>
-            <h3 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">We offer wide range of software services in pune for your business
-                enhancement</h3>
+        <div class="inner text-center col-md-6 padding-top">
+            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">Our Products</h1>
+            <!-- <h3 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">We offer wide range
+                of software services in pune for your business
+                enhancement</h3> -->
         </div>
         <div class="overlay bg-opacity-7"></div>
-        <img src="images/services-banner.jpg" alt="Website Development Company in Pune, Bangalore, Delhi"
+        <img src="images/products-banner.png" alt="Website Development Company in Pune, Bangalore, Delhi"
             class="img-responsive sub-nav-img" />
     </div>
     </div>
@@ -195,7 +175,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <div class="pagenation_links text-font font-16"><a href="index.php">Home</a><i> / </i> Services</div>
+                    <div class="pagenation_links text-font font-16"><a href="index.php">Home</a><i> / </i> Products
+                    </div>
                 </div>
             </div>
         </div>
@@ -203,235 +184,98 @@
 </section>
 
 
-<section>
-    <div class="box-wrapper box-div">
-        <figure class="shape-box shape-box_half" data-animation="slideInUp">
-            <img src="images/services/web-development.jpg" alt="web">
-            <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
-            <figcaption>
-                <div class="show-cont">
-                   <img class="icon-img" src="images/services/icons/coding.png">
-                    <h4 class="card-main-title header-font">Website Development</h4>
+<section class="sec-padding">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card__background" src="images/products/taxi.jpg" />
+                <div class="card__content | flow">
+                    <div class="card__content--container | flow">
+                        <h2 class="card__title">Uber Clone</h2>
+                        <p class="card__description">
+                        Revolutionize transportation with our cutting-edge Uber Clone.
+                        </p>
+                    </div>
+                    <button class="card__button" onclick="window.location.href='uber-clone.php'">Read more</button>
                 </div>
-                <p class="card-content">We offer a professional Web Development & Design Services Company in Pune, India
-                </p>
-                <a href="website-development-company-in-pune.php" class="read-more-btn">Read More</a>
-            </figcaption>
-            <span class="after"></span>
-        </figure>
-        <figure class="shape-box shape-box_half " data-animation="slideInUp" data-animation-delay="200ms">
-            <img src="images/services/meanstack.jpg">
-            <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
-            <figcaption>
-                <div class="show-cont">
-                <img class="icon-img" src="images/services/icons/layers.png">
-                    <h4 class="card-main-title header-font">mean stack app</h4>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card__background" src="images/products/shopping.jpg" />
+                <div class="card__content | flow">
+                    <div class="card__content--container | flow">
+                        <h2 class="card__title">Amazon/Flipkart Clone</h2>
+                        <p class="card__description">
+                        Experience the synergy of Amazon and Flipkart in our innovative app.
+                        </p>
+                    </div>
+                    <button class="card__button"  onclick="window.location.href='amazon-clone.php'">Read more</button>
                 </div>
-                <p class="card-content">MEAN is a collection of JavaScript-based technologies used to develop web
-                    applications</p>
-                <a href="mean-stack-app-development-company-in-pune.php" class="read-more-btn">Read More</a>
-            </figcaption>
-            <span class="after"></span>
-        </figure>
-        <figure class="shape-box shape-box_half " data-animation="slideInUp" data-animation-delay="400ms">
-            <img src="images/services/3.jpg">
-            <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
-            <figcaption>
-                <div class="show-cont">
-                <img class="icon-img" src="images/services/icons/nodejs.png">
-                    <h4 class="card-main-title header-font">node js</h4>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card__background" src="images/products/netflix.jpg" />
+                <div class="card__content | flow">
+                    <div class="card__content--container | flow">
+                        <h2 class="card__title">Netflix Clone</h2>
+                        <p class="card__description">
+                        Creating cutting-edge multiplayer streaming platforms inspired by Netflix.
+                        </p>
+                    </div>
+                    <button class="card__button" onclick="window.location.href='netflix-clone.php'">Read more</button>
                 </div>
-                <p class="card-content">SoftFlame Solutions is emerging Node.js applications development company in Pune
-                </p>
-                <a href="node-js-development-company-in-pune.php" class="read-more-btn">Read More</a>
-            </figcaption>
-            <span class="after"></span>
-        </figure>
-        <figure class="shape-box shape-box_half " data-animation="slideInUp" data-animation-delay="600ms">
-            <img src="images/services/angular.png">
-            <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
-            <figcaption>
-                <div class="show-cont">
-                <img class="icon-img" src="images/services/icons/nodejs.png">
-                    <h4 class="card-main-title header-font">angular js</h4>
-                </div>
-                <p class="card-content">We are offering reliable AngularJS consulting and development services for our
-                    esteemed clients</p>
-                <a href="angularjs-development-company-in-pune.php" class="read-more-btn">Read More</a>
-            </figcaption>
-            <span class="after"></span>
-        </figure>
-        <figure class="shape-box shape-box_half " data-animation="slideInUp" >
-            <img src="images/services/ux.jpg" alt="">
-            <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
-            <figcaption>
-                <div class="show-cont">
-                <img class="icon-img" src="images/services/icons/ui.png">
-                    <h4 class="card-main-title header-font">ux design</h4>
-                </div>
-                <p class="card-content">We provide website design solutions to meet your requirements
-                </p>
-                <a href="ui-ux-design-company-in-pune.php" class="read-more-btn">Read More</a>
-            </figcaption>
-            <span class="after"></span>
-        </figure>
-        <figure class="shape-box shape-box_half " data-animation="slideInUp" data-animation-delay="200ms">
-            <img src="images/services/ecom.png">
-            <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
-            <figcaption>
-                <div class="show-cont">
-                <img class="icon-img" src="images/services/icons/shopping-online.png">
-                    <h4 class="card-main-title header-font">ecommerce</h4>
-                </div>
-                <p class="card-content">At SFS, we create quality websites for companies from a wide range of industries
-                </p>
-                <a href="ecommerce-development-company-in-pune.php" class="read-more-btn">Read More</a>
-            </figcaption>
-            <span class="after"></span>
-        </figure>
-        <figure class="shape-box shape-box_half " data-animation="slideInUp" data-animation-delay="400ms">
-            <img src="images/services/iphone.png">
-            <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
-            <figcaption>
-                <div class="show-cont">
-                <img class="icon-img" src="images/services/icons/apple.png">
-                    <h4 class="card-main-title header-font">iphone/ipad app</h4>
-                </div>
-                <p class="card-content">Making an iPhone app is always the right way to begin your app business
-                </p>
-                <a href="ios-app-development-company-in-pune.php" class="read-more-btn">Read More</a>
-            </figcaption>
-            <span class="after"></span>
-        </figure>
-        <figure class="shape-box shape-box_half " data-animation="slideInUp" data-animation-delay="600ms">
-            <img src="images/services/android.jpg">
-            <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
-            <figcaption>
-                <div class="show-cont">
-                <img class="icon-img" src="images/services/icons/android.png">
-                    <h4 class="card-main-title header-font">android app</h4>
-                </div>
-                <p class="card-content">Hire SoftFlame Solutions for your Android app development service</p>
-                <a href="android-app-development-company-in-pune.php" class="read-more-btn">Read More</a>
-            </figcaption>
-            <span class="after"></span>
-        </figure>
-        <figure class="shape-box shape-box_half " data-animation="slideInUp">
-            <img src="images/services/cordova.png" alt="">
-            <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
-            <figcaption>
-                <div class="show-cont">
-                <img class="icon-img" src="images/services/icons/shopping-online.png">
-                    <h4 class="card-main-title header-font">Cordova/ phonegap</h4>
-                </div>
-                <p class="card-content">We build cross-platform applications faster and with fewer efforts
-                </p>
-                <a href="cordova-phonegap-app-development-company-in-pune.php" class="read-more-btn">Read More</a>
-            </figcaption>
-            <span class="after"></span>
-        </figure>
-        <figure class="shape-box shape-box_half " data-animation="slideInUp" data-animation-delay="200ms">
-            <img src="images/services/ionic.png">
-            <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
-            <figcaption>
-                <div class="show-cont">
-                <img class="icon-img" src="images/services/icons/shopping-online.png">
-                    <h4 class="card-main-title header-font">Ionic framework app</h4>
-                </div>
-                <p class="card-content">Ionic framework app development to build hybrid mobile apps</p>
-                <a href="ionic-app-development-company-in-pune.php" class="read-more-btn">Read More</a>
-            </figcaption>
-            <span class="after"></span>
-        </figure>
-        <figure class="shape-box shape-box_half " data-animation="slideInUp" data-animation-delay="400ms">
-            <img src="images/services/cross-app.jpg">
-            <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
-            <figcaption>
-                <div class="show-cont">
-                <img class="icon-img" src="images/services/icons/cross-platform.png">
-                    <h4 class="card-main-title header-font">Cross platform app</h4>
-                </div>
-                <p class="card-content">At SoftFlame Solutions our Cross platform developers mainly uses Phonegap
-                    framework
-                </p>
-                <a href="cross-platform-app-development-company-in-pune.php" class="read-more-btn">Read More</a>
-            </figcaption>
-            <span class="after"></span>
-        </figure>
-        <figure class="shape-box shape-box_half " data-animation="slideInUp" data-animation-delay="600ms">
-            <img src="images/services/meteor.png">
-            <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
-            <figcaption>
-                <div class="show-cont">
-                <img class="icon-img" src="images/services/icons/comet.png">
-                    <h4 class="card-main-title header-font">meteor js</h4>
-                </div>
-                <p class="card-content">As Meteor uses single language, it speeds development time & is great for rapid
-                    prototyping</p>
-                <a href="meteorjs-app-development-company-in-pune.php" class="read-more-btn">Read More</a>
-            </figcaption>
-            <span class="after"></span>
-        </figure>
-        <figure class="shape-box shape-box_half " data-animation="slideInUp" >
-            <img src="images/services/cloud-consulting.jpg" alt="">
-            <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
-            <figcaption>
-                <div class="show-cont">
-                <img class="icon-img" src="images/services/icons/consulting.png">
-                    <h4 class="card-main-title header-font">aws cloud consulting</h4>
-                </div>
-                <p class="card-content">AWS cloud offers cloud solutions to move faster , lower IT cost, and scale
-                    applications.
-                </p>
-                <a href="aws-cloud-consulting-services-in-pune.php" class="read-more-btn">Read More</a>
-            </figcaption>
-            <span class="after"></span>
-        </figure>
-        <figure class="shape-box shape-box_half " data-animation="slideInUp" data-animation-delay="200ms">
-            <img src="images/services/aws.png">
-            <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
-            <figcaption>
-                <div class="show-cont">
-                <img class="icon-img" src="images/services/icons/migration.png">
-                    <h4 class="card-main-title header-font">aws cloud migration</h4>
-                </div>
-                <p class="card-content">We help you to migrate and deploy various applications</p>
-                <a href="aws-cloud-migration-services-in-pune.php" class="read-more-btn">Read More</a>
-            </figcaption>
-            <span class="after"></span>
-        </figure>
-        <figure class="shape-box shape-box_half " data-animation="slideInUp" data-animation-delay="400ms">
-            <img src="images/services/cloudManagement.png">
-            <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
-            <figcaption>
-                <div class="show-cont">
-                <img class="icon-img" src="images/services/icons/cloud-computing.png">
-                    <h4 class="card-main-title header-font">aws managed services</h4>
-                </div>
-                <p class="card-content">Consulting to empower and achieve business objectives more faster with Managed
-                    AWS cloud Consulting Services
-                </p>
-                <a href="managed-aws-services-in-pune.php" class="read-more-btn">Read More</a>
-            </figcaption>
-            <span class="after"></span>
-        </figure>
-        <figure class="shape-box shape-box_half " data-animation="slideInUp" data-animation-delay="600ms">
-            <img src="images/services/react.png">
-            <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
-            <figcaption>
-                <div class="show-cont">
-                <img class="icon-img" src="images/services/icons/atom.png">
-                    <h4 class="card-main-title header-font">react js</h4>
-                </div>
-                <p class="card-content">We are offering reliable AngularJS consulting and development services for our
-                    esteemed clients</p>
-                <a href="#" class="read-more-btn">Read More</a>
-            </figcaption>
-            <span class="after"></span>
-        </figure>
+            </div>
+        </div>
     </div>
-</section>
+    <div class="row margin-top-80">
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card__background" src="images/products/byjus.jpeg" />
+                <div class="card__content | flow">
+                    <div class="card__content--container | flow">
+                        <h2 class="card__title">Byju's Clone</h2>
+                        <p class="card__description">
+                        Explore a world of interactive and engaging learning with BYJU's App.
+                        </p>
+                    </div>
+                    <button class="card__button" onclick="window.location.href='byjus-clone.php'">Read more</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card__background" src="images/products/urban.jpg" />
+                <div class="card__content | flow">
+                    <div class="card__content--container | flow">
+                        <h2 class="card__title">UrbanClap Clone</h2>
+                        <p class="card__description">
+                        Explore an unparalleled solution for discovering trustworthy local services.
+                        </p>
+                    </div>
+                    <button class="card__button" onclick="window.location.href='urban-clone.php'">Read more</button>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="col-md-4">
+            <div class="card">
+                <img class="card__background" src="images/products/grocery.jpg" />
+                <div class="card__content | flow">
+                    <div class="card__content--container | flow">
+                        <h2 class="card__title">Colombia</h2>
+                        <p class="card__description">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum in
+                            labore laudantium deserunt fugiat numquam.
+                        </p>
+                    </div>
+                    <button class="card__button">Read more</button>
+                </div>
+            </div>
+        </div> -->
+    </div>
 
+</section>
 
 
 <!-- end section -->
