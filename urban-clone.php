@@ -160,7 +160,8 @@
         <div class="inner text-center col-md-6 padding-top">
             <div class="row">
                 <div class="col-md-6">
-                    <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">urban Clone</h1>
+                    <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">urban Clone
+                    </h1>
                 </div>
             </div>
             <!-- <h3 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">We offer wide range
@@ -198,10 +199,161 @@
             <p class="init_text text-font clr-black">Our innovative platform redefines service accessibility, empowering
                 you to effortlessly access a wide range of services.
             </p>
+            <div class="contact-btn-div margin-top-70  mobile-margin-30"><button type="button" class="btn contact-btn-blue text-font"
+                    onclick="window.location.href='contact.php'">Contact Us</button>
+            </div>
         </div>
         <div class="col-md-6">
-            <img data-animation="zoomIn" data-animation-delay="300ms" class="first-img"
+            <img data-animation="zoomIn" data-animation-delay="300ms" class="flt-right urban-img-1"
                 src="images/products/info/urban-img-1.png">
+        </div>
+
+
+    </div>
+    <div class="row margin-top-70  mobile-margin-30">
+        <div class="col-md-12" data-animation="zoomReverseIn">
+            <h1 class="header-font text-center">Explore our App Features</h1>
+        </div>
+    </div>
+    <div class="row margin-top-70  mobile-margin-30">
+        <div class="col-md-4">
+            <div class="card height-175 choose-card" data-animation="flipInY">
+                <div class="flex ">
+                    <img class="img-60" src="images/products/info/service.png">
+                    <div class="urban-features">
+                        <h3 class="text-font">Wide Range of Services</h3>
+                        <p class="text-font">Discover an extensive list of services available at your fingertips.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mobile-margin-30">
+            <div class="card height-175  choose-card" data-animation="flipInY">
+                <div class="flex">
+                    <img class="img-60" src="images/products/info/location.png">
+                    <div class="urban-features">
+                        <h3 class="text-font">Location-based Search</h3>
+                        <p class="text-font">Find professionals near your location for quick and convenient service.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mobile-margin-30">
+            <div class="card height-175  choose-card" data-animation="flipInY">
+                <div class="flex">
+                    <img class="img-60" src="images/products/info/booking.png">
+                    <div class="urban-features">
+                        <h3 class="text-font">Easy Booking System</h3>
+                        <p class="text-font">Book appointments seamlessly and manage your schedule effortlessly.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row margin-top-70  mobile-margin-30">
+        <div class="col-md-4">
+            <div class="card height-175  choose-card" data-animation="flipInY">
+                <div class="flex">
+                    <img class="img-60" src="images/products/info/businessman.png">
+                    <div class="urban-features">
+                        <h3 class="text-font">Verified Professionals</h3>
+                        <p class="text-font">Connect with trusted and verified service providers in your area.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mobile-margin-30">
+            <div class="card height-175  choose-card" data-animation="flipInY">
+                <div class="flex">
+                    <img class="img-60" src="images/products/info/rate.png">
+                    <div class="urban-features">
+                        <h3 class="text-font">Rating and Reviews</h3>
+                        <p class="text-font">Read reviews and ratings from other users to make informed decisions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mobile-margin-30">
+            <div class="card height-175  choose-card" data-animation="flipInY">
+                <div class="flex">
+                    <img class="img-60" src="images/products/info/chat.png">
+                    <div class="urban-features">
+                        <h3 class="text-font">Instant Chat</h3>
+                        <p class="text-font">Communicate with service providers through the app's built-in chat system.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row margin-top-70  mobile-margin-30">
+        <div class="col-md-12" data-animation="zoomReverseIn">
+            <h1 class="header-font text-center">Why Choose our Urbanclap App Clone?</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="row margin-top-70  mobile-margin-30">
+                <div class="col-md-6">
+                    <div class="notification" data-animation="zoomReverseIn" >
+                        <div class="notiglow"></div>
+                        <div class="notiborderglow"></div>
+                        <img class="img-40 text-center" src="images/products/info/graphic-design.png">
+                        <h4 class="notititle">Complete customizable</h4>
+                    </div>
+                </div>
+                <div class="col-md-6  mobile-margin-30">
+                    <div class="notification" data-animation="zoomReverseIn" data-animation-delay="200ms">
+                        <div class="notiglow"></div>
+                        <div class="notiborderglow"></div>
+                        <img class="img-40 text-center" src="images/products/info/cell-phone.png">
+                        <h4 class="notititle">Available for Android and iOS</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row margin-top-70  mobile-margin-30">
+                <div class="col-md-6">
+                    <div class="notification" data-animation="zoomReverseIn" data-animation-delay="400ms">
+                        <div class="notiglow"></div>
+                        <div class="notiborderglow"></div>
+                        <img class="img-40 text-center" src="images/products/info/team2.png">
+                        <h4 class="notititle">Easily accommodate a number of users activity</h4>
+                    </div>
+                </div>
+                <div class="col-md-6  mobile-margin-30">
+                    <div class="notification" data-animation="zoomReverseIn" data-animation-delay="600ms">
+                        <div class="notiglow"></div>
+                        <div class="notiborderglow"></div>
+                        <img class="img-40 text-center" src="images/products/info/features.png">
+                        <h4 class="notititle">Dedicated Admin panel to manage all the features</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row margin-top-70  mobile-margin-30">
+                <div class="col-md-6">
+                    <div class="notification" data-animation="zoomReverseIn" data-animation-delay="800ms">
+                        <div class="notiglow"></div>
+                        <div class="notiborderglow"></div>
+                        <img class="img-40 text-center" src="images/products/info/programming.png">
+                        <h4 class="notititle">Build by experienced team of Web & Mobile developers</h4>
+                    </div>
+                </div>
+                <div class="col-md-6  mobile-margin-30">
+                    <div class="notification" data-animation="zoomReverseIn" data-animation-delay="1000ms">
+                        <div class="notiglow"></div>
+                        <div class="notiborderglow"></div>
+                        <img class="img-40 text-center" src="images/products/info/check-mark.png">
+                        <h4 class="notititle">Proper Deliverable management of product</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <img data-animation="zoomIn" data-animation-delay="300ms" class="urban-company-img"
+                src="images/products/info/urban-company.png">
         </div>
     </div>
 
@@ -209,5 +361,7 @@
 
 <!-- end section -->
 <div class="clearfix"></div>
+<?php $pageTitle = "Product"; // Replace "Page Name" with the actual name of your page
+include('contact-us-div.php'); ?>
 
 <?php include 'footer.php'; ?>

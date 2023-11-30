@@ -160,10 +160,11 @@
         <div class="inner text-center col-md-6 padding-top">
             <div class="row">
                 <div class="col-md-6">
-                    <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">Netflix Clone</h1>
+                    <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">Netflix
+                        Clone</h1>
                 </div>
             </div>
-            <!-- <h3 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">We offer wide range
+            <!-- <h3 class="text-font" data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">We offer wide range
                 of software services in pune for your business
                 enhancement</h3> -->
         </div>
@@ -190,17 +191,86 @@
 <section class="sec-padding">
     <div class="row">
         <div class="col-md-6" data-animation="slideInRight">
-            <h1 class="header-font">UrbanClap Clone App</h1>
-            <p class="init_text text-font clr-black">Explore an unparalleled solution for discovering trustworthy local
-                services. Seamlessly book hassle-free appointments and connect with dependable professionals, ushering
-                in a new era of convenience.</p>
-            <p class="init_text text-font clr-black">Our innovative platform redefines service accessibility, empowering
-                you to effortlessly access a wide range of services.
+            <h1 class="header-font">Multiplayer Netflix Clone App Development</h1>
+            <p class="init_text text-font clr-black">At Netflix Clone App Development, we specialize in creating
+                cutting-edge multiplayer streaming platforms inspired by Netflix. Our team of experts leverages the
+                latest technologies and best practices to deliver seamless, high-quality streaming experiences to users
+                around the world.</p>
+            <p class="init_text text-font clr-black">With a focus on user engagement and interaction, our multiplayer
+                Netflix clone apps offer a unique blend of entertainment and social interaction. Whether it's watching
+                movies, TV shows, or exclusive content with friends and family in real time, we've got you covered.
             </p>
+            <p class="init_text text-font clr-black">Join us in revolutionizing the way people consume media, and let's
+                build the next generation of entertainment together.
+            </p>
+            <div class="contact-btn-div"><button type="button" class="btn contact-btn-blue text-font"
+                    onclick="window.location.href='contact.php'">Contact Us</button>
+            </div>
         </div>
         <div class="col-md-6">
-            <img data-animation="zoomIn" data-animation-delay="300ms" class="first-img"
+            <img data-animation="zoomIn" data-animation-delay="300ms" class="display-none flt-right"
                 src="images/products/info/netflix-img-1.png">
+        </div>
+    </div>
+
+    <div class="row margin-top-70 mobile-margin-30">
+        <div class="col-md-4">
+            <div data-animation="slideInRight" data-animation-delay="600ms">
+                <img class="netflix-laptop" src="images/products/info/netflix-laptop.png" alt="">
+
+            </div>
+        </div>
+        <div class="col-md-8" data-animation="slideInLeft">
+            <h1 class="header-font">Why Choose Our App Over Netflix Clone?</h1>
+            <p class="init_text text-font clr-black">Experience entertainment like never before with our revolutionary
+                Multiplayer Streaming App. Engage with friends and family while watching your favorite movies and TV
+                shows together in real time. Our app seamlessly combines the best of Netflix's content with social
+                interaction, creating an immersive and connected viewing experience.</p>
+            <p class="init_text text-font clr-black">Say goodbye to passive watching. With our app, you can interact,
+                react, and discuss the content you love, making every moment memorable and shared.
+            </p>
+            <p class="init_text text-font clr-black">Join us in shaping the future of entertainment. Elevate your
+                streaming experience with our beautifully designed, feature-rich app today.
+            </p>
+        </div>
+
+    </div>
+    <div class="row margin-top-70 mobile-margin-30">
+        <div class="col-md-4" data-animation="zoomIn">
+            <div class="speech-bubble round float">
+                <h3 class="text-font">Real-time Interaction</h3>
+                <p class="text-font">Engage with friends while watching content together in real time.</p>
+            </div>
+        </div>
+        <div class="col-md-4 mobile-margin-30" data-animation="zoomIn" >
+            <div class="speech-bubble round float">
+                <h3 class="text-font">Shared Experiences</h3>
+                <p class="text-font">Discuss and react to scenes with built-in chat and reaction features.</p>
+            </div>
+        </div>
+        <div class="col-md-4 mobile-margin-30" data-animation="zoomIn">
+            <div class="speech-bubble round float" >
+                <h3 class="text-font">Content + Social</h3>
+                <p class="text-font">Combine the best of Netflix's library with social interaction.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row margin-top-70 mobile-margin-30">
+        <div class="col-md-6" data-animation="slideInRight">
+            <h3 class="text-font">What differentiates us from other Netflix Clone App development firms?</h3>
+            <ul class="list">
+                <li>Customizations that are extensive</li>
+                <li>Prompt deployment</li>
+                <li>Installation security</li>
+                <li>Multi-platform operations</li>
+                <li>Appropriate support and maintenance</li>
+                <li>Cost-effective solutions</li>
+                <li>Performance scalability with a powerful admin dashboard</li>
+                <li>Integration of cloud computing technology</li>
+            </ul>
+        </div>
+        <div class="col-md-6">
+            <img data-animation="zoomIn" class="netflix-screen display-none" src="images/products/info/netflix-screen.jpg">
         </div>
     </div>
 
@@ -209,5 +279,7 @@
 
 <!-- end section -->
 <div class="clearfix"></div>
+<?php $pageTitle = "Product"; // Replace "Page Name" with the actual name of your page
+include('contact-us-div.php'); ?>
 
 <?php include 'footer.php'; ?>
