@@ -1516,6 +1516,10 @@ body {
     width: 100%;
   }
 }
+
+.owl-carousel{
+  display:block !important;
+}
 /* about us css ends */
 
 
