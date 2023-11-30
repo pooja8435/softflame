@@ -148,327 +148,46 @@
         background-color: #555;
     }
 
+    #header {
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+        background-color: rgb(255, 255, 255);
+        /* Orange background color */
+        transition: background-color 0.5s ease-in-out;
+        position:fixed;
+      }
+    #header.scrolled {
+        background-color: rgb(255, 255, 255);
+        /* Blue background color when scrolled */
+    }
+    #header .container {
+        width: 100%;
+    }
+    .navbar-nav>li>a {
+        font-family: 'Noto Sans', sans-serif;
+        text-transform: none;
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+    .navbar-default .navbar-nav>li>a,
+    .navbar-default .navbar-text {
+        color: black;
+      }
+    .navbar-brand img {
+        max-width: 100%;
+        height: auto;
+        /* padding-top:10px;
+    margin-left:-50px; */
+    }
+    .box .box-title h4 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        line-height: 3rem;
+    }
+
 
     
-nav{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  height: 70px;
-  background: white;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-  z-index: 99;
-}
-nav .navbar{
-  height: 100%;
-  max-width: 1250px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: auto;
-  background: white;
-  padding: 0 50px;
-}
-.navbar .logo{
-    padding:0 0 0 0;
-}
-.navbar .logo a{
-  font-size: 30px;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
-}
-nav .navbar .nav-links{
-  line-height: 70px;
-  height: 100%;
-}
-nav .navbar .links{
-  display: flex;
-}
-nav .navbar .links li{
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  list-style: none;
-  padding: 0 14px;
-}
-nav .navbar .links li a{
-  height: 100%;
-  text-decoration: none;
-  white-space: nowrap;
-  color: #2d497b;
-  font-size: 15px;
-  font-weight: 600;
-}
-.links li:hover .htmlcss-arrow,
-.links li:hover .js-arrow{
-  transform: rotate(180deg);
-  }
 
-nav .navbar .links li .arrow{
-  /* background: red; */
-  height: 100%;
-  width: 22px;
-  line-height: 70px;
-  text-align: center;
-  display: inline-block;
-  color: #fff;
-  transition: all 0.3s ease;
-}
-nav .navbar .links li .sub-menu{
-  position: absolute;
-  top: 70px;
-  left: 0;
-  line-height: 40px;
-  background: #3E8DA8;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-  border-radius: 0 0 4px 4px;
-  display: none;
-  z-index: 2;
-  width:250%;
-}
-nav .navbar .links li:hover .htmlCss-sub-menu,
-nav .navbar .links li:hover .js-sub-menu{
-  display: block;
-}
-.navbar .links li .sub-menu li{
-  padding: 0 22px;
-  border-bottom: 1px solid rgba(255,255,255,0.1);
-}
-.navbar .links li .sub-menu a{
-  color: #fff;
-  font-size: 15px;
-  font-weight: 500;
-}
-.navbar .links li .sub-menu .more-arrow{
-  line-height: 40px;
-}
-.navbar .links li .htmlCss-more-sub-menu{
-  /* line-height: 40px; */
-}
-nav .navbar .links li .arrow svg{
-    width:100%;
-    top:5px;
-}
-.navbar .links li .sub-menu .more-sub-menu{
-  position: absolute;
-  top: 0;
-  left: 100%;
-  border-radius: 0 4px 4px 4px;
-  z-index: 1;
-  display: none;
-}
-.links li .sub-menu .more:hover .more-sub-menu{
-  display: block;
-}
-.navbar .search-box{
-  position: relative;
-   height: 40px;
-  width: 40px;
-  display:none;
-}
-.navbar .search-box i{
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  line-height: 40px;
-  text-align: center;
-  font-size: 22px;
-  color: #fff;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-.navbar .search-box .input-box{
-  position: absolute;
-  right: calc(100% - 40px);
-  top: 80px;
-  height: 60px;
-  width: 300px;
-  background: #3E8DA8;
-  border-radius: 6px;
-  opacity: 0;
-  pointer-events: none;
-  transition: all 0.4s ease;
-}
-.navbar.showInput .search-box .input-box{
-  top: 65px;
-  opacity: 1;
-  pointer-events: auto;
-  background: #3E8DA8;
-}
-.search-box .input-box::before{
-  content: '';
-  position: absolute;
-  height: 20px;
-  width: 20px;
-  background: #3E8DA8;
-  right: 10px;
-  top: -6px;
-  transform: rotate(45deg);
-}
-.search-box .input-box input{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  border-radius: 4px;
-  transform: translate(-50%, -50%);
-  height: 35px;
-  width: 280px;
-  outline: none;
-  padding: 0 15px;
-  font-size: 16px;
-  border: none;
-}
-.navbar .nav-links .sidebar-logo{
-  display: none;
-}
-.navbar .bx-menu{
-  display: none;
-}
-@media (max-width:920px) {
-  nav .navbar{
-    max-width: 100%;
-    padding: 0 25px;
-  }
-
-  nav .navbar .logo a{
-    font-size: 27px;
-  }
-  nav .navbar .links li{
-    padding: 0 10px;
-    white-space: nowrap;
-  }
-  nav .navbar .links li a{
-    font-size: 15px;
-    color:#2d497b;
-  }
-}
-@media (max-width:800px){
-  nav{
-    /* position: relative; */
-  }
-  .navbar .bx-menu{
-    display: block;
-  }
-  .navbar .bx-menu svg{
-    fill:#2f598b;
-    width:60%;
-    margin-top:20%;
-  }
-.logo-name img{
-    width:80%;
-}
-
-nav .navbar .links li .arrow svg{
-    width:37px;
-    top:12px;
-}
-
-  nav .navbar .nav-links{
-    position: fixed;
-    top: 0;
-    left: -100%;
-    display: block;
-    max-width: 270px;
-    width: 100%;
-    background:  #0d0e0e;
-    line-height: 40px;
-    padding: 20px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    transition: all 0.5s ease;
-    z-index: 1000;
-  }
-  .navbar .nav-links .sidebar-logo{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .sidebar-logo .logo-name{
-    font-size: 25px;
-    color: #fff;
-  }
-    .sidebar-logo  i,
-    .navbar .bx-menu{
-      font-size: 25px;
-      color: #fff;
-      width:15%
-    }
-  nav .navbar .links{
-    display: block;
-    margin-top: 20px;
-  }
-  nav .navbar .links li .arrow{
-    line-height: 40px;
-  }
-nav .navbar .links li{
-    display: block;
-  }
-nav .navbar .links li .sub-menu{
-  position: relative;
-  top: 0;
-  box-shadow: none;
-  display: none;
-}
-nav .navbar .links li .sub-menu li{
-  border-bottom: none;
-
-}
-.navbar .links li .sub-menu .more-sub-menu{
-  display: none;
-  position: relative;
-  left: 0;
-}
-.navbar .links li .sub-menu .more-sub-menu li{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.links li:hover .htmlcss-arrow,
-.links li:hover .js-arrow{
-  transform: rotate(0deg);
-  }
-  .navbar .links li .sub-menu .more-sub-menu{
-    display: none;
-  }
-  .navbar .links li .sub-menu .more span{
-    /* background: red; */
-    /* display: flex; */
-    align-items: center;
-    /* justify-content: space-between; */
-  }
-
-  .links li .sub-menu .more:hover .more-sub-menu{
-    display: none;
-  }
-  nav .navbar .links li:hover .htmlCss-sub-menu,
-  nav .navbar .links li:hover .js-sub-menu{
-    display: none;
-  }
-.navbar .nav-links.show1 .links .htmlCss-sub-menu,
-  .navbar .nav-links.show3 .links .js-sub-menu,
-  .navbar .nav-links.show2 .links .more .more-sub-menu{
-      display: block;
-    }
-    .navbar .nav-links.show1 .links .htmlcss-arrow,
-    .navbar .nav-links.show3 .links .js-arrow{
-        transform: rotate(180deg);
-        top:10px;
-        margin-left:15px;
-}
-    .navbar .nav-links.show2 .links .more-arrow{
-      transform: rotate(90deg);
-    }
-}
-@media (max-width:370px){
-  nav .navbar .nav-links{
-  max-width: 100%;
-} 
-}
 </style>
 
 <script>
@@ -538,7 +257,7 @@ nav .navbar .links li .sub-menu li{
         </div> -->
         <div class="clearfix"></div>
 
-        <!-- <div id="header">
+        <div id="header">
             <div class="container">
                 <div class="navbar navbar-default yamm">
 
@@ -683,154 +402,8 @@ nav .navbar .links li .sub-menu li{
                     </div>
                 </div>
             </div>
-        </div> -->
-
-        <nav>
-    <div class="navbar">
-      <i class='bx bx-menu'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="hamburger-menu"><path d="M26,3H6A3,3,0,0,0,3,6V26a3,3,0,0,0,3,3H26a3,3,0,0,0,3-3V6A3,3,0,0,0,26,3ZM21,21H11a1,1,0,0,1,0-2H21a1,1,0,0,1,0,2Zm0-4H11a1,1,0,0,1,0-2H21a1,1,0,0,1,0,2Zm0-4H11a1,1,0,0,1,0-2H21a1,1,0,0,1,0,2Z" data-name="hamburger menu"></path></svg></i>
-      <div class="logo"><a href="index.php" class=""><img src="images/logo web.png" class=""
-                                alt="Website Development Company Pune, Bangalore, Delhi" /></a></div>
-      <div class="nav-links">
-        <div class="sidebar-logo">
-          <span class="logo-name"><a href="index.php" class=""><img src="images/logo web.png" class=""
-                                alt="Website Development Company Pune, Bangalore, Delhi" /></a></span>
-          <i class='bx bx-x' ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" id="cross"><path d="M14.348 14.849a1.2 1.2 0 0 1-1.697 0L10 11.819l-2.651 3.029a1.2 1.2 0 1 1-1.697-1.697l2.758-3.15-2.759-3.152a1.2 1.2 0 1 1 1.697-1.697L10 8.183l2.651-3.031a1.2 1.2 0 1 1 1.697 1.697l-2.758 3.152 2.758 3.15a1.2 1.2 0 0 1 0 1.698z"></path></svg></i>
         </div>
-        <ul class="links">
-          <li><a href="#">Home</a></li>
-          <li>
-            <a href="#">Services</a>
-            <i class='bx bxs-chevron-down htmlcss-arrow arrow  '><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="down-chevron"><g data-name="Layer 2"><path d="M12 15.5a1 1 0 0 1-.71-.29l-4-4a1 1 0 1 1 1.42-1.42L12 13.1l3.3-3.18a1 1 0 1 1 1.38 1.44l-4 3.86a1 1 0 0 1-.68.28z" data-name="chevron-down"></path></g></svg></i>
-            <ul class="htmlCss-sub-menu sub-menu">
-              <!-- <li><a href="#">Web Development</a></li> -->
-              <li class="more">
-                <span><a href="#">Web Development</a>
-                <i class='bx bxs-chevron-right arrow more-arrow'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="down-chevron"><g data-name="Layer 2"><path d="M12 15.5a1 1 0 0 1-.71-.29l-4-4a1 1 0 1 1 1.42-1.42L12 13.1l3.3-3.18a1 1 0 1 1 1.38 1.44l-4 3.86a1 1 0 0 1-.68.28z" data-name="chevron-down"></path></g></svg></i>
-              </span>
-                <ul class="more-sub-menu sub-menu">
-                  <li><a href="#">Website Development</a></li>
-                  <li><a href="#">Mean Stack App Development</a></li>
-                  <li><a href="#">Mern Stack App Development</a></li>
-                  <li><a href="#">Node Js Development</a></li>
-                  <li><a href="#">Angular Js Development</a></li>
-                  <li><a href="#">UX Design Services</a></li>
-                  <li><a href="#">Ecommerce Development</a></li>
-                </ul>
-              </li>
-              <li class="more">
-                <span><a href="#">Mobile App Development</a>
-                <i class='bx bxs-chevron-right arrow more-arrow'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="down-chevron"><g data-name="Layer 2"><path d="M12 15.5a1 1 0 0 1-.71-.29l-4-4a1 1 0 1 1 1.42-1.42L12 13.1l3.3-3.18a1 1 0 1 1 1.38 1.44l-4 3.86a1 1 0 0 1-.68.28z" data-name="chevron-down"></path></g></svg></i>
-              </span>
-                <ul class="more-sub-menu sub-menu">
-                  <li><a href="#">iPhone/iPad App Development</a></li>
-                  <li><a href="#">Android App Development</a></li>
-                  <li><a href="#">Cordova/ PhonGap Development</a></li>
-                  <li><a href="#">Ionic Framework App Development</a></li>
-                  <li><a href="#">Cross Platform A Development</a></li>
-                </ul>
-              </li>
-              <li class="more">
-                <span><a href="#">AWS Cloud</a>
-                <i class='bx bxs-chevron-right arrow more-arrow'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="down-chevron"><g data-name="Layer 2"><path d="M12 15.5a1 1 0 0 1-.71-.29l-4-4a1 1 0 1 1 1.42-1.42L12 13.1l3.3-3.18a1 1 0 1 1 1.38 1.44l-4 3.86a1 1 0 0 1-.68.28z" data-name="chevron-down"></path></g></svg></i>
-              </span>
-                <ul class="more-sub-menu sub-menu">
-                  <li><a href="#">AWS Cloud Consulting</a></li>
-                  <li><a href="#">AWS Cloud Migration</a></li>
-                  <li><a href="#">AWS Managed Services</a></li>
-                </ul>
-              </li>
-              <li class="more">
-                <span><a href="#">Digital Marketing</a>
-                <i class='bx bxs-chevron-right arrow more-arrow'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="down-chevron"><g data-name="Layer 2"><path d="M12 15.5a1 1 0 0 1-.71-.29l-4-4a1 1 0 1 1 1.42-1.42L12 13.1l3.3-3.18a1 1 0 1 1 1.38 1.44l-4 3.86a1 1 0 0 1-.68.28z" data-name="chevron-down"></path></g></svg></i>
-              </span>
-                <ul class="more-sub-menu sub-menu">
-                  <li><a href="#">SEO Services</a></li>
-                  <li><a href="#">Content Marketing</a></li>
-                  <li><a href="#">Pay-Per-Click (PPC) Advertising</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="#">Hire Resources</a>
-            <i class='bx bxs-chevron-down js-arrow arrow '><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="down-chevron"><g data-name="Layer 2"><path d="M12 15.5a1 1 0 0 1-.71-.29l-4-4a1 1 0 1 1 1.42-1.42L12 13.1l3.3-3.18a1 1 0 1 1 1.38 1.44l-4 3.86a1 1 0 0 1-.68.28z" data-name="chevron-down"></path></g></svg></i>
-            <ul class="js-sub-menu sub-menu">
-              <li><a href="hire-angularjs-developer-pune.php">Hire Angular JS Developer</a></li>
-              <li><a href="hire-ios-app-developer-pune.php">Hire iOS Developer</a></li>
-              <li><a href="hire-react-native-app-developer-pune.php">Hire React Native Developer</a></li>
-              <li><a href="hire-mean-stack-app-developer-pune.php">Hire MEAN Stack Developer</a></li>
-              <li><a href="hire-flutter-native-app-developer-pune.php">Hire Flutter Developer</a></li>
-              <li><a href="hire-ionic-app-developer-pune.php">Hire Ionic App Developer</a></li>
-              <li><a href="hire-nodejs-developer-pune.php">Hire Node Js Developer</a></li>
-              <li><a href="hire-php-developer-pune.php">Hire PHP Developer</a></li>
-            </ul>
-          </li>
-          <li><a href="career.php">Career</a></li>
-          <li><a href="products.php">Products</a>
-          <i class='bx bxs-chevron-down js-arrow arrow '><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="down-chevron"><g data-name="Layer 2"><path d="M12 15.5a1 1 0 0 1-.71-.29l-4-4a1 1 0 1 1 1.42-1.42L12 13.1l3.3-3.18a1 1 0 1 1 1.38 1.44l-4 3.86a1 1 0 0 1-.68.28z" data-name="chevron-down"></path></g></svg></i>
-            <ul class="js-sub-menu sub-menu">
-              <li><a href="uber-clone.php">Uber Clone</a></li>
-              <li><a href="amazon-clone.php">Amazon/Flipkart Clone</a></li>
-              <li><a href="netflix-clone.php">Netflix Clone</a></li>
-              <li><a href="byjus-clone.php">Byju's Clone</a></li>
-              <li><a href="urban-clone.php">Urban Clone</a></li>
-            </ul>      
-        
-        </li>
-          <li><a href="portfolio.php">Portfolio</a></li>
-          <li><a href="blog.php">Blogs</a></li>
-          <li><a href="contact.php">Contact US</a></li>
-        </ul>
-      </div>
-      <div class="search-box">
-        <i class='bx bx-search'></i>
-        <div class="input-box">
-          <input type="text" placeholder="Search...">
-        </div>
-      </div>
-    </div>
-  </nav>
+
+       
 
 
-  <script>
-    // search-box open close js code
-let navbar = document.querySelector(".navbar");
-let searchBox = document.querySelector(".search-box .bx-search");
-// let searchBoxCancel = document.querySelector(".search-box .bx-x");
-
-searchBox.addEventListener("click", ()=>{
-  navbar.classList.toggle("showInput");
-  if(navbar.classList.contains("showInput")){
-    searchBox.classList.replace("bx-search" ,"bx-x");
-  }else {
-    searchBox.classList.replace("bx-x" ,"bx-search");
-  }
-});
-
-// sidebar open close js code
-let navLinks = document.querySelector(".nav-links");
-let menuOpenBtn = document.querySelector(".navbar .bx-menu");
-let menuCloseBtn = document.querySelector(".nav-links .bx-x");
-menuOpenBtn.onclick = function() {
-navLinks.style.left = "0";
-}
-menuCloseBtn.onclick = function() {
-navLinks.style.left = "-100%";
-}
-
-
-// sidebar submenu open close js code
-let htmlcssArrow = document.querySelector(".htmlcss-arrow");
-htmlcssArrow.onclick = function() {
- navLinks.classList.toggle("show1");
-}
-let moreArrow = document.querySelector(".more-arrow");
-moreArrow.onclick = function() {
- navLinks.classList.toggle("show2");
-}
-let jsArrow = document.querySelector(".js-arrow");
-jsArrow.onclick = function() {
- navLinks.classList.toggle("show3");
-}
-
-</script>
