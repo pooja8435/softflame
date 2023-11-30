@@ -207,16 +207,16 @@
 
         </div>
         <div class="col-md-6">
-            <img data-animation="zoomIn" data-animation-delay="300ms" class="first-img"
+            <img data-animation="zoomIn" data-animation-delay="300ms" class="uber-img-1"
                 src="images/products/info/uber-img-1.png">
         </div>
     </div>
-    <div class="row margin-top-70">
+    <div class="row margin-top-70 mobile-margin-30">
         <div class="col-md-12" data-animation="zoomReverseIn">
             <h1 class="header-font text-center">Why Choose Our taxi Service apps ?</h1>
         </div>
     </div>
-    <div class="row margin-top-70">
+    <div class="row margin-top-70 mobile-margin-30">
         <div class="col-md-4">
             <div class="card choose-card">
                 <div class="flex">
@@ -230,7 +230,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 mobile-margin-30">
             <div class="card choose-card">
                 <div class="flex">
                     <div class="div">
@@ -243,7 +243,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 mobile-margin-30">
             <div class="card choose-card">
                 <div class="flex">
                     <div class="div">
@@ -257,7 +257,7 @@
             </div>
         </div>
     </div>
-    <div class="row margin-top-70">
+    <div class="row margin-top-70 mobile-margin-30">
         <div class="col-md-4">
             <div class="card choose-card">
                 <div class="flex">
@@ -271,7 +271,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 mobile-margin-30">
             <div class="card choose-card">
                 <div class="flex">
                     <div class="div">
@@ -284,7 +284,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 mobile-margin-30">
             <div class="card choose-card">
                 <div class="flex">
                     <div class="div">
@@ -298,7 +298,8 @@
             </div>
         </div>
     </div>
-    <div class="row margin-top-70">
+    
+    <div class="row margin-top-70 mobile-margin-30">
         <div class="col-md-6" data-animation="slideInRight">
             <h1 class="header-font">Discover Our Unique Approach</h1>
             <p class="init_text text-font clr-black">At our Taxi, we're committed to redefining the way you experience
@@ -313,7 +314,7 @@
         </div>
         <div class="col-md-6">
             <div class="car" data-animation="slideInLeft" data-animation-delay="600ms">
-                <img src="images/products/info/car.png" alt="">
+                <img  class="car-img"  src="images/products/info/car.png" alt="">
 
             </div>
         </div>

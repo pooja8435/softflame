@@ -230,25 +230,26 @@
                     </div>
                 </div>
             </div>
-            <div class="contact-btn-div"><button type="button" class="btn contact-btn-blue text-font"
+            <div class="contact-btn-div "><button type="button" class="btn contact-btn-blue text-font"
                     onclick="window.location.href='contact.php'">Contact Us</button>
             </div>
         </div>
         <div class="col-md-6">
-            <img data-animation="zoomIn" data-animation-delay="300ms" src="images/products/info/amazon-img-1.png">
+            <img data-animation="zoomIn" data-animation-delay="300ms" class="amazon-img-1" src="images/products/info/amazon-img-1.png">
         </div>
     </div>
 
-    <div class="row margin-top-70">
+    <div class="row margin-top-70 mobile-margin-30">
         <div class="col-md-4">
             <div class="car" data-animation="slideInLeft" data-animation-delay="600ms">
-                <img class="shopping-cart" src="images/products/info/shopping-cart.png" alt="">
+                <img class="shopping-cart display-none" src="images/products/info/shopping-cart.png" alt="">
 
             </div>
         </div>
         <div class="col-md-8" data-animation="slideInRight">
             <h1 class="header-font">Why Choose Our Amazon/Flipkart Clone Script</h1>
-            <p class="init_text text-font clr-black">We're SoftFlame Solutions, a leading mobile app development company.
+            <p class="init_text text-font clr-black">We're SoftFlame Solutions, a leading mobile app development
+                company.
                 Our Amazon/Flipkart Clone Script offers a great way to create your online store and connect with
                 customers worldwide. This script easily becomes a part of your eCommerce website, making it perfect for
                 entrepreneurs starting online product sales.</p>
@@ -257,12 +258,99 @@
                 foundation that saves you time and effort. We also offer high flexibility and customization, tailoring
                 the platform to your unique needs.
             </p>
-            <p class="init_text text-font clr-black">The internet's impact has led businesses to use online tools, such as websites, social media, and ready-made
-            eCommerce apps. These tools help companies attract millions of potential customers globally. Using these
-            platforms, businesses can reach people everywhere, regardless of location. This global reach lets you tap
-            into various markets, stimulate growth, and expand your customer base significantly.</p>
+            <p class="init_text text-font clr-black">The internet's impact has led businesses to use online tools, such
+                as websites, social media, and ready-made
+                eCommerce apps. These tools help companies attract millions of potential customers globally. Using these
+                platforms, businesses can reach people everywhere, regardless of location. This global reach lets you
+                tap
+                into various markets, stimulate growth, and expand your customer base significantly.</p>
         </div>
 
+    </div>
+
+    <div class="row margin-top-70 mobile-margin-30">
+        <div class="col-md-12" data-animation="zoomReverseIn">
+            <h1 class="header-font text-center">Our Ecommerce Package Includes</h1>
+        </div>
+    </div>
+    <div class="row margin-top-70 mobile-margin-30">
+        <div class="col-md-4">
+            <div class="card height-240 choose-card" data-animation="flipInY">
+                <div class="flex flex-center">
+                    <div class="text-center">
+                        <img class="img-60" src="images/products/info/iphone.png">
+                        <h3 class="text-font">Android And IOS Apps</h3>
+                        <p class="text-font">We provide awesome customizable mobile apps for both android and ios
+                            platforms.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mobile-margin-30">
+            <div class="card height-240 choose-card" data-animation="flipInY">
+                <div class="flex">
+                    <div class="text-center">
+                        <img class="img-60" src="images/products/info/dashboard.png">
+                        <h3 class="text-font">Admin Dashboards</h3>
+                        <p class="text-font">User-friendly Administrator dashboard with Features and Characteristics for
+                            better Site Management.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mobile-margin-30">
+            <div class="card height-240 choose-card" data-animation="flipInY">
+                <div class="flex">
+                    <div class="text-center">
+                        <img class="img-60" src="images/products/info/monitor.png">
+                        <h3 class="text-font">Vendor Dashboard</h3>
+                        <p class="text-font">Powerful multi-vendor e-commerce script for diverse products, enabling
+                            multiple vendors on a single platform.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row margin-top-70 mobile-margin-30">
+        <div class="col-md-4">
+            <div class="card height-240 choose-card" data-animation="flipInY">
+                <div class="flex">
+                    <div class="text-center">
+                        <img class="img-60" src="images/products/info/tag.png">
+                        <h3 class="text-font">White Labeling</h3>
+                        <p class="text-font">Create custom-branded iOS & Android apps for customers and vendors. Comes
+                            with ready-to-use source code for smooth operation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mobile-margin-30">
+            <div class="card height-240 choose-card" data-animation="flipInY">
+                <div class="flex">
+                    <div class="text-center">
+                        <img class="img-60" src="images/products/info/source-code.png">
+                        <h3 class="text-font">100% Source Code Ownership</h3>
+                        <p class="text-font">Comprehensive encrypted code for Server, Admin Dashboard, iOS & Android
+                            apps, with detailed documentation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mobile-margin-30">
+            <div class="card height-240 choose-card" data-animation="flipInY">
+                <div class="flex">
+                    <div class="text-center">
+                        <img class="img-60" src="images/products/info/cashless-payment.png">
+                        <h3 class="text-font">Payment</h3>
+                        <p class="text-font">Various payment gateways, including credit/debit cards and popular mobile
+                            wallets like PayPal, Paytm, are supported.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 </section>
@@ -271,6 +359,6 @@
 <!-- end section -->
 <div class="clearfix"></div>
 <?php $pageTitle = "Product"; // Replace "Page Name" with the actual name of your page
-    include('contact-us-div.php'); ?>
+include('contact-us-div.php'); ?>
 
 <?php include 'footer.php'; ?>

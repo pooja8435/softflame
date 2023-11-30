@@ -160,7 +160,8 @@
         <div class="inner text-center col-md-6 padding-top">
             <div class="row">
                 <div class="col-md-6">
-                    <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">Byjus Clone</h1>
+                    <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">Byjus Clone
+                    </h1>
                 </div>
             </div>
             <!-- <h3 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">We offer wide range
@@ -191,17 +192,161 @@
 <section class="sec-padding">
     <div class="row">
         <div class="col-md-6" data-animation="slideInRight">
-            <h1 class="header-font">UrbanClap Clone App</h1>
-            <p class="init_text text-font clr-black">Explore an unparalleled solution for discovering trustworthy local
-                services. Seamlessly book hassle-free appointments and connect with dependable professionals, ushering
-                in a new era of convenience.</p>
-            <p class="init_text text-font clr-black">Our innovative platform redefines service accessibility, empowering
-                you to effortlessly access a wide range of services.
+            <h1 class="header-font">Welcome to BYJU's Learning App</h1>
+            <p class="init_text text-font clr-black">Explore a world of interactive and engaging learning with BYJU's
+                App. Our comprehensive study materials, interactive videos, and personalized learning approach make
+                education an exciting journey. Whether you're a student, parent, or educator, our app offers a unique
+                and effective way to master subjects and concepts.</p>
+            <p class="init_text text-font clr-black">Join millions of learners who have discovered the power of learning
+                with BYJU's. Elevate your knowledge and unlock your potential with our user-friendly and innovative
+                learning platform.
             </p>
         </div>
         <div class="col-md-6">
-            <img data-animation="zoomIn" data-animation-delay="300ms" class="first-img"
+            <img data-animation="zoomIn" data-animation-delay="300ms" class="byjus-img-1 flt-right"
                 src="images/products/info/byjus-img-1.png">
+        </div>
+    </div>
+    <div class="row margin-top-70 mobile-margin-30">
+        <div class="col-md-12" data-animation="zoomReverseIn">
+            <h1 class="header-font text-center">Solution Offered</h1>
+        </div>
+    </div>
+    <div class="row margin-top-70 mobile-margin-30">
+        <div class="col-md-4">
+            <div class="card height-240 choose-card" data-animation="flipInY">
+                <div class="flex flex-center">
+                    <div class="text-center">
+                        <img class="img-60" src="images/products/info/deep-learning.png">
+                        <h3 class="text-font">Interactive Learning</h3>
+                        <p class="text-font">Engage with interactive lessons and videos that bring learning to life.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mobile-margin-30">
+            <div class="card height-240 choose-card" data-animation="flipInY">
+                <div class="flex">
+                    <div class="text-center">
+                        <img class="img-60" src="images/products/info/set-up.png">
+                        <h3 class="text-font">Personalized Approach</h3>
+                        <p class="text-font">Receive customized content and assessments tailored to your learning style.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mobile-margin-30">
+            <div class="card height-240 choose-card" data-animation="flipInY">
+                <div class="flex">
+                    <div class="text-center">
+                        <img class="img-60" src="images/products/info/up-arrow.png">
+                        <h3 class="text-font">Track Progress</h3>
+                        <p class="text-font">Monitor your progress and identify areas for improvement with detailed
+                            insights.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row margin-top-70 mobile-margin-30">
+        <div class="col-md-4">
+            <div class="card height-240 choose-card" data-animation="flipInY">
+                <div class="flex">
+                    <div class="text-center">
+                        <img class="img-60" src="images/products/info/achievement.png">
+                        <h3 class="text-font">Achievement Recognition</h3>
+                        <p class="text-font">Earn rewards and certificates as you achieve milestones in your learning
+                            journey.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mobile-margin-30">
+            <div class="card height-240 choose-card" data-animation="flipInY">
+                <div class="flex">
+                    <div class="text-center">
+                        <img class="img-60" src="images/products/info/team.png">
+                        <h3 class="text-font">Collaborative Learning</h3>
+                        <p class="text-font">Connect with peers to collaborate, discuss, and share insights for better
+                            understanding.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mobile-margin-30">
+            <div class="card height-240 choose-card" data-animation="flipInY">
+                <div class="flex">
+                    <div class="text-center">
+                        <img class="img-60" src="images/products/info/flexibility.png">
+                        <h3 class="text-font">Flexible Learning</h3>
+                        <p class="text-font">Learn at your own pace, anytime, anywhere, to suit your schedule and
+                            preferences.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row margin-top-70 mobile-margin-30">
+        <h1 class="header-font text-center">Features Include</h1>
+    </div>
+    <div class="row margin-top-70 mobile-margin-30">
+        <div class="col-md-4">
+            <h3 class="text-font pink"> Wallet App For Merchants</h3>
+            <p class="text-font text-justify">Our integrated Merchant Mobile Wallet Apps ensure a superior checkout
+                experience for
+                your customers. With
+                advanced features like cost-splitting, ACH (Automated Clearing House), and invoice generation, you can
+                forge long-term relationships with your clients.</p>
+        </div>
+        <div class="col-md-4 text-center ">
+            <img style=" height: 250px;" src="images/products/info/wallete.gif">
+        </div>
+        <div class="col-md-4">
+            <h3 class="text-font purple"> Wallet App For Users</h3>
+            <p class="text-font text-justify">To expedite transactions, customers can create profiles containing their
+                personal
+                information and bank account details. Payment methods like credit cards and PayPal accounts can be
+                securely saved for swift future purchases.</p>
+        </div>
+    </div>
+    <div class="row margin-top-70 mobile-margin-30">
+        <div class="col-md-4">
+            <h3 class="text-font green"> Cryptocurrency wallet</h3>
+            <p class="text-font text-justify">Looking for a fun and secure Cryptocurrency wallet app? Contact us now!
+                Our bitcoin
+                wallet application development services simplify trading, purchasing, and selling bitcoins. Share your
+                requirements, and we'll strive to fulfill your needs.</p>
+        </div>
+        <div class="col-md-4 text-center"> 
+            <img style=" height: 200px;" src="images/products/info/bluetooth-logo.gif">
+        </div>
+        <div class="col-md-4">
+            <h3 class="text-font red"> Bluetooth and iBeacon</h3>
+            <p class="text-font text-justify">The iBeacon system is a bluetooth-based payment system that allows you to
+                send money
+                without having to use your credit card.</p>
+        </div>
+    </div>
+    <div class="row margin-top-70 mobile-margin-30">
+        <div class="col-md-4">
+            <h3 class="text-font blue"> NFC(Near field Communication)</h3>
+            <p class="text-font text-justify">Apple Pay, Google Pay, and Samsung Pay are just a few of the mobile
+                payment systems
+                that employ it. Set up wifi connections and create access tokens and keycards.</p>
+        </div>
+        <div class="col-md-4 text-center">
+             <img style=" height: 200px;" src="images/products/info/learning.gif">
+    </div>
+        <div class="col-md-4">
+            <h3 class="text-font brown"> E-learning apps</h3>
+            <p class="text-font text-justify">We'll work together to create highly customised E-learning software that
+                meets the
+                needs of your clients.</p>
         </div>
     </div>
 
@@ -210,5 +355,7 @@
 
 <!-- end section -->
 <div class="clearfix"></div>
+<?php $pageTitle = "Product"; // Replace "Page Name" with the actual name of your page
+include('contact-us-div.php'); ?>
 
 <?php include 'footer.php'; ?>
