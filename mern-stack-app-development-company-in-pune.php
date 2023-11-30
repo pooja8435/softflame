@@ -15,16 +15,16 @@
         gtag('config', 'UA-135022729-1');
     </script>
 
-    <title>Mean Stack App Development Company in Pune | Bangalore | Delhi | MEAN Stack Development Company in Pune |
+    <title>MERN Stack App Development Company in Pune | Bangalore | Delhi | MERN Stack Development Company in Pune |
         Bangalore | Delhi</title>
     <meta charset="utf-8">
     <!-- Meta -->
     <meta name="keywords"
-        content="Mean Stack App Development Company in Pune, Bangalore, Delhi, website company in Pune, Bangalore, Delhi,web development company in pune,website design in Pune, Bangalore, Delhi,web design company,web design pune,web development company, website design company, ecommerce website design,ecommerce websites development,SEO services pune,seo company in Pune, Bangalore, Delhi" />
+        content="MERN Stack App Development Company in Pune, Bangalore, Delhi, website company in Pune, Bangalore, Delhi,web development company in pune,website design in Pune, Bangalore, Delhi,web design company,web design pune,web development company, website design company, ecommerce website design,ecommerce websites development,SEO services pune,seo company in Pune, Bangalore, Delhi" />
     <meta name="author" content="">
     <meta name="robots" content="" />
     <meta name="description"
-        content="Mean Stack App Development Company in Pune, Bangalore, Delhi - SoftFlame Solutions offers Mean Stack App Development Services using  MongoDB, Express.js, AngularJS & Node.js technologies. Contact now for more info." />
+        content="MERN Stack App Development Company in Pune, Bangalore, Delhi - SoftFlame Solutions offers MERN Stack App Development Services using  MongoDB, Express.js, ReactJS & Node.js technologies. Contact now for more info." />
 
     <!-- this styles only adds some repairs on idevices  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -164,14 +164,14 @@
             margin-top: 25px;
         }
 
-        .mean-container {
+        .MERN-container {
             padding: 120px 80px;
             display: flex;
             flex-direction: row;
             transform-style: preserve-3d;
         }
 
-        .mean-cards {
+        .MERN-cards {
             min-width: 240px;
 
             padding: 16px 24px 32px;
@@ -184,13 +184,13 @@
             box-shadow: -1rem 0 8rem #cfcdcd;
         }
 
-        .mean-cards:hover {
+        .MERN-cards:hover {
 
             margin-right: 48px;
             transform: translate(0, -40px);
         }
 
-        .mean-cards-img {
+        .MERN-cards-img {
             height: 140px;
         }
 
@@ -242,13 +242,13 @@
         <div class="row">
             <div class="col-md-6" data-animation="slideInRight">
                 <h1 class="header-font">Mern Stack</h1>
-                <p class="init_text text-font">MEAN is a collection of JavaScript-based technologies — MongoDB,
-                    Express.js, AngularJS, and Node.js — used to develop web applications. From the client and server
-                    sides to databases, MEAN is a full-stack development toolkit. Play through the following five
-                    courses to become a MEAN stack developer and earn a new badge!</p>
-                <p class="init_text text-font">MEAN stack is basically a collection of JavaScript-based web development
-                    technologies that includes MongoDB, ExpressJS, AngularJS and NodeJS. These technologies work
-                    together to develop a web application. AngularJS being client makes AJAX calls to ExpressJS
+                <p class="init_text text-font">MERN is a collection of JavaScript-based technologies — MongoDB,
+                    Express.js, ReactJS, and Node.js — used to develop web applications. From the client and server
+                    sides to databases, MERN is a full-stack development toolkit. Play through the following five
+                    courses to become a MERN stack developer and earn a new badge!</p>
+                <p class="init_text text-font">MERN stack is basically a collection of JavaScript-based web development
+                    technologies that includes MongoDB, ExpressJS, ReactJS and NodeJS. These technologies work
+                    together to develop a web application. ReactJS being client makes AJAX calls to ExpressJS
                     returning response in JSON format.
                 </p>
                 <p class="init_text text-font">ExpressJS that is running on NodeJS Server further communicate with
@@ -262,38 +262,39 @@
         </div>
     </div>
 
-    <div class="container mean-container">
+    <div class="container MERN-container">
 
-        <div class="card mean-cards">
+        <div class="card MERN-cards">
             <div class="card-body">
                 <h3 class="text-font">MongoDB</h3>
-                <img class="mean-cards-img" src="images/services/info/mongo.png">
+                <img class="MERN-cards-img" src="images/services/info/mongo.png">
                 <p class="text-font">Harness the flexibility and scalability of MongoDB to store and manage your
                     data. We design efficient database architectures that ensure high performance and data
                     security.</p>
             </div>
         </div>
-        <div class="card mean-cards">
+        <div class="card MERN-cards">
             <div class="card-body">
                 <h3 class="text-font">Express.js</h3>
-                <img class="mean-cards-img" src="images/services/info/express.png">
+                <img class="MERN-cards-img" src="images/services/info/express.png">
                 <p class="text-font">We use Express.js to build a solid foundation for your web applications,
                     enabling rapid development of APIs and backend services while maintaining code
                     maintainability.</p>
             </div>
         </div>
-        <div class="card mean-cards">
+        <div class="card MERN-cards">
             <div class="card-body">
                 <h3 class="text-font">React</h3>
-                <img class="mean-cards-img" src="images/services/info/react-logo.png">
-                <p class="text-font">Craft engaging and user-friendly web interfaces with Angular. Our frontend
-                    developers create responsive and dynamic web applications that captivate your users.</p>
+                <img class="MERN-cards-img" src="images/services/info/react-logo.png">
+                <p class="text-font">React, a powerful frontend library, is an integral part of the MERN Stack. React's
+                    component-based architecture enhances code organization and
+                    reusability.</p>
             </div>
         </div>
-        <div class="card mean-cards">
+        <div class="card MERN-cards">
             <div class="card-body">
                 <h3 class="text-font">Node.js</h3>
-                <img class="mean-cards-img" src="images/services/info/node.png">
+                <img class="MERN-cards-img" src="images/services/info/node.png">
                 <p class="text-font">Leverage the speed and efficiency of Node.js to power your real-time and
                     server-side applications. Our experts build robust and performant server-side code.</p>
             </div>
@@ -306,18 +307,20 @@
                 <img data-animation="flipInY" class="second-img display-none" src="images/services/info/mean-img1.png">
             </div>
             <div class="col-md-6" data-animation="zoomIn" data-animation-delay="300ms">
-                <h1 class="header-font">Why Mean Stack?</h1>
-                <p class="init_text text-font">The acronym “MEAN” stands for “MongoDB Express.js AngularJS Node.js” and
-                    represents a group of technologies which are known to synergize well together. The major benefit of
-                    the MEAN stack is that it’s extremely quick to prototype with. Node.js allows you to use Javascript
-                    on the backend as well as the frontend which can save you from having to learn a separate language.
+                <h1 class="header-font">Why Mern Stack?</h1>
+                <p class="init_text text-font">The MERN Stack, encompassing MongoDB, Express.js, React, and Node.js, has
+                    gained widespread popularity in web development for its cohesive and efficient approach. A notable
+                    advantage lies in the use of JavaScript throughout the entire stack, allowing developers to
+                    seamlessly transition between frontend and backend tasks, fostering code reusability and a unified
+                    development workflow.
                 </p>
-                <p class="init_text text-font">In addition, the NoSQL nature of MongoDB allows you to quickly change and
-                    alter the data layer without having to worry about migrations, which is a very valuable attribute
-                    when you’re trying to build a product without clear specifications.
+                <p class="init_text text-font"> React, a key component, empowers developers to build dynamic and
+                    engaging user interfaces through its component-based architecture. On the backend, Node.js provides
+                    scalability and performance, making it adept at handling concurrent requests and facilitating
+                    real-time application development.
                 </p>
-                <p class="init_text text-font">Finally, these technologies have a lot of community support behind them
-                    so finding answers to questions or hiring help is going to be much easier using these technologies.
+                <p class="init_text text-font">MongoDB, as the NoSQL database, offers flexibility in data storage with
+                    its document-oriented model, accommodating diverse and evolving data structures.
                 </p>
             </div>
 
