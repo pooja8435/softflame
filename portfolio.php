@@ -897,6 +897,9 @@ a.down-arrow {
     text-transform: uppercase;
     margin: 1rem;
 }
+.btn-sm:hover{
+    color:#F2992E;
+}
 
 .btn-orange {
     border-color: #F2992E;
