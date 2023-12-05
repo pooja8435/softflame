@@ -392,7 +392,7 @@
                             </li>
                             <li class="dropdown"> <a href="products.php" class="dropdown-toggle">Products</a>
                             </li>
-                            <li class="dropdown"> <a href="blog.php" class="dropdown-toggle">Portfolio</a>
+                            <li class="dropdown"> <a href="portfolio.php" class="dropdown-toggle">Portfolio</a>
                             </li>
                             <li class="dropdown"> <a href="blog.php" class="dropdown-toggle">Blog</a>
                             </li>
