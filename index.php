@@ -127,7 +127,7 @@
         text-transform: uppercase;
         padding: 10px;
         font-size: 22px;
-        font-family: 'Oswald', sans-serif;
+        font-family: 'Nunito', sans-serif;
         transition: all 0.8s;
     }
 
@@ -267,7 +267,7 @@
     }
 
     .navbar-nav>li>a {
-        font-family: 'Noto Sans', sans-serif;
+      font-family: 'Nunito', sans-serif;
         text-transform: none;
         font-weight: 500;
         font-size: 1.5rem;
@@ -287,7 +287,7 @@
     }
 
     .box .box-title h4 {
-        font-family: 'Poppins', sans-serif;
+      font-family: 'Nunito', sans-serif;
         font-size: 15px;
         line-height: 3rem;
 
@@ -409,7 +409,7 @@
 .container {
     /* max-width: 1200px !important; */
     /* margin: 100px 0; */
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito', sans-serif !important;
 }
 
 .container {
@@ -576,6 +576,7 @@ header .item .cover .header-content h2 {
   font-weight: 300;
   font-size: 35px;
   color: #fff;
+  font-family: 'Nunito', sans-serif !important;
 }
 header .item .cover .header-content h1 {
   font-size: 56px;
@@ -583,12 +584,14 @@ header .item .cover .header-content h1 {
   margin: 5px 0 20px;
   word-spacing: 3px;
   color: #fff;
+  font-family: 'Nunito', sans-serif !important;
 }
 header .item .cover .header-content h4 {
   font-size: 24px;
   font-weight: 300;
   line-height: 36px;
   color: #fff;
+  font-family: 'Nunito', sans-serif !important;
 }
 header .owl-item.active h1 {
   -webkit-animation-duration: 1s;
@@ -1088,6 +1091,10 @@ a {
     padding-left: 0px;
   }
 
+  header .item .cover .header-content h1{
+    font-size:40px;
+  }
+
   .responsive-container-block.Container {
     flex-direction: column;
     height: auto;
@@ -1229,7 +1236,7 @@ a {
   .responsive-container-block.bigContainer {
     padding-top: 10px;
     padding-right: 25px;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
     padding-left: 25px;
   }
 
@@ -1290,7 +1297,7 @@ a {
   .responsive-container-block.bigContainer {
     padding-top: 10px;
     padding-right: 20px;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
     padding-left: 20px;
   }
 
@@ -1711,7 +1718,7 @@ body {
             </div>
         </header>
         <!-- end of masterslider -->
-        <div class="responsive-container-block bigContainer" style="margin-bottom: 50px;">
+        <div class="responsive-container-block bigContainer">
   <div class="responsive-container-block Container bottomContainer">
     <div class="ultimateImg">
       <img class="mainImg" src="img/web-index.png">
@@ -2131,7 +2138,7 @@ sr.reveal('.sec-title', {
     distance: '20px',
     easing: 'ease-out',
     reset: true,
-    viewFactor: 0.5
+    // viewFactor: 0.5
 });
 
 // sr.reveal('.init_text', {
@@ -2140,7 +2147,7 @@ sr.reveal('.sec-title', {
 //     distance: '20px',
 //     easing: 'ease-out',
 //     reset: true,
-//     viewFactor: 0.5,
+    // viewFactor: 0.5,
 //     delay: 500 // Add a delay to reveal the description after the image
 // });
 
@@ -2150,7 +2157,7 @@ sr.reveal('.img-responsive', {
     distance: '20px',
     easing: 'ease-out',
     reset: true,
-    viewFactor: 0.5,
+    // viewFactor: 0.5,
     // delay: 500 // Add a delay to reveal the image after the title
 });
 
@@ -2161,7 +2168,7 @@ sr.reveal('.services-section', {
     distance: '20px',
     easing: 'ease-out',
     reset: true,
-    viewFactor: 0.5,
+    // viewFactor: 0.5,
     // delay: 500 // Add a delay to reveal the description after the image
 });
 
@@ -2171,7 +2178,7 @@ sr.reveal('.our-work', {
     distance: '20px',
     easing: 'ease-out',
     reset: true,
-    viewFactor: 0.5,
+    // viewFactor: 0.5,
     // delay: 500 // Add a delay to reveal the description after the image
 });
 
@@ -2181,7 +2188,7 @@ sr.reveal('.font-weight-6', {
     distance: '20px',
     easing: 'ease-out',
     reset: true,
-    viewFactor: 0.5,
+    // viewFactor: 0.5,
     // delay: 500 // Add a delay to reveal the description after the image
 });
 
@@ -2191,7 +2198,7 @@ sr.reveal('.work-text', {
     distance: '20px',
     easing: 'ease-out',
     reset: true,
-    viewFactor: 0.5,
+    // viewFactor: 0.5,
     // delay: 1000 // Add a delay to reveal the description after the image
 });
 
@@ -2201,7 +2208,7 @@ sr.reveal('.work-text', {
 //     distance: '20px',
 //     easing: 'ease-out',
 //     reset: true,
-//     viewFactor: 0.5,
+    // viewFactor: 0.5,
 //     delay: 500 // Add a delay to reveal the description after the image
 // });
 
@@ -2211,7 +2218,7 @@ sr.reveal('.allText', {
     distance: '20px',
     easing: 'ease-out',
     reset: true,
-    viewFactor: 0.5,
+    // viewFactor: 0.5,
     // delay: 500 // Add a delay to reveal the description after the image
 });
 sr.reveal('.ultimateImg', {
@@ -2220,7 +2227,7 @@ sr.reveal('.ultimateImg', {
     distance: '20px',
     easing: 'ease-out',
     reset: true,
-    viewFactor: 0.5,
+    // viewFactor: 0.5,
     // delay: 1000 // Add a delay to reveal the description after the image
 });
 

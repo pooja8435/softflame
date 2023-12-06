@@ -1,11 +1,310 @@
-<style>
-    .navbar-collapse.pull-right {
-        margin: 0px 0px 0px 0px;
-    }
+<link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500&family=Nunito+Sans:opsz,wght@6..12,200&family=Open+Sans:wght@300;400;700&family=Poppins:wght@200;400;600&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
 
-    .container {
-        max-width: 1372px;
-    }
+<style>
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Nunito', sans-serif !important; */
+}
+nav{
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  font-family: 'Nunito', sans-serif;
+  background: whitesmoke;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+nav .wrapper{
+  position: relative;
+  max-width: 1300px;
+  padding: 0px 30px;
+  height: 70px;
+  line-height: 70px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.row{
+    margin-left:0 !important;
+    margin-right:0 !important;
+}
+.wrapper .logo{
+    padding:0 0 0 0;
+}
+.wrapper .logo a{
+  color: #f2f2f2;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif
+}
+.wrapper .nav-links{
+  display: inline-flex;
+}
+.nav-links li{
+  list-style: none;
+}
+.nav-links li a{
+  color: #15233d;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 9px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  font-family: 'Nunito', sans-serif !important;
+}
+.nav-links li a:hover{
+  background: #f05336;
+  color:white;
+}
+.nav-links .mobile-item{
+  display: none;
+}
+.nav-links .drop-menu{
+  position: absolute;
+  background: #242526;
+  width: 300px;
+  line-height: 45px;
+  top: 85px;
+  opacity: 0;
+  visibility: hidden;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+}
+.nav-links li:hover .drop-menu,
+.nav-links li:hover .mega-box{
+  transition: all 0.3s ease;
+  top: 70px;
+  opacity: 1;
+  visibility: visible;
+}
+.drop-menu li a{
+  width: 100%;
+  display: block;
+  padding: 0 0 0 15px;
+  font-weight: 400;
+  border-radius: 0px;
+  color:white;
+  font-family: 'Nunito', sans-serif !important;
+}
+.mega-box{
+  position: fixed;
+  left: 0;
+  width: 100%;
+  padding: 0 30px;
+  top: 85px;
+  opacity: 0;
+  visibility: hidden;
+}
+.mega-box .content{
+  background: #242526;
+  padding: 25px 20px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+}
+.mega-box .content .row{
+  width: calc(25% - 30px);
+  line-height: 45px;
+}
+.content .row img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.content .row header{
+  color: #f2f2f2;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Nunito', sans-serif
+}
+.content .row .mega-links{
+  margin-left: -40px;
+  border-left: 1px solid rgba(255,255,255,0.09);
+}
+.row .mega-links li{
+  padding: 0 20px;
+}
+.row .mega-links li a{
+  padding: 0px;
+  padding: 0 20px;
+  color: #d9d9d9;
+  font-size: 17px;
+  display: block;
+  font-family: 'Nunito', sans-serif
+}
+.row .mega-links li a:hover{
+  color: #f2f2f2;
+}
+.wrapper .btn{
+  color: #344d77;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+  font-family: 'Nunito', sans-serif;
+}
+.wrapper .btn.close-btn{
+  position: absolute;
+  right: 30px;
+  top: 10px;
+  color:white;
+}
+#logo{
+    bottom:0;
+    width:85%;
+}
+
+@media screen and (max-width: 970px) {
+  .wrapper .btn{
+    display: block;
+    margin-bottom:0 !important;
+  }
+  .wrapper .nav-links{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    max-width: 350px;
+    top: 0;
+    left: -100%;
+    background: #242526;
+    display: block;
+    padding: 50px 10px;
+    line-height: 50px;
+    overflow-y: auto;
+    box-shadow: 0px 15px 15px rgba(0,0,0,0.18);
+    transition: all 0.3s ease;
+  }
+  .wrapper .nav-links li a{
+    color:white;
+  }
+ 
+  /* custom scroll bar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #242526;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #3A3B3C;
+  }
+  #menu-btn:checked ~ .nav-links{
+    left: 0%;
+  }
+  #menu-btn:checked ~ .btn.menu-btn{
+    display: none;
+  }
+  #close-btn:checked ~ .btn.menu-btn{
+    display: block;
+  }
+  .nav-links li{
+    margin: 15px 10px;
+  }
+  .nav-links li a{
+    padding: 0 20px;
+    display: block;
+    font-size: 20px;
+  }
+  .nav-links .drop-menu{
+    position: static;
+    opacity: 1;
+    top: 65px;
+    visibility: visible;
+    padding-left: 20px;
+    width: 100%;
+    max-height: 0px;
+    overflow: hidden;
+    box-shadow: none;
+    transition: all 0.3s ease;
+  }
+  #showDrop:checked ~ .drop-menu,
+  #showMega:checked ~ .mega-box{
+    max-height: 100%;
+  }
+  .nav-links .desktop-item{
+    display: none;
+  }
+  .nav-links .mobile-item{
+    display: block;
+    color: #f2f2f2;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  .nav-links .mobile-item:hover{
+    background: #3A3B3C;
+  }
+  .drop-menu li{
+    margin: 0;
+  }
+  .drop-menu li a{
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  .mega-box{
+    position: static;
+    top: 65px;
+    opacity: 1;
+    visibility: visible;
+    padding: 0 20px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  .mega-box .content{
+    box-shadow: none;
+    flex-direction: column;
+    padding: 20px 20px 0 20px;
+  }
+  .mega-box .content .row{
+    width: 100%;
+    margin-bottom: 15px;
+    border-top: 1px solid rgba(255,255,255,0.08);
+  }
+  .mega-box .content .row:nth-child(1),
+  .mega-box .content .row:nth-child(2){
+    border-top: 0px;
+  }
+  .content .row .mega-links{
+    border-left: 0px;
+    padding-left: 15px;
+  }
+  .row .mega-links li{
+    margin: 0;
+  }
+  .content .row header{
+    font-size: 19px;
+  }
+}
+nav input{
+  display: none;
+}
+
+.body-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  padding: 0 30px;
+}
+.body-text div{
+  font-size: 45px;
+  font-weight: 600;
+}
+
+
 
     .sticky-icon {
         z-index: 9999;
@@ -26,7 +325,7 @@
         text-transform: uppercase;
         padding: 10px;
         font-size: 22px;
-        font-family: 'Oswald', sans-serif;
+        font-family: 'Nunito', sans-serif !important;
         transition: all 0.8s;
     }
 
@@ -163,7 +462,7 @@
         width: 100%;
     }
     .navbar-nav>li>a {
-        font-family: 'Noto Sans', sans-serif;
+        font-family: 'Nunito', sans-serif !important;
         text-transform: none;
         font-weight: 500;
         font-size: 1.5rem;
@@ -180,7 +479,7 @@
     margin-left:-50px; */
     }
     .box .box-title h4 {
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Nunito', sans-serif !important;
         font-size: 15px;
         line-height: 3rem;
     }
@@ -233,176 +532,91 @@
 
     <!--Sidebar Social Icons-->
 
-    <div class="site_wrapper">
-        <!-- <div class="topbar orange2 topbar-padding">
-            <div class="container">
-                <div class="topbar-left-items">
-                    <ul class="toplist toppadding pull-left paddtop1">
-                        <li class="rightl"><i class="fa fa-phone"></i></li>
-                        <li><a href="tel:+919145278333">+91 9021649159</a>, <a href="tel:+918446425690">+91-8446425690</a>, <a href="tel:+918408898845">+91-8408898845</a></li>
-                    </ul>
-                </div>
-                
-
-                <div class="topbar-right-items pull-right">
-                    <ul class="toplist toppadding">
-
-                    <li><a href="https://www.facebook.com/Softflame-Solutions-Pvt-Ltd-2173947799583603/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href=" https://twitter.com/SoftflameL" target="_blank"><i class="fa fa-twitter" ></i></a></li>
-                            <li><a href="https://www.instagram.com/softflame_solutions/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                            <li class="last"><a href="https://www.linkedin.com/company/26552568/admin/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                    </ul>
-                </div>
+<nav>
+  <div class="wrapper">
+    <div class="logo"><a href="#"><img src="images/logo web.png" id="logo" class="mobileSizeLogo"
+                                alt="Website Development Company Pune, Bangalore, Delhi" /></a></div>
+    <input type="radio" name="slider" id="menu-btn">
+    <input type="radio" name="slider" id="close-btn">
+    <ul class="nav-links">
+      <label for="close-btn" class="btn close-btn"><i class="fa fa-times"></i></label>
+      <li><a href="index.php">Home</a></li>
+      <li><a href="about.php">About</a></li>
+      <li>
+        <a href="#" class="desktop-item">Services</a>
+        <input type="checkbox" id="showMega">
+        <label for="showMega" class="mobile-item">Services</label>
+        <div class="mega-box">
+          <div class="content">
+            <!-- <div class="row">
+              <img src="https://fadzrinmadu.github.io/hosted-assets/responsive-mega-menu-and-dropdown-menu-using-only-html-and-css/img.jpg" alt="">
+            </div> -->
+            <div class="row">
+              <header>Web Development</header>
+              <ul class="mega-links">
+                <li><a href="website-development-company-in-pune.php">Website Development</a></li>
+                <li><a href="mean-stack-app-development-company-in-pune.php">Mean Stack App Development</a></li>
+                <li><a href="mern-stack-app-development-company-in-pune.php">Mern Stack App Development</a></li>
+                <li><a href="node-js-development-company-in-pune.php">Node Js Development</a></li>
+                <li><a href="angularjs-development-company-in-pune.php">Angular Js Development</a></li>
+                <li><a href="ui-ux-design-company-in-pune.php">UX Design Services</a></li>
+                <li><a href="ecommerce-development-company-in-pune.php">Ecommerce Development</a></li>
+              </ul>
             </div>
-        </div> -->
-        <div class="clearfix"></div>
-
-        <div id="header">
-            <div class="container">
-                <div class="navbar navbar-default yamm">
-
-                    <div class="navbar-header">
-                        <button type="button" data-toggle="collapse" data-target="#navbar-collapse-grid"
-                            class="navbar-toggle two three"><span class="icon-bar"></span><span
-                                class="icon-bar"></span><span class="icon-bar"></span></button>
-                        <a href="index.php" class="navbar-brand"><img src="images/logo web.png" class="mobileSizeLogo"
-                                alt="Website Development Company Pune, Bangalore, Delhi" /></a>
-                    </div>
-
-                    <div id="navbar-collapse-grid" class="navbar-collapse collapse pull-right">
-                        <ul class="nav navbar-nav" id="navlist">
-                            <li class="dropdown"> <a href="index.php" class="active">Home</a>
-
-                            </li>
-                            <li class="dropdown yamm-fw"><a href="about.php" class="dropdown-toggle">About Us</a>
-
-                            </li>
-                            <li class="dropdown yamm-fw"> <a href="services.php" class="dropdown-toggle">Services</a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        
-                                        <div class="yamm-content">
-                                            <div class="row">
-                                                <ul class="col-sm-8 col-md-3 list-unstyled ">
-                                                    <li>
-                                                        <p class="adjust_menu">Web Development</p>
-                                                    </li>
-                                                    <li><a href="website-development-company-in-pune.php"><i
-                                                                class="fa fa-angle-right"></i> &nbsp; Website
-                                                            Development</a></li>
-                                                    <li><a href="mean-stack-app-development-company-in-pune.php"><i
-                                                                class="fa fa-angle-right"></i> &nbsp; Mean Stack App
-                                                            Development</a></li>
-                                                            <li><a href="mern-stack-app-development-company-in-pune.php"><i
-                                                                class="fa fa-angle-right"></i> &nbsp; Mern Stack App
-                                                            Development</a></li>
-                                                    <li><a href="node-js-development-company-in-pune.php"><i
-                                                                class="fa fa-angle-right"></i> &nbsp; Node Js
-                                                            Development</a></li>
-                                                    <li><a href="angularjs-development-company-in-pune.php"><i
-                                                                class="fa fa-angle-right"></i> &nbsp; Angular Js
-                                                            Development</a></li>
-                                                    <li><a href="ui-ux-design-company-in-pune.php"><i
-                                                                class="fa fa-angle-right"></i> &nbsp; UX Design
-                                                            Services</a></li>
-                                                    <li><a href="ecommerce-development-company-in-pune.php"><i
-                                                                class="fa fa-angle-right"></i> &nbsp; Ecommerce
-                                                            Development</a></li>
-                                                </ul>
-                                                <ul class="col-sm-8 col-md-3 list-unstyled ">
-                                                    <li>
-                                                        <p class="adjust_menu">Mobile App Development</p>
-                                                    </li>
-                                                    <li><a href="ios-app-development-company-in-pune.php"><i
-                                                                class="fa fa-angle-right"></i> &nbsp; iPhone/iPad App
-                                                            Development</a></li>
-                                                    <li><a href="android-app-development-company-in-pune.php"><i
-                                                                class="fa fa-angle-right"></i> &nbsp; Android App
-                                                            Development</a></li>
-                                                    <li><a href="cordova-phonegap-app-development-company-in-pune.php"><i
-                                                                class="fa fa-angle-right"></i> &nbsp; Cordova/ PhonGap
-                                                            Development</a></li>
-                                                    <li><a href="ionic-app-development-company-in-pune.php"><i
-                                                                class="fa fa-angle-right"></i> &nbsp; Ionic Framework
-                                                            App Development</a></li>
-                                                    <li><a href="cross-platform-app-development-company-in-pune.php"><i
-                                                                class="fa fa-angle-right"></i> &nbsp; Cross Platform App
-                                                            Development</a></li>
-                                                    <li><a href="meteorjs-app-development-company-in-pune.php"><i
-                                                                class="fa fa-angle-right"></i> &nbsp; Meteor Js
-                                                            Development</a></li>
-                                                </ul>
-                                                <ul class="col-sm-8 col-md-3 list-unstyled ">
-                                                    <li>
-                                                        <p class="adjust_menu"> AWS Cloud </p>
-                                                    </li>
-                                                    <li><a href="aws-cloud-consulting-services-in-pune.php"><i
-                                                                class="fa fa-angle-right"></i> &nbsp; AWS Cloud
-                                                            Consulting</a></li>
-                                                    <li><a href="aws-cloud-migration-services-in-pune.php"><i
-                                                                class="fa fa-angle-right"></i> &nbsp; AWS Cloud
-                                                            Migration</a></li>
-                                                    <li><a href="managed-aws-services-in-pune.php"><i
-                                                                class="fa fa-angle-right"></i> &nbsp; AWS Managed
-                                                            Services</a></li>
-                                                    
-                                                </ul>
-                                                <ul class="col-sm-8 col-md-3 list-unstyled ">
-                                                    <li>
-                                                        <p class="adjust_menu"> Digital Marketing </p>
-                                                    </li>
-                                                    <li><a href="seo-company-in-pune.php"><i
-                                                                class="fa fa-angle-right"></i> &nbsp; SEO Services</a>
-                                                    </li>
-                                                    <li><a href="content-marketing-service.php"><i
-                                                                class="fa fa-angle-right"></i> &nbsp; Content
-                                                            Marketing</a></li>
-                                                    <li><a href="pay-per-click-advertising.php"><i
-                                                                class="fa fa-angle-right"></i> &nbsp; Pay-Per-Click
-                                                            (PPC) Advertising</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="dropdown"> <a href="javascript:void(0);" class="dropdown-toggle">Hire
-                                    Resources</a>
-                                <ul class="dropdown-menu three" role="menu">
-                                    <li><a href="hire-angularjs-developer-pune.php"><i class="fa fa-angle-right"></i>
-                                            Hire Angular JS Developer </a></li>
-                                    <li><a href="hire-ios-app-developer-pune.php"><i class="fa fa-angle-right"></i> Hire
-                                            iOS Developer</a></li>
-                                    <li><a href="hire-react-native-app-developer-pune.php"><i
-                                                class="fa fa-angle-right"></i> Hire React Native Developer</a></li>
-                                    <li><a href="hire-mean-stack-app-developer-pune.php"><i
-                                                class="fa fa-angle-right"></i> Hire MEAN Stack Developer</a></li>
-                                    <li><a href="hire-flutter-native-app-developer-pune.php"><i
-                                                class="fa fa-angle-right"></i> Hire Flutter Developer</a></li>
-                                    <li><a href="hire-ionic-app-developer-pune.php"><i class="fa fa-angle-right"></i>
-                                            Hire Ionic App Developer</a></li>
-                                    <li><a href="hire-nodejs-developer-pune.php"><i class="fa fa-angle-right"></i> Hire
-                                            Node Js Developer</a></li>
-                                    <li><a href="hire-php-developer-pune.php"><i class="fa fa-angle-right"></i> Hire PHP
-                                            Developer</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown yamm-fw"> <a href="career.php" class="dropdown-toggle">Career</a>
-
-                            </li>
-                            <li class="dropdown"> <a href="products.php" class="dropdown-toggle">Products</a>
-                            </li>
-                            <li class="dropdown"> <a href="portfolio.php" class="dropdown-toggle">Portfolio</a>
-                            </li>
-                            <li class="dropdown"> <a href="blog.php" class="dropdown-toggle">Blog</a>
-                            </li>
-                            <li class="dropdown"> <a href="contact.php" class="dropdown-toggle align-1">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="row">
+              <header>Mobile App Development</header>
+              <ul class="mega-links">
+                <li><a href="ios-app-development-company-in-pune.php">iPhone/iPad App Development</a></li>
+                <li><a href="android-app-development-company-in-pune.php">Android App Development</a></li>
+                <li><a href="cordova-phonegap-app-development-company-in-pune.php">Cordova/ PhonGap Development</a></li>
+                <li><a href="ionic-app-development-company-in-pune.php">Ionic Framework App Development</a></li>
+                <li><a href="cross-platform-app-development-company-in-pune.php">Cross Platform App Development</a></li>
+                <li><a href="meteorjs-app-development-company-in-pune.php">Meteor Js Development</a></li>
+              </ul>
             </div>
+            <div class="row">
+              <header>AWS Cloud</header>
+              <ul class="mega-links">
+                <li><a href="aws-cloud-consulting-services-in-pune.php">AWS Cloud Consulting</a></li>
+                <li><a href="aws-cloud-migration-services-in-pune.php">AWS Cloud Migration</a></li>
+                <li><a href="managed-aws-services-in-pune.php">AWS Managed Services</a></li>
+              </ul>
+            </div>
+            <div class="row">
+              <header>Digital Marketing</header>
+              <ul class="mega-links">
+                <li><a href="seo-company-in-pune.php">SEO Services</a></li>
+                <li><a href="content-marketing-service.php">Content Marketing</a></li>
+                <li><a href="pay-per-click-advertising.php">Pay-Per-Click (PPC) Advertising</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </li>
+      <li>
+        <a href="#" class="desktop-item">Hire Resources</a>
+        <input type="checkbox" id="showDrop">
+        <label for="showDrop" class="mobile-item">Hire Resources</label>
+        <ul class="drop-menu">
+          <li><a href="hire-angularjs-developer-pune.php">Hire Angular JS Developer</a></li>
+          <li><a href="hire-ios-app-developer-pune.php">Hire iOS Developer</a></li>
+          <li><a href="hire-react-native-app-developer-pune.php">Hire React Native Developer</a></li>
+          <li><a href="hire-mean-stack-app-developer-pune.php">Hire MEAN Stack Developer</a></li>
+          <li><a href="hire-flutter-native-app-developer-pune.php">Hire Flutter Developer</a></li>
+          <li><a href="hire-ionic-app-developer-pune.php">Hire Ionic App Developer</a></li>
+          <li><a href="hire-nodejs-developer-pune.php">Hire Node Js Developer</a></li>
+          <li><a href="hire-php-developer-pune.php">Hire PHP Developer</a></li>
+        </ul>
+      </li>
+      <li><a href="career.php">Career</a></li>
+      <li><a href="products.php">Products</a></li>
+      <li><a href="portfolio.php">Portfolio</a></li>
+      <li><a href="blog.php">Blog</a></li>
+      <li><a href="contact.php">Contact</a></li>
+    </ul>
+    <label for="menu-btn" class="btn menu-btn"><i class="fa fa-bars"></i></label>
+  </div>
+</nav>
 
        
 
