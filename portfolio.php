@@ -1332,26 +1332,6 @@ a.top-scroll:hover {
                 height:50vh;
             }
         }
-
-
-/*============ BOOTSTRAP BREAK POINTS:
-
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
-
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-
-=============*/
 </style>
 
 
@@ -1395,6 +1375,21 @@ Extra (xl) large devices (large desktops, 1200px and up)
             </svg>
         </div>
     </a>
+    </section>
+    <section>
+        <div class="pagenation-holder">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+
+                    </div>
+                    <div class="col-md-12 text-center">
+                        <div class="pagenation_links"><a href="index.php">Home</a><i> / </i> <a href="portfolio.php">Portfolio</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- Start Features Section -->
     <div id="features" class="offset">

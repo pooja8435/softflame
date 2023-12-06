@@ -7,24 +7,25 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135022729-1"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
+    window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-        gtag('config', 'UA-135022729-1');
+    gtag('config', 'UA-135022729-1');
     </script>
 
     <title>Blog | SoftFlame Solutions </title>
     <meta charset="utf-8">
     <!-- Meta -->
-    <meta name="keywords" content="website company in pune,web development company in pune,website design in pune,web design company,web design pune,web development company, website design company, ecommerce website design,ecommerce websites development,SEO services pune,seo company in pune"
-    />
+    <meta name="keywords"
+        content="website company in pune,web development company in pune,website design in pune,web design company,web design pune,web development company, website design company, ecommerce website design,ecommerce websites development,SEO services pune,seo company in pune" />
     <meta name="author" content="">
     <meta name="robots" content="" />
-    <meta name="description" content="Welcome to our blog. Get information on trending technology topics like Web Development, angularJS, node js, mean stack app development, branding & more." />
+    <meta name="description"
+        content="Welcome to our blog. Get information on trending technology topics like Web Development, angularJS, node js, mean stack app development, branding & more." />
     <!-- this styles only adds some repairs on idevices  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/theme.css" rel="stylesheet">
@@ -32,8 +33,11 @@
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <link rel="shortcut icon" href="images/fav NEW LOGO 2 ic (1).png" type="image/x-icon">
     <!-- Google fonts - witch you want to use - (rest you can just remove) -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
+    <link
+        href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic'
+        rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900' rel='stylesheet'
+        type='text/css'>
 
     <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -58,13 +62,907 @@
     <link rel="stylesheet" href="js/ytplayer/ytplayer.css" />
     <link rel="stylesheet" href="js/style-swicher/style-swicher.css" type="text/css" />
     <link rel="stylesheet" href="js/custom-scrollbar/jquery.mCustomScrollbar.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500&family=Nunito+Sans:opsz,wght@6..12,200&family=Open+Sans:wght@300;400;700&family=Poppins:wght@200;400;600&display=swap"
+    rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script>
-        $(".navbar-nav").on('click', 'li', function() {
-            $(".navbar-nav li.active").removeClass("active");
-            // adding classname 'active' to current click li 
-            $(this).addClass("active");
+    $(".navbar-nav").on('click', 'li', function() {
+        $(".navbar-nav li.active").removeClass("active");
+        // adding classname 'active' to current click li 
+        $(this).addClass("active");
+    });
+
+    $(document).ready(function() {
+        $('.slick-carousel').slick({
+            dist: 3,
+            padding: 5,
+            slidesToShow: 3, // Shows a three slides at a time
+            slidesToScroll: 1, // When you click an arrow, it scrolls 1 slide at a time
+            prevArrow: false,
+            nextArrow: false,
+            variableWidth: true,
+            centerMode: false,
+            //			draggable:true,
+            //			swipe: false,
+            //			touchMove: true
+            responsive: [{
+                breakpoint: 924,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                }
+            }]
         });
+        $('.next-article').click(function() {
+            $(".slider").slick('slickNext');
+
+
+        });
+    });
     </script>
+
+    <style>
+   
+
+    /*-----PARALLAX----*/
+
+    .parallax-one {
+        height: 650px;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        background-image: url("img/importance.png");
+        background-attachment: fixed;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    @media (max-width:1000px) {
+        .parallax-one {
+            height: 300px;
+        }
+    }
+
+    .parallax-two {
+        height: 450px;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        background-image: url("img/importance2.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    @media screen and (max-width: 959px) and (min-width: 768px) {
+        .parallax-one {
+            height: 400px;
+        }
+
+        .parallax-two {
+            height: 200px;
+        }
+    }
+
+    @media screen and (min-width: 359px) and (max-width: 959px) {
+        .parallax-one {
+            height: 300px;
+            max-height: 650px;
+        }
+
+        .parallax-two {
+            height: 350px;
+        }
+    }
+
+    @media screen and (max-width: 325px) {
+        .parallax-one {
+            height: 200px;
+        }
+
+        .parallax-two {
+            height: 200px;
+        }
+    }
+
+
+    /*--------------PARALLAX------------------*/
+
+
+    /*------------------------------------------*/
+
+
+    /*--BLOG-ARTICLE.HTML CSS --*/
+
+    .blog-container {
+        /* margin-left: 10%;
+  margin-right: 10%; */
+  padding:50px;
+    }
+
+    .blog-banner {
+        width: 100%;
+        min-height: 400px;
+        height: 90vh;
+        background-attachment: fixed;
+        background-position: center;
+        z-index: 9;
+        background-size: cover !important;
+        background-repeat: no-repeat;
+        background-image: url(../img/gigi.jpg);
+    }
+
+    .blog-banner img {
+        min-height: 400px;
+        background-size: cover !important;
+        background-repeat: no-repeat;
+    }
+
+    .parallax-container.banner-parallax {
+        max-height: 750px;
+    }
+
+    .blog-post h2 {
+        font-family: 'Nunito', sans-serif !important;
+        font-weight: 900;
+        text-align: center;
+        padding: 15px 0px;
+        letter-spacing: 2px;
+        color:#074250;
+    }
+    .blog-post p{
+        font-size:16px;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .blog-quote {
+        font-style: italic;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .blog-quotation {
+        font-style: italic;
+        font-weight: 400;
+        font-size: 28px;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .blog-post {
+        padding: 15px 20px;
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+
+    .blog-container>div.blog-post:first-child p:first-letter {
+        color: #ef6633;
+        float: left;
+        font-size: 80px;
+        line-height: 60px;
+        padding-top: 3px;
+        padding-right: 10px;
+        padding-left: 3px;
+        padding-bottom: 4px;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .letter-cap {
+        color: #000;
+        float: left;
+        font-size: 80px;
+        line-height: 60px;
+        padding-top: 4px;
+        padding-right: 10px;
+        padding-left: 3px;
+        padding-bottom: 4px;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .recent-post {
+        width: 90%;
+        padding: 2% 0%;
+        display: block;
+        float: right;
+    }
+
+    .post-date {
+        color: black;
+        font-size: 60px;
+        display: block;
+        position: absolute;
+        right: 220px;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .blog-recent-img {
+        width: 80%;
+        height: 500px;
+    }
+
+
+    /*------------------ARTICLE SECTION-----------------------*/
+
+    .article {
+        position: relative;
+        background-color: #333333;
+        min-height: 650px;
+        overflow: hidden;
+        padding-left: 10%;
+    }
+
+    .article h2 {
+        padding: 3% 0;
+        font-size: 24px;
+        color: #fff;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .article-tag {
+        font-size: 12px;
+        color: #fff;
+        text-align: center;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .article-title {
+        font-size: 28px;
+        padding: 0 2px;
+        color: #fff;
+        text-align: center;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .article-description {
+        padding: 10px 0px;
+        font-size: 18px;
+        font-weight: normal;
+        color: #fff;
+        text-align: center;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .readBtn {
+        background-color: #99cc99;
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #fff;
+        letter-spacing: 2px;
+        border-radius: 24px;
+        text-align: center;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .article-overlay {
+        z-index: 999;
+        max-width: 30px;
+        right: 20px;
+        position: absolute;
+        height: inherit;
+        vertical-align: middle;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+
+    .article-overlay img {
+        width: 100%;
+    }
+
+    .carousel.article-list {
+        /*	width: 89%;*/
+        z-index: 15;
+        width: 100%;
+        height: 500px;
+        float: right;
+        overflow: hidden;
+        float: left
+    }
+
+    .carousel-item {
+        opacity: 1 !important;
+    }
+
+    .carousel.carousel-item .img {
+        float: left;
+        width: 40%;
+    }
+
+    .slick-carousel {
+        margin: 0 auto;
+        width: 1000px;
+    }
+
+
+    /* The width of each slide */
+
+    .slick-slide {
+        width: 350px;
+        outline: none
+    }
+
+    .slick-carousel.slider {
+        z-index: 100;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+        height: 460px;
+    }
+
+    .slick-slider .img-slide {
+        width: 380px;
+        height: 310px;
+        padding: 0 20px;
+    }
+
+    .slick-slide.slider-list {
+        width: 400px !important;
+    }
+
+    div.slick-slide.slider-list {
+        opacity: 0.5;
+    }
+
+    div.slick-slide.slider-list.slick-active {
+        opacity: 1;
+    }
+
+    .link-btn-1 {
+        padding: 8px 20px;
+        position: relative;
+        text-align: center;
+        display: inline-block;
+        overflow: hidden;
+        max-width: 250px;
+        font-size: 13px;
+        text-transform: uppercase;
+        border: 2px solid currentColor;
+        color: #302e2f;
+        font-weight: 600;
+        transition: 1s;
+        -webkit-transition: ease-out 1s;
+        background: none;
+        font-family: 'Nunito', sans-serif;
+
+    }
+
+    .link-btn-1:before,
+    .link-btn-1:after,
+    .link-btn-1 span:before,
+    .link-btn-1 span:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 80px;
+        background-color: rgba(0, 0, 0, 0.75);
+        -webkit-transition: 0.6s;
+        transition: 0.6s;
+        z-index: -1;
+    }
+
+    .link-btn-1:after,
+    .link-btn-1 span:before {
+        left: auto;
+        right: 0;
+    }
+
+    .link-btn-1 span:before,
+    .link-btn-1 span:after {
+        -webkit-transition-delay: 0.4s;
+        transition-delay: 0.4s;
+    }
+
+    .link-btn-1:hover {
+        color: #fff;
+        border: 2px solid #4c4c4c;
+    }
+
+    .link-btn-1:hover:before,
+    .link-btn-1:hover:after,
+    .link-btn-1:hover span:before,
+    .link-btn-1:hover span:after {
+        width: 250px;
+    }
+
+    .link-btn-1:active {
+        background-color: rgba(0, 0, 0, 0.75);
+    }
+
+    .link-btn-2 {
+        padding: 8px 20px;
+        position: relative;
+        text-align: center;
+        display: inline-block;
+        overflow: hidden;
+        max-width: 250px;
+        font-size: 13px;
+        text-transform: uppercase;
+        border: 2px solid currentColor;
+        color: #fff;
+        font-weight: 600;
+        transition: 1s;
+        -webkit-transition: ease-out 1s;
+        background: none;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .link-btn-2:before,
+    .link-btn-2:after,
+    .link-btn-2 span:before,
+    .link-btn-2 span:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 80px;
+        background-color: rgba(255, 255, 255, 0.75);
+        -webkit-transition: 0.6s;
+        transition: 0.6s;
+        z-index: -1;
+    }
+
+    .link-btn-2:after,
+    .link-btn-2 span:before {
+        left: auto;
+        right: 0;
+    }
+
+    .link-btn-2 span:before,
+    .link-btn-2 span:after {
+        -webkit-transition-delay: 0.4s;
+        transition-delay: 0.4s;
+    }
+
+    .link-btn-2:hover {
+        color: #302e2f;
+        border: 2px solid #ffffff;
+    }
+
+    .link-btn-2:hover:before,
+    .link-btn-2:hover:after,
+    .link-btn-2:hover span:before,
+    .link-btn-2:hover span:after {
+        width: 250px;
+    }
+
+    .link-btn-2:active {
+        background-color: rgba(0, 0, 0, 0.75);
+    }
+
+    @media screen and (max-width: 1001px) {
+        .article {
+            min-height: 350px;
+        }
+
+        .blog-banner {
+            height: 50vh;
+        }
+
+        .blog-container {
+            /* margin-left: 8%;
+    margin-right: 8%; */
+        }
+
+        .blog-post h4 {
+            padding: 0 15px;
+        }
+
+        .slick-carousel.recent-slider {
+            width: 100%;
+            margin-left: 8%;
+            margin-right: 0;
+            position: relative;
+        }
+
+        .slick-slide.slider-img {
+            width: 750px;
+            height: 430px;
+        }
+
+        .article h5 {
+            font-size: 20px;
+        }
+
+        .slick-slide.slider-list {
+            width: 350px !important;
+        }
+
+        .slick-slider .img-slide {
+            width: 350px;
+            height: 250px;
+        }
+
+        .slick-carousel.slider {
+            margin-bottom: 0px;
+        }
+    }
+
+    @media screen and (max-width: 924px) {
+        .article {
+            min-height: 350px;
+        }
+
+        .blog-banner {
+            height: 50vh;
+        }
+
+        .blog-container {
+            /* margin-left: 5%;
+    margin-right: 5%; */
+        }
+
+        .blog-post h4 {
+            padding: 0 15px;
+            font-size: 15px;
+        }
+
+        .blog-quotation {
+            text-align: justify;
+            margin: 0px 0px;
+            padding: 0 3px;
+            font-size: 24px;
+        }
+
+        .slick-carousel.recent-slider {
+            width: 100%;
+            margin-left: 5%;
+            margin-right: 0;
+            position: relative;
+        }
+
+        .slick-slide.slider-img {
+            width: 680px;
+            height: 430px;
+        }
+
+        .article h5 {
+            font-size: 20px;
+        }
+
+        .slick-slide.slider-list {
+            width: 350px !important;
+        }
+
+        .slick-slider .img-slide {
+            width: 350px;
+            height: 250px;
+        }
+
+        .slick-carousel.slider {
+            margin-bottom: 0px;
+        }
+    }
+
+    @media only screen and (max-width: 321px) {
+        .article {
+            min-height: 300px;
+        }
+
+        .blog-banner {
+            height: 30vh;
+        }
+
+        .blog-container {
+            /* margin-left: 2%;
+    margin-right: 2%; */
+        }
+
+        .blog-post {
+            width: 100%;
+        }
+
+        .slick-carousel.recent-slider {
+            width: 100%;
+            margin-left: 3%;
+            margin-right: 0;
+            position: relative;
+        }
+
+        .slick-slide.slider-img {
+            width: 400px;
+            height: 200px;
+        }
+
+        .article h5 {
+            padding: 5% 0;
+            font-size: 12px;
+        }
+
+        .slick-slide.slider-list {
+            width: 255px !important;
+        }
+
+        .slick-slider .img-slide {
+            width: 255px;
+            height: 200px;
+        }
+
+        .slick-carousel.slider {
+            margin-bottom: 0px;
+            padding-left: 5px !important;
+            height: 400px;
+        }
+    }
+
+    @media only screen and (min-width: 320px) and (max-width: 480px) {
+        .blog-post h2 {
+            font-size: 18px;
+            margin-top: 0;
+            padding: 0;
+            text-align:justify;
+            letter-spacing:0px;
+        }
+
+        .article {
+            min-height: 300px;
+        }
+
+        .blog-banner {
+            height: 20vh;
+        }
+
+        .article-overlay {
+            display: none;
+        }
+
+        .blog-container {
+            /* margin-left: 3%;
+    margin-right: 3%; */
+        }
+
+        .blog-post {
+            width: 100%;
+            padding: 10px 10px;
+        }
+
+        .blog-post h4 {
+            font-size: 18px;
+        }
+
+        .post-date {
+            font-size: 24px;
+            position: absolute;
+            right: 15px;
+        }
+
+        .blog-recent-img {
+            width: 90%;
+            height: 215px;
+        }
+
+        .slick-carousel.recent-slider {
+            width: 100%;
+            margin-left: 3%;
+            margin-right: 0;
+            position: relative;
+        }
+
+        .slick-slide.slider-img {
+            min-width: 300px;
+            max-width: 360px;
+            height: 200px;
+        }
+
+        .article h5 {
+            padding: 5% 0;
+            font-size: 18px;
+        }
+
+        .slick-slide.slider-list {
+            width: 255px !important;
+        }
+
+        .slick-slider .img-slide {
+            width: 255px;
+            height: 200px;
+        }
+
+        .article-tag {
+            padding: 0 10px;
+            font-size: 20px;
+        }
+
+        .article-title {
+            font-size: 28px;
+        }
+
+        .article-read {
+            padding-top: 10px;
+            padding-bottom: 5%;
+            font-size: 14px;
+        }
+
+        .carousel.article-list {
+            width: 100%;
+            height: 500px;
+            float: right;
+            overflow: hidden;
+            float: left
+        }
+
+        .carousel-item {
+            opacity: 1 !important;
+        }
+
+        .carousel.carousel-item .img {
+            float: left;
+            width: 40%;
+        }
+
+        .slick-carousel {
+            margin: 0 auto;
+            width: 1000px;
+        }
+
+        /* The width of each slide */
+        .slick-slide {
+            width: 350px;
+            outline: none
+        }
+
+        .slick-carousel.slider {
+            padding-left: 25px;
+            z-index: 100;
+            margin-left: 0px;
+            margin-right: 0px;
+            width: 85%;
+            height: 400px;
+        }
+
+        .slick-slider .img-slide {
+            width: 270px;
+            height: 165px;
+            padding-left: 0px;
+            padding-right: 20px;
+        }
+
+        .slick-slide.slider-list {
+            width: 260px !important;
+            padding: 10px;
+        }
+    }
+
+    @media screen and (min-width:600px) and (max-width:800px) {
+        .article {
+            min-height: 350px;
+        }
+
+        .blog-banner {
+            height: 80vh;
+        }
+
+        .blog-container {
+            /* margin-left: 5%;
+    margin-right: 5%; */
+        }
+
+        .blog-post {
+            padding: 0px;
+        }
+
+        .blog-post h4 {
+            padding: 0 15px;
+            font-size: 16px;
+        }
+
+        .recent-post {
+            width: 100%;
+            padding: 2% 0% 2% 5%;
+            display: block;
+        }
+
+        .blog-quotation {
+            font-style: italic;
+            font-weight: 300;
+            font-size: 22px;
+        }
+
+        .slick-carousel.recent-slider {
+            width: 95%;
+            margin-left: 5%;
+            margin-right: 0;
+            position: relative;
+            height: 350px;
+        }
+
+        .slick-slide.slider-img {
+            max-width: 490px;
+        }
+
+        .article h5 {
+            font-size: 20px;
+        }
+
+        .slick-slide.slider-list {
+            width: 350px !important;
+        }
+
+        .slick-slider .img-slide {
+            width: 350px;
+            height: 250px;
+        }
+
+        .slick-carousel.slider {
+            margin-bottom: 0px;
+        }
+    }
+
+    @media screen and (min-width: 900px) and (max-width: 1025px) {
+        .article {
+            min-height: 350px;
+        }
+
+        .blog-banner {
+            height: 75vh;
+        }
+
+        .blog-container {
+            /* margin-left: 5%;
+    margin-right: 5%; */
+        }
+
+        .blog-post h4 {
+            padding: 0 25px;
+            font-size: 20px;
+        }
+
+        .recent-post {
+            width: 100%;
+            padding: 2% 0% 2% 8%;
+            display: block;
+        }
+
+        .slick-carousel.recent-slider {
+            width: 95%;
+            margin-left: 5%;
+            margin-right: 0;
+            position: relative;
+        }
+
+        .slick-slide.slider-img {
+            width: 680px;
+        }
+
+        .article h5 {
+            font-size: 20px;
+        }
+
+        .article-overlay {
+            z-index: 999;
+            right: 0;
+            min-height: 350px;
+            width: 206px;
+            padding: 190px 100px;
+        }
+
+        .slick-slide.slider-list {
+            width: 350px !important;
+        }
+
+        .slick-slider .img-slide {
+            width: 350px;
+            height: 250px;
+        }
+
+        .slick-carousel.slider {
+            margin-bottom: 0px;
+        }
+    }
+    </style>
+
+
 
 
 </head>
@@ -72,34 +970,86 @@
 <!--end menu-->
 
 
-<section>
+<!-- <section>
     <div class="header-inner two">
         <div class="inner text-center">
             <h4 class="title text-white uppercase">Why A Website Is Important For Your Business?</h4>
         </div>
         <div class="overlay bg-opacity-5"></div>
         <img src="images/blog/blog.jpg" width="100%" alt="" class="img-responsive" /> </div>
-</section>
+</section> -->
 <!-- end header inner -->
 
 
-<section>
+<!-- <section>
     <div class="pagenation-holder">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
 
                 </div>
-                <div class="col-md-6 text-right">
-                    <div class="pagenation_links"><a href="index.php">Home</a><i> / </i> <a href="blog.php">Blog</a> </div>
+                <div class="col-md-12 text-center">
+                    <div class="pagenation_links"><a href="index.php">Home</a><i> / </i> <a href="blog.php">Blog</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!--end section-->
 
-<section class="sec-padding">
+<div class="parallax-one"></div>
+<main>
+    <section class="white">
+        <div class="blog-container">
+            <div class="blog-post">
+                <h2 class="heading">Why a Website is Important for your Business?</h2>
+                <p class="para">For any organization, a website is like an existence in cyber world. For a business, it is considered
+                    as a basic digital presence, a must to have. Let us see why a website development is so important
+                    for your business.
+
+                    A website gives you a stable presence in cyber world. It indicates a solid, credible business
+                    entity. A proper website development or mobile application development will give the basic important
+                    information about your business locations, your achievements, your products or services and your
+                    team. It instantly creates trust in the mind of a reader about your business.
+
+                    Your website and mobile application are your 24X7 shop. It’s always open. In the global village,
+                    your website is your sales office. When you are resting after a day’s hard work, someone on the
+                    other side of the globe may ‘find’ you. Or when you are chilling in a remote forest on extended
+                    weekend or travelling with your mobile phone shut off, ‘yours faithful’ website is always there for
+                    the customers.People from any corner of the world can access the information about your business
+                    with the help of website and mobile application. The cyberspace is overflowing with success stories
+                    that defeat the time and distance – websites those have connected patients in Bangalore to doctors
+                    in Delhi, Madhubani artist with a Russian buyer, or a Turkish dealer with Indian automobile company.
+                    With mobile application, they don’t need to be near a computer. Your prospective customer may be
+                    travelling, sitting in a coffee shop, is in an elevator – your website is always there to offer
+                    information and to receive a message.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="parallax-two">
+
+    </div>
+    <section class="blog-content">
+        <div class="blog-container">
+            <div class="blog-post">
+                <p class="para">Imagine your client company is looking for website development in Pune or a best web designer that you make, and you have no idea about it. If client finds a neat, informative, credible website, it becomes so easy for him to recommend your business for his requirement. A B2B buyer needs to satisfy herself with the basic information and a basic comfort about the credibility of a supplier. Your website development should be done by experienced web designers so that he can understand the need of client and depict the range of products, your business history, leadership, customer testimonials, awards and recognition, quality certification. When the prospects visit your webpages, your basic credibility is already established. His basic questions are already answered. Your website has served you here as a great reference tool.
+
+What’s more, even the people you meet at networking events, who visit your stall in trade exhibition visit your website as the first check. Your quality claims, delivery promises, advertisements are substantiated in the webpages giving detailed information about your company.
+
+Now you will also agree that a poorly made, ‘chalta hai’ types websites give exactly that impression - ‘chalta hai’! Badly drafted, design-starving, haphazard website will be mirroring your attitude about your unknown customers. A website is as important as your physical shop and office. It reflects the character and culture of your organization. As it creates a first and lasting impression, you should take good care in creating and maintaining this global office of your growing organization.
+
+This is only about the existence of a website. How would it give returns? How does it attract new customers? How does it give an edge over your competitors? We will be back with all the interesting information. Stay tuned!</p>
+            </div>
+        </div>
+    </section>
+
+
+</main>
+
+<!-- <section class="sec-padding">
     <div class="container pb-5">
             <div class="col-md-12 bmargin" style="padding:0 15px;">
                 
@@ -133,7 +1083,10 @@
             </div>
         
   
-</section>
+</section> -->
+
+
+
 <!--end item -->
 
 
@@ -143,7 +1096,8 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
                 <h4 class="modal-title" id="myModalLabel">Send us your requirement</h4>
             </div>
             <form name="registrationForm" method="post" action="email.php" required>
@@ -151,20 +1105,24 @@
                     <div class="modal-body">
                         <div class="form-group">
                             <label for="name">Name</label>
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Full Name" required>
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Full Name"
+                                required>
                         </div>
                         <div class="form-group">
                             <label for="email">Email address</label>
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Email Address" required>
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Email Address"
+                                required>
                         </div>
                         <div class="form-group">
                             <label for="phone">Phone No.</label>
-                            <input type="text" class="form-control" name="mobile" id="phone" placeholder="Phone No." required>
+                            <input type="text" class="form-control" name="mobile" id="phone" placeholder="Phone No."
+                                required>
                         </div>
 
 
                         <div class="form-group">
-                            <textarea class="form-control" rows="5" name="enquiry" id="message" placeholder="Enter your message" required></textarea>
+                            <textarea class="form-control" rows="5" name="enquiry" id="message"
+                                placeholder="Enter your message" required></textarea>
                         </div>
 
                     </div>
@@ -172,7 +1130,8 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn1 btn-default" data-dismiss="modal">Close</button>
-                    <button class="btn1 btn-primary" type="submit" name="submit"> <i class="fa fa-paper-plane-o"></i> Send</button>
+                    <button class="btn1 btn-primary" type="submit" name="submit"> <i class="fa fa-paper-plane-o"></i>
+                        Send</button>
                 </div>
             </form>
         </div>
@@ -185,3 +1144,33 @@
 
 
 <?php include 'footer.php';?>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Initialize ScrollReveal
+        const sr = ScrollReveal();
+
+        // Function to check if the screen is in mobile view
+        function isMobileView() {
+            return window.innerWidth <= 767; // Adjust the breakpoint as needed
+        }
+
+        // Add the ScrollReveal configuration
+        sr.reveal('.heading', {
+            duration: 1000, // Animation duration in milliseconds
+            origin: 'bottom', // Animation starting point
+            distance: '50px', // Distance to reveal the element
+            scale: 1, // Scale of the element
+            reset: true // Reset the animation after it's been revealed
+        });
+        sr.reveal('.para', {
+            duration: 1000, // Animation duration in milliseconds
+            delay:500,
+            origin: 'bottom', // Animation starting point
+            distance: '50px', // Distance to reveal the element
+            scale: 1, // Scale of the element
+            reset: true // Reset the animation after it's been revealed
+        });
+        
+    });
+</script>
