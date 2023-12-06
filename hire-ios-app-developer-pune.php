@@ -724,9 +724,12 @@ hr {
 
 @media only screen and (max-width: 767px) {
     .ban_img img {
-        /* min-height: 290px; */
+        min-height: 340px;
         object-fit: cover;
         height:auto;
+    }
+    .ban_text{
+        top:53%;
     }
 }
 
