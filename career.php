@@ -336,12 +336,12 @@
                 <div class="card description-card" id="Menu1">
                     <img class="des-img1" src="images/services/sub-nav/angularjs.jpg">
                     <p class="text-font text-justify" style="margin-top: 20px">
-                        <span class="bold-font">Responsibilities: </span><br>1. Develop user interfaces for modern web
-                        applications using AngularJS.<br>
-                        2. Collaborate with cross-functional teams to analyze, design, and ship new features.<br>
+                        <span class="bold-font">Requirements: </span><br>1. Proven experience as an AngularJS
+                        Developer.<br>
+                        2. Strong proficiency with JavaScript, HTML, and CSS.<br>
                         3. Write well-designed, efficient, and testable code.<br>
-                        4. Participate in code reviews and troubleshooting to ensure quality and performance.<br>
-                        5. Stay up-to-date with the latest industry trends and best practices in AngularJS development.
+                        4. Familiarity with RESTful APIs and web services.<br>
+                        5. Experience with unit testing frameworks.
                     </p>
                     <p class="text-font text-justify">
                         <span class="bold-font">Qualifications: </span><br>1. Solid understanding of front-end
@@ -351,20 +351,20 @@
                         4. Ability to work independently and as part of a collaborative team.
                     </p>
                     <p class="text-font text-justify"><span class="bold-font">Experience: </span>2 yr to 5yr</p>
-                    <div class="contact-btn-div "><button type="button" class="btn contact-btn-blue text-font"
-                            onclick="window.location.href='contact.php'">Apply Now</button>
+                    <div class="contact-btn-div "><button type="button" class="btn contact-btn-blue text-font"><a
+                                href="#open-modal">Apply Now</a></button>
                     </div>
                 </div>
 
                 <div class="card description-card" id="Menu2">
                     <img class="des-img2" src="images/services/sub-nav/react-banner.png">
                     <p class="text-font text-justify" style="margin-top: 20px">
-                        <span class="bold-font">Responsibilities: </span><br>1. Develop user interfaces for web
-                        applications using ReactJS.<br>
-                        2. Write reusable, testable, and efficient code.<br>
-                        3. Integrate front-end applications with backend services.<br>
-                        4. Identify and address performance bottlenecks.<br>
-                        5. Stay informed about the latest ReactJS developments and best practices.
+                        <span class="bold-font">Requirements: </span><br>1. Proven experience as a ReactJS
+                        Developer.<br>
+                        2. In-depth knowledge of JavaScript, CSS, and HTML.<br>
+                        3. Experience with state management libraries (e.g., Redux).<br>
+                        4. Familiarity with RESTful APIs and modern front-end build pipelines.<br>
+                        5. Strong problem-solving and communication skills.
                     </p>
                     <p class="text-font text-justify">
                         <span class="bold-font">Qualifications: </span><br>1. Previous experience with responsive design
@@ -374,20 +374,20 @@
                         4. Ability to work in a collaborative team environment.
                     </p>
                     <p class="text-font text-justify"><span class="bold-font">Experience: </span>2 yr to 5yr</p>
-                    <div class="contact-btn-div "><button type="button" class="btn contact-btn-blue text-font"
-                            onclick="window.location.href='contact.php'">Apply Now</button>
+                    <div class="contact-btn-div "><button type="button" class="btn contact-btn-blue text-font"><a
+                                href="#open-modal">Apply Now</a></button></button>
                     </div>
                 </div>
 
                 <div class="card description-card" id="Menu3">
                     <img class="des-img3" src="images/services/sub-nav/nodejs.jpg">
                     <p class="text-font text-justify" style="margin-top: 20px">
-                        <span class="bold-font">Responsibilities: </span><br>1. Design and implement scalable and robust
+                        <span class="bold-font">Requirements: </span><br>1. Design and implement scalable and robust
                         backend solutions using Node.js.<br>
-                        2. Develop and maintain APIs for both internal and external use.<br>
-                        3. Ensure the responsiveness of applications.<br>
-                        4. Identify and resolve performance issues.<br>
-                        5. Stay up-to-date with the latest trends and best practices in Node.js development.
+                        2. Strong proficiency in JavaScript and server-side technologies.<br>
+                        3. Experience with RESTful API development and integration.<br>
+                        4. Knowledge of database technologies, such as MongoDB or MySQL.<br>
+                        5. Familiarity with code versioning tools, such as Git.
                     </p>
                     <p class="text-font text-justify">
                         <span class="bold-font">Qualifications: </span><br>1. Previous experience with microservices
@@ -397,31 +397,31 @@
                         4. Excellent problem-solving and communication skills.
                     </p>
                     <p class="text-font text-justify"><span class="bold-font">Experience: </span>2 yr to 5yr</p>
-                    <div class="contact-btn-div "><button type="button" class="btn contact-btn-blue text-font"
-                            onclick="window.location.href='contact.php'">Apply Now</button>
+                    <div class="contact-btn-div "><button type="button" class="btn contact-btn-blue text-font"><a
+                                href="#open-modal">Apply Now</a></button></button>
                     </div>
                 </div>
 
                 <div class="card description-card" id="Menu4">
                     <img class="des-img4" src="images/services/sub-nav/ui-ux-banner.jpg">
                     <p class="text-font text-justify" style="margin-top: 20px">
-                        <span class="bold-font">Responsibilities: </span><br>1. Develop user interfaces for modern web
-                        applications using AngularJS.<br>
-                        2. Collaborate with cross-functional teams to analyze, design, and ship new features.<br>
-                        3. Write well-designed, efficient, and testable code.<br>
-                        4. Participate in code reviews and troubleshooting to ensure quality and performance.<br>
-                        5. Stay up-to-date with the latest industry trends and best practices in AngularJS development.
+                        <span class="bold-font">Requirements: </span><br>1. Proficiency in graphic design software
+                        (e.g., Adobe Creative Suite).<br>
+                        2. Strong understanding of color theory, typography, and layout design.<br>
+                        3. Excellent communication and presentation skills.<br>
+                        4. Ability to translate ideas into visually appealing designs.<br>
+                        5. Collaborate with cross-functional teams to understand design requirements.
                     </p>
                     <p class="text-font text-justify">
-                        <span class="bold-font">Qualifications: </span><br>1. Solid understanding of front-end
-                        technologies.<br>
-                        2. Previous experience with version control systems (e.g., Git).<br>
-                        3. Knowledge of agile development methodologies.<br>
-                        4. Ability to work independently and as part of a collaborative team.
+                        <span class="bold-font">Qualifications: </span><br>1. Portfolio showcasing a variety of design
+                        projects.<br>
+                        2. Experience with both print and digital design.<br>
+                        3. Knowledge of design for social media and online marketing.<br>
+                        4. Attention to detail and a commitment to delivering high-quality designs.
                     </p>
                     <p class="text-font text-justify"><span class="bold-font">Experience: </span>2 yr to 5yr</p>
-                    <div class="contact-btn-div "><button type="button" class="btn contact-btn-blue text-font"
-                            onclick="window.location.href='contact.php'">Apply Now</button>
+                    <div class="contact-btn-div "><button type="button" class="btn contact-btn-blue text-font"><a
+                                href="#open-modal">Apply Now</a></button></button>
                     </div>
                 </div>
 
@@ -429,23 +429,23 @@
                 <div class="card description-card" id="Menu5">
                     <img class="des-img5" src="images/services/sub-nav/iphone-banner.jpg">
                     <p class="text-font text-justify" style="margin-top: 20px">
-                        <span class="bold-font">Responsibilities: </span><br>1. Develop user interfaces for modern web
-                        applications using AngularJS.<br>
-                        2. Collaborate with cross-functional teams to analyze, design, and ship new features.<br>
-                        3. Write well-designed, efficient, and testable code.<br>
-                        4. Participate in code reviews and troubleshooting to ensure quality and performance.<br>
-                        5. Stay up-to-date with the latest industry trends and best practices in AngularJS development.
+                        <span class="bold-font">Requirements: </span><br>1. Strong knowledge of Swift and Objective-C
+                        programming languages.<br>
+                        2. Familiarity with iOS frameworks such as UIKit and Core Data.<br>
+                        3. Experience with offline storage, threading, and performance tuning.<br>
+                        4. Understanding of Apple’s design principles and interface guidelines.<br>
+                        5. Identify and correct bottlenecks and fix bugs.
                     </p>
                     <p class="text-font text-justify">
-                        <span class="bold-font">Qualifications: </span><br>1. Solid understanding of front-end
-                        technologies.<br>
-                        2. Previous experience with version control systems (e.g., Git).<br>
-                        3. Knowledge of agile development methodologies.<br>
-                        4. Ability to work independently and as part of a collaborative team.
+                        <span class="bold-font">Qualifications: </span><br>1. Familiarity with RESTful APIs to connect
+                        iOS applications to back-end services.<br>
+                        2. Experience with third-party libraries and APIs.<br>
+                        3. Solid understanding of the full mobile development life cycle.<br>
+                        4. Strong problem-solving skills.
                     </p>
                     <p class="text-font text-justify"><span class="bold-font">Experience: </span>2 yr to 5yr</p>
-                    <div class="contact-btn-div "><button type="button" class="btn contact-btn-blue text-font"
-                            onclick="window.location.href='contact.php'">Apply Now</button>
+                    <div class="contact-btn-div "><button type="button" class="btn contact-btn-blue text-font"><a
+                                href="#open-modal">Apply Now</a></button></button>
                     </div>
                 </div>
 
@@ -453,23 +453,22 @@
                 <div class="card description-card" id="Menu6">
                     <img class="des-img6" src="images/services/sub-nav/php-banner.jpg">
                     <p class="text-font text-justify" style="margin-top: 20px">
-                        <span class="bold-font">Responsibilities: </span><br>1. Develop user interfaces for modern web
-                        applications using AngularJS.<br>
-                        2. Collaborate with cross-functional teams to analyze, design, and ship new features.<br>
-                        3. Write well-designed, efficient, and testable code.<br>
-                        4. Participate in code reviews and troubleshooting to ensure quality and performance.<br>
-                        5. Stay up-to-date with the latest industry trends and best practices in AngularJS development.
+                        <span class="bold-font">Requirements: </span><br>1. Strong proficiency in PHP and MySQL.<br>
+                        2. Knowledge of MVC frameworks (e.g., Laravel, CodeIgniter).<br>
+                        3. Experience with front-end technologies (HTML, CSS, JavaScript).<br>
+                        4. Familiarity with RESTful APIs.<br>
+                        5. Troubleshoot, test, and maintain the core product software and databases.
                     </p>
                     <p class="text-font text-justify">
-                        <span class="bold-font">Qualifications: </span><br>1. Solid understanding of front-end
-                        technologies.<br>
-                        2. Previous experience with version control systems (e.g., Git).<br>
-                        3. Knowledge of agile development methodologies.<br>
-                        4. Ability to work independently and as part of a collaborative team.
+                        <span class="bold-font">Qualifications: </span><br>1. Understanding of web security
+                        practices.<br>
+                        2. Familiarity with agile development methodologies.<br>
+                        3. Strong problem-solving and communication skills.<br>
+                        4. Ability to work both independently and collaboratively.
                     </p>
                     <p class="text-font text-justify"><span class="bold-font">Experience: </span>2 yr to 5yr</p>
-                    <div class="contact-btn-div "><button type="button" class="btn contact-btn-blue text-font"
-                            onclick="window.location.href='contact.php'">Apply Now</button>
+                    <div class="contact-btn-div "><button type="button" class="btn contact-btn-blue text-font"><a
+                                href="#open-modal">Apply Now</a></button></button>
                     </div>
                 </div>
 
@@ -477,27 +476,113 @@
                 <div class="card description-card" id="Menu7">
                     <img class="des-img7" src="images/services/sub-nav/ionic-banner.png">
                     <p class="text-font text-justify" style="margin-top: 20px">
-                        <span class="bold-font">Responsibilities: </span><br>1. Develop user interfaces for modern web
-                        applications using AngularJS.<br>
-                        2. Collaborate with cross-functional teams to analyze, design, and ship new features.<br>
-                        3. Write well-designed, efficient, and testable code.<br>
-                        4. Participate in code reviews and troubleshooting to ensure quality and performance.<br>
-                        5. Stay up-to-date with the latest industry trends and best practices in AngularJS development.
+                        <span class="bold-font">Requirements: </span><br>1. Develop cross-platform mobile applications
+                        using Ionic framework.<br>
+                        2. Strong proficiency in HTML, CSS, and JavaScript.<br>
+                        3. Experience with Angular and TypeScript.<br>
+                        4. Familiarity with RESTful APIs and mobile application architecture..<br>
+                        5. Problem-solving and debugging skills.
                     </p>
                     <p class="text-font text-justify">
-                        <span class="bold-font">Qualifications: </span><br>1. Solid understanding of front-end
-                        technologies.<br>
-                        2. Previous experience with version control systems (e.g., Git).<br>
-                        3. Knowledge of agile development methodologies.<br>
-                        4. Ability to work independently and as part of a collaborative team.
+                        <span class="bold-font">Qualifications: </span><br>1. Published apps using Ionic on both iOS and
+                        Android platforms.<br>
+                        2. Understanding of mobile development best practices.<br>
+                        3. Strong communication and collaboration skills.<br>
+                        4. Ability to work in a fast-paced environment.
                     </p>
                     <p class="text-font text-justify"><span class="bold-font">Experience: </span>2 yr to 5yr</p>
-                    <div class="contact-btn-div "><button type="button" class="btn contact-btn-blue text-font"
-                            onclick="window.location.href='contact.php'">Apply Now</button>
+                    <div class="contact-btn-div "><button type="button" class="btn contact-btn-blue text-font"><a
+                                href="#open-modal">Apply Now</a></button></button>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+
+    <div id="open-modal" class="modal-window">
+        <div>
+            <a href="" title="Close" class="modal-close"><i class="fa fa-times" aria-hidden="true"></i></a>
+            <h2 class="font-family text-center">Apply Now!</h2>
+            <form action="careerAttachment.php" method="POST" enctype='multipart/form-data'>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group ">
+                            <label for="exampleInputName">Full Name</label>
+                            <input placeholder="Enter your full name" type="text" class="form-control " id="name "
+                                name="name" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group ">
+                            <label for="exampleInputEmail">Date Of Birth</label>
+                            <input type="date" class="form-control" name="birthdate" id="birthdate" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group ">
+                            <label for="exampleMaidenName">Phone Number</label>
+                            <input placeholder="Enter your mobile number" type="tel" class="form-control " id="mobile "
+                                name="mobile" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group ">
+                            <label for="exampleInputEmail">Email ID</label>
+                            <input placeholder="Enter your email" type="email" class="form-control " name="email"
+                                id="email" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group ">
+                            <label for="exampleInputBirthday ">Permanent Address</label>
+                            <input placeholder="Enter your permanent address" type="text" class="form-control"
+                                id="address " name="address" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group ">
+                            <label for="exampleInputBirthday ">Residential Address</label>
+                            <input placeholder="Enter your residential address" type="text" class="form-control"
+                                id="address " name="message" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group ">
+                            <label for="exampleInputName">Describe your skills</label>
+                            <textarea placeholder="Describe..." type="text" class="form-control" id="skills"
+                                name="skills" required></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group ">
+                            <label for="exampleInputFile">File input</label>
+                            <input type="file" class="form-control" id="attachment" name="attachment">
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="text-center ">
+                            <button type="submit" class="btn apply-btn ">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
     </div>
 
 

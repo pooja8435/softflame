@@ -180,6 +180,75 @@ h6 {
   border-radius: 4px;
 }
 
+.modal-window {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.25);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+}
+
+.form-control {
+  border: 1px solid #dfdede !important;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+  font-family: 'Nunito', sans-serif;
+}
+
+label {
+  font-family: 'Nunito', sans-serif;
+}
+
+.modal-window>div {
+  width: 50%;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  background: aliceblue;
+  position: absolute;
+  overflow: scroll;
+  height: 85%;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -66%);
+  padding: 2em;
+  background: white;
+}
+
+.modal-window:target {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-close {
+  color: #aaa;
+  line-height: 50px;
+  font-size: 80%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 70px;
+  text-decoration: none;
+
+}
+
+.modal-close:hover {
+  color: black;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+
 
 
 .jobs-card.active {
