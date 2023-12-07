@@ -594,7 +594,7 @@ nav input{
         </div>
       </li>
       <li>
-        <a href="#" class="desktop-item">Hire Resources</a>
+        <a href="" class="desktop-item">Hire Resources</a>
         <input type="checkbox" id="showDrop">
         <label for="showDrop" class="mobile-item">Hire Resources</label>
         <ul class="drop-menu">
