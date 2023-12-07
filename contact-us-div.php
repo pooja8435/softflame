@@ -95,6 +95,10 @@
         .bg-contact {
             background: aliceblue;
         }
+        
+        .capitalize{
+            text-transform: capitalize !important;
+        }
 
         .contact-img {
             height: 250px;
@@ -162,7 +166,7 @@
             <div class="card-body">
                 <div class="row">
                     <div class="col-md-8" data-animation="zoomIn" data-animation-delay="300ms">
-                        <h1 class="header-font">Let's Discuss Your
+                        <h1 class="header-font capitalize">Let's Discuss Your
                             <?php echo $pageTitle; ?> Needs
                         </h1>
                         <p class="init_text text-font clr-black">Ready to take your online presence to the next level? Get in touch with us
