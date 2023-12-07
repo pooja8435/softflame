@@ -165,6 +165,11 @@
             z-index:0 !important;
         }
     }
+    @media (min-width:767px) and (max-width: 1250px) {
+  .container{
+    padding-right:70px;
+  }
+}
     </style>
 
 
