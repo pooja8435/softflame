@@ -86,6 +86,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
         rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/text-animation.css" type="text/css" />
     <script>
         $(".navbar-nav").on('click', 'li', function () {
@@ -173,6 +174,13 @@
         var animation = new Animation(options);
     </script>
 
+    <style>
+    .text-center-mobile{
+        color:#181d38;
+        font-family: 'Nunito', sans-serif !important;
+    }
+    </style>
+
 
 
 </head>
@@ -220,8 +228,7 @@ include 'header.php'; ?>
             <div class="col-xs-12 text-center"></div>
             <div class="clearfix"></div>
             <div class="col-md-6">
-                <h2 class="text-center-mobile"><b><span class="blue-font header-font">Soft</span><span
-                            class="header-font orange-font">Flame</span></b>
+                <h2 class="text-center-mobile"><b>SoftFlame</b>
                 </h2>
                 <p class="text-justify text-font">At SoftFlame Solutions, we are passionate about creating innovative
                     software
@@ -245,8 +252,7 @@ include 'header.php'; ?>
                 <img class="vision-img" src="images/vision.jpg">
             </div>
             <div class="col-md-6">
-                <h2 class="text-center-mobile"><b><span class="blue-font header-font">Our&nbsp;</span><span
-                            class="orange-font header-font">Vision</span></b>
+                <h2 class="text-center-mobile"><b>Our Vision</b>
                 </h2>
                 <p class="text-font"> At Softflame Solutions, we envision a future where technology becomes a force for
                     sustainability, social good, and global progress. We aspire to be at the forefront of this
@@ -260,8 +266,7 @@ include 'header.php'; ?>
         </div>
         <br><br>
         <div class="row text-center reveal">
-            <h2 class="text-center-mobile"><b><span class="blue-font header-font">Our&nbsp;</span>
-                    <span class="orange-font header-font">Values</span>
+            <h2 class="text-center-mobile"><b>Our Values
                     <b></h2>
             <div class="col-md-3">
                 <div class="card our-values-card">
@@ -303,8 +308,7 @@ include 'header.php'; ?>
         <br><br>
         <div class="row reveal strategy-div">
             <div class="col-md-6">
-                <h2 class="text-center-mobile"><b><span class="orange-font header-font">Working&nbsp;</span><span
-                            class="blue-font header-font">Strategy</span><b></h2>
+                <h2 class="text-center-mobile"><b>Working Strategy<b></h2>
                 <p class="text-font text-justify">At Softflame Solutions, our working strategy is built on a
                     well-defined process
                     that ensures the successful delivery of software solutions. We follow a systematic approach that can
@@ -351,8 +355,7 @@ include 'header.php'; ?>
         </div>
         <div class="row text-center reveal margin-top">
             <div class="col-md-12">
-                <h2 class="text-center-mobile"><b><span class="orange-font header-font">Work&nbsp;</span><span
-                            class="blue-font header-font">Culture</span></b></h2>
+                <h2 class="text-center-mobile"><b>Work Culture</b></h2>
                 <p class="text-font">At Softflame Solutions, our work culture is the foundation of our success. We
                     believe in fostering
                     an environment that encourages creativity, collaboration, and personal growth.</p>

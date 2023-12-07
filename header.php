@@ -543,7 +543,7 @@ nav input{
       <li><a href="index.php">Home</a></li>
       <li><a href="about.php">About</a></li>
       <li>
-        <a href="#" class="desktop-item">Services</a>
+        <a href="services.php" class="desktop-item">Services</a>
         <input type="checkbox" id="showMega">
         <label for="showMega" class="mobile-item">Services</label>
         <div class="mega-box">
@@ -609,7 +609,18 @@ nav input{
         </ul>
       </li>
       <li><a href="career.php">Career</a></li>
-      <li><a href="products.php">Products</a></li>
+      <li>
+        <a href="products.php" class="desktop-item">Products</a>
+        <input type="checkbox" id="showDrop">
+        <label for="showDrop" class="mobile-item">Products</label>
+        <ul class="drop-menu">
+          <li><a href="uber-clone.php">Uber Clone</a></li>
+          <li><a href="amazon-clone.php">Amazon/Flipkart Clone</a></li>
+          <li><a href="netflix-clone.php">Netflix Clone</a></li>
+          <li><a href="byjus-clone.php">Byju's Clone</a></li>
+          <li><a href="urban-clone.php">Urban Clone</a></li>
+        </ul>
+      </li>
       <li><a href="portfolio.php">Portfolio</a></li>
       <li><a href="blog.php">Blog</a></li>
       <li><a href="contact.php">Contact</a></li>
