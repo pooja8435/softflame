@@ -182,6 +182,17 @@
             margin-top: -75px;
         }
 
+        @media screen and (max-width: 970px){
+::-webkit-scrollbar {
+    width:0px !important;
+    height:0px !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background:none !important;
+}
+}
+
 
         .face {
             display: block;

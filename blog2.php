@@ -584,6 +584,7 @@
         .blog-container {
             /* margin-left: 5%;
    margin-right: 5%; */
+   padding-left:15px
         }
 
         .blog-post h4 {
@@ -1012,6 +1013,8 @@
         }
         dd{
             font-size:14px;
+            padding-right:30px;
+            text-align:justify;
         }
     }
     </style>

@@ -964,9 +964,13 @@ img {
     height: auto;
 }
 
+.container{
+    max-width: 1320px !important;
+}
+
 span,
-a,
-a:hover {
+#alink,
+#alink:hover {
     display: inline-block;
     text-decoration: none;
     color: inherit;
@@ -1340,7 +1344,7 @@ include 'header.php';?>
                     <span>Hire React Native Developers</span><br> in Pune
                 </strong>
                 <p>That helps you Build Smart Native App Development Solutions </p>
-                <a href="#">Lend a hand</a>
+                <a href="contact.php">Lend a hand</a>
             </div>
         </div>
 

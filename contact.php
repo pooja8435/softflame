@@ -159,6 +159,19 @@
         var animation = new Animation(options);
     </script>
 
+    <style>
+        @media screen and (max-width:767px){
+        .advertisers-service-sec .service-card{
+            z-index:0 !important;
+        }
+    }
+    @media (min-width:767px) and (max-width: 1250px) {
+  .container{
+    padding-right:70px;
+  }
+}
+    </style>
+
 
 </head>
 <?php include 'header.php'; ?>

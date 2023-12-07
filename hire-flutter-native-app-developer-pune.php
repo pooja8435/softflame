@@ -957,9 +957,13 @@ img {
     height: auto;
 }
 
+.container{
+    max-width: 1320px !important;
+}
+
 span,
-a,
-a:hover {
+#alink,
+#alink:hover {
     display: inline-block;
     text-decoration: none;
     color: inherit;
@@ -1330,7 +1334,7 @@ include 'header.php';?>
                     <span>Hire Flutter Developers</span><br> in Pune
                 </strong>
                 <p>Hire Flutter App Developers from Softflame Solutions that eliminates with bottleneck performance.  </p>
-                <a href="#">Lend a hand</a>
+                <a href="contact.php">Lend a hand</a>
             </div>
         </div>
 

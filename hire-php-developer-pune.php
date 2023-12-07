@@ -153,6 +153,17 @@ background: #f15c2c;
 color:white;
 }
 
+@media screen and (max-width: 970px){
+::-webkit-scrollbar {
+    width:0px !important;
+    height:0px !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background:none !important;
+}
+}
+
 @media (min-width: 1200px) and (max-width: 1399px) {
 .ban_text p {
     font-size: 21px;
@@ -952,11 +963,11 @@ height: auto;
 }
 
 span,
-a,
-a:hover {
-display: inline-block;
-text-decoration: none;
-color: inherit;
+#alink,
+#alink:hover {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
 }
 
 .section-head {
@@ -1050,7 +1061,7 @@ transition: all 0.5s ease 0s;
 }
 .item {
     height: 350px; /* Set a fixed height for the cards */
-    overflow: hidden; /* Enable vertical scrolling for overflowing content */
+    overflow: scroll; /* Enable vertical scrolling for overflowing content */
 }
 /* Add additional styles for responsiveness if necessary */
 @media (max-width: 768px) {
@@ -2171,7 +2182,7 @@ $menuactive = "about";
                     <span>Hire PHP Developers</span><br> in Pune
                 </strong>
                 <p>To Build a Dynamic Website That Is Easy To Manage. Looking for a simple but dynamic website for your business? PHP is your box to fit in.</p>
-                <a href="#">Lend a hand</a>
+                <a href="contact.php">Lend a hand</a>
             </div>
         </div>
 

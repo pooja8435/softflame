@@ -1025,7 +1025,7 @@ a {
   }
 
   .text-blk.description {
-    text-align: left;
+    text-align: justify;
     line-height: 24px;
   }
 
@@ -1110,7 +1110,7 @@ a {
   }
 
   .text-blk.description {
-    text-align: center;
+    text-align: justify;
     font-size: 18px;
   }
 
@@ -1183,7 +1183,7 @@ a {
   }
 
   .text-blk.description {
-    text-align: left;
+    text-align: justify;
   }
 
   .ultimateImg {
@@ -1296,9 +1296,9 @@ a {
 
   .responsive-container-block.bigContainer {
     padding-top: 10px;
-    padding-right: 20px;
+    padding-right: 60px;
     /* padding-bottom: 10px; */
-    padding-left: 20px;
+    padding-left: 40px;
   }
 
   .purpleText {
@@ -1526,6 +1526,13 @@ body {
 
 .owl-carousel{
   display:block !important;
+  z-index: 0 !important;
+}
+
+@media (min-width:767px) and (max-width: 1250px) {
+  .container{
+    padding-right:90px;
+  }
 }
 /* about us css ends */
 
@@ -1777,12 +1784,12 @@ body {
                 <h6 class="nopadding pad_top" style="font-family: 'Nunito', sans-serif; color:#f07f2c;" >Our Services</h6>
                 <h1 class="paddtop1 dosis font-weight-5" style="font-family: 'Nunito',sans-serif;font-weight: 700;line-height: 1.2;color: #181d38;" >What We Do</h1>
                 <div class="title-line-4 align-center" style="margin-left: 0;"></div>
-                <p class="init_text" style="font-family: 'Nunito', sans-serif;text-align: left;" >
+                <p class="init_text" style="font-family: 'Nunito', sans-serif;text-align: justify;" >
                     <!-- <strong>Softflame Solutions</strong> is founded by an experienced technical expert team. <strong>Softflame Solutions</strong> follows an agile development methodology and offers innovative solutions and services with the latest and trending technologies. We are passionate about client satisfaction and provide efficient solutions to help our clients connect to their business strategy.
                     <a href="https://www.softflame.in/website-development-company-in-pune.php"><b>Website Development, Web Developers in Pune, Bangalore, Delhi</b></a>, tailor-made applications, ERPs, CRMs, CMS, LMS, e-commerce solutions, business-to-business applications, business-to-client applications, and managed hosting are a few of the services we offer. -->
                     Founded by a team of experienced technical experts, Softflame Solutions follows an agile development methodology and offers innovative solutions and services using the latest and trending technologies. We are deeply committed to ensuring our clients' satisfaction by providing efficient solutions that align with their unique business strategies.
                 </p>
-                <p class="init_text" style="font-family: 'Nunito', sans-serif;text-align: left;" >
+                <p class="init_text" style="font-family: 'Nunito', sans-serif;text-align: justify;" >
                 At <strong>Softflame Solutions</strong>, our service offerings span a wide range, including website development, web development in Pune, Bangalore, and Delhi, tailor-made applications, ERPs, CRMs, CMS, LMS, e-commerce solutions, and business-to-business and business-to-client applications. Additionally, we provide managed hosting solutions to support your digital needs.
                 </p>
             </div>
