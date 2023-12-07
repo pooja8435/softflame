@@ -108,6 +108,10 @@
         max-width: 1372px;
     }
 
+    .sec-padding {
+        padding: 50px !important;
+    }
+
     .sticky-icon {
         z-index: 9999;
         position: fixed;
@@ -1211,6 +1215,8 @@ a {
     top: 80%;
   }
 
+  
+
   .allText.bottomText {
     margin-top: 100px;
     margin-right: 0px;
@@ -1777,7 +1783,7 @@ body {
 
             </div> -->
             <div class="servicess container py-5" style="margin-top: 20px; margin-bottom: 50px;">
-    <div class="row">
+    <div class="row sec-padding">
         <!-- Title and Description Column -->
         <div class="col-md-6" style="padding-right: 20px; padding-top:20px">
             <div class="sec-title">
@@ -1803,7 +1809,7 @@ body {
     </div>
 </div>
 
-<div class="servicess container" style="margin-bottom: 50px;">
+<div class="servicess container sec-padding" style="margin-bottom: 50px;">
   <div class="services-section">
     <div class="card">
     <a href="website-development-company-in-pune.php">
@@ -2030,8 +2036,8 @@ body {
 
 
 
-    <section class="sec-padding-2">
-        <div class="container" style="max-width:1200px">
+    <section class="sec-padding-2 sec-padding">
+        <div class="container">
             <div class="row">
 
                 <div class="col-md-5 bmargin work-text" style="font-family:'Nunito', sans-serif;">
