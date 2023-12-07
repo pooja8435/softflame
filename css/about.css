@@ -1,8 +1,11 @@
+    *{
+        font-family: 'Nunito', sans-serif !important;
+    }
     .sec-padding {
         padding: 50px !important;
     }
-
-    .text-font {
+ 
+   .text-font {
         font-family: 'Nunito', sans-serif !important;
         font-size: 17px;
         font-weight: 400;
@@ -15,6 +18,10 @@
     .office-img {
         height: 350px;
         float: right;
+    }
+    .text-center-mobile{
+        color:#181d38;
+        font-family: 'Nunito', sans-serif !important;
     }
 
 
