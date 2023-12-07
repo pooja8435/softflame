@@ -3,40 +3,45 @@
 <html lang="en">
 
 <head>
-  
-		
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135022729-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-135022729-1');
-</script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135022729-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-    <title>Career | SoftFlame Solutions</title>
+        gtag('config', 'UA-135022729-1');
+    </script>
+
+    <title>Career at SoftFlame</title>
+    <meta name="description"
+        content="Softflame Solutions is leading Website Development Company in Pune, Delhi, Bangalore. We are specializes in Web Development Company in Pune, Delhi, Bangalore,Web Developers in Pune, Delhi, Bangalore.Web Design Company in Pune, Web Development in Pune, Delhi, Bangalore with the cost-effective solutions for your website." />
+    <meta name="keywords" content="Career at SoftFlame" />
+    <meta name="robots" content="index, follow">
+    <meta name="copyright" content="softflame.in">
+    <meta name="language" content="EN">
+
     <meta charset="utf-8">
-    <!-- Meta -->
-    <meta name="keywords" content="website company in pune,web development company in pune,website design in pune,web design company,web design pune,web development company, website design company, ecommerce website design,ecommerce websites development,SEO services pune,seo company in pune"
-    />
-    <meta name="author" content="">
-    <meta name="robots" content="" />
-    <meta name="description" content="Join Our Team. Build your career with SoftFlame Solutions. Fill the application form with your details & we get back to you ASAP."/>
 
     <!-- this styles only adds some repairs on idevices  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="css/theme.css" rel="stylesheet">
-	
-	<link rel="canonical" href=" https://www.softflame.in/"/>  
 
+
+
+
+    <link rel="canonical" href="https://www.softflame.in/" />
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <link rel="shortcut icon" href="images/fav NEW LOGO 2 ic (1).png" type="image/x-icon">
 
     <!-- Google fonts - witch you want to use - (rest you can just remove) -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
+    <link
+        href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic'
+        rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900' rel='stylesheet'
+        type='text/css'>
 
     <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -61,259 +66,443 @@
     <link rel="stylesheet" href="js/ytplayer/ytplayer.css" />
     <link rel="stylesheet" href="js/style-swicher/style-swicher.css" type="text/css" />
     <link rel="stylesheet" href="js/custom-scrollbar/jquery.mCustomScrollbar.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500&family=Nunito+Sans:opsz,wght@6..12,200&family=Open+Sans:wght@300;400;700&family=Poppins:wght@200;400;600&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/web-development-design.css" type="text/css" /> -->
+    <link rel="stylesheet" href="css/career.css" type="text/css" />
+    <link rel="stylesheet" href="css/text-animation.css" type="text/css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
     <script>
-            $(".navbar-nav").on('click', 'li', function () {
-            $(".navbar-nav li.active").removeClass("active");
-            // adding classname 'active' to current click li 
-            $(this).addClass("active");
-        });
+        var Animation = function ({ offset } = { offset: 10 }) {
+            var _elements;
+
+            // Define a dobra superior, inferior e laterais da tela
+            var windowTop = offset * window.innerHeight / 100;
+            var windowBottom = window.innerHeight - windowTop;
+            var windowLeft = 0;
+            var windowRight = window.innerWidth;
+
+            function start(element) {
+                // Seta os atributos customizados
+                element.style.animationDelay = element.dataset.animationDelay;
+                element.style.animationDuration = element.dataset.animationDuration;
+                // Inicia a animacao setando a classe da animacao
+                element.classList.add(element.dataset.animation);
+                // Seta o elemento como animado
+                element.dataset.animated = "true";
+            }
+
+            function isElementOnScreen(element) {
+                // Obtem o boundingbox do elemento
+                var elementRect = element.getBoundingClientRect();
+                var elementTop =
+                    elementRect.top + parseInt(element.dataset.animationOffset) ||
+                    elementRect.top;
+                var elementBottom =
+                    elementRect.bottom - parseInt(element.dataset.animationOffset) ||
+                    elementRect.bottom;
+                var elementLeft = elementRect.left;
+                var elementRight = elementRect.right;
+
+                // Verifica se o elemento esta na tela
+                return (
+                    elementTop <= windowBottom &&
+                    elementBottom >= windowTop &&
+                    elementLeft <= windowRight &&
+                    elementRight >= windowLeft
+                );
+            }
+
+            // Percorre o array de elementos, verifica se o elemento está na tela e inicia animação
+            function checkElementsOnScreen(els = _elements) {
+                for (var i = 0, len = els.length; i < len; i++) {
+                    // Passa para o proximo laço se o elemento ja estiver animado
+                    if (els[i].dataset.animated) continue;
+
+                    isElementOnScreen(els[i]) && start(els[i]);
+                }
+            }
+
+            // Atualiza a lista de elementos a serem animados
+            function update() {
+                _elements = document.querySelectorAll(
+                    "[data-animation]:not([data-animated])"
+                );
+                checkElementsOnScreen(_elements);
+            }
+
+            // Inicia os eventos
+            window.addEventListener("load", update, false);
+            window.addEventListener("scroll", () => checkElementsOnScreen(_elements), { passive: true });
+            window.addEventListener("resize", () => checkElementsOnScreen(_elements), false);
+
+            // Retorna funcoes publicas
+            return {
+                start,
+                isElementOnScreen,
+                update
+            };
+        };
+
+        // Initialize
+        var options = {
+            offset: 20 //percentage of window
+        };
+        var animation = new Animation(options);
     </script>
-    
+    <script>
+        $(document).ready(function () {
+            $(this).addClass('active');
+            toggleVisibility('Menu1');
+
+            $(selector).on('click', function () {
+                $(selector).removeClass('active');
+                $(this).addClass('active');
+            });
+        });
+        var divs = ["Menu1", "Menu2", "Menu3", "Menu4", "Menu5", "Menu6", "Menu7"];
+        var selector = '.jobs-card';
+        var visibleDivId = null;
+
+        function toggleVisibility(divId) {
+            if (visibleDivId === divId) {
+                // visibleDivId = null;
+            } else {
+                visibleDivId = divId;
+            }
+            hideNonVisibleDivs();
+        }
+        function hideNonVisibleDivs() {
+            var i, divId, div;
+            for (i = 0; i < divs.length; i++) {
+                divId = divs[i];
+                div = document.getElementById(divId);
+                if (visibleDivId === divId) {
+                    div.style.display = "block";
+                } else {
+                    div.style.display = "none";
+                }
+            }
+        }
+    </script>
 
 </head>
 
-<?php include 'header.php';?>
-        <div class="container padup section-pad">           
+<?php include 'header.php'; ?>
+<!--end menu-->
+<div class="clearfix"></div>
 
-                <div class="col-md-6">
-                    <h3 class="banner_title2 text-center">Apply Now</h3>
-                    <div class="formWrapper">
-                        <form action="careerAttachment.php" method="POST" enctype= 'multipart/form-data'>
-                            
-                                <div class="form-group ">
-                                    <label for="exampleInputName">Full Name</label>
-                                    <input type="text" class="form-control " id="name " name="name" required>
-                                </div>
-                                <div class="form-group ">
-                                    <label for="exampleInputEmail">Date Of Birth</label>
-                                    <input type="date" class="form-control" name="birthdate" id="birthdate" required>
-                                </div>
-                                <div class="form-group ">
-                                    <label for="exampleMaidenName">Phone Number</label>
-                                    <input type="tel" class="form-control " id="mobile " name="mobile" required>
-                                </div>
-                                <div class="form-group ">
-                                    <label for="exampleInputEmail">Email ID</label>
-                                    <input type="email" class="form-control " name="email" id="email" required>
-                                </div>                                
-
-                                <div class="form-group ">
-                                    <label for="exampleInputBirthday ">Permanent Address</label>
-                                    <input type="text" class="form-control"  id="address " name="address" required>
-                                </div>
-                                <div class="form-group ">
-                                    <label for="exampleInputBirthday ">Residential Address</label>
-                                    <input type="text" class="form-control"  id="address " name="message" required>
-                                </div>
-                                <div class="form-group ">
-                                    <label for="exampleInputName">Describe your skills</label>
-                                    <input style="height:80px;" type="text" class="form-control" id="skills" name="skills" required>
-                                </div>
-                                <div class="form-group ">
-                                    <label for="exampleInputFile">File input</label>
-                                    <input type="file" class="form-control" id="attachment" name="attachment">
-
-                                </div>  
-                                <div class="text-center ">
-                                    <button type="submit " class="btn btn-primary ">Submit</button>
-                                </div>
-                            
-
-                        </form>
-                    </div>
-                </div>
-                <div class="col-md-6 p--tp">
-                    <h3 class="banner_title2 text-center">Current Openings</h3>
-                    
-
-                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="heading1">
-                                <h4 class="panel-title">
-                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                                    React JS  : 
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
-                                <div class="panel-body">
-                                <h4>Softflame Solutions Pvt Ltd - Pune, Maharashtra<h4>
-                                <h4>Job Discription : </h4>
-                                <p>Deep knowledge of React JS practices and commonly used modules based on extensive work experience.Strong proficiency with JavaScript.Good knowledge of HTML 5 and CSS3. Understanding of JavaScript libraries and frameworks React JS.</p>
-
-                                <p>Experience : 2 yr to 5yr</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingTwo">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                                    Node JS :
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                                <div class="panel-body" style="padding:30px;">
-                                <h4>Softflame Solutions Pvt Ltd - Pune, Maharashtra</h4>
-                                <h4>Job Discription : </h4>
-                                <p>We are looking for a Developer responsible for managing the interchange of data between the server and the users. Your primary focus will be the development of all server-side logic, definition and maintenance of the central database.</p>
-
-                                <p>Experience : 2 yr to 5yr</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="heading3">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                                    Web / Graphics designer :
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-                                <div class="panel-body">
-                                <h4>Softflame Solutions Pvt Ltd - Pune, Maharashtra<h4>
-                                <h4>Job Discription : </h4>
-                                <p>Good understanding of Development life cycle.We are looking for web/graphic designers with a combination of strong HTML and CSS .Strong knowledge of basic design principles:</p>
-
-                                <p>Experience : 2 yr to 5yr</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="heading4">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                                    IOS Developer  :  
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
-                                <div class="panel-body">
-                                <h4>Softflame Solutions Pvt Ltd - Pune, Maharashtra<h4>
-                                <h4>Job Discription : </h4>
-                                <p>We are looking for an IOS developer who possesses a passion for pushing mobile technologies to the limits and will work with our team of talented engineers to design and build the next generation of our mobile applications.</p>
-
-                                <p>Experience : 2 yr to 5yr</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="heading5">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
-                                    php developer : 
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
-                                <div class="panel-body">
-                                <h4>Softflame Solutions Pvt Ltd - Pune, Maharashtra<h4>
-                                <h4>Job Discription : </h4>
-                                <p>Prepare solutions with recent applicable tools to execute client-specific interfaces, workflows and data analysis libraries.
-                                    Guide business decisions from technical perspective like performance, reliability, availability and security.</p>
-
-                                <p>Experience : 2 yr to 5yr</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="heading6">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
-                                    Ionic developer :
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
-                                <div class="panel-body">
-                                <h4>Softflame Solutions Pvt Ltd - Pune, Maharashtra<h4>
-                                <h4>Job Discription : </h4>
-                                    <ol>
-                                        <li>Strong knowledge of Android SDK, different versions of Android, and how to deal with different screen sizes</li>
-                                        <li>Familiarity with RESTful APIs to connect Android applications to back-end services</li>
-                                        <li>Strong knowledge of Android UI design principles, patterns, and best practices</li>
-                                        <li>Experience with offline storage, threading, and performance tuning</li>
-                                        <li>Ability to design applications around natural user interfaces, such as touch</li>
-                                        <li>Familiarity with the use of additional sensors, such as gyroscopes and accelerometers.</li>
-                                        <li>Knowledge of the open-source Android ecosystem and the libraries available for common tasks</li>
-                                        <li>Ability to understand business requirements and translate them into technical requirements</li>
-                                        <li>Familiarity with cloud message APIs and push notifications</li>
-                                        <li>A knack for benchmarking and optimization</li>
-                                        <li>Understanding of Googles Android design principles and interface guidelines</li>
-                                        <li>Proficient understanding of code versioning tools, such as Git</li>
-                                        <li>Familiarity with continuous integration</li>
-                                    </ol>
-                                <p>Experience : 2 yr to 5yr</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="heading7">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse7" aria-expanded="false" aria-controls="collapse7">
-                                    Angular JS Developer :  
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading7">
-                                <div class="panel-body">
-                                <h4>Softflame Solutions Pvt Ltd - Pune, Maharashtra<h4>
-                                <h4>Job Discription : </h4>
-                                <p>We are looking for an AngularJS Developer responsible for the client side of our service. Your primary focus will be to implement a complete user interface in the form of a mobile and desktop web app, with a focus on performance. Your main duties will include creating modules and components and coupling them together into a functional app. The artistic design will be delivered to you, together with a few HTML templates, but we will ask for your help in regard to animations, CSS, and final HTML output. You will work in a team with the back-end developer, and communicate with the API using standard methods. A thorough understanding of all of the components of our platform and infrastructure is required.</p>
-
-                                <p>Experience : 2 yr to 5yr</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-          
+<section>
+    <div class="header-inner two">
+        <div class="inner text-center col-md-6 padding-top">
+            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">Career</h1>
+            <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Join Our Passionate
+                Team</h2>
         </div>
-            
-            <!-- Modal Send us your requirement -->
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="myModalLabel">Send us your requirement</h4>
-                    </div>
-                    <form name="registrationForm" method="post" action="email.php" required>
-                        <div class="container">
-                            <div class="modal-body">
-                                <div class="form-group">
-                                    <label for="name">Name</label>
-                                    <input type="text" name="name" class="form-control" id="name" placeholder="Full Name" required>
-                                </div>
-                                <div class="form-group">
-                                    <label for="email">Email address</label>
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="Email Address" required>
-                                </div>
-                                <div class="form-group">
-                                    <label for="phone">Phone No.</label>
-                                    <input type="text" class="form-control" name="mobile" id="phone" placeholder="Phone No." required>
-                                </div>
+        <div class="overlay bg-opacity-7"></div>
+        <img src="images/career-banner.jpg" alt="Website Development Company in Pune, Bangalore, Delhi"
+            class="img-responsive sub-nav-img" />
+    </div>
+</section>
+<!-- end header inner -->
+<div class="clearfix"></div>
 
-
-                                <div class="form-group">
-                                    <textarea class="form-control" rows="5" name="enquiry" id="message" placeholder="Enter your message" required></textarea>
-                                </div>
-
-                            </div>
-
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn1 btn-default" data-dismiss="modal">Close</button>
-                            <button class="btn1 btn-primary" type="submit" name="submit"> <i class="fa fa-paper-plane-o"></i> Send</button>
-                        </div>
-                    </form>
+<section>
+    <div class="pagenation-holder">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="pagenation_links text-font font-16"><a href="index.php">Home</a><i> / </i>Career</div>
                 </div>
             </div>
         </div>
-        <!-- / Modal Send us your requirement Ends -->
+    </div>
+</section>
+<!--end section-->
+<div class="clearfix"></div>
 
-            
-                <?php include 'footer.php';?>
+<section class="sec-padding">
+    <div class="row">
+        <div class="col-md-6">
+            <h1 class="header-font font-family">Looking for a Job?</h1>
+            <h3 class="text-font font-family">Explore Exciting Opportunities at SoftFlame Solutions</h3>
+            <p class="init_text text-font font-family">
+                At SoftFlame Solutions, we believe in pushing the boundaries of innovation and fostering a collaborative
+                environment where creativity thrives. As a leading software development company, we are always on the
+                lookout for passionate and skilled individuals to join our dynamic team. If you are ready to embark on a
+                rewarding career journey in the world of technology, explore our current job openings.
+            </p>
+        </div>
+        <div class="col-md-6">
+            <img src="images/job-illus.jpg" height=" 400">
+        </div>
+    </div>
+
+</section>
+<div class="benefitscontainer">
+    <h1 class="header-font font-family">Why SoftFlame Solutions ?</h1>
+    <ul>
+        <li>
+            <img src="images/career/innovation.png" alt="competitive insurance">
+            <h3 class="font-family font-23">Innovation at the Core</h3>
+            <p>Join a team that thrives on pushing the boundaries of technology. At SoftFlame Solutions, innovation
+                is not just a goal; it's our culture.
+            </p>
+        </li>
+        <li>
+            <img src="images/career/organization.png" alt="paid time off">
+            <h3 class="font-family font-23">Collaborative Environment</h3>
+            <p>We believe in the power of collaboration. Working at SoftFlame Solutions means being part of a
+                supportive and diverse community that values teamwork.</p>
+        </li>
+        <li>
+            <img src="images/career/grow.png" alt="retirement options">
+            <h3 class="font-family font-23">Professional Growth</h3>
+            <p>We invest in our team members' professional development. Take advantage of continuous learning
+                opportunities and career advancement programs.</p>
+        </li>
+        <li>
+            <img src="images/career/subscription.png" alt="casual attire">
+            <h3 class="font-family font-23"> Impactful Projects</h3>
+            <p>Be part of projects that make a difference. At SoftFlame Solutions, we tackle challenges that have a
+                meaningful impact on industries and communities.</p>
+        </li>
+    </ul>
+</div>
+<section class="sec-padding">
+    <div class="jobs-list">
+        <div class="row">
+            <h1 class="header-font text-center">Current Openings</h1>
+            <div class="col-md-6">
+                <div class="card jobs-card" onclick="toggleVisibility('Menu1');">
+                    <div class="div">
+                        <p class="font-family init_text">Angular js</p>
+                    </div>
+                    <div class="div"><img height="50" src="images/services/info/angular.png"></div>
+                </div>
+                <div class="card jobs-card" onclick="toggleVisibility('Menu2');">
+                    <div class="div">
+                        <p class="font-family init_text">React js</p>
+                    </div>
+                    <div class="div"><img height="50" src="images/services/info/react-logo.png"></div>
+                </div>
+                <div class="card jobs-card" onclick="toggleVisibility('Menu3');">
+                    <div class="div">
+                        <p class="font-family init_text">Node js</p>
+                    </div>
+                    <div class="div"><img height="50" src="images/services/info/node-logo.png"></div>
+                </div>
+                <div class="card jobs-card" onclick="toggleVisibility('Menu4');">
+                    <div class="div">
+                        <p class="font-family init_text">Web / Graphic Designer</p>
+                    </div>
+                    <div class="div"><img height="50" src="images/services/info/graphic-designer.png">
+
+                    </div>
+                </div>
+                <div class="card jobs-card" onclick="toggleVisibility('Menu5');">
+                    <div class="div">
+                        <p class="font-family init_text">IOS Developer</p>
+                    </div>
+                    <div class="div"><img height="50" src="images/services/info/apple.png">
+                    </div>
+                </div>
+                <div class="card jobs-card" onclick="toggleVisibility('Menu6');">
+                    <div class="div">
+                        <p class="font-family init_text">Php Developer</p>
+                    </div>
+                    <div class="div"><img height="50" src="images/services/info/php.png">
+                    </div>
+                </div>
+                <div class="card jobs-card" onclick="toggleVisibility('Menu7');">
+                    <div class="div">
+                        <p class="font-family init_text">Ionic Developer</p>
+                    </div>
+                    <div class="div"><img height="50" src="images/services/info/ionic-logo.png">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-6">
+                <div class="card description-card" id="Menu1">
+                    <img class="des-img1" src="images/services/sub-nav/angularjs.jpg">
+                    <p class="text-font text-justify" style="margin-top: 20px">
+                        <span class="bold-font">Responsibilities: </span><br>1. Develop user interfaces for modern web
+                        applications using AngularJS.<br>
+                        2. Collaborate with cross-functional teams to analyze, design, and ship new features.<br>
+                        3. Write well-designed, efficient, and testable code.<br>
+                        4. Participate in code reviews and troubleshooting to ensure quality and performance.<br>
+                        5. Stay up-to-date with the latest industry trends and best practices in AngularJS development.
+                    </p>
+                    <p class="text-font text-justify">
+                        <span class="bold-font">Qualifications: </span><br>1. Solid understanding of front-end
+                        technologies.<br>
+                        2. Previous experience with version control systems (e.g., Git).<br>
+                        3. Knowledge of agile development methodologies.<br>
+                        4. Ability to work independently and as part of a collaborative team.
+                    </p>
+                    <p class="text-font text-justify"><span class="bold-font">Experience: </span>2 yr to 5yr</p>
+                    <div class="contact-btn-div "><button type="button" class="btn contact-btn-blue text-font"
+                            onclick="window.location.href='contact.php'">Apply Now</button>
+                    </div>
+                </div>
+
+                <div class="card description-card" id="Menu2">
+                    <img class="des-img2" src="images/services/sub-nav/react-banner.png">
+                    <p class="text-font text-justify" style="margin-top: 20px">
+                        <span class="bold-font">Responsibilities: </span><br>1. Develop user interfaces for web
+                        applications using ReactJS.<br>
+                        2. Write reusable, testable, and efficient code.<br>
+                        3. Integrate front-end applications with backend services.<br>
+                        4. Identify and address performance bottlenecks.<br>
+                        5. Stay informed about the latest ReactJS developments and best practices.
+                    </p>
+                    <p class="text-font text-justify">
+                        <span class="bold-font">Qualifications: </span><br>1. Previous experience with responsive design
+                        principles.<br>
+                        2. Understanding of code versioning tools, such as Git.<br>
+                        3. Knowledge of continuous integration and deployment.<br>
+                        4. Ability to work in a collaborative team environment.
+                    </p>
+                    <p class="text-font text-justify"><span class="bold-font">Experience: </span>2 yr to 5yr</p>
+                    <div class="contact-btn-div "><button type="button" class="btn contact-btn-blue text-font"
+                            onclick="window.location.href='contact.php'">Apply Now</button>
+                    </div>
+                </div>
+
+                <div class="card description-card" id="Menu3">
+                    <img class="des-img3" src="images/services/sub-nav/nodejs.jpg">
+                    <p class="text-font text-justify" style="margin-top: 20px">
+                        <span class="bold-font">Responsibilities: </span><br>1. Design and implement scalable and robust
+                        backend solutions using Node.js.<br>
+                        2. Develop and maintain APIs for both internal and external use.<br>
+                        3. Ensure the responsiveness of applications.<br>
+                        4. Identify and resolve performance issues.<br>
+                        5. Stay up-to-date with the latest trends and best practices in Node.js development.
+                    </p>
+                    <p class="text-font text-justify">
+                        <span class="bold-font">Qualifications: </span><br>1. Previous experience with microservices
+                        architecture.<br>
+                        2. Familiarity with containerization (e.g., Docker).<br>
+                        3. Understanding of cloud computing platforms (e.g., AWS, Azure).<br>
+                        4. Excellent problem-solving and communication skills.
+                    </p>
+                    <p class="text-font text-justify"><span class="bold-font">Experience: </span>2 yr to 5yr</p>
+                    <div class="contact-btn-div "><button type="button" class="btn contact-btn-blue text-font"
+                            onclick="window.location.href='contact.php'">Apply Now</button>
+                    </div>
+                </div>
+
+                <div class="card description-card" id="Menu4">
+                    <img class="des-img4" src="images/services/sub-nav/ui-ux-banner.jpg">
+                    <p class="text-font text-justify" style="margin-top: 20px">
+                        <span class="bold-font">Responsibilities: </span><br>1. Develop user interfaces for modern web
+                        applications using AngularJS.<br>
+                        2. Collaborate with cross-functional teams to analyze, design, and ship new features.<br>
+                        3. Write well-designed, efficient, and testable code.<br>
+                        4. Participate in code reviews and troubleshooting to ensure quality and performance.<br>
+                        5. Stay up-to-date with the latest industry trends and best practices in AngularJS development.
+                    </p>
+                    <p class="text-font text-justify">
+                        <span class="bold-font">Qualifications: </span><br>1. Solid understanding of front-end
+                        technologies.<br>
+                        2. Previous experience with version control systems (e.g., Git).<br>
+                        3. Knowledge of agile development methodologies.<br>
+                        4. Ability to work independently and as part of a collaborative team.
+                    </p>
+                    <p class="text-font text-justify"><span class="bold-font">Experience: </span>2 yr to 5yr</p>
+                    <div class="contact-btn-div "><button type="button" class="btn contact-btn-blue text-font"
+                            onclick="window.location.href='contact.php'">Apply Now</button>
+                    </div>
+                </div>
+
+
+                <div class="card description-card" id="Menu5">
+                    <img class="des-img5" src="images/services/sub-nav/iphone-banner.jpg">
+                    <p class="text-font text-justify" style="margin-top: 20px">
+                        <span class="bold-font">Responsibilities: </span><br>1. Develop user interfaces for modern web
+                        applications using AngularJS.<br>
+                        2. Collaborate with cross-functional teams to analyze, design, and ship new features.<br>
+                        3. Write well-designed, efficient, and testable code.<br>
+                        4. Participate in code reviews and troubleshooting to ensure quality and performance.<br>
+                        5. Stay up-to-date with the latest industry trends and best practices in AngularJS development.
+                    </p>
+                    <p class="text-font text-justify">
+                        <span class="bold-font">Qualifications: </span><br>1. Solid understanding of front-end
+                        technologies.<br>
+                        2. Previous experience with version control systems (e.g., Git).<br>
+                        3. Knowledge of agile development methodologies.<br>
+                        4. Ability to work independently and as part of a collaborative team.
+                    </p>
+                    <p class="text-font text-justify"><span class="bold-font">Experience: </span>2 yr to 5yr</p>
+                    <div class="contact-btn-div "><button type="button" class="btn contact-btn-blue text-font"
+                            onclick="window.location.href='contact.php'">Apply Now</button>
+                    </div>
+                </div>
+
+
+                <div class="card description-card" id="Menu6">
+                    <img class="des-img6" src="images/services/sub-nav/php-banner.jpg">
+                    <p class="text-font text-justify" style="margin-top: 20px">
+                        <span class="bold-font">Responsibilities: </span><br>1. Develop user interfaces for modern web
+                        applications using AngularJS.<br>
+                        2. Collaborate with cross-functional teams to analyze, design, and ship new features.<br>
+                        3. Write well-designed, efficient, and testable code.<br>
+                        4. Participate in code reviews and troubleshooting to ensure quality and performance.<br>
+                        5. Stay up-to-date with the latest industry trends and best practices in AngularJS development.
+                    </p>
+                    <p class="text-font text-justify">
+                        <span class="bold-font">Qualifications: </span><br>1. Solid understanding of front-end
+                        technologies.<br>
+                        2. Previous experience with version control systems (e.g., Git).<br>
+                        3. Knowledge of agile development methodologies.<br>
+                        4. Ability to work independently and as part of a collaborative team.
+                    </p>
+                    <p class="text-font text-justify"><span class="bold-font">Experience: </span>2 yr to 5yr</p>
+                    <div class="contact-btn-div "><button type="button" class="btn contact-btn-blue text-font"
+                            onclick="window.location.href='contact.php'">Apply Now</button>
+                    </div>
+                </div>
+
+
+                <div class="card description-card" id="Menu7">
+                    <img class="des-img7" src="images/services/sub-nav/ionic-banner.png">
+                    <p class="text-font text-justify" style="margin-top: 20px">
+                        <span class="bold-font">Responsibilities: </span><br>1. Develop user interfaces for modern web
+                        applications using AngularJS.<br>
+                        2. Collaborate with cross-functional teams to analyze, design, and ship new features.<br>
+                        3. Write well-designed, efficient, and testable code.<br>
+                        4. Participate in code reviews and troubleshooting to ensure quality and performance.<br>
+                        5. Stay up-to-date with the latest industry trends and best practices in AngularJS development.
+                    </p>
+                    <p class="text-font text-justify">
+                        <span class="bold-font">Qualifications: </span><br>1. Solid understanding of front-end
+                        technologies.<br>
+                        2. Previous experience with version control systems (e.g., Git).<br>
+                        3. Knowledge of agile development methodologies.<br>
+                        4. Ability to work independently and as part of a collaborative team.
+                    </p>
+                    <p class="text-font text-justify"><span class="bold-font">Experience: </span>2 yr to 5yr</p>
+                    <div class="contact-btn-div "><button type="button" class="btn contact-btn-blue text-font"
+                            onclick="window.location.href='contact.php'">Apply Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+<?php $pageTitle = "Career"; // Replace "Page Name" with the actual name of your page
+include('contact-us-div.php'); ?>
+<?php include 'footer.php'; ?>
