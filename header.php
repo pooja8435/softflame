@@ -10,6 +10,11 @@
   box-sizing: border-box;
   /* font-family: 'Nunito', sans-serif !important; */
 }
+
+.container{
+  width: auto;
+    max-width: unset !important;
+}
 nav{
   position: fixed;
   z-index: 9999;
@@ -550,7 +555,7 @@ nav input{
       <li><a href="index.php">Home</a></li>
       <li><a href="about.php">About</a></li>
       <li>
-        <a href="service.php" class="desktop-item">Services</a>
+        <a href="services.php" class="desktop-item">Services</a>
         <input type="checkbox" id="showMega">
         <label for="showMega" class="mobile-item">Services</label>
         <div class="mega-box">
