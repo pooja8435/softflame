@@ -859,7 +859,7 @@ include 'header.php';?>
             <span>Hire MEAN Stack Developers</span><br> in Pune
         </strong>
         <p>To build a Customized Robust, Scalable and Flexible Solutions. </p>
-        <a href="#">Lend a hand</a>
+        <a href="contact.php">Lend a hand</a>
     </div>
 </div>
 

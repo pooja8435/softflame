@@ -1,11 +1,13 @@
 ul {
   margin: 0px;
   padding: 0px;
+  z-index: 3;
 }
 
 .footer-section {
   background: #151414;
   position: relative;
+  z-index: 3;
 }
 
 .footer-cta {

@@ -210,7 +210,7 @@
         height:auto;
     }
     .ban_text{
-        top:53%;
+        top:55%;
     }
 }
 
@@ -1628,9 +1628,13 @@ img {
     height: auto;
 }
 
+.container{
+    max-width: 1320px !important;
+}
+
 span,
-a,
-a:hover {
+#alink,
+#alink:hover {
     display: inline-block;
     text-decoration: none;
     color: inherit;
@@ -1727,7 +1731,7 @@ p.awesome_line {
 }
 .item {
     height: 350px; /* Set a fixed height for the cards */
-    overflow: hidden; /* Enable vertical scrolling for overflowing content */
+    overflow: scroll; /* Enable vertical scrolling for overflowing content */
 }
 /* Add additional styles for responsiveness if necessary */
 @media (max-width: 768px) {
@@ -1737,6 +1741,16 @@ p.awesome_line {
     .imgHide{
       display:none;
     }
+}
+@media screen and (max-width: 970px){
+::-webkit-scrollbar {
+    width:0px !important;
+    height:0px !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background:none !important;
+}
 }
 
 .item:hover {
@@ -2039,7 +2053,7 @@ include 'header.php';?>
                     <span>Hire Ionic Developers</span><br> in Pune
                 </strong>
                 <p>Ionic Framework is the free, open source mobile UI toolkit for developing high-quality cross-platform apps for native iOS, Android, and the web—all from a single codebase.</p>
-                <a href="#">Lend a hand</a>
+                <a href="contact.php">Lend a hand</a>
             </div>
         </div>
 
