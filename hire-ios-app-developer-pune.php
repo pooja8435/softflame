@@ -147,6 +147,10 @@ hr {
     margin-left: 0px;
 }
 
+.container{
+    max-width: 1320px !important;
+}
+
 .responsive-container-block.Container {
     max-width: 1320px;
     justify-content: space-evenly;
@@ -409,7 +413,7 @@ hr {
     }
 
     .text-blk.subHeading {
-        /* text-align: center; */
+        text-align: justify;
         font-size: 17px;
         max-width: 520px;
     }
@@ -471,6 +475,17 @@ hr {
         font-size: 16px;
         line-height: 14px;
     }
+}
+
+@media screen and (max-width: 970px){
+::-webkit-scrollbar {
+    width:0px !important;
+    height:0px !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background:none !important;
+}
 }
 
 @media (max-width: 500px) {
@@ -1031,8 +1046,8 @@ img {
 }
 
 span,
-a,
-a:hover {
+#alink,
+#alink:hover {
     display: inline-block;
     text-decoration: none;
     color: inherit;
@@ -1129,7 +1144,7 @@ p.awesome_line {
 }
 .item {
     height: 350px; /* Set a fixed height for the cards */
-    overflow: hidden; /* Enable vertical scrolling for overflowing content */
+    overflow: scroll; /* Enable vertical scrolling for overflowing content */
 }
 /* Add additional styles for responsiveness if necessary */
 @media (max-width: 768px) {
@@ -1138,7 +1153,7 @@ p.awesome_line {
     }
     .item {
     height: 370px; /* Set a fixed height for the cards */
-    overflow: hidden; /* Enable vertical scrolling for overflowing content */
+    overflow: scroll; /* Enable vertical scrolling for overflowing content */
 }
 }
 
@@ -1528,7 +1543,7 @@ include 'header.php';?>
                 </strong>
                 <p>Hire top dedicated iOS application developers from Softflame Solutions Pvt. Ltd. at ideal cost. Work
                     with our excellent team offshore and onsite iOS app developers </p>
-                <a href="#">Lend a hand</a>
+                <a href="contact.php">Lend a hand</a>
             </div>
         </div>
 

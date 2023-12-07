@@ -1526,6 +1526,7 @@ body {
 
 .owl-carousel{
   display:block !important;
+  z-index: 0 !important;
 }
 /* about us css ends */
 

@@ -225,6 +225,7 @@ nav .wrapper{
     transition: all 0.3s ease;
   }
   #showDrop:checked ~ .drop-menu,
+  #showDrop2:checked ~ .drop-menu,
   #showMega:checked ~ .mega-box{
     max-height: 100%;
   }
@@ -484,6 +485,12 @@ nav input{
         line-height: 3rem;
     }
 
+    @media screen and (max-width:767px){
+      .sticky-icon{
+        z-index: 1;
+      }
+    }
+
 
     
 
@@ -515,7 +522,7 @@ nav input{
     <!-- <div class="col-sm-6 col-xs-12 text-center text-white purchase-button"> <a type="button" class="template-button launch-modal" href="#" data-toggle="modal" data-target="#myModal"><i class="" aria-hidden="true"></i> Enquiry Now</a> </div> -->
 
     <!-- </div> -->
-    <div class="sticky-icon">
+    <div class="sticky-icon" id="hideOnScroll">
         <a href="https://www.linkedin.com/company/26552568/admin/" target="_blank" class="Youtube"><i
                 class="fa fa-linkedin-square" style="color: #146ebe;"></i> Linkedin </a>
         <a href="https://twitter.com/SoftflameL" target="_blank" class="Twitter"><i class="fa fa-twitter"></i> </i>
@@ -543,7 +550,7 @@ nav input{
       <li><a href="index.php">Home</a></li>
       <li><a href="about.php">About</a></li>
       <li>
-        <a href="services.php" class="desktop-item">Services</a>
+        <a href="service.php" class="desktop-item">Services</a>
         <input type="checkbox" id="showMega">
         <label for="showMega" class="mobile-item">Services</label>
         <div class="mega-box">
@@ -611,8 +618,8 @@ nav input{
       <li><a href="career.php">Career</a></li>
       <li>
         <a href="products.php" class="desktop-item">Products</a>
-        <input type="checkbox" id="showDrop">
-        <label for="showDrop" class="mobile-item">Products</label>
+        <input type="checkbox" id="showDrop2">
+        <label for="showDrop2" class="mobile-item">Products</label>
         <ul class="drop-menu">
           <li><a href="uber-clone.php">Uber Clone</a></li>
           <li><a href="amazon-clone.php">Amazon/Flipkart Clone</a></li>

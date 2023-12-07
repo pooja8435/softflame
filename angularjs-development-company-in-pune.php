@@ -170,6 +170,12 @@
             justify-content: center;
             box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
         }
+        @media screen and (max-width:767px) {
+            .angular-card{
+                z-index: 0;
+            }
+            
+        }
 
         .bg {
             position: absolute;

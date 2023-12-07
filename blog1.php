@@ -151,7 +151,7 @@
 
     @media screen and (min-width: 359px) and (max-width: 959px) {
         .parallax-one {
-            height: 300px;
+            height: 200px;
             max-height: 650px;
         }
 
@@ -601,6 +601,7 @@
         .blog-container {
             /* margin-left: 5%;
     margin-right: 5%; */
+    padding-left:15px;
         }
 
         .blog-post h4 {

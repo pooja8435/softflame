@@ -156,8 +156,20 @@
     text-decoration: none;
 }
 
+@media screen and (max-width: 970px){
+::-webkit-scrollbar {
+    width:0px !important;
+    height:0px !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background:none !important;
+}
+}
+
 .ban_text a:hover {
-    background: #50af47;
+    background: #f15c2c;
+    color:white;
 }
 
 @media (min-width: 1200px) and (max-width: 1399px) {
@@ -216,7 +228,7 @@
         height:auto;
     }
     .ban_text{
-        top:53%;
+        top:60%;
     }
 }
 
@@ -289,6 +301,10 @@
     margin-right: 0px;
     margin-bottom: 120px;
     margin-left: 0px;
+}
+
+.container{
+    max-width: 1320px !important;
 }
 
 .responsive-container-block.Container {
@@ -553,9 +569,10 @@
     }
 
     .text-blk.subHeading {
-        /* text-align: center; */
+        text-align: justify;
         font-size: 17px;
         max-width: 520px;
+
     }
 
     /* .text-blk.heading {
@@ -656,7 +673,7 @@
         padding-right: 20px;
         padding-bottom: 10px;
         padding-left: 20px;
-        padding: 0 30px 0 30px;
+        padding: 0 60px 0 30px;
         margin-top:0px;
         margin-bottom:20px;
     }
@@ -995,8 +1012,8 @@ img {
 }
 
 span,
-a,
-a:hover {
+#alink,
+#alink:hover {
     display: inline-block;
     text-decoration: none;
     color: inherit;
@@ -1094,7 +1111,7 @@ p.awesome_line {
 }
 .item {
     height: 350px; /* Set a fixed height for the cards */
-    overflow: hidden; /* Enable vertical scrolling for overflowing content */
+    overflow: scroll; /* Enable vertical scrolling for overflowing content */
 }
 .item:hover {
     background: #2d5284;
@@ -1653,7 +1670,7 @@ include 'header.php';?>
                     </strong>
                     <p>YIt is simple and quick & spontaneous features and the competence to build new features are few
                         things which make AngularJS as the best choice for the web Development. </p>
-                    <a href="#">Lend a hand</a>
+                    <a href="contact.php">Lend a hand</a>
                 </div>
             </div>
 
@@ -1877,7 +1894,7 @@ include 'header.php';?>
                             Company</p>
                         </div>
                         <div class="col-lg-4 col-sm-6">
-                            <div class="item card1"> <span class="icon feature_box_col_one"><i class="fa fa-globe"></i></span>
+                            <div class="item card1"> <span id="alink" class="icon feature_box_col_one"><i class="fa fa-globe"></i></span>
                                 <h6>Trained and Well Revised</h6>
                                 <p>our developers stay ahead with the latest technologies through conferences and training, ensuring cutting-edge solutions for your projects.</p>
                             </div>

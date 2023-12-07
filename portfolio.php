@@ -988,6 +988,11 @@ h3.heading {
     text-align: center;
     z-index: 998 !important;
 }
+@media screen and (max-width:767px) {
+    .dark{
+    z-index: 0 !important;
+    }
+}
 
 .dark h3,
 .dark p {

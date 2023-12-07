@@ -263,6 +263,7 @@
         }
     }
 
+
     /*============ ARROW STYLES ============*/
 
     .bounce {
@@ -375,6 +376,33 @@
             transform: translateY(-15px);
         }
     }
+
+    @media (max-width: 767px) {
+    .caption h1 {
+        font-size: 1.7rem;
+        letter-spacing: 0.15rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .caption h3 {
+        font-size: 1.2rem;
+        padding-bottom: 1.2rem;
+    }
+
+    .btn-lg {
+        padding: 0.6rem 1.1rem;
+        font-size: 1rem;
+    }
+    .arrow{
+                height:20px;
+            }
+    .landing{
+                height:50vh;
+            }
+            .caption{
+                top:32%;
+            }
+}
 
 
     body {
