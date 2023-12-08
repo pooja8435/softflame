@@ -137,6 +137,16 @@
         max-width: 1372px;
     }
 
+    .sec-padding {
+        padding: 50px !important;
+    }
+
+    @media only screen and (max-width: 768px) {
+      .sec-padding {
+        padding: 0px !important;
+    }
+    }
+
     .sticky-icon {
         z-index: 9999;
         position: fixed;
@@ -159,6 +169,17 @@
         font-family: 'Nunito', sans-serif;
         transition: all 0.8s;
     }
+    @media only screen and (max-width: 768px) {
+      .dosis{
+        font-size: 32px;
+      }
+      .at-work-process-number {
+        font-size: 30px !important;
+      }
+      .services-section {
+    justify-content: center !important;
+}
+    }
 
     .sticky-icon a:hover {
         color: #FFF;
@@ -170,7 +191,7 @@
     }
 
     /*.search_icon a:hover i  {
-	transform:rotate(360deg);}*/
+  transform:rotate(360deg);}*/
     .Facebook {
         background-color: #2C80D3;
         color: #FFF;
@@ -464,12 +485,12 @@
 .col_fourth,
 .col_three_fourth,
 .col_fifth{
-	position: relative;
-	display:inline;
-	display: inline-block;
-	float: left;
-	margin-right: 2%;
-	margin-bottom: 20px;
+  position: relative;
+  display:inline;
+  display: inline-block;
+  float: left;
+  margin-right: 2%;
+  margin-bottom: 20px;
 }
 .end { margin-right: 0 !important; }
 .text-center {text-align: centesr !important;}
@@ -588,6 +609,13 @@ header .item .cover .header-content {
   position: relative;
   padding: 56px;
   overflow: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+  header .item .cover .header-content {
+  padding: 9px;
+}
+
 }
 header .item .cover .header-content .line {
   content: "";
@@ -1240,6 +1268,8 @@ a {
     top: 80%;
   }
 
+  
+
   .allText.bottomText {
     margin-top: 100px;
     margin-right: 0px;
@@ -1572,7 +1602,7 @@ a {
 
             </div> -->
             <div class="servicess container py-5" style="margin-top: 20px; margin-bottom: 50px;">
-    <div class="row">
+    <div class="row sec-padding">
         <!-- Title and Description Column -->
         <div class="col-md-6" style="padding-right: 20px; padding-top:20px">
             <div class="sec-title">
@@ -1598,7 +1628,7 @@ a {
     </div>
 </div>
 
-<div class="servicess container" style="margin-bottom: 50px;">
+<div class="servicess container sec-padding" style="margin-bottom: 50px;">
   <div class="services-section">
     <div class="card">
     <a href="website-development-company-in-pune.php">
@@ -1825,12 +1855,12 @@ a {
 
 
 
-    <section class="sec-padding-2">
-        <div class="container" style="max-width:1200px">
+    <section class="sec-padding-2 sec-padding">
+        <div class="container">
             <div class="row">
 
                 <div class="col-md-5 bmargin work-text" style="font-family:'Nunito', sans-serif;">
-                    <h1 class="font-weight-6" style="font-family:'Nunito', sans-serif;font-weight: 700;line-height: 1.2;color: #181d38;">Why work <span class="text-orange-2">With Us</span></h1>
+                    <h1 class="font-weight-6 dosis" style="font-family:'Nunito', sans-serif;font-weight: 700;line-height: 1.2;color: #181d38;">Why work <span class="text-orange-2">With Us</span></h1>
                     <div class="title"><h5>Web Development Company in Pune, Bangalore, Delhi</h5>
                     <p>We work with some dynamic clients who are based either locally in Pune or across the Globe
                     </p></div>
@@ -1906,7 +1936,7 @@ a {
     <!--end section-->
 
 
-    <?php include 'footer.php';?>
+    <?php include 'footer.php'; ?>
     <!-- <script src="https://unpkg.com/scrollreveal"></script>
 
     <script>

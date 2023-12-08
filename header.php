@@ -10,6 +10,11 @@
   box-sizing: border-box;
   /* font-family: 'Nunito', sans-serif !important; */
 }
+
+.container{
+  width: auto;
+    max-width: unset !important;
+}
 nav{
   position: fixed;
   z-index: 9999;
@@ -601,7 +606,7 @@ nav input{
         </div>
       </li>
       <li>
-        <a href="#" class="desktop-item">Hire Resources</a>
+        <a href="" class="desktop-item">Hire Resources</a>
         <input type="checkbox" id="showDrop">
         <label for="showDrop" class="mobile-item">Hire Resources</label>
         <ul class="drop-menu">
