@@ -366,9 +366,7 @@ include 'header.php'; ?>
         <div class="row text-center reveal margin-top">
             <div class="col-md-12">
                 <h2 class="text-center-mobile"><b>Work Culture</b></h2>
-                <p class="text-font">At Softflame Solutions, our work culture is the foundation of our success. We
-                    believe in fostering
-                    an environment that encourages creativity, collaboration, and personal growth.</p>
+                <p class="text-font">At Softflame Solutions, our work culture is the foundation of our success.</p>
             </div>
         </div>
 

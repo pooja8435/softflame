@@ -228,7 +228,7 @@
     <div class="container">
         <div class="row">
             <div class="section-header text-center" data-animation="zoomIn" data-animation-delay="300ms">
-                <h1 class="header-font margin-top">
+                <h1 class="header-font margin-top center-line">
                     Our Android App Development Services
                 </h1>
             </div>
@@ -307,7 +307,7 @@
     <div class="container">
         <div class="row">
             <div class="section-header text-center" data-animation="zoomIn" data-animation-delay="300ms">
-                <h1 class="header-font margin-top">
+                <h1 class="header-font margin-top center-line">
                     Build Lightening Fast Android Applications
                 </h1>
             </div>

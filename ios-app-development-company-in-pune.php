@@ -232,7 +232,7 @@
     <div class="container">
         <div class="row">
             <div class="section-header text-center" data-animation="zoomIn" data-animation-delay="300ms">
-                <h1 class="header-font margin-top">
+                <h1 class="header-font margin-top center-line">
                     Our iPhone/iOS App Development Services
                 </h1>
             </div>
@@ -374,7 +374,7 @@
     <div class="container">
         <div class="row">
             <div class="section-header text-center" data-animation="zoomIn" data-animation-delay="300ms">
-                <h1 class="header-font margin-top mobile-margin-30">
+                <h1 class="header-font margin-top mobile-margin-30 center-line">
                     Build Interactive iOS Applications
                 </h1>
             </div>

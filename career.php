@@ -248,7 +248,7 @@
 
 </section>
 <div class="benefitscontainer">
-    <h1 class="header-font font-family" data-animation="slideInUp" data-animation-delay="100ms">Why SoftFlame Solutions ?</h1>
+    <h1 class="header-font font-family center-line" data-animation="slideInUp" data-animation-delay="100ms">Why SoftFlame Solutions ?</h1>
     <ul>
         <li data-animation="zoomReverseIn" data-animation-delay="100ms">
             <img src="images/career/innovation.png" alt="competitive insurance">
@@ -280,7 +280,7 @@
 <section class="sec-padding">
     <div class="jobs-list">
         <div class="row">
-            <h1 class="header-font text-center" data-animation="slideInUp" data-animation-delay="100ms">Current Openings</h1>
+            <h1 class="header-font text-center center-line" data-animation="slideInUp" data-animation-delay="100ms">Current Openings</h1>
             <div class="col-md-6">
                 <div class="card jobs-card" data-animation="zoomReverseIn" onclick="toggleVisibility('Menu1');">
                     <div class="div">

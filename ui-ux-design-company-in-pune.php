@@ -284,7 +284,7 @@
     <div class="container">
         <div class="row margin-top mobile-margin-30">
             <div class="col-md-12" data-animation="zoomIn" data-animation-delay="300ms">
-                <h1 class="header-font text-center">Our UI/UX Development Services</h1>
+                <h1 class="header-font text-center center-line">Our UI/UX Development Services</h1>
             </div>
         </div>
         <div class="row margin-top mobile-margin-30">
