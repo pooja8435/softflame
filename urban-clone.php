@@ -212,7 +212,7 @@
     </div>
     <div class="row margin-top-70  mobile-margin-30">
         <div class="col-md-12" data-animation="zoomReverseIn">
-            <h1 class="header-font text-center">Explore our App Features</h1>
+            <h1 class="header-font text-center center-line">Explore our App Features</h1>
         </div>
     </div>
     <div class="row margin-top-70  mobile-margin-30">
@@ -290,7 +290,7 @@
     </div>
     <div class="row margin-top-70  mobile-margin-30">
         <div class="col-md-12" data-animation="zoomReverseIn">
-            <h1 class="header-font text-center">Why Choose our Urbanclap App Clone?</h1>
+            <h1 class="header-font text-center center-line">Why Choose our Urbanclap App Clone?</h1>
         </div>
     </div>
 

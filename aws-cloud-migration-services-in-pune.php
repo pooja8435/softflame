@@ -381,7 +381,7 @@
     <div class="container margin-top mobile-margin-30" data-animation="slideInUp">
         <div class="row text-center">
             <div class="col-md-12">
-                <h1 class="header-font">AWS Cloud Migration Process</h1>
+                <h1 class="header-font center-line">AWS Cloud Migration Process</h1>
             </div>
         </div>
     </div>
@@ -463,7 +463,7 @@
     <div class="container margin-top mobile-margin-30" data-animation="slideInUp">
         <div class="row text-center">
             <div class="col-md-12">
-                <h1 class="header-font">Benefits of Cloud Migration:</h1>
+                <h1 class="header-font center-line">Benefits of Cloud Migration:</h1>
             </div>
         </div>
     </div>

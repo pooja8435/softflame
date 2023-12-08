@@ -255,7 +255,7 @@
     <div class="container">
         <div class="row margin-top">
             <div class="col-md-12" data-animation="zoomIn" data-animation-delay="300ms">
-                <h1 class="header-font text-center">Our Node.js Development Services</h1>
+                <h1 class="header-font text-center center-line">Our Node.js Development Services</h1>
             </div>
         </div>
         <div class="row margin-top mobile-margin-30">

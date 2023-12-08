@@ -270,7 +270,7 @@
 
     <div class="row margin-top-70 mobile-margin-30">
         <div class="col-md-12" data-animation="zoomReverseIn">
-            <h1 class="header-font text-center">Our Ecommerce Package Includes</h1>
+            <h1 class="header-font text-center center-line">Our Ecommerce Package Includes</h1>
         </div>
     </div>
     <div class="row margin-top-70 mobile-margin-30">

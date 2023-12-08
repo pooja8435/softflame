@@ -283,7 +283,7 @@
 
         <div class="container mobile-margin-30 margin-top">
             <div class="row" data-animation="zoomReverseIn">
-                <h1 class="header-font text-center">Our Ecommerce Website Services</h1>
+                <h1 class="header-font text-center center-line">Our Ecommerce Website Services</h1>
             </div>
         </div>
 
