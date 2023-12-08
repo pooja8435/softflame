@@ -200,6 +200,10 @@ h6 {
   font-family: 'Nunito', sans-serif;
 }
 
+.job-illus {
+  height: 400px;
+}
+
 label {
   font-family: 'Nunito', sans-serif;
 }
@@ -363,5 +367,42 @@ a {
 
   .text-center-mobile {
     text-align: center;
+  }
+
+  .job-illus {
+    height: 205px;
+  }
+
+  .des-img1 {
+    height: 80px;
+  }
+
+  .des-img2 {
+    height: 80px;
+  }
+
+  .des-img3 {
+    height: 72px;
+  }
+
+  .des-img4 {
+    height: 78px;
+  }
+
+  .des-img5 {
+    height: 86px;
+  }
+
+  .des-img6 {
+    height: 74px;
+  }
+
+  .des-img7 {
+    height: 90px;
+  }
+
+  .modal-window>div {
+    width: 90%;
+    overflow: auto;
   }
 }

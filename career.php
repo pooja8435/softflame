@@ -231,7 +231,7 @@
 
 <section class="sec-padding">
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6" data-animation="slideInRight">
             <h1 class="header-font font-family">Looking for a Job?</h1>
             <h3 class="text-font font-family">Explore Exciting Opportunities at SoftFlame Solutions</h3>
             <p class="init_text text-font font-family">
@@ -241,35 +241,35 @@
                 rewarding career journey in the world of technology, explore our current job openings.
             </p>
         </div>
-        <div class="col-md-6">
-            <img src="images/job-illus.jpg" height=" 400">
+        <div class="col-md-6" data-animation="slideInLeft">
+            <img src="images/job-illus.jpg" class="job-illus" height=" 400">
         </div>
     </div>
 
 </section>
 <div class="benefitscontainer">
-    <h1 class="header-font font-family">Why SoftFlame Solutions ?</h1>
+    <h1 class="header-font font-family" data-animation="slideInUp" data-animation-delay="100ms">Why SoftFlame Solutions ?</h1>
     <ul>
-        <li>
+        <li data-animation="zoomReverseIn" data-animation-delay="100ms">
             <img src="images/career/innovation.png" alt="competitive insurance">
             <h3 class="font-family font-23">Innovation at the Core</h3>
             <p>Join a team that thrives on pushing the boundaries of technology. At SoftFlame Solutions, innovation
                 is not just a goal; it's our culture.
             </p>
         </li>
-        <li>
+        <li data-animation="zoomReverseIn" data-animation-delay="300ms">
             <img src="images/career/organization.png" alt="paid time off">
             <h3 class="font-family font-23">Collaborative Environment</h3>
             <p>We believe in the power of collaboration. Working at SoftFlame Solutions means being part of a
                 supportive and diverse community that values teamwork.</p>
         </li>
-        <li>
+        <li data-animation="zoomReverseIn" data-animation-delay="500ms">
             <img src="images/career/grow.png" alt="retirement options">
             <h3 class="font-family font-23">Professional Growth</h3>
             <p>We invest in our team members' professional development. Take advantage of continuous learning
                 opportunities and career advancement programs.</p>
         </li>
-        <li>
+        <li data-animation="zoomReverseIn" data-animation-delay="700ms">
             <img src="images/career/subscription.png" alt="casual attire">
             <h3 class="font-family font-23"> Impactful Projects</h3>
             <p>Be part of projects that make a difference. At SoftFlame Solutions, we tackle challenges that have a
@@ -280,27 +280,27 @@
 <section class="sec-padding">
     <div class="jobs-list">
         <div class="row">
-            <h1 class="header-font text-center">Current Openings</h1>
+            <h1 class="header-font text-center" data-animation="slideInUp" data-animation-delay="100ms">Current Openings</h1>
             <div class="col-md-6">
-                <div class="card jobs-card" onclick="toggleVisibility('Menu1');">
+                <div class="card jobs-card" data-animation="zoomReverseIn" onclick="toggleVisibility('Menu1');">
                     <div class="div">
                         <p class="font-family init_text">Angular js</p>
                     </div>
                     <div class="div"><img height="50" src="images/services/info/angular.png"></div>
                 </div>
-                <div class="card jobs-card" onclick="toggleVisibility('Menu2');">
+                <div class="card jobs-card" data-animation="zoomReverseIn" onclick="toggleVisibility('Menu2');">
                     <div class="div">
                         <p class="font-family init_text">React js</p>
                     </div>
                     <div class="div"><img height="50" src="images/services/info/react-logo.png"></div>
                 </div>
-                <div class="card jobs-card" onclick="toggleVisibility('Menu3');">
+                <div class="card jobs-card" data-animation="zoomReverseIn" onclick="toggleVisibility('Menu3');">
                     <div class="div">
                         <p class="font-family init_text">Node js</p>
                     </div>
                     <div class="div"><img height="50" src="images/services/info/node-logo.png"></div>
                 </div>
-                <div class="card jobs-card" onclick="toggleVisibility('Menu4');">
+                <div class="card jobs-card" data-animation="zoomReverseIn" onclick="toggleVisibility('Menu4');">
                     <div class="div">
                         <p class="font-family init_text">Web / Graphic Designer</p>
                     </div>
@@ -308,21 +308,21 @@
 
                     </div>
                 </div>
-                <div class="card jobs-card" onclick="toggleVisibility('Menu5');">
+                <div class="card jobs-card" data-animation="zoomReverseIn" onclick="toggleVisibility('Menu5');">
                     <div class="div">
                         <p class="font-family init_text">IOS Developer</p>
                     </div>
                     <div class="div"><img height="50" src="images/services/info/apple.png">
                     </div>
                 </div>
-                <div class="card jobs-card" onclick="toggleVisibility('Menu6');">
+                <div class="card jobs-card" data-animation="zoomReverseIn" onclick="toggleVisibility('Menu6');">
                     <div class="div">
                         <p class="font-family init_text">Php Developer</p>
                     </div>
                     <div class="div"><img height="50" src="images/services/info/php.png">
                     </div>
                 </div>
-                <div class="card jobs-card" onclick="toggleVisibility('Menu7');">
+                <div class="card jobs-card" data-animation="zoomReverseIn" onclick="toggleVisibility('Menu7');">
                     <div class="div">
                         <p class="font-family init_text">Ionic Developer</p>
                     </div>
@@ -332,7 +332,7 @@
             </div>
 
 
-            <div class="col-md-6">
+            <div class="col-md-6" data-animation="slideInLeft"  data-animation-delay="300ms">
                 <div class="card description-card" id="Menu1">
                     <img class="des-img1" src="images/services/sub-nav/angularjs.jpg">
                     <p class="text-font text-justify" style="margin-top: 20px">
