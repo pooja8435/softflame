@@ -134,7 +134,7 @@
     }
 
     .container {
-        max-width: 1372px;
+        max-width: 1372px !important;
     }
 
     .sec-padding {
@@ -177,8 +177,12 @@
         font-size: 30px !important;
       }
       .services-section {
-    justify-content: center !important;
-}
+       justify-content: center !important;
+       margin: 20px;
+      }
+      header .item .cover .header-content {
+      padding: 36px !important;
+      }
     }
 
     .sticky-icon a:hover {
@@ -611,12 +615,6 @@ header .item .cover .header-content {
   overflow: hidden;
 }
 
-@media only screen and (max-width: 768px) {
-  header .item .cover .header-content {
-  padding: 9px;
-}
-
-}
 header .item .cover .header-content .line {
   content: "";
   display: inline-block;
@@ -1151,6 +1149,11 @@ a {
   header .item .cover .header-content h1{
     font-size:40px;
   }
+
+  .container {
+    width: unset !important;
+    max-width: unset !important;
+}
 
   .responsive-container-block.Container {
     flex-direction: column;

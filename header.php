@@ -546,7 +546,7 @@ nav input{
 
 <nav>
   <div class="wrapper">
-    <div class="logo"><a href="#"><img src="images/logo web.png" id="logo" class="mobileSizeLogo"
+    <div class="logo"><a href="index.php"><img src="images/logo web.png" id="logo" class="mobileSizeLogo"
                                 alt="Website Development Company Pune, Bangalore, Delhi" /></a></div>
     <input type="radio" name="slider" id="menu-btn">
     <input type="radio" name="slider" id="close-btn">
