@@ -112,6 +112,12 @@
         padding: 50px !important;
     }
 
+    @media only screen and (max-width: 768px) {
+      .sec-padding {
+        padding: 0px !important;
+    }
+    }
+
     .sticky-icon {
         z-index: 9999;
         position: fixed;
