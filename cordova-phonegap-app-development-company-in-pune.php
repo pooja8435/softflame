@@ -80,12 +80,14 @@
             box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
             border-right: 12px solid teal;
         }
-        .icard:hover{
+
+        .icard:hover {
             background-color: #e8e8ef;
         }
+
         .first-img {
             height: 318px !important;
-    margin-left: 175px; 
+            margin-left: 175px;
         }
 
         /* .text-justify {
@@ -110,14 +112,19 @@
 
 <section>
     <div class="header-inner two">
-    <div class="inner text-center col-md-6 padding-top">
-            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">Cordova/ PhoneGap Development Company</h1>
+        <div class="inner text-center col-md-6 padding-top">
+            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">Cordova/ PhoneGap
+                Development Company</h1>
             <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune, Bangalore,
                 Delhi</h2>
+            <button data-animation="slideInUp" data-animation-delay="800ms" type="button"
+                class="btn text-font book-appointment"> <a target="blank"
+                    href='https://calendly.com/projects-vikasn/30min?back=1&month=2023-12'>Book a call with our
+                    CEO</a></button>
         </div>
         <div class="overlay bg-opacity-7"></div>
-        <img src="images/services/sub-nav/cordova-banner.png" alt="Website Development Company in Pune, Bangalore, Delhi"
-            class="img-responsive sub-nav-img" />
+        <img src="images/services/sub-nav/cordova-banner.png"
+            alt="Website Development Company in Pune, Bangalore, Delhi" class="img-responsive sub-nav-img" />
     </div>
     </div>
 </section>
@@ -279,5 +286,5 @@
 
 
 <?php $pageTitle = "Cordova/PhonGap Development"; // Replace "Page Name" with the actual name of your page
-    include('contact-us-div.php'); ?>
+include('contact-us-div.php'); ?>
 <?php include 'footer.php'; ?>

@@ -184,7 +184,7 @@ Gym layout Styles
     padding: 0px;
     margin: 0px;
     float: left;
-    z-index: 0;
+    z-index: unset !important;
     overflow: hidden
 }
 
@@ -192,6 +192,27 @@ Gym layout Styles
     position: absolute;
     z-index: 1;
 }
+
+.book-appointment {
+    background-color: black;
+    border: 3px solid #a9dfff;
+    border-radius: 50px;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    position: relative;
+    top: 45px;
+    text-transform: capitalize;
+}
+
+.book-appointment a {
+    color: white;
+}
+
+.book-appointment:hover {
+    box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+    border: 3px solid #00d7c3;
+}
+
 
 .header-inner .inner {
     position: absolute;

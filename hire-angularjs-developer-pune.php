@@ -1663,7 +1663,7 @@ include 'header.php';?>
         <section class="ban_sec">
 
             <div class="ban_img">
-                <img src="img/career-3.avif" alt="banner" border="0">
+                <img src="img/career-3.avif" alt="banner">
                 <div class="ban_text">
                     <strong>
                         <span>Hire AngularJS Developers</span><br> in Pune
@@ -1671,6 +1671,9 @@ include 'header.php';?>
                     <p>YIt is simple and quick & spontaneous features and the competence to build new features are few
                         things which make AngularJS as the best choice for the web Development. </p>
                     <a href="contact.php">Lend a hand</a>
+                    <a target="blank"  
+                    href='https://calendly.com/projects-vikasn/30min?back=1&month=2023-12'>Book a call with our
+                    CEO</a>
                 </div>
             </div>
 

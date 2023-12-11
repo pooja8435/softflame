@@ -864,6 +864,11 @@ a {
   padding-left: 0px;
 }
 
+.explore-div{
+  display: flex;
+    gap: 20px;
+}
+
 .explore {
   font-size: 16px;
   line-height: 28px;
@@ -1574,9 +1579,12 @@ a {
       <p class="text-blk description">
       At SoftFlame Solutions, we are passionate about creating innovative software solutions that empower businesses to thrive in the digital age. With a deep commitment to excellence and a team of dedicated professionals.
       </p>
+      <div class="explore-div">
       <a href="services.php" class="explore">
         View Services
       </a>
+      <a class="explore" target="blank" href="https://calendly.com/projects-vikasn/30min?back=1&month=2023-12">Book Appointment</a>
+      </div>
     </div>
   </div>
 </div><br>

@@ -153,7 +153,7 @@
     </script>
     <style>
         .first-img {
-           height: 355px !important;
+            height: 355px !important;
             margin-left: 130px;
         }
 
@@ -170,11 +170,12 @@
             justify-content: center;
             box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
         }
+
         @media screen and (max-width:767px) {
-            .angular-card{
+            .angular-card {
                 z-index: 0;
             }
-            
+
         }
 
         .bg {
@@ -205,10 +206,10 @@
             animation: blob-bounce 5s infinite ease;
         }
 
-        .features-height{
+        .features-height {
             height: 400px;
-    margin-top: -40px;
-    margin-left: 100px;
+            margin-top: -40px;
+            margin-left: 100px;
         }
 
         @keyframes blob-bounce {
@@ -244,11 +245,16 @@
 
 <section>
     <div class="header-inner two">
-    <div class="inner text-center col-md-6 col-sm-12 padding-top">
-            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">AngularJs Development
+        <div class="inner text-center col-md-6 col-sm-12 padding-top">
+            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">AngularJs
+                Development
                 Company </h1>
             <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune, Bangalore,
                 Delhi</h2>
+            <button data-animation="slideInUp" data-animation-delay="800ms" type="button"
+                class="btn text-font book-appointment"> <a target="blank"
+                    href='https://calendly.com/projects-vikasn/30min?back=1&month=2023-12'>Book a call with our
+                    CEO</a></button>
         </div>
         <div class="overlay bg-opacity-7"></div>
         <img src="images/services/sub-nav/angularjs.jpg" alt="Website Development Company in Pune, Bangalore, Delhi"
@@ -312,11 +318,12 @@
                         </div>
                         <h3 class="text-font "> Single Page Application (SPA) Development</h3>
                         <p>
-                        Craft intuitive and responsive SPAs for seamless user interactions and enhanced user satisfaction.
+                            Craft intuitive and responsive SPAs for seamless user interactions and enhanced user
+                            satisfaction.
                         </p>
                     </div>
                 </div>
-                <div class="col-md-4 mobile-margin-30" >
+                <div class="col-md-4 mobile-margin-30">
                     <div class="angular-card" data-animation="flipInY">
                         <div class="bg">
                         </div>
@@ -337,7 +344,8 @@
                         </div>
                         <h3 class="text-font "> Custom Widget Development</h3>
                         <p>
-                        Tailored widget development to enhance the functionality and aesthetics of your Angular.js applications.
+                            Tailored widget development to enhance the functionality and aesthetics of your Angular.js
+                            applications.
                         </p>
                     </div>
                 </div>
@@ -349,9 +357,10 @@
                         </div>
                         <div class="blob">
                         </div>
-                        <h3 class="text-font ">  Angular Migration Services</h3>
+                        <h3 class="text-font "> Angular Migration Services</h3>
                         <p>
-                        Seamlessly upgrade your existing applications to the latest Angular version for enhanced performance and security.
+                            Seamlessly upgrade your existing applications to the latest Angular version for enhanced
+                            performance and security.
                         </p>
                     </div>
                 </div>
@@ -361,9 +370,10 @@
                         </div>
                         <div class="blob">
                         </div>
-                        <h3 class="text-font ">  Real-time Data Binding</h3>
+                        <h3 class="text-font "> Real-time Data Binding</h3>
                         <p>
-                        Leverage the power of two-way data binding in Angular.js for real-time updates and a smoother user experience.
+                            Leverage the power of two-way data binding in Angular.js for real-time updates and a
+                            smoother user experience.
                         </p>
                     </div>
                 </div>
@@ -373,9 +383,10 @@
                         </div>
                         <div class="blob">
                         </div>
-                        <h3 class="text-font ">  Angular Consulting</h3>
+                        <h3 class="text-font "> Angular Consulting</h3>
                         <p>
-                        Strategic guidance and consultation on Angular.js implementation, best practices, and optimization for your specific business needs.
+                            Strategic guidance and consultation on Angular.js implementation, best practices, and
+                            optimization for your specific business needs.
                         </p>
                     </div>
                 </div>
@@ -391,8 +402,8 @@
                 </div>
                 <div class="row margin-top mobile-margin-30">
                     <div class="col-md-6 col-sm-12">
-                        <img data-animation="zoomReverseIn" data-animation-delay="300ms" class="features-height display-none"
-                            src="images/services/info/angularJs-features.png">
+                        <img data-animation="zoomReverseIn" data-animation-delay="300ms"
+                            class="features-height display-none" src="images/services/info/angularJs-features.png">
                     </div>
                     <div class="col-md-6 col-sm-12" data-animation="slideInLeft" data-animation-delay="300ms">
                         <p class="init_text text-font">SoftFlame Solutions is an emerging AngularJS Development
@@ -422,5 +433,5 @@
     </section>
 </section>
 <?php $pageTitle = "AngularJs App Development"; // Replace "Page Name" with the actual name of your page
-    include('contact-us-div.php'); ?>
+include('contact-us-div.php'); ?>
 <?php include 'footer.php'; ?>

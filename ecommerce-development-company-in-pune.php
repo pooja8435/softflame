@@ -229,37 +229,42 @@
 </head>
 
 <body>
-<?php include 'header.php'; ?>
-        <!--end menu-->
-        <section>
-            <div class="header-inner two">
-                <div class="inner text-center col-md-6 padding-top">
-                    <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">Ecommerce Website Development Company</h1>
-                    <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune,
-                        Bangalore,
-                        Delhi</h2>
-                </div>
-                <div class="overlay bg-opacity-7"></div>
-                <img src="images/services/sub-nav/e-commerce-banner.jpg"
-                    alt="Website Development Company in Pune, Bangalore, Delhi" class="img-responsive sub-nav-img" />
+    <?php include 'header.php'; ?>
+    <!--end menu-->
+    <section>
+        <div class="header-inner two">
+            <div class="inner text-center col-md-6 padding-top">
+                <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">Ecommerce
+                    Website Development Company</h1>
+                <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune,
+                    Bangalore,
+                    Delhi</h2>
+                <button data-animation="slideInUp" data-animation-delay="800ms" type="button"
+                    class="btn text-font book-appointment"> <a target="blank"
+                        href='https://calendly.com/projects-vikasn/30min?back=1&month=2023-12'>Book a call with our
+                        CEO</a></button>
             </div>
+            <div class="overlay bg-opacity-7"></div>
+            <img src="images/services/sub-nav/e-commerce-banner.jpg"
+                alt="Website Development Company in Pune, Bangalore, Delhi" class="img-responsive sub-nav-img" />
+        </div>
     </section>
     <!-- end header inner -->
 
 
 
     <section>
-    <div class="pagenation-holder">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <div class="pagenation_links text-font font-16"><a href="index.php">Home</a><i> / </i><a
-                            href="services.php">Services</a><i> / </i>Ecommerce App Development</div>
+        <div class="pagenation-holder">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="pagenation_links text-font font-16"><a href="index.php">Home</a><i> / </i><a
+                                href="services.php">Services</a><i> / </i>Ecommerce App Development</div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
     <section class="sec-padding">
         <div class="container">

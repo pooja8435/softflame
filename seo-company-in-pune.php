@@ -206,7 +206,7 @@
 
         .content-img {
             height: 240px;
-    margin-top: 15px;
+            margin-top: 15px;
         }
 
         .emails-img {
@@ -215,7 +215,7 @@
 
         .payment-img {
             height: 316px;
-    float: right;
+            float: right;
         }
 
         .support-img {
@@ -237,6 +237,10 @@
             <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune,
                 Bangalore,
                 Delhi</h2>
+            <button data-animation="slideInUp" data-animation-delay="800ms" type="button"
+                class="btn text-font book-appointment"> <a target="blank"
+                    href='https://calendly.com/projects-vikasn/30min?back=1&month=2023-12'>Book a call with our
+                    CEO</a></button>
         </div>
         <div class="overlay bg-opacity-7"></div>
         <img src="images/services/sub-nav/seo.jpg" alt="Website Development Company in Pune, Bangalore, Delhi"

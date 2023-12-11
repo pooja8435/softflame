@@ -160,33 +160,33 @@
     </script>
     <script>
         new WOW({
-  offset: 200
-}).init();
+            offset: 200
+        }).init();
 
-var animateCss = [
-  "bounce", "flash", "pulse", "rubberBand", "shake", "swing", "tada", "wobble", "jello",
-  "bounceIn", "bounceInDown", "bounceInLeft", "bounceInRight", "bounceInUp",
-  "fadeIn", "fadeInDown", "fadeInDownBig", "fadeInLeft", "fadeInLeftBig", "fadeInRight", "fadeInRightBig", "fadeInUp", "fadeInUpBig", "flip", "flipInX", "flipInY",
-  "lightSpeedIn", "rotateIn", "rotateInDownLeft", "rotateInDownRight", "rotateInUpLeft", "rotateInUpRight",
-  "slideInUp", "slideInDown", "slideInLeft", "slideInRight",
-  "zoomIn", "zoomInDown", "zoomInLeft", "zoomInRight", "zoomInUp",
-  "rollIn"
-];
+        var animateCss = [
+            "bounce", "flash", "pulse", "rubberBand", "shake", "swing", "tada", "wobble", "jello",
+            "bounceIn", "bounceInDown", "bounceInLeft", "bounceInRight", "bounceInUp",
+            "fadeIn", "fadeInDown", "fadeInDownBig", "fadeInLeft", "fadeInLeftBig", "fadeInRight", "fadeInRightBig", "fadeInUp", "fadeInUpBig", "flip", "flipInX", "flipInY",
+            "lightSpeedIn", "rotateIn", "rotateInDownLeft", "rotateInDownRight", "rotateInUpLeft", "rotateInUpRight",
+            "slideInUp", "slideInDown", "slideInLeft", "slideInRight",
+            "zoomIn", "zoomInDown", "zoomInLeft", "zoomInRight", "zoomInUp",
+            "rollIn"
+        ];
 
-var placeholder = $(".placeholder");
-var colorCounter = 0;
+        var placeholder = $(".placeholder");
+        var colorCounter = 0;
 
-for (i = 0; i < animateCss.length; i++) {
-  var word = "<div class=\"word\"></div>";
-  $(word).appendTo(placeholder);
+        for (i = 0; i < animateCss.length; i++) {
+            var word = "<div class=\"word\"></div>";
+            $(word).appendTo(placeholder);
 
-  for (j = 0; j < animateCss[i].length; j++) {
-    var letterDiv = "<div data-wow-delay=\"" + (j * 0.1).toFixed(2) + "s\"  class=\"letter wow " + animateCss[i] + " color" + colorCounter % 7 + "\">" + animateCss[i][j] + "</div>";
-    $(letterDiv).appendTo($(".word").last());
-    colorCounter++;
-  }
+            for (j = 0; j < animateCss[i].length; j++) {
+                var letterDiv = "<div data-wow-delay=\"" + (j * 0.1).toFixed(2) + "s\"  class=\"letter wow " + animateCss[i] + " color" + colorCounter % 7 + "\">" + animateCss[i][j] + "</div>";
+                $(letterDiv).appendTo($(".word").last());
+                colorCounter++;
+            }
 
-}
+        }
     </script>
     <style>
         .first-img {
@@ -222,7 +222,8 @@ for (i = 0; i < animateCss.length; i++) {
         .mean-cards-img {
             height: 140px;
         }
-        .second-img{
+
+        .second-img {
             height: 370px !important;
         }
     </style>
@@ -236,12 +237,17 @@ for (i = 0; i < animateCss.length; i++) {
 <section>
     <div class="header-inner two">
         <div class="inner text-center col-md-6 padding-top">
-            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">MEAN Stack Development Company </h1>
-            <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family"> Pune, Bangalore, Delhi</h2>
-            <!-- <button type="button" class="btn text-font sub-nav-btn" onclick="window.location.href='contact.php'">Contact Us</button> -->
+            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">MEAN Stack
+                Development Company </h1>
+            <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family"> Pune, Bangalore,
+                Delhi</h2>
+            <button data-animation="slideInUp" data-animation-delay="800ms" type="button"
+                class="btn text-font book-appointment"> <a target="blank"
+                    href='https://calendly.com/projects-vikasn/30min?back=1&month=2023-12'>Book a call with our
+                    CEO</a></button>
         </div>
         <div class="overlay bg-opacity-7"></div>
-        <img  src="images/services/sub-nav/mean-stack.jpg" alt="Website Development Company in Pune, Bangalore, Delhi"
+        <img src="images/services/sub-nav/mean-stack.jpg" alt="Website Development Company in Pune, Bangalore, Delhi"
             class="img-responsive sub-nav-img" />
     </div>
 </section>
@@ -282,14 +288,15 @@ for (i = 0; i < animateCss.length; i++) {
                 </p>
             </div>
             <div class="col-md-6">
-                <img class="first-img margin-top" data-animation="zoomIn" data-animation-delay="300ms" src="images/services/info/meanstack.png">
+                <img class="first-img margin-top" data-animation="zoomIn" data-animation-delay="300ms"
+                    src="images/services/info/meanstack.png">
             </div>
         </div>
     </div>
 
     <div class="container mean-container">
 
-        <div class="card mean-cards">
+        <div class="card mean-cards" data-animation="slideInUp">
             <div class="card-body">
                 <h3 class="text-font">MongoDB</h3>
                 <img class="mean-cards-img" src="images/services/info/mongo.png">
@@ -298,7 +305,7 @@ for (i = 0; i < animateCss.length; i++) {
                     security.</p>
             </div>
         </div>
-        <div class="card mean-cards">
+        <div class="card mean-cards" data-animation="slideInUp" data-animation-delay="200ms">
             <div class="card-body">
                 <h3 class="text-font">Express.js</h3>
                 <img class="mean-cards-img" src="images/services/info/express.png">
@@ -307,7 +314,7 @@ for (i = 0; i < animateCss.length; i++) {
                     maintainability.</p>
             </div>
         </div>
-        <div class="card mean-cards">
+        <div class="card mean-cards" data-animation="slideInUp" data-animation-delay="400ms">
             <div class="card-body">
                 <h3 class="text-font">Angular</h3>
                 <img class="mean-cards-img" src="images/services/info/angular.png">
@@ -315,7 +322,7 @@ for (i = 0; i < animateCss.length; i++) {
                     developers create responsive and dynamic web applications that captivate your users.</p>
             </div>
         </div>
-        <div class="card mean-cards">
+        <div class="card mean-cards" data-animation="slideInUp" data-animation-delay="600ms">
             <div class="card-body">
                 <h3 class="text-font">Node.js</h3>
                 <img class="mean-cards-img" src="images/services/info/node.png">
@@ -327,7 +334,7 @@ for (i = 0; i < animateCss.length; i++) {
 
     <div class="container">
         <div class="row">
-        <div class="col-md-6">
+            <div class="col-md-6">
                 <img data-animation="flipInY" class="second-img display-none" src="images/services/info/mean-img1.png">
             </div>
             <div class="col-md-6" data-animation="zoomIn" data-animation-delay="300ms">
@@ -345,12 +352,12 @@ for (i = 0; i < animateCss.length; i++) {
                     so finding answers to questions or hiring help is going to be much easier using these technologies.
                 </p>
             </div>
-            
+
         </div>
     </div>
 
 </section>
 
 <?php $pageTitle = "Mean Stack Development"; // Replace "Page Name" with the actual name of your page
-    include('contact-us-div.php'); ?>
+include('contact-us-div.php'); ?>
 <?php include 'footer.php'; ?>

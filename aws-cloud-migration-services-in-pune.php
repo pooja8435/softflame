@@ -316,6 +316,10 @@
             <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune,
                 Bangalore,
                 Delhi</h2>
+            <button data-animation="slideInUp" data-animation-delay="800ms" type="button"
+                class="btn text-font book-appointment"> <a target="blank"
+                    href='https://calendly.com/projects-vikasn/30min?back=1&month=2023-12'>Book a call with our
+                    CEO</a></button>
         </div>
         <div class="overlay bg-opacity-7"></div>
         <img src="images/services/sub-nav/aws-cloud2.png" alt="Website Development Company in Pune, Bangalore, Delhi"
@@ -344,7 +348,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12" data-animation="zoomIn">
-                <h1 class="header-font text-center center-line" >AWS Cloud Migration Services</h1>
+                <h1 class="header-font text-center center-line">AWS Cloud Migration Services</h1>
                 <p class="init_text text-font text-center">At Softflame Solutions, we understand the pivotal role that
                     cloud computing plays in modern software development. Our AWS Cloud Migration services empower your
                     business to transition seamlessly to the cloud, ensuring enhanced scalability, security, and
@@ -473,13 +477,14 @@
             <div class="col-md-6 col-sm-12">
                 <div class="card" data-animation="zoomIn">
                     <div class="card-body sqr-card">
-                        <div class="card-display" >
+                        <div class="card-display">
                             <div class="div">
                                 <img class="sqr-img" src="images/services/icons/future.png">
                             </div>
                             <div class="text-div">
                                 <h3 class="font-family" style="color: #f3a30b;">Prepare for Future Needs</h3>
-                                <p class="font-family">Cloud services provide scalability and flexibility, allowing businesses to easily
+                                <p class="font-family">Cloud services provide scalability and flexibility, allowing
+                                    businesses to easily
                                     adapt to changing requirements and future growth. </p>
                             </div>
                         </div>
@@ -495,7 +500,8 @@
                             </div>
                             <div class="text-div">
                                 <h3 class="font-family" style="color: #00009f;">Lower Infrastructure Costs</h3>
-                                <p class="font-family">Cloud migration eliminates the need for substantial upfront investments in hardware,
+                                <p class="font-family">Cloud migration eliminates the need for substantial upfront
+                                    investments in hardware,
                                     data centers, and maintenance. </p>
                             </div>
                         </div>
@@ -513,11 +519,12 @@
                     <div class="card-body sqr-card sqr-card">
                         <div class="card-display">
                             <div class="div">
-                                <img class="sqr-img"  src="images/services/icons/business-increase.png">
+                                <img class="sqr-img" src="images/services/icons/business-increase.png">
                             </div>
                             <div class="text-div">
                                 <h3 class="font-family" style="color: #00009f;">Increase Business Agility</h3>
-                                <p class="font-family">Cloud computing enhances business agility by providing rapid access to resources,
+                                <p class="font-family">Cloud computing enhances business agility by providing rapid
+                                    access to resources,
                                     supporting faster development cycles, and enabling remote collaboration.</p>
                             </div>
                         </div>
@@ -533,7 +540,8 @@
                             </div>
                             <div class="text-div">
                                 <h3 class="font-family" style="color: #f3a30b;">Disaster Recovery</h3>
-                                <p class="font-family">Cloud providers offer robust disaster recovery solutions, including automated
+                                <p class="font-family">Cloud providers offer robust disaster recovery solutions,
+                                    including automated
                                     backups, geographic redundancy, and failover mechanisms. </p>
                             </div>
                         </div>

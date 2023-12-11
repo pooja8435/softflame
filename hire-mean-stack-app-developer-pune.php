@@ -860,6 +860,9 @@ include 'header.php';?>
         </strong>
         <p>To build a Customized Robust, Scalable and Flexible Solutions. </p>
         <a href="contact.php">Lend a hand</a>
+        <a target="blank"  
+                    href='https://calendly.com/projects-vikasn/30min?back=1&month=2023-12'>Book a call with our
+                    CEO</a>
     </div>
 </div>
 

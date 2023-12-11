@@ -122,10 +122,15 @@
 
 <section>
     <div class="header-inner two">
-    <div class="inner text-center col-md-6 padding-top">
-            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">Meteor Js Development Company</h1>
+        <div class="inner text-center col-md-6 padding-top">
+            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">Meteor Js
+                Development Company</h1>
             <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune, Bangalore,
                 Delhi</h2>
+            <button data-animation="slideInUp" data-animation-delay="800ms" type="button"
+                class="btn text-font book-appointment"> <a target="blank"
+                    href='https://calendly.com/projects-vikasn/30min?back=1&month=2023-12'>Book a call with our
+                    CEO</a></button>
         </div>
         <div class="overlay bg-opacity-7"></div>
         <img src="images/services/sub-nav/meteorjs.png" alt="Website Development Company in Pune, Bangalore, Delhi"
@@ -234,7 +239,9 @@
 
                         <div class="card-padding">
                             <h3 class="text-font">Data Security and Compliance:</h3>
-                            <p class="init_text text-font">Prioritize the security of your Meteor applications with our focus on implementing robust security measures and ensuring compliance with industry standards.</p>
+                            <p class="init_text text-font">Prioritize the security of your Meteor applications with our
+                                focus on implementing robust security measures and ensuring compliance with industry
+                                standards.</p>
                         </div>
                     </div>
                 </div>
@@ -250,8 +257,8 @@
             </div>
             <div class="row margin-top">
                 <div class="col-md-6">
-                    <img data-animation="zoomReverseIn" data-animation-delay="300ms" class="features-height display-none"
-                        src="images/services/info/meteorjs-framework.png">
+                    <img data-animation="zoomReverseIn" data-animation-delay="300ms"
+                        class="features-height display-none" src="images/services/info/meteorjs-framework.png">
                 </div>
                 <div class="col-md-6" data-animation="slideInLeft" data-animation-delay="300ms">
                     <p class="init_text text-font">MeteorJs is great for creating real-time Web Application. MeteorJs is
@@ -274,5 +281,5 @@
 </section>
 
 <?php $pageTitle = "MeteorJs App Development"; // Replace "Page Name" with the actual name of your page
-    include('contact-us-div.php'); ?>
+include('contact-us-div.php'); ?>
 <?php include 'footer.php'; ?>
