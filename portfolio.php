@@ -1337,6 +1337,20 @@ a.top-scroll:hover {
                 height:50vh;
             }
         }
+        #jumbo{
+            background:white;
+            /* margin-top:0px !important; */
+        }
+        #techimg img{
+            -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+        }
+        #techimg img:hover{
+            -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+        }
 </style>
 
 
@@ -1415,8 +1429,181 @@ a.top-scroll:hover {
                 </div>
             </div>
         </div>
+
+        
         <!-- Start Jumbotron -->
-        <div class="jumbotron">
+        <div class="jumbotron" id="portfolio">
+            <div class="narrow">
+                <div class="col-12 aos-animation" data-animation="fadeInUp">
+                    <h3 class="about heading">Our Clients</h3>
+                    <!-- <div class="heading-underline"></div> -->
+                    <!-- <p class="about" style="text-align: center;">Development Technologies</p> -->
+                    <div class="heading-underline"></div>
+
+                </div>
+                <div class="tech aos-animation" data-animation="fadeInUp">
+                    <div class="row text-center">
+                        <div class="col-sm-6 col-md-3">
+                            <div class="skill">
+                                <span class="fa-layers fa-4x" id="techimg">
+                                    <!-- <i class="fas fa-clock"></i> -->
+                                    <img
+                                        src="img/Capgemini-Logo.jpg" class="client-image">
+                                </span>
+                                <!-- <h3><span class="counter">Angular</span></h3> -->
+                                <!-- <p>Class Minutes</p> -->
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="skill">
+                                <span class="fa-layers fa-4x" id="techimg">
+                                    <!-- <i class="fab fa-codepen"></i> -->
+                                    <img
+                                    src="img/Lexicon-Group.png" class="client-image">
+                                </span>
+                                <!-- <h3><span class="counter">React</span></h3> -->
+                                <!-- <p>Web Dev Files</p> -->
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="skill">
+                                <span class="fa-layers fa-4x" id="techimg">
+                                    <!-- <i class="fas fa-users" data-fa-transform="left-2"></i> -->
+                                    <img
+                                    src="img/clover-infotech.png" class="client-image">
+                                </span>
+                                <!-- <h3><span class="counter">Ionic</span></h3> -->
+                                <!-- <p>24/7 support</p> -->
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="skill">
+                                <span class="fa-layers fa-4x" id="techimg">
+                                    <!-- <i class="fas fa-cloud-download-alt" data-fa-transform="left-1"></i> -->
+                                    <img
+                                    src="img/clover-realty.png" class="client-image">
+                                </span>
+                                <!-- <h3><span class="counter">Firebase</span></h3> -->
+                                <!-- <p>Resources</p> -->
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="skill">
+                                <span class="fa-layers fa-4x" id="techimg">
+                                    <!-- <i class="fas fa-cloud-download-alt" data-fa-transform="left-1"></i> -->
+                                    <img
+                                    src="img/clover-solar.jpg" class="client-image">
+                                </span>
+                                <!-- <h3><span class="counter">Firebase</span></h3> -->
+                                <!-- <p>Resources</p> -->
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="skill">
+                                <span class="fa-layers fa-4x" id="techimg">
+                                    <!-- <i class="fas fa-cloud-download-alt" data-fa-transform="left-1"></i> -->
+                                    <img
+                                    src="img/total.png" class="client-image">
+                                </span>
+                                <!-- <h3><span class="counter">Firebase</span></h3> -->
+                                <!-- <p>Resources</p> -->
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="skill">
+                                <span class="fa-layers fa-4x" id="techimg">
+                                    <!-- <i class="fas fa-cloud-download-alt" data-fa-transform="left-1"></i> -->
+                                    <img
+                                    src="img/data.jpg" class="client-image">
+                                </span>
+                                <!-- <h3><span class="counter">Firebase</span></h3> -->
+                                <!-- <p>Resources</p> -->
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="skill">
+                                <span class="fa-layers fa-4x" id="techimg">
+                                    <!-- <i class="fas fa-cloud-download-alt" data-fa-transform="left-1"></i> -->
+                                    <img
+                                    src="img/shubham.png" class="client-image">
+                                </span>
+                                <!-- <h3><span class="counter">Firebase</span></h3> -->
+                                <!-- <p>Resources</p> -->
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="skill">
+                                <span class="fa-layers fa-4x" id="techimg">
+                                    <!-- <i class="fas fa-cloud-download-alt" data-fa-transform="left-1"></i> -->
+                                    <img
+                                    src="img/mapro.jpg" class="client-image">
+                                </span>
+                                <!-- <h3><span class="counter">Firebase</span></h3> -->
+                                <!-- <p>Resources</p> -->
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="skill">
+                                <span class="fa-layers fa-4x" id="techimg">
+                                    <!-- <i class="fas fa-cloud-download-alt" data-fa-transform="left-1"></i> -->
+                                    <img
+                                    src="img/oup.jpg" class="client-image">
+                                </span>
+                                <!-- <h3><span class="counter">Firebase</span></h3> -->
+                                <!-- <p>Resources</p> -->
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="skill">
+                                <span class="fa-layers fa-4x" id="techimg">
+                                    <!-- <i class="fas fa-cloud-download-alt" data-fa-transform="left-1"></i> -->
+                                    <img
+                                    src="img/tata-steel.webp" class="client-image">
+                                </span>
+                                <!-- <h3><span class="counter">Firebase</span></h3> -->
+                                <!-- <p>Resources</p> -->
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="skill">
+                                <span class="fa-layers fa-4x" id="techimg">
+                                    <!-- <i class="fas fa-cloud-download-alt" data-fa-transform="left-1"></i> -->
+                                    <img
+                                    src="img/pure.png" class="client-image">
+                                </span>
+                                <!-- <h3><span class="counter">Firebase</span></h3> -->
+                                <!-- <p>Resources</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="aos-animation" data-animation="fadeInUp">
+                    <div class="narrow text-center">
+                        <div class="col-12">
+                            <p class="lead">
+                                Want to learn more about our design and development skills?
+                            </p>
+                            <a href="#contact" class="btn btn-orange btn-sm">contact us</a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            
+                <!-- <div class="tech aos-animation" data-animation="fadeInUp">
+                    <div class="narrow text-center">
+                        <div class="col-12">
+                            <p class="lead">
+                                Want to learn more about our design and development skills?
+                            </p>
+                            <a href="contact.php" class="btn btn-orange btn-sm">contact us</a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    
+        <!-- Start Jumbotron -->
+        <div class="jumbotron" id="jumbo">
             <div class="narrow">
                 <div class="aos-animation" data-animation="fadeInUp">
                     <h3 class="about heading">Industry</h3>
@@ -1688,7 +1875,7 @@ cloud consulting, development and migration services.
         </div>
     </div>
     <!-- Start Portfolio Section -->
-    <section id="projects">
+    <!-- <section id="projects">
         <div id="portfolio" class="offset">
             <div class="row padding">
                 <div class="col-12 aos-animation" data-animation="fadeInUp">
@@ -1697,7 +1884,7 @@ cloud consulting, development and migration services.
                     </div>
                 </div>
             </div>
-            <!--Start Of The Portfolio Grid -->
+            
             <div class="circless2 container-fluid">
                 <div class="row no-padding">
                     <div class="col-sm-12 col-md-6">
@@ -1728,13 +1915,12 @@ cloud consulting, development and migration services.
                             Get in contact with us to see more of our great portfolio design work in addition
                             to web development projects such as websites, apps and more!
                         </p>
-                        <!-- <a id="profile-link" target="_blank" class="btn btn-secondary btn-sm"
-                            href="https://github.com/Ceci007">profile link</a> -->
+                        
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Start Pricing Section -->
     <!-- <div id="pricing" class="offset">
        
@@ -1803,7 +1989,7 @@ cloud consulting, development and migration services.
     <!-- Start Skills Section -->
     <div id="skills" class="offset">
         <!-- Start Jumbotron -->
-        <div class="jumbotron">
+        <div class="jumbotron" id="jumbo">
             <div class="narrow">
                 <div class="col-12 aos-animation" data-animation="fadeInUp">
                     <h3 class="about heading">Our Expertise Technologies</h3>
@@ -2260,7 +2446,7 @@ cloud consulting, development and migration services.
         </div>
     </div>
     <!-- Start Clients Section -->
-    <div id="clients" class="offset">
+    <!-- <div id="clients" class="offset">
         <div class="container-fluid">
             <div class="row padding">
                 <div class="col-12 aos-animation" data-animation="fadeInUp">
@@ -2276,21 +2462,7 @@ cloud consulting, development and migration services.
                                     <img
                                         src="img/Capgemini-Logo.jpg" class="client-image">
                                 </div>
-                                <!-- <div class="col-md-8">
-                                    <blockquote>
-                                        <ul>
-                                            <li>
-                                                I see this theme support as more of a partner to my company than a
-                                                resource.
-                                                I can pick up the phone and talk to anyone at any time and the way that
-                                                they interact with us
-                                                as a business makes it really simple.
-                                            </li>
-                                        </ul>
-                                        <hr class="clients-hr">
-                                        <cite>&#8212; Eric, Small Business Owner</cite>
-                                    </blockquote>
-                                </div> -->
+                                
                             </div>
                             <div class="row clients">
                                 <div class="client-box">
@@ -2363,7 +2535,7 @@ cloud consulting, development and migration services.
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Start Contact Section -->
     <!-- <div id="contact" class="offset">
         <footer>
