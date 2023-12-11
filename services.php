@@ -71,8 +71,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="css/text-animation.css" type="text/css" />
-        <script>
+    <link rel="stylesheet" href="css/text-animation.css" type="text/css" />
+    <script>
         var Animation = function ({ offset } = { offset: 10 }) {
             var _elements;
 
@@ -178,10 +178,15 @@
 
 <section>
     <div class="header-inner two">
-    <div class="inner text-center col-md-6 padding-top">
+        <div class="inner text-center col-md-6 padding-top">
             <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">Services</h1>
-            <h3 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">We offer wide range of software services in pune for your business
+            <h3 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">We offer wide range
+                of software services in pune for your business
                 enhancement</h3>
+            <button data-animation="slideInUp" data-animation-delay="800ms" type="button"
+                class="btn text-font book-appointment"> <a target="blank"
+                    href='https://calendly.com/projects-vikasn/30min?back=1&month=2023-12'>Book a call with our
+                    CEO</a></button>
         </div>
         <div class="overlay bg-opacity-7"></div>
         <img src="images/services-banner.jpg" alt="Website Development Company in Pune, Bangalore, Delhi"
@@ -195,7 +200,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <div class="pagenation_links text-font font-16"><a href="index.php">Home</a><i> / </i> Services</div>
+                    <div class="pagenation_links text-font font-16"><a href="index.php">Home</a><i> / </i> Services
+                    </div>
                 </div>
             </div>
         </div>
@@ -210,7 +216,7 @@
             <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
             <figcaption>
                 <div class="show-cont">
-                   <img class="icon-img" src="images/services/icons/coding.png">
+                    <img class="icon-img" src="images/services/icons/coding.png">
                     <h4 class="card-main-title header-font">Website Development</h4>
                 </div>
                 <p class="card-content">We offer a professional Web Development & Design Services Company in Pune, India
@@ -224,7 +230,7 @@
             <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
             <figcaption>
                 <div class="show-cont">
-                <img class="icon-img" src="images/services/icons/layers.png">
+                    <img class="icon-img" src="images/services/icons/layers.png">
                     <h4 class="card-main-title header-font">mean stack app</h4>
                 </div>
                 <p class="card-content">MEAN is a collection of JavaScript-based technologies used to develop web
@@ -238,7 +244,7 @@
             <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
             <figcaption>
                 <div class="show-cont">
-                <img class="icon-img" src="images/services/icons/nodejs.png">
+                    <img class="icon-img" src="images/services/icons/nodejs.png">
                     <h4 class="card-main-title header-font">node js</h4>
                 </div>
                 <p class="card-content">SoftFlame Solutions is emerging Node.js applications development company in Pune
@@ -252,7 +258,7 @@
             <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
             <figcaption>
                 <div class="show-cont">
-                <img class="icon-img" src="images/services/icons/angularjs.png">
+                    <img class="icon-img" src="images/services/icons/angularjs.png">
                     <h4 class="card-main-title header-font">angular js</h4>
                 </div>
                 <p class="card-content">We are offering reliable AngularJS consulting and development services for our
@@ -261,12 +267,12 @@
             </figcaption>
             <span class="after"></span>
         </figure>
-        <figure class="shape-box shape-box_half " data-animation="slideInUp" >
+        <figure class="shape-box shape-box_half " data-animation="slideInUp">
             <img src="images/services/ux.jpg" alt="">
             <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
             <figcaption>
                 <div class="show-cont">
-                <img class="icon-img" src="images/services/icons/ui.png">
+                    <img class="icon-img" src="images/services/icons/ui.png">
                     <h4 class="card-main-title header-font">ux design</h4>
                 </div>
                 <p class="card-content">We provide website design solutions to meet your requirements
@@ -280,7 +286,7 @@
             <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
             <figcaption>
                 <div class="show-cont">
-                <img class="icon-img" src="images/services/icons/shopping-online.png">
+                    <img class="icon-img" src="images/services/icons/shopping-online.png">
                     <h4 class="card-main-title header-font">ecommerce</h4>
                 </div>
                 <p class="card-content">At SFS, we create quality websites for companies from a wide range of industries
@@ -294,7 +300,7 @@
             <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
             <figcaption>
                 <div class="show-cont">
-                <img class="icon-img" src="images/services/icons/apple.png">
+                    <img class="icon-img" src="images/services/icons/apple.png">
                     <h4 class="card-main-title header-font">iphone/ipad app</h4>
                 </div>
                 <p class="card-content">Making an iPhone app is always the right way to begin your app business
@@ -308,7 +314,7 @@
             <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
             <figcaption>
                 <div class="show-cont">
-                <img class="icon-img" src="images/services/icons/android.png">
+                    <img class="icon-img" src="images/services/icons/android.png">
                     <h4 class="card-main-title header-font">android app</h4>
                 </div>
                 <p class="card-content">Hire SoftFlame Solutions for your Android app development service</p>
@@ -321,7 +327,7 @@
             <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
             <figcaption>
                 <div class="show-cont">
-                <img class="icon-img" src="images/services/icons/shopping-online.png">
+                    <img class="icon-img" src="images/services/icons/shopping-online.png">
                     <h4 class="card-main-title header-font">Cordova/ phonegap</h4>
                 </div>
                 <p class="card-content">We build cross-platform applications faster and with fewer efforts
@@ -335,7 +341,7 @@
             <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
             <figcaption>
                 <div class="show-cont">
-                <img class="icon-img" src="images/services/icons/shopping-online.png">
+                    <img class="icon-img" src="images/services/icons/shopping-online.png">
                     <h4 class="card-main-title header-font">Ionic framework app</h4>
                 </div>
                 <p class="card-content">Ionic framework app development to build hybrid mobile apps</p>
@@ -348,7 +354,7 @@
             <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
             <figcaption>
                 <div class="show-cont">
-                <img class="icon-img" src="images/services/icons/cross-platform.png">
+                    <img class="icon-img" src="images/services/icons/cross-platform.png">
                     <h4 class="card-main-title header-font">Cross platform app</h4>
                 </div>
                 <p class="card-content">At SoftFlame Solutions our Cross platform developers mainly uses Phonegap
@@ -363,7 +369,7 @@
             <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
             <figcaption>
                 <div class="show-cont">
-                <img class="icon-img" src="images/services/icons/comet.png">
+                    <img class="icon-img" src="images/services/icons/comet.png">
                     <h4 class="card-main-title header-font">meteor js</h4>
                 </div>
                 <p class="card-content">As Meteor uses single language, it speeds development time & is great for rapid
@@ -372,12 +378,12 @@
             </figcaption>
             <span class="after"></span>
         </figure>
-        <figure class="shape-box shape-box_half " data-animation="slideInUp" >
+        <figure class="shape-box shape-box_half " data-animation="slideInUp">
             <img src="images/services/cloud-consulting.jpg" alt="">
             <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
             <figcaption>
                 <div class="show-cont">
-                <img class="icon-img" src="images/services/icons/consulting.png">
+                    <img class="icon-img" src="images/services/icons/consulting.png">
                     <h4 class="card-main-title header-font">aws cloud consulting</h4>
                 </div>
                 <p class="card-content">AWS cloud offers cloud solutions to move faster , lower IT cost, and scale
@@ -392,7 +398,7 @@
             <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
             <figcaption>
                 <div class="show-cont">
-                <img class="icon-img" src="images/services/icons/migration.png">
+                    <img class="icon-img" src="images/services/icons/migration.png">
                     <h4 class="card-main-title header-font">aws cloud migration</h4>
                 </div>
                 <p class="card-content">We help you to migrate and deploy various applications</p>
@@ -405,7 +411,7 @@
             <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
             <figcaption>
                 <div class="show-cont">
-                <img class="icon-img" src="images/services/icons/cloud-computing.png">
+                    <img class="icon-img" src="images/services/icons/cloud-computing.png">
                     <h4 class="card-main-title header-font">aws managed services</h4>
                 </div>
                 <p class="card-content">Consulting to empower and achieve business objectives more faster with Managed
@@ -420,7 +426,7 @@
             <div class="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
             <figcaption>
                 <div class="show-cont">
-                <img class="icon-img" src="images/services/icons/atom.png">
+                    <img class="icon-img" src="images/services/icons/atom.png">
                     <h4 class="card-main-title header-font">Mern Stack</h4>
                 </div>
                 <p class="card-content">MERN is a collection of JavaScript-based technologies used to develop web

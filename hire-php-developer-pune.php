@@ -2183,6 +2183,9 @@ $menuactive = "about";
                 </strong>
                 <p>To Build a Dynamic Website That Is Easy To Manage. Looking for a simple but dynamic website for your business? PHP is your box to fit in.</p>
                 <a href="contact.php">Lend a hand</a>
+                <a target="blank"  
+                    href='https://calendly.com/projects-vikasn/30min?back=1&month=2023-12'>Book a call with our
+                    CEO</a>
             </div>
         </div>
 

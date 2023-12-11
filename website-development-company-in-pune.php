@@ -155,13 +155,13 @@
 
     <style>
         @media screen and (max-width:767px) {
-            
-        
-        .advertisers-service-sec .service-card{
-            z-index:0 !important;
+
+
+            .advertisers-service-sec .service-card {
+                z-index: 0 !important;
+            }
         }
-    }
-        </style>
+    </style>
 
 
 </head>
@@ -177,6 +177,10 @@
                 Company </h1>
             <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune, Bangalore,
                 Delhi</h2>
+            <button data-animation="slideInUp" data-animation-delay="800ms" type="button"
+                class="btn text-font book-appointment"> <a target="blank"
+                    href='https://calendly.com/projects-vikasn/30min?back=1&month=2023-12'>Book a call with our
+                    CEO</a></button>
         </div>
         <div class="overlay bg-opacity-7"></div>
         <img src="images/services/sub-nav/web.png" alt="Website Development Company in Pune, Bangalore, Delhi"
@@ -206,13 +210,16 @@
         <div class="row">
             <div class="col-md-6" data-animation="slideInRight">
                 <h1 class="header-font"> Web Development Services</h1>
-                <p class="init_text text-font clr-black">SoftFlame Solutions is perfect for making your website work for your
+                <p class="init_text text-font clr-black">SoftFlame Solutions is perfect for making your website work for
+                    your
                     business to grow in the market. We can create affordable website design for businesses that will
                     create a word of mouth about your services to future customers.</p>
-                <p class="init_text text-font clr-black">We provide better quality and web design with lowest rate as compared to
+                <p class="init_text text-font clr-black">We provide better quality and web design with lowest rate as
+                    compared to
                     market rate Website Development Company Pune & Website Designing Solutions in Pune, Bangalore, Delhi
                 </p>
-                <p class="init_text text-font clr-black">Our Website Development Company in Pune, Bangalore, Delhi will get you
+                <p class="init_text text-font clr-black">Our Website Development Company in Pune, Bangalore, Delhi will
+                    get you
                     the results that you always wanted. Our websites are Clean, Clear, Responsive and Customized to your
                     needs!
                 </p>
@@ -350,5 +357,5 @@
     </section>
 </section>
 <?php $pageTitle = "Web Development"; // Replace "Page Name" with the actual name of your page
-    include('contact-us-div.php'); ?>
+include('contact-us-div.php'); ?>
 <?php include 'footer.php'; ?>

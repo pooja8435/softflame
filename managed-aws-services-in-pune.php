@@ -196,8 +196,8 @@
 
         .store-img {
             float: right;
-    height: 240px !important;
-    margin-top: 30px;
+            height: 240px !important;
+            margin-top: 30px;
         }
 
         .customer-img {
@@ -459,10 +459,14 @@
             <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune,
                 Bangalore,
                 Delhi</h2>
+            <button data-animation="slideInUp" data-animation-delay="800ms" type="button"
+                class="btn text-font book-appointment"> <a target="blank"
+                    href='https://calendly.com/projects-vikasn/30min?back=1&month=2023-12'>Book a call with our
+                    CEO</a></button>
         </div>
         <div class="overlay bg-opacity-7"></div>
-        <img src="images/services/sub-nav/aws-managed-services.jpg" alt="Website Development Company in Pune, Bangalore, Delhi"
-            class="img-responsive sub-nav-img" />
+        <img src="images/services/sub-nav/aws-managed-services.jpg"
+            alt="Website Development Company in Pune, Bangalore, Delhi" class="img-responsive sub-nav-img" />
     </div>
 </section>
 <!-- end header inner -->
@@ -488,23 +492,27 @@
     <div class="container ">
         <div class="row">
             <div class="col-md-4">
-                <img data-animation="zoomIn" data-animation-delay="300ms" class="store-img display-none" src="images/aws5.png">
+                <img data-animation="zoomIn" data-animation-delay="300ms" class="store-img display-none"
+                    src="images/aws5.png">
             </div>
 
             <div class="col-md-8" data-animation="slideInLeft">
                 <h2 class="text-font">AWS Managed Services</h2>
-                <p class="init_text text-font text-16">Amazon Web Services (AWS) is a powerful Infrastructure as a Service
+                <p class="init_text text-font text-16">Amazon Web Services (AWS) is a powerful Infrastructure as a
+                    Service
                     platform, and for certain applications and workloads, itís an ideal complement to traditional
                     deployment models. But successfully and economically navigating the labyrinthine platform requires
                     both niche expertise and a lot of timeóresources many IT teams cannot spare.
 
                 </p>
-                <p class="init_text text-font text-16">AWS is as complex as it is powerful. Choosing the right instances and tools
+                <p class="init_text text-font text-16">AWS is as complex as it is powerful. Choosing the right instances
+                    and tools
                     for your applications, designing redundant and secure environments, managing the migration,
                     optimizing deployments ó it requires expertise and a whole lot of time.
 
                 </p>
-                <p class="init_text text-font text-16">Service First Support for AWS by SoftFlame Solutions eliminates the
+                <p class="init_text text-font text-16">Service First Support for AWS by SoftFlame Solutions eliminates
+                    the
                     complexities so you can focus on results.certified engineers and architects at softflame help you
                     secure, maintain and optimize public cloud environments so your team can devote its efforts to the
                     applications hosted there.
@@ -519,7 +527,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="header-font center-line" data-animation="zoomIn" data-animation-delay="300ms">Our AWS Managed Services Include</h1>
+                    <h1 class="header-font center-line" data-animation="zoomIn" data-animation-delay="300ms">Our AWS
+                        Managed Services Include</h1>
                 </div>
             </div>
             <div class="row our-offer-items less-carousel margin-top mobile-margin-30">
@@ -529,16 +538,18 @@
                         <i class="fa fa-edit"></i>
                         <h4 class="font-family"> AWS Cloud Architecture and Design</h4>
                         <p class="font-family">
-                        Tailored architecture design to align with your software development goals, ensuring optimal performance and scalability.
+                            Tailored architecture design to align with your software development goals, ensuring optimal
+                            performance and scalability.
                         </p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 equal-height"  data-animation="flipInY" data-animation-delay="300ms">
+                <div class="col-md-4 col-sm-6 equal-height" data-animation="flipInY" data-animation-delay="300ms">
                     <div class="item">
-                    <i class="fa fa-code"></i>
+                        <i class="fa fa-code"></i>
                         <h4 class="font-family">Infrastructure as Code (IaC) Implementation</h4>
                         <p class="font-family">
-                        Leverage the power of Infrastructure as Code to automate the provisioning and management of your AWS resources.
+                            Leverage the power of Infrastructure as Code to automate the provisioning and management of
+                            your AWS resources.
                         </p>
                     </div>
                 </div>
@@ -548,21 +559,22 @@
 
             <div class="row our-offer-items less-carousel">
                 <div class="col-md-2"></div>
-                <div class="col-md-4 col-sm-6 equal-height"  data-animation="flipInY" data-animation-delay="300ms">
+                <div class="col-md-4 col-sm-6 equal-height" data-animation="flipInY" data-animation-delay="300ms">
                     <div class="item">
                         <i class="fa fa-database"></i>
                         <h4 class="font-family"> Database Management</h4>
                         <p class="font-family">
-                        Efficiently manage and optimize your databases on AWS, ensuring high availability and data integrity.
+                            Efficiently manage and optimize your databases on AWS, ensuring high availability and data
+                            integrity.
                         </p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 equal-height"  data-animation="flipInY" data-animation-delay="300ms">
+                <div class="col-md-4 col-sm-6 equal-height" data-animation="flipInY" data-animation-delay="300ms">
                     <div class="item">
                         <i class="fa fa-money"></i>
                         <h4 class="font-family">Cost Optimization Strategies</h4>
                         <p class="font-family">
-                        Implement cost-effective solutions to maximize the value of your AWS investment.
+                            Implement cost-effective solutions to maximize the value of your AWS investment.
                         </p>
                     </div>
                 </div>
@@ -575,7 +587,8 @@
         <div class="row">
             <div class="col-md-8" data-animation="slideInRight">
                 <h2 class="text-font">Key points for Managed services for a cloud environment</h2>
-                <p class="init_text text-font text-16">Right from SysOps, security management, and backups to disaster recovery we
+                <p class="init_text text-font text-16">Right from SysOps, security management, and backups to disaster
+                    recovery we
                     provide end to end AWS Managed Services. We are AWS Managed Services Pune partners.
                 </p>
 

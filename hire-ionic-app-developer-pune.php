@@ -2054,6 +2054,9 @@ include 'header.php';?>
                 </strong>
                 <p>Ionic Framework is the free, open source mobile UI toolkit for developing high-quality cross-platform apps for native iOS, Android, and the web—all from a single codebase.</p>
                 <a href="contact.php">Lend a hand</a>
+                <a target="blank"  
+                    href='https://calendly.com/projects-vikasn/30min?back=1&month=2023-12'>Book a call with our
+                    CEO</a>
             </div>
         </div>
 

@@ -179,6 +179,10 @@
             <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune,
                 Bangalore,
                 Delhi</h2>
+            <button data-animation="slideInUp" data-animation-delay="800ms" type="button"
+                class="btn text-font book-appointment"> <a target="blank"
+                    href='https://calendly.com/projects-vikasn/30min?back=1&month=2023-12'>Book a call with our
+                    CEO</a></button>
         </div>
         <div class="overlay bg-opacity-7"></div>
         <img src="images/services/sub-nav/aws-cloud1.jpg" alt="Website Development Company in Pune, Bangalore, Delhi"
@@ -254,7 +258,8 @@
         <div class="row">
             <div class="col-md-8" data-animation="slideInRight">
                 <h2 class="text-font">Cloud Migration Services</h2>
-                <p class="init_text text-font text-16">Transition your applications and data to the cloud with minimal disruption.
+                <p class="init_text text-font text-16">Transition your applications and data to the cloud with minimal
+                    disruption.
                     Our experienced team will
                     manage the entire migration process, ensuring a smooth and secure transition to AWS.
 
@@ -285,7 +290,8 @@
             </div>
             <div class="col-md-8" data-animation="slideInLeft">
                 <h2 class="text-font">DevOps and Automation</h2>
-                <p class="init_text text-font text-16">Accelerate your software development lifecycle with DevOps practices and
+                <p class="init_text text-font text-16">Accelerate your software development lifecycle with DevOps
+                    practices and
                     automation. Our consultants will help you implement CI/CD pipelines, automate manual processes, and
                     improve collaboration between development and operations teams.
                 </p>
@@ -309,7 +315,8 @@
         <div class="row">
             <div class="col-md-8" data-animation="slideInRight">
                 <h2 class="text-font">Security and Compliance</h2>
-                <p class="init_text text-font text-16">Ensure the security and compliance of your applications and data in the AWS
+                <p class="init_text text-font text-16">Ensure the security and compliance of your applications and data
+                    in the AWS
                     cloud. Our consultants will assess your current security posture, implement best practices, and
                     ensure adherence to industry regulations.
 
@@ -340,7 +347,8 @@
             </div>
             <div class="col-md-8" data-animation="slideInLeft">
                 <h2 class="text-font">Cloud Cost Optimization</h2>
-                <p class="init_text text-font text-16">Maximize the value of your AWS investment with strategic cost management.
+                <p class="init_text text-font text-16">Maximize the value of your AWS investment with strategic cost
+                    management.
                     Our consultants will analyze your cloud usage, identify cost-saving opportunities, and implement
                     strategies to optimize your AWS spending.
 

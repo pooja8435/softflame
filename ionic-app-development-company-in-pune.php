@@ -92,10 +92,11 @@
         .card-padding {
             padding: 20px
         }
+
         .first-img {
-    height: 340px !important;
-    float: right;
-}
+            height: 340px !important;
+            float: right;
+        }
     </style>
 
 
@@ -107,10 +108,15 @@
 
 <section>
     <div class="header-inner two">
-    <div class="inner text-center col-md-6 padding-top">
-            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">Ionic App Development Company</h1>
+        <div class="inner text-center col-md-6 padding-top">
+            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">Ionic App
+                Development Company</h1>
             <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune, Bangalore,
                 Delhi</h2>
+            <button data-animation="slideInUp" data-animation-delay="800ms" type="button"
+                class="btn text-font book-appointment"> <a target="blank"
+                    href='https://calendly.com/projects-vikasn/30min?back=1&month=2023-12'>Book a call with our
+                    CEO</a></button>
         </div>
         <div class="overlay bg-opacity-7"></div>
         <img src="images/services/sub-nav/ionic-banner.png" alt="Website Development Company in Pune, Bangalore, Delhi"
@@ -173,7 +179,8 @@
                         </svg>
                         <div class="card-padding">
                             <h3 class="text-font">Cross-Platform App Development</h3>
-                            <p class="init_text text-font">Leverage the efficiency of Ionic to build cross-platform applications with a single
+                            <p class="init_text text-font">Leverage the efficiency of Ionic to build cross-platform
+                                applications with a single
                                 codebase.
                                 Reach a broader audience by deploying your app on both iOS and Android platforms
                                 simultaneously, saving time and development costs.</p>
@@ -189,7 +196,8 @@
                         </svg>
                         <div class="card-padding">
                             <h3 class="text-font"> Native-like Performance</h3>
-                            <p class="init_text text-font">With Ionic, we deliver applications that provide a native-like experience on both iOS and
+                            <p class="init_text text-font">With Ionic, we deliver applications that provide a
+                                native-like experience on both iOS and
                                 Android devices. Benefit from fast load times, smooth animations, and responsive
                                 interfaces for an optimal user experience.</p>
                         </div>
@@ -204,14 +212,15 @@
                         </svg>
                         <div class="card-padding">
                             <h3 class="text-font">UI/UX Design</h3>
-                            <p class="init_text text-font">Create intuitive and visually appealing user interfaces that enhance the overall user
+                            <p class="init_text text-font">Create intuitive and visually appealing user interfaces that
+                                enhance the overall user
                                 experience. Our design team works closely with clients to ensure that the Ionic apps we
                                 develop not only meet functional requirements but also delight users with a sleek and
                                 user-friendly design.</p>
                         </div>
                     </div>
                 </div>
-               
+
             </div>
             <div class="row">
                 <div class="col-md-4">
@@ -223,7 +232,8 @@
                         </svg>
                         <div class="card-padding">
                             <h3 class="text-font">Integration with Backend Services</h3>
-                            <p class="init_text text-font">Ensure seamless connectivity and functionality by integrating your Ionic app with backend
+                            <p class="init_text text-font">Ensure seamless connectivity and functionality by integrating
+                                your Ionic app with backend
                                 services. We specialize in connecting Ionic applications with various backend
                                 technologies, enabling real-time data synchronization and robust functionality.</p>
                         </div>
@@ -238,7 +248,8 @@
                         </svg>
                         <div class="card-padding">
                             <h3 class="text-font">Maintenance and Support</h3>
-                            <p class="init_text text-font">Our commitment doesn’t end with the delivery of the app. We provide ongoing maintenance
+                            <p class="init_text text-font">Our commitment doesn’t end with the delivery of the app. We
+                                provide ongoing maintenance
                                 and support services to ensure your Ionic application stays up-to-date, secure, and
                                 compatible with the latest platform updates.</p>
                         </div>
@@ -253,7 +264,8 @@
                         </svg>
                         <div class="card-padding">
                             <h3 class="text-font">Progressive Web App (PWA) Development</h3>
-                            <p class="init_text text-font">Extend your reach beyond native mobile platforms by opting for Progressive Web App
+                            <p class="init_text text-font">Extend your reach beyond native mobile platforms by opting
+                                for Progressive Web App
                                 development with Ionic. Enjoy the benefits of a web application that behaves like a
                                 native app, providing an engaging user experience across all devices and browsers.</p>
                         </div>
@@ -266,5 +278,5 @@
 
 
 <?php $pageTitle = "Ionic App Development"; // Replace "Page Name" with the actual name of your page
-    include('contact-us-div.php'); ?>
+include('contact-us-div.php'); ?>
 <?php include 'footer.php'; ?>
