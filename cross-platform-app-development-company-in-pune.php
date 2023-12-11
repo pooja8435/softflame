@@ -128,14 +128,19 @@
 
 <section>
     <div class="header-inner two">
-    <div class="inner text-center col-md-6 padding-top">
-            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">Cross Platform App Development Company</h1>
+        <div class="inner text-center col-md-6 padding-top">
+            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">Cross Platform App
+                Development Company</h1>
             <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune, Bangalore,
                 Delhi</h2>
+            <button data-animation="slideInUp" data-animation-delay="800ms" type="button"
+                class="btn text-font book-appointment"> <a target="blank"
+                    href='https://calendly.com/projects-vikasn/30min?back=1&month=2023-12'>Book a call with our
+                    CEO</a></button>
         </div>
         <div class="overlay bg-opacity-7"></div>
-        <img src="images/services/sub-nav/cross-platform.png" alt="Website Development Company in Pune, Bangalore, Delhi"
-            class="img-responsive sub-nav-img" />
+        <img src="images/services/sub-nav/cross-platform.png"
+            alt="Website Development Company in Pune, Bangalore, Delhi" class="img-responsive sub-nav-img" />
     </div>
     </div>
 </section>
@@ -287,8 +292,8 @@
             </div>
             <div class="row margin-top">
                 <div class="col-md-6">
-                    <img data-animation="zoomReverseIn" data-animation-delay="300ms" class="features-height display-none"
-                        src="images/services/info/cross-plat.jpg">
+                    <img data-animation="zoomReverseIn" data-animation-delay="300ms"
+                        class="features-height display-none" src="images/services/info/cross-plat.jpg">
                 </div>
                 <div class="col-md-6" data-animation="slideInLeft" data-animation-delay="300ms">
                     <p class="init_text text-font">Multiple mobile platforms impel to build & maintain mobile apps for
@@ -308,5 +313,5 @@
 </section>
 
 <?php $pageTitle = "Cross Platform App Development"; // Replace "Page Name" with the actual name of your page
-    include('contact-us-div.php'); ?>
+include('contact-us-div.php'); ?>
 <?php include 'footer.php'; ?>

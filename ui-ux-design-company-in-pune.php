@@ -182,16 +182,16 @@
             margin-top: -75px;
         }
 
-        @media screen and (max-width: 970px){
-::-webkit-scrollbar {
-    width:0px !important;
-    height:0px !important;
-}
+        @media screen and (max-width: 970px) {
+            ::-webkit-scrollbar {
+                width: 0px !important;
+                height: 0px !important;
+            }
 
-::-webkit-scrollbar-thumb {
-    background:none !important;
-}
-}
+            ::-webkit-scrollbar-thumb {
+                background: none !important;
+            }
+        }
 
 
         .face {
@@ -228,16 +228,21 @@
 <section>
     <div class="header-inner two">
         <div class="inner text-center">
-        <div class="inner text-center col-md-6 padding-top">
-            <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">UI/ UX Design Services Company</h1>
-            <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune, Bangalore,
-                Delhi</h2>
+            <div class="inner text-center col-md-6 padding-top">
+                <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">UI/ UX Design
+                    Services Company</h1>
+                <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune, Bangalore,
+                    Delhi</h2>
+                <button data-animation="slideInUp" data-animation-delay="800ms" type="button"
+                    class="btn text-font book-appointment"> <a target="blank"
+                        href='https://calendly.com/projects-vikasn/30min?back=1&month=2023-12'>Book a call with our
+                        CEO</a></button>
+            </div>
+            <div class="overlay bg-opacity-7"></div>
+            <img src="images/services/sub-nav/ui-ux-banner.jpg"
+                alt="Website Development Company in Pune, Bangalore, Delhi" class="img-responsive sub-nav-img" />
         </div>
-        <div class="overlay bg-opacity-7"></div>
-        <img src="images/services/sub-nav/ui-ux-banner.jpg" alt="Website Development Company in Pune, Bangalore, Delhi"
-            class="img-responsive sub-nav-img" />
     </div>
-        </div>
 </section>
 <!-- end header inner -->
 
@@ -262,14 +267,14 @@
         <div class="row">
             <div class="col-md-6" data-animation="slideInRight" data-animation-delay="300ms">
                 <h1 class="header-font">UI/ UX Design Services </h1>
-                <p class="init_text text-font" >We, at SoftFlame Solutions specialized in handcrafting
+                <p class="init_text text-font">We, at SoftFlame Solutions specialized in handcrafting
                     beautiful UI / UX designs that meet our client’s vision and goals. For us, delivering exceptional UX
                     goes beyond being user-centered; it is mainly about being content-centric. Our team of UX
                     strategists, information architects, visual designers and content strategists look at the larger
                     constellation of touch points with audiences to craft innovative design experiences.With our
                     human-centered brand-centric approach and top-notch capabilities, consider of getting thoughtful
                     user experience and move from ease-of-use to ‘delight-to-use’.</p>
-                <p  class="init_text text-font">The objective of the User Interface (UI) and User
+                <p class="init_text text-font">The objective of the User Interface (UI) and User
                     Experience (UX) design and development are to deliver a thoughtful end user experience. Henceforth,
                     we take a user-centric design approach to every product we develop. Be it web or mobile apps.
                 </p>
@@ -406,11 +411,11 @@
             </div>
             <div class="col-md-6" data-animation="slideInLeft" data-animation-delay="300ms">
                 <h1 class="header-font">Build Creative UX/UI with us.</h1>
-                <p class="init_text text-font" >SOFTFLAME being the Best UI UX Design Company in Pune,
+                <p class="init_text text-font">SOFTFLAME being the Best UI UX Design Company in Pune,
                     Bangalore, Delhi adopts not only the structured process right from blueprints, wireframes,
                     prototypes to mockups, but also infuse life into designs. Focusing on the core needs of end users is
                     the central part of the entire process of developing an ideal user experience at Multidots.</p>
-                <p  class="init_text text-font">Simply put, our core strengths lie in the simplicity of
+                <p class="init_text text-font">Simply put, our core strengths lie in the simplicity of
                     our design, yet providing ultra-modern and exhilarating designs and experiences to our client’s
                     customers. Perfection in user flow and finesse in each design elements is what we attempt to achieve
                     with our skilled team of designers and developers.
@@ -422,5 +427,5 @@
 
 </section>
 <?php $pageTitle = "UI/UX Design"; // Replace "Page Name" with the actual name of your page
-    include('contact-us-div.php'); ?>
+include('contact-us-div.php'); ?>
 <?php include 'footer.php'; ?>

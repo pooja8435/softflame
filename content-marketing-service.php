@@ -224,7 +224,7 @@
             float: right;
         }
 
-        .seco-img{
+        .seco-img {
             height: 335px !important;
         }
 
@@ -375,6 +375,10 @@
             <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune,
                 Bangalore,
                 Delhi</h2>
+            <button data-animation="slideInUp" data-animation-delay="800ms" type="button"
+                class="btn text-font book-appointment"> <a target="blank"
+                    href='https://calendly.com/projects-vikasn/30min?back=1&month=2023-12'>Book a call with our
+                    CEO</a></button>
         </div>
         <div class="overlay bg-opacity-7"></div>
         <img src="images/services/sub-nav/conntent-marketing.jpg"
@@ -427,7 +431,7 @@
     <div class="container margin-top mobile-margin-30">
         <div class="row">
             <div class="col-md-4">
-                <div class="card list-card card1"  data-animation="flipInY">
+                <div class="card list-card card1" data-animation="flipInY">
                     <div class="card-body">
                         <ul class="olcards">
                             <li style="--cardColor:#fc374e">

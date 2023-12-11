@@ -212,7 +212,10 @@
                 Development Company </h1>
             <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family"> Pune, Bangalore,
                 Delhi</h2>
-            <!-- <button type="button" class="btn text-font sub-nav-btn" onclick="window.location.href='contact.php'">Contact Us</button> -->
+            <button data-animation="slideInUp" data-animation-delay="200ms" data-animation-delay="800ms" type="button"
+                class="btn text-font book-appointment"> <a target="blank"
+                    href='https://calendly.com/projects-vikasn/30min?back=1&month=2023-12'>Book a call with our
+                    CEO</a></button>
         </div>
         <div class="overlay bg-opacity-7"></div>
         <img src="images/services/sub-nav/mern-banner.jpg" alt="Website Development Company in Pune, Bangalore, Delhi"
@@ -264,7 +267,7 @@
 
     <div class="container MERN-container">
 
-        <div class="card MERN-cards">
+        <div class="card MERN-cards" data-animation="slideInUp" >
             <div class="card-body">
                 <h3 class="text-font">MongoDB</h3>
                 <img class="MERN-cards-img" src="images/services/info/mongo.png">
@@ -273,7 +276,7 @@
                     security.</p>
             </div>
         </div>
-        <div class="card MERN-cards">
+        <div class="card MERN-cards" data-animation="slideInUp" data-animation-delay="200ms">
             <div class="card-body">
                 <h3 class="text-font">Express.js</h3>
                 <img class="MERN-cards-img" src="images/services/info/express.png">
@@ -282,7 +285,7 @@
                     maintainability.</p>
             </div>
         </div>
-        <div class="card MERN-cards">
+        <div class="card MERN-cards" data-animation="slideInUp" data-animation-delay="400ms">
             <div class="card-body">
                 <h3 class="text-font">React</h3>
                 <img class="MERN-cards-img" src="images/services/info/react-logo.png">
@@ -291,7 +294,7 @@
                     reusability.</p>
             </div>
         </div>
-        <div class="card MERN-cards">
+        <div class="card MERN-cards" data-animation="slideInUp" data-animation-delay="600ms">
             <div class="card-body">
                 <h3 class="text-font">Node.js</h3>
                 <img class="MERN-cards-img" src="images/services/info/node.png">

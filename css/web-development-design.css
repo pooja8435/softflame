@@ -282,8 +282,18 @@
         padding: 26px 30px;
 
     }
+    .MERN-container {
+        flex-direction: column !important;
+        padding: 26px 30px;
+
+    }
     .mean-cards{
         margin-top: 14px;
+        text-align: center;
+    }
+    .MERN-cards{
+        margin-top: 14px;
+        text-align: center;
     }
     .first-img {
         height: 126px !important;
