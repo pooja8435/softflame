@@ -1342,14 +1342,14 @@ a.top-scroll:hover {
             /* margin-top:0px !important; */
         }
         #techimg img{
-            -webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
+            -webkit-transform: scale(1);
+	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
         }
         #techimg img:hover{
-            -webkit-filter: grayscale(0);
-	filter: grayscale(0);
+            -webkit-transform: scale(1.1);
+	transform: scale(1.1);
         }
 </style>
 
@@ -1424,7 +1424,7 @@ a.top-scroll:hover {
                         support the requirement of resources by our client for a specific
                         duration of their project.
                     </p>
-                    <a href="#contact" class="btn1 btn btn-secondary btn-sm">Request a Quote</a>
+                    <a href="contact.php" class="btn1 btn btn-secondary btn-sm">Request a Quote</a>
                     <a href="#portfolio" class="btn2 btn btn-orange btn-sm">See Our Portfolio</a>
                 </div>
             </div>
@@ -2432,7 +2432,7 @@ cloud consulting, development and migration services.
                         </div>
                     </div>
                 </div>
-                <div class="tech aos-animation" data-animation="fadeInUp">
+                <!-- <div class="tech aos-animation" data-animation="fadeInUp">
                     <div class="narrow text-center">
                         <div class="col-12">
                             <p class="lead">
@@ -2441,7 +2441,7 @@ cloud consulting, development and migration services.
                             <a href="contact.php" class="btn btn-orange btn-sm">contact us</a>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>

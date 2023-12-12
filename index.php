@@ -1457,6 +1457,8 @@ a {
     -ms-touch-action: pan-y;
         touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
+    padding-left:50px;
+    padding-right:50px;
 }
 
 .slick-list
@@ -1548,6 +1550,13 @@ a {
 }
 .slick-arrow.slick-hidden {
     display: none;
+}
+
+@media screen and (max-width:1100px) {
+  .slick-slider{
+    padding-left:0px;
+    padding-right:0px;
+  }
 }
 
 
@@ -1696,7 +1705,7 @@ a {
         <header>
             <div class="owl-carousel owl-theme">
                 <div class="item">
-                    <img src="https://cdn.pixabay.com/photo/2017/10/24/10/30/business-2884023_960_720.jpg" alt="images not found">
+                    <img src="img/homepagebanner.jpg" alt="images not found">
                     <div class="cover">
                         <div class="container">
                             <div class="header-content" style="font-family: 'Nunito', sans-serif;">
