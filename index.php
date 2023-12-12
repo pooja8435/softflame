@@ -86,6 +86,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"> -->
    
 
    
@@ -125,6 +130,29 @@
             }
         });
     });
+
+    $(document).ready(function(){
+    $('.customer-logos').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 4
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 3
+            }
+        }]
+    });
+});
     </script>
 
 <style>
@@ -1396,6 +1424,132 @@ a {
 }
 /* about us css ends */
 
+.client{
+  text-align:center;
+  padding: 20px;
+  font-family: 'Nunito', sans-serif;
+  color: #181d38;
+}
+.slider{
+  margin-bottom:10%;
+}
+/* Slider */
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
 
 
     </style>    
@@ -1902,6 +2056,26 @@ a {
         </div>
     </section>
 
+    <div class="container">
+  <h2 class="client">Our <span class="text-orange-2">Clients</span></h2>
+  <div class="title-line-4 align-center"></div>
+   <section class="customer-logos slider">
+      <div class="slide"><img src="img/Capgemini-Logo.jpg"></div>
+      <div class="slide"><img src="img/Lexicon-Group.png"></div>
+      <div class="slide"><img src="img/clover-infotech.png"></div>
+      <div class="slide"><img src="img/clover-realty.png"></div>
+      <div class="slide"><img src="img/clover-solar.jpg"></div>
+      <div class="slide"><img src="img/total.png"></div>
+      <div class="slide"><img src="img/data.jpg"></div>
+      <div class="slide"><img src="img/shubham.png"></div>
+      <div class="slide"><img src="img/mapro.jpg"></div>
+      <div class="slide"><img src="img/oup.jpg"></div>
+      <div class="slide"><img src="img/tata-steel.webp"></div>
+      <div class="slide"><img src="img/pure.png"></div>
+     
+   </section>
+</div>
+
     <!-- Modal Send us your requirement -->
     <!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog" role="document">
@@ -2017,6 +2191,18 @@ sr.reveal('.services-section', {
 
 sr.reveal('.our-work', {
     duration: 1000,
+    delay:500,
+    origin: 'bottom',
+    distance: '20px',
+    easing: 'ease-out',
+    reset: true,
+    // viewFactor: 0.5,
+    // delay: 500 // Add a delay to reveal the description after the image
+});
+
+sr.reveal('.client', {
+    duration: 1000,
+    delay:500,
     origin: 'bottom',
     distance: '20px',
     easing: 'ease-out',
