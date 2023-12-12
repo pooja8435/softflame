@@ -86,7 +86,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
         rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/text-animation.css" type="text/css" />
     <script>
         $(".navbar-nav").on('click', 'li', function () {
@@ -175,20 +177,21 @@
     </script>
 
     <style>
-    .text-center-mobile{
-        color:#181d38;
-        font-family: 'Nunito', sans-serif !important;
-    }
-    @media screen and (max-width: 970px){
-::-webkit-scrollbar {
-    width:0px !important;
-    height:0px !important;
-}
+        .text-center-mobile {
+            color: #181d38;
+            font-family: 'Nunito', sans-serif !important;
+        }
 
-::-webkit-scrollbar-thumb {
-    background:none !important;
-}
-}
+        @media screen and (max-width: 970px) {
+            ::-webkit-scrollbar {
+                width: 0px !important;
+                height: 0px !important;
+            }
+
+            ::-webkit-scrollbar-thumb {
+                background: none !important;
+            }
+        }
     </style>
 
 
@@ -207,7 +210,7 @@ include 'header.php'; ?>
             <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">About Us</h1>
             <h3 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">We are passionate
                 about creating innovative software solutions
-                </h3>
+            </h3>
         </div>
         <div class="overlay bg-opacity-7"></div>
         <img src="images/about-us-banner.jpg" alt="Website Development Company in Pune, Bangalore, Delhi"
@@ -240,7 +243,7 @@ include 'header.php'; ?>
             <div class="col-md-6">
                 <h2 class="text-center-mobile"><b>SoftFlame</b>
                 </h2>
-                <p class="text-justify text-font">At SoftFlame Solutions, we are passionate about creating innovative
+                <p class="init_text text-font">At SoftFlame Solutions, we are passionate about creating innovative
                     software
                     solutions that empower
                     businesses to thrive in the digital age. With a deep commitment to excellence and a team of
@@ -264,7 +267,8 @@ include 'header.php'; ?>
             <div class="col-md-6">
                 <h2 class="text-center-mobile"><b>Our Vision</b>
                 </h2>
-                <p class="text-font"> At Softflame Solutions, we envision a future where technology becomes a force for
+                <p class="init_text text-font"> At Softflame Solutions, we envision a future where technology becomes a
+                    force for
                     sustainability, social good, and global progress. We aspire to be at the forefront of this
                     transformation, leading the charge in creating software solutions that not only drive business
                     success but also have a positive impact on the world.<br><br>
@@ -319,7 +323,7 @@ include 'header.php'; ?>
         <div class="row reveal strategy-div">
             <div class="col-md-6">
                 <h2 class="text-center-mobile"><b>Working Strategy<b></h2>
-                <p class="text-font text-justify">At Softflame Solutions, our working strategy is built on a
+                <p class="text-font init_text text-justify">At Softflame Solutions, our working strategy is built on a
                     well-defined process
                     that ensures the successful delivery of software solutions. We follow a systematic approach that can
                     be summarized in the following key phases:</p>
@@ -366,157 +370,91 @@ include 'header.php'; ?>
         <div class="row text-center reveal margin-top">
             <div class="col-md-12">
                 <h2 class="text-center-mobile"><b>Work Culture</b></h2>
-                <p class="text-font">At Softflame Solutions, our work culture is the foundation of our success.</p>
+                <p class="text-font init_text" style="text-align: center !important;">At Softflame Solutions, our work
+                    culture is the foundation of our success.</p>
             </div>
         </div>
 
     </div>
-    <div class="row margins reveal margin-top">
-        <div class="wrap">
-            <div class="row">
-                <div class="col-md-8 col-12">
-                    <div class="card-new ">
-                        <div class="card-pic-wrap">
-                            <img class="new-img display-none" src="images/collab.png" alt="A leafy plant">
-                        </div>
-                        <div class="card-content-new">
-                            <h3 class="new-text header-font">Collaboration</h3>
-                            <p class="text-font">We believe that the best solutions are born out of collaboration. Our
-                                team
-                                works
-                                closely
-                                with each other and with our clients to bring ideas to life.</p>
-                        </div>
+
+    <div class="row margin-top reveal mt-20">
+        <div class="col-md-6">
+            <div class="card card-new">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img class="new-img" src="images/collab.png" alt="A leafy plant">
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="new-text header-font">Collaboration</h3>
+                        <p class="text-font text-justify">We believe that the best solutions are born out of
+                            collaboration. Our
+                            team
+                            works
+                            closely
+                            with each other and with our clients to bring ideas to life.</p>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <img class="arrow display-none" src="images/services/info/arrow-right.png">
-                </div>
             </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <img class="arrow display-none flt-right" src="images/services/info/arrow-left.png">
-                </div>
-                <div class="col-md-8 col-12">
-                    <div class="card-new flt-right reveal">
-                        <div class="card-pic-wrap">
-                            <img class="new-img display-none" src="images/work-life-balance.png" alt="Some pointy plants">
-                        </div>
-                        <div class="card-content-new">
-                            <h3 class="new-text header-font">Work-Life Balance</h3>
-                            <p class="text-font">We understand the importance of work-life balance and offer flexible
-                                working
-                                arrangements
-                                that promote well-being.</p>
-                        </div>
+        </div>
+        <div class="col-md-6 mt-20">
+            <div class="card card-new">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img class="new-img" src="images/work-life-balance.png" alt="Some pointy plants">
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="new-text header-font">Work-Life Balance</h3>
+                        <p class="text-font text-justify">We understand the importance of work-life balance and offer
+                            flexible
+                            working
+                            arrangements
+                            that promote well-being.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="row margins reveal">
-        <div class="wrap">
-            <div class="row">
-                <div class="col-md-8 col-12">
-                    <div class="card-new ">
-                        <div class="card-pic-wrap">
-                            <img class="new-img display-none" src="images/professionals.png" alt="A leafy plant">
-                        </div>
-                        <div class="card-content-new">
-                            <h3 class="new-text header-font">Professional Development</h3>
-                            <p class="text-font"> We invest in our team's growth by providing training and opportunities
-                                for
-                                skill
-                                enhancement. We believe in the continuous development of our employees.</p>
-                        </div>
+    <div class="row margin-top reveal mt-20">
+        <div class="col-md-6">
+            <div class="card card-new">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img class="new-img" src="images/professionals.png" alt="A leafy plant">
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="new-text header-font">Professional Development</h3>
+                        <p class="text-font text-justify">We invest in our team's growth by providing training and
+                            opportunities
+                            for
+                            skill
+                            enhancement. We believe in the continuous development of our employees.</p>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <img class="arrow display-none" src="images/services/info/arrow-right.png">
-                </div>
             </div>
-
-            <div class="row reveal">
-                <div class="wrap">
-                    <div class="row">
-                        <div class="col-md-4">
-                        </div>
-                        <div class="col-md-8 col-12">
-                            <div class="card-new flt-right">
-                                <div class="card-pic-wrap">
-                                    <img class="new-img display-none" src="images/giving-back.png" alt="Some pointy plants">
-                                </div>
-                                <div class="card-content-new">
-                                    <h3 class="new-text header-font">Giving Back</h3>
-                                    <p class="text-font">At Softflame Solutions, we're not just focused on profits. We
-                                        believe in giving
-                                        back
-                                        to
-                                        our community and the tech industry. We're involved in various charitable
-                                        initiatives
-                                        and
-                                        knowledge-sharing programs to make a positive impact beyond our projects.</p>
-                                </div>
-                            </div>
-                        </div>
+        </div>
+        <div class="col-md-6 mt-20">
+            <div class="card card-new">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img class="new-img" src="images/giving-back.png" alt="Some pointy plants">
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="new-text header-font">Giving Back</h3>
+                        <p class="text-font text-justify">At Softflame Solutions, we're not just focused on profits. We
+                            believe in giving
+                            back
+                            to
+                            our community and the tech industry. We're involved in various charitable
+                            initiatives
+                            and
+                            knowledge-sharing programs to make a positive impact beyond our projects.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!--end section-->
-<div class="clearfix"></div>
 
-<!-- Modal Send us your requirement -->
-<!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                        aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Send us your requirement</h4>
-            </div>
-            <form name="registrationForm" method="post" action="email.php" required>
-                <div class="container">
-                    <div class="modal-body">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Full Name"
-                                required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email address</label>
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Email Address"
-                                required>
-                        </div>
-                        <div class="form-group">
-                            <label for="phone">Phone No.</label>
-                            <input type="text" class="form-control" name="mobile" id="phone" placeholder="Phone No."
-                                required>
-                        </div>
-
-
-                        <div class="form-group">
-                            <textarea class="form-control" rows="5" name="enquiry" id="message"
-                                placeholder="Enter your message" required></textarea>
-                        </div>
-
-                    </div>
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn1 btn-default" data-dismiss="modal">Close</button>
-                    <button class="btn1 btn-primary" type="submit" name="submit"> <i class="fa fa-paper-plane-o"></i>
-                        Send</button>
-                </div>
-            </form>
-        </div>
-    </div>
-</div> -->
-<!-- / Modal Send us your requirement Ends -->
-
-<!--end section-->
 <div class="clearfix"></div>
 
 <?php include 'footer.php'; ?>
