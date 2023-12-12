@@ -258,7 +258,7 @@
                     MongoDB as persistent medium
                 </p>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 img-center">
                 <img class="first-img " data-animation="zoomIn" data-animation-delay="300ms"
                     src="images/services/info/mern-stack.png">
             </div>

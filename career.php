@@ -194,6 +194,7 @@
         }
     </script>
 
+
 </head>
 
 <?php include 'header.php'; ?>
@@ -241,14 +242,15 @@
                 rewarding career journey in the world of technology, explore our current job openings.
             </p>
         </div>
-        <div class="col-md-6" data-animation="slideInLeft">
+        <div class="col-md-6 img-center" data-animation="slideInLeft">
             <img src="images/job-illus.jpg" class="job-illus" height=" 400">
         </div>
     </div>
 
 </section>
 <div class="benefitscontainer">
-    <h1 class="header-font font-family center-line" data-animation="slideInUp" data-animation-delay="100ms">Why SoftFlame Solutions ?</h1>
+    <h1 class="header-font font-family center-line" data-animation="slideInUp" data-animation-delay="100ms">Why
+        SoftFlame Solutions ?</h1>
     <ul>
         <li data-animation="zoomReverseIn" data-animation-delay="100ms">
             <img src="images/career/innovation.png" alt="competitive insurance">
@@ -280,9 +282,10 @@
 <section class="sec-padding">
     <div class="jobs-list">
         <div class="row">
-            <h1 class="header-font text-center center-line" data-animation="slideInUp" data-animation-delay="100ms">Current Openings</h1>
+            <h1 class="header-font text-center center-line" data-animation="slideInUp" data-animation-delay="100ms">
+                Current Openings</h1>
             <div class="col-md-6">
-                <div class="card jobs-card" data-animation="zoomReverseIn" onclick="toggleVisibility('Menu1');">
+                <div class="card jobs-card " data-animation="zoomReverseIn" onclick="toggleVisibility('Menu1');">
                     <div class="div">
                         <p class="font-family init_text">Angular js</p>
                     </div>
@@ -332,9 +335,9 @@
             </div>
 
 
-            <div class="col-md-6" data-animation="slideInLeft"  data-animation-delay="300ms">
+            <div class="col-md-6" data-animation="slideInLeft" data-animation-delay="300ms">
                 <div class="card description-card" id="Menu1">
-                    <img class="des-img1" src="images/services/sub-nav/angularjs.jpg">
+                    <img class="des-img" src="images/services/sub-nav/angularjs.jpg">
                     <p class="text-font text-justify" style="margin-top: 20px">
                         <span class="bold-font">Requirements: </span><br>1. Proven experience as an AngularJS
                         Developer.<br>
@@ -357,7 +360,7 @@
                 </div>
 
                 <div class="card description-card" id="Menu2">
-                    <img class="des-img2" src="images/services/sub-nav/react-banner.png">
+                    <img class="des-img" src="images/services/sub-nav/react-banner.png">
                     <p class="text-font text-justify" style="margin-top: 20px">
                         <span class="bold-font">Requirements: </span><br>1. Proven experience as a ReactJS
                         Developer.<br>
@@ -380,7 +383,7 @@
                 </div>
 
                 <div class="card description-card" id="Menu3">
-                    <img class="des-img3" src="images/services/sub-nav/nodejs.jpg">
+                    <img class="des-img" src="images/services/sub-nav/nodejs.jpg">
                     <p class="text-font text-justify" style="margin-top: 20px">
                         <span class="bold-font">Requirements: </span><br>1. Design and implement scalable and robust
                         backend solutions using Node.js.<br>
@@ -403,7 +406,7 @@
                 </div>
 
                 <div class="card description-card" id="Menu4">
-                    <img class="des-img4" src="images/services/sub-nav/ui-ux-banner.jpg">
+                    <img class="des-img" src="images/services/sub-nav/ui-ux-banner.jpg">
                     <p class="text-font text-justify" style="margin-top: 20px">
                         <span class="bold-font">Requirements: </span><br>1. Proficiency in graphic design software
                         (e.g., Adobe Creative Suite).<br>
@@ -427,7 +430,7 @@
 
 
                 <div class="card description-card" id="Menu5">
-                    <img class="des-img5" src="images/services/sub-nav/iphone-banner.jpg">
+                    <img class="des-img" src="images/services/sub-nav/iphone-banner.jpg">
                     <p class="text-font text-justify" style="margin-top: 20px">
                         <span class="bold-font">Requirements: </span><br>1. Strong knowledge of Swift and Objective-C
                         programming languages.<br>
@@ -451,7 +454,7 @@
 
 
                 <div class="card description-card" id="Menu6">
-                    <img class="des-img6" src="images/services/sub-nav/php-banner.jpg">
+                    <img class="des-img" src="images/services/sub-nav/php-banner.jpg">
                     <p class="text-font text-justify" style="margin-top: 20px">
                         <span class="bold-font">Requirements: </span><br>1. Strong proficiency in PHP and MySQL.<br>
                         2. Knowledge of MVC frameworks (e.g., Laravel, CodeIgniter).<br>
@@ -474,7 +477,7 @@
 
 
                 <div class="card description-card" id="Menu7">
-                    <img class="des-img7" src="images/services/sub-nav/ionic-banner.png">
+                    <img class="des-img" src="images/services/sub-nav/ionic-banner.png">
                     <p class="text-font text-justify" style="margin-top: 20px">
                         <span class="bold-font">Requirements: </span><br>1. Develop cross-platform mobile applications
                         using Ionic framework.<br>

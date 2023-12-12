@@ -173,6 +173,9 @@
       .sec-padding {
         padding: 0px !important;
     }
+    .explore-div{
+      flex-direction: column;
+    }
     }
 
     .sticky-icon {

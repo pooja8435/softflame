@@ -293,7 +293,7 @@
                     data and business logic
                 </p>
             </div>
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-6 col-sm-12 img-center">
                 <img data-animation="zoomIn" data-animation-delay="300ms" class="first-img"
                     src="images/services/info/angular.png">
             </div>

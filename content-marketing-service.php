@@ -415,7 +415,7 @@
                     story and build meaningful connections with your audience.</p>
 
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 img-center">
                 <img data-animation="zoomIn" data-animation-delay="300ms" class="first-img"
                     src="images/services/info/content-service.png">
             </div>

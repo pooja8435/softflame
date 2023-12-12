@@ -177,7 +177,7 @@
                     different operating system or computer architecture.
                 </p>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 img-center">
                 <img data-animation="zoomIn" data-animation-delay="300ms" class="first-img"
                     src="images/services/info/cross-plat-head.png">
             </div>

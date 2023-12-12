@@ -145,40 +145,11 @@ h6 {
   font-weight: bold;
 }
 
-.des-img1 {
-  height: 162px;
+.des-img {
+  width: 100%;
   border-radius: 4px;
 }
 
-.des-img2 {
-  height: 162px;
-  border-radius: 4px;
-}
-
-.des-img3 {
-  height: 145px;
-  border-radius: 4px;
-}
-
-.des-img4 {
-  height: 154px;
-  border-radius: 4px;
-}
-
-.des-img5 {
-  height: 170px;
-  border-radius: 4px;
-}
-
-.des-img6 {
-  height: 146px;
-  border-radius: 4px;
-}
-
-.des-img7 {
-  height: 176px;
-  border-radius: 4px;
-}
 
 .modal-window {
   position: fixed;
@@ -371,34 +342,6 @@ a {
 
   .job-illus {
     height: 205px;
-  }
-
-  .des-img1 {
-    height: 80px;
-  }
-
-  .des-img2 {
-    height: 80px;
-  }
-
-  .des-img3 {
-    height: 72px;
-  }
-
-  .des-img4 {
-    height: 78px;
-  }
-
-  .des-img5 {
-    height: 86px;
-  }
-
-  .des-img6 {
-    height: 74px;
-  }
-
-  .des-img7 {
-    height: 90px;
   }
 
   .modal-window>div {

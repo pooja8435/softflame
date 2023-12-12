@@ -224,7 +224,7 @@
                     needs!
                 </p>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 img-center">
                 <img data-animation="zoomIn" data-animation-delay="300ms" class="first-img"
                     src="images/services/info/web-design.png">
             </div>
@@ -327,7 +327,7 @@
                     </h1>
                 </div>
                 <div class="row margin-top">
-                    <div class="col-md-6">
+                    <div class="col-md-6 img-center">
                         <img data-animation="zoomReverseIn" data-animation-delay="300ms" class="seo-height"
                             src="images/services/info/seo.png">
                     </div>

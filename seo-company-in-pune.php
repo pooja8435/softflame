@@ -279,7 +279,7 @@
                     spiders) to visit and download a page and extract its links in order to discover additional pages.
                 </p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 img-center">
                 <img data-animation="zoomIn" data-animation-delay="300ms" class="first-img "
                     src="images/services/info/Seo-head.png">
             </div>

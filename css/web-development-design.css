@@ -220,6 +220,16 @@
     .sec-padding {
         padding: 10px !important;
     }
+
+    .first-img {
+        float: unset !important;
+        margin-top: unset !important;
+    }
+
+
+    .img-center{
+        text-align: center;
+    }
 /* 
     .header-font {
         font-size: 30px !important;
