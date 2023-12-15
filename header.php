@@ -125,9 +125,9 @@ nav .wrapper{
   object-fit: cover;
 }
 .content .row header{
-  color: #f2f2f2;
+  color: #f07f2c;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 700;
   font-family: 'Nunito', sans-serif
 }
 .content .row .mega-links{
@@ -166,7 +166,7 @@ nav .wrapper{
     width:85%;
 }
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 1146px) {
   .wrapper .btn{
     display: block;
     margin-bottom:0 !important;
@@ -496,6 +496,10 @@ nav input{
       }
     }
 
+    header{
+      color:#f07f2c;
+    }
+
 
     
 
@@ -592,6 +596,10 @@ nav input{
                 <li><a href="aws-cloud-consulting-services-in-pune.php">AWS Cloud Consulting</a></li>
                 <li><a href="aws-cloud-migration-services-in-pune.php">AWS Cloud Migration</a></li>
                 <li><a href="managed-aws-services-in-pune.php">AWS Managed Services</a></li>
+              </ul>
+              <header>SAP Services</header>
+              <ul class="mega-links">
+                <li><a href="#">SAP Basis Service Offerings</a></li>
               </ul>
             </div>
             <div class="row">
