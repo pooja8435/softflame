@@ -411,8 +411,8 @@
                     with your business goals and elevate your brand's online presence.</p>
 
             </div>
-            <div class="col-md-6">
-                <img data-animation="zoomIn" data-animation-delay="300ms" class="first-img display-none"
+            <div class="col-md-6 img-center ">
+                <img data-animation="zoomIn" data-animation-delay="300ms" class="first-img  "
                     src="images/services/info/pay-per-click.png">
 
             </div>

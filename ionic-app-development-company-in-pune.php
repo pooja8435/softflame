@@ -88,7 +88,7 @@
             height: 60px;
             float: right;
         }
-
+ 
         .card-padding {
             padding: 20px
         }
@@ -156,7 +156,7 @@
                     and web apps.
                 </p>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 img-center">
                 <img data-animation="zoomIn" data-animation-delay="300ms" class="first-img"
                     src="images/services/info/ionic-landing-banner.png">
             </div>

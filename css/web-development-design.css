@@ -207,7 +207,7 @@
     height: 140px !important;
 }
 .sqr-card{
-    padding:30px
+    padding:30px;
 }
 .sqr-container{
     margin:70px;
@@ -219,6 +219,16 @@
 @media only screen and (max-width: 768px) {
     .sec-padding {
         padding: 10px !important;
+    }
+
+    .first-img {
+        float: unset !important;
+        margin-top: unset !important;
+    }
+
+
+    .img-center{
+        text-align: center;
     }
 /* 
     .header-font {
@@ -314,7 +324,7 @@
         background-size: 25px !important;
     }
     .sqr-card{
-        padding:0x;
+        padding: unset !important;
     }
     .sqr-container{
         margin:0px;

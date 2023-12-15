@@ -218,7 +218,7 @@
         <h3 class="font-family text-center"  data-animation="slideInUp">Let's talk about your project. Fill out the form below or contact us
             directly.</h3>
         <div class="row margin-top mobile-margin-30"  data-animation="zoomIn" data-animation-delay="500ms">
-            <div class="col-md-6 col-12 mobile-margin-30">
+            <div class="col-md-6 col-12 mobile-margin-30 img-center">
                 <img class="contact-form-img" src="images/contact-us-illus.png">
             </div>
             <div class="col-md-6 col-12 form-div mobile-margin-30">

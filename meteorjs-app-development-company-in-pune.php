@@ -167,7 +167,7 @@
                     Node.js app integration to comprehensively cater your project requisites. You can hire our dedicated
                     developers on full-time, part-time or on the hourly basis. </p>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 img-center">
                 <img data-animation="zoomIn" data-animation-delay="300ms" class="first-img"
                     src="images/services/info/meteor.png">
             </div>

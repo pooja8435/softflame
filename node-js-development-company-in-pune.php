@@ -249,7 +249,7 @@
                     high-performance applications that meet the unique requirements of your business.
                 </p>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 img-center">
                 <img class="first-img" data-animation="zoomIn" data-animation-delay="300ms"
                     src="images/services/info/nodejs-head.png">
             </div>
