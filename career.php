@@ -285,7 +285,7 @@
             <h1 class="header-font text-center center-line" data-animation="slideInUp" data-animation-delay="100ms">
                 Current Openings</h1>
             <div class="col-md-6">
-                <div class="card jobs-card " data-animation="zoomReverseIn" onclick="toggleVisibility('Menu1');">
+                <div class="card jobs-card active" data-animation="zoomReverseIn" onclick="toggleVisibility('Menu1');">
                     <div class="div">
                         <p class="font-family init_text">Angular js</p>
                     </div>
