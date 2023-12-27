@@ -256,7 +256,7 @@ include 'header.php'; ?>
                     onclick="window.location.href='contact.php'">Let's Connect</button>
             </div>
             <div class="col-md-6">
-                <img class="office-img display-none" src="images/office-pic.jpg">
+                <img class="office-img display-none" src="images/team.png">
             </div>
         </div>
         <br><br>
