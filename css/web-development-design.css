@@ -203,18 +203,39 @@
     gap: 150px;
     margin-top: 70px;
 }
-.sqr-img{
+
+.sqr-img {
     height: 140px !important;
 }
-.sqr-card{
-    padding:30px;
+
+.sqr-card {
+    padding: 30px;
 }
-.sqr-container{
-    margin:70px;
+
+.sqr-container {
+    margin: 70px;
 }
-.card-display{
+
+.card-display {
     display: flex;
 }
+
+.sap-img1 {
+    height: 310px;
+}
+
+.sap-img2 {
+    height: 295px;
+}
+
+.sap-img3 {
+    height: 425px;
+}
+
+.mt-150 {
+    margin-top: 150px;
+}
+
 
 @media only screen and (max-width: 768px) {
     .sec-padding {
@@ -226,16 +247,36 @@
         margin-top: unset !important;
     }
 
+    ul.ex3 li {
+        line-height: 2;
+        }
 
-    .img-center{
+    .sap-img1 {
+        height: unset;
+        width: 100%;
+    }
+
+    .sap-img2 {
+        height: unset;
+        width: 100%;
+    }
+
+    .sap-img3 {
+        height: unset;
+        width: 100%;
+    }
+
+
+    .img-center {
         text-align: center;
     }
-/* 
+
+    /* 
     .header-font {
         font-size: 30px !important;
     } */
 
-    .sqr-img{
+    .sqr-img {
         height: 60px !important;
     }
 
@@ -251,6 +292,7 @@
         height: 185px;
         margin-left: 45px;
     }
+
     .display-none {
         display: none;
     }
@@ -292,49 +334,61 @@
         padding: 26px 30px;
 
     }
+
     .MERN-container {
         flex-direction: column !important;
         padding: 26px 30px;
 
     }
-    .mean-cards{
+
+    .mean-cards {
         margin-top: 14px;
         text-align: center;
     }
-    .MERN-cards{
+
+    .MERN-cards {
         margin-top: 14px;
         text-align: center;
     }
+
     .first-img {
         height: 126px !important;
         margin-left: unset !important;
     }
-    .mobile-margin-30{
+
+    .mobile-margin-30 {
         margin-top: 30px !important;
     }
-    .icard{
+
+    .icard {
         margin: 10px !important;
         padding: 10px !important;
     }
+
     .android-card {
         margin: 15px !important;
     }
+
     ul.ex2 li {
         line-height: 1.5 !important;
         background-size: 25px !important;
     }
-    .sqr-card{
+
+    .sqr-card {
         padding: unset !important;
     }
-    .sqr-container{
-        margin:0px;
+
+    .sqr-container {
+        margin: 0px;
     }
-    .sqr-img{
+
+    .sqr-img {
         height: 60px;
     }
-    .card-display{
+
+    .card-display {
         flex-direction: column;
         align-items: center;
     }
-    
+
 }
