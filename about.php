@@ -255,7 +255,7 @@ include 'header.php'; ?>
                     start-ups to international brands.Our projects not only look great, they use the right tools that
                     work for you and with your success comes ours. "Your Business We Care!"</p>
 
-                <button type="button" class="btn connect-btn header-font"
+                <button type="button" class="btn connect-btn "
                     onclick="window.location.href='contact.php'">Let's Connect</button>
             </div>
             <div class="col-md-6">

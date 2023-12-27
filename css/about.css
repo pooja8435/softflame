@@ -113,9 +113,37 @@
     }
 
     .connect-btn {
-        background: rgb(251 85 32) !important;
         color: white !important;
-        border-radius: 20px !important;
+        font-size: 20px;
+        border-radius: 50px;
+        background: linear-gradient(to right, rgba(255, 175, 75, 1) 0%, rgba(240, 81, 24, 1) 68%, rgba(240, 81, 24, 1) 100%) !important;
+        position: relative;
+        margin-top: 20px !important;
+    }
+
+    .connect-btn:hover {
+        transform: translateY(-0.25em);
+        border-color: #0f0f0f;
+        color: #272727;
+
+    }
+
+    .connect-btn:hover::before {
+        opacity: 1;
+    }
+
+    .connect-btn::before {
+        width: 100%;
+        height: 1em;
+        position: absolute;
+        left: 0;
+        bottom: -1.35em;
+        background: radial-gradient(ellipse at center,
+                rgba(0, 0, 0, 0.35) 0%,
+                rgba(0, 0, 0, 0) 80%);
+        opacity: 0;
+        transition: all 0.65s;
+        content: "";
     }
 
     .vision-img {
@@ -419,7 +447,7 @@
             flex-direction: column;
         }
 
-        .mt-20{
+        .mt-20 {
             margin-top: 20px;
         }
 
@@ -438,6 +466,7 @@
         .header-inner.two .overlay {
             height: 100% !important;
         }
+
         .padding-top {
             padding-top: 70px !important;
         }

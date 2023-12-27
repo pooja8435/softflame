@@ -506,7 +506,7 @@
         <div>
             <a href="" title="Close" class="modal-close"><i class="fa fa-times" aria-hidden="true"></i></a>
             <h2 class="font-family text-center">Apply Now!</h2>
-            <form action="careerAttachment.php" method="POST" enctype='multipart/form-data'>
+            <form action="careerAttachment.php" method="post" enctype='multipart/form-data'>
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group ">
