@@ -275,7 +275,7 @@
     </div>
     <div class="row margin-top-70 mobile-margin-30">
         <div class="col-md-4">
-            <div class="card height-240 choose-card" data-animation="flipInY">
+            <div class="card height-240 height-unset  choose-card" data-animation="flipInY">
                 <div class="flex flex-center">
                     <div class="text-center">
                         <img class="img-60" src="images/products/info/iphone.png">
@@ -288,7 +288,7 @@
             </div>
         </div>
         <div class="col-md-4 mobile-margin-30">
-            <div class="card height-240 choose-card" data-animation="flipInY">
+            <div class="card height-240 height-unset choose-card" data-animation="flipInY">
                 <div class="flex">
                     <div class="text-center">
                         <img class="img-60" src="images/products/info/dashboard.png">
@@ -300,7 +300,7 @@
             </div>
         </div>
         <div class="col-md-4 mobile-margin-30">
-            <div class="card height-240 choose-card" data-animation="flipInY">
+            <div class="card height-240 height-unset choose-card" data-animation="flipInY">
                 <div class="flex">
                     <div class="text-center">
                         <img class="img-60" src="images/products/info/monitor.png">
@@ -314,7 +314,7 @@
     </div>
     <div class="row margin-top-70 mobile-margin-30">
         <div class="col-md-4">
-            <div class="card height-240 choose-card" data-animation="flipInY">
+            <div class="card height-240 height-unset choose-card" data-animation="flipInY">
                 <div class="flex">
                     <div class="text-center">
                         <img class="img-60" src="images/products/info/tag.png">
@@ -326,7 +326,7 @@
             </div>
         </div>
         <div class="col-md-4 mobile-margin-30">
-            <div class="card height-240 choose-card" data-animation="flipInY">
+            <div class="card height-240 height-unset choose-card" data-animation="flipInY">
                 <div class="flex">
                     <div class="text-center">
                         <img class="img-60" src="images/products/info/source-code.png">
@@ -339,7 +339,7 @@
             </div>
         </div>
         <div class="col-md-4 mobile-margin-30">
-            <div class="card height-240 choose-card" data-animation="flipInY">
+            <div class="card height-240 height-unset choose-card" data-animation="flipInY">
                 <div class="flex">
                     <div class="text-center">
                         <img class="img-60" src="images/products/info/cashless-payment.png">

@@ -200,6 +200,18 @@
             transform-style: preserve-3d;
         }
 
+        @media only screen and (max-width: 768px) {
+            .mean-container {
+
+                padding: 30px !important;
+            }
+
+            .mean-cards {
+                margin-left: unset !important;
+            }
+
+        }
+
         .mean-cards {
             min-width: 240px;
 

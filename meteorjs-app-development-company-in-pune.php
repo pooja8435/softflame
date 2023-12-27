@@ -183,7 +183,7 @@
             </div>
             <div class="row">
                 <div class="col-md-4">
-                    <div class="card icard" data-animation="slideInRight">
+                    <div class="card icard height-unset" data-animation="slideInRight">
 
                         <div class="card-padding">
                             <h3 class="text-font"> Full Stack Meteor Development</h3>
@@ -193,7 +193,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card icard" data-animation="zoomIn">
+                    <div class="card icard height-unset" data-animation="zoomIn">
 
                         <div class="card-padding">
                             <h3 class="text-font">Real-Time Applications</h3>
@@ -203,7 +203,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card icard" data-animation="slideInRight">
+                    <div class="card icard height-unset" data-animation="slideInRight">
 
                         <div class="card-padding">
                             <h3 class="text-font">Meteor Package Development</h3>
@@ -216,7 +216,7 @@
             </div>
             <div class="row">
                 <div class="col-md-4">
-                    <div class="card icard" data-animation="slideInLeft">
+                    <div class="card icard height-unset" data-animation="slideInLeft">
 
                         <div class="card-padding">
                             <h3 class="text-font">Cross-Platform Compatibility</h3>
@@ -226,7 +226,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card icard" data-animation="zoomIn">
+                    <div class="card icard height-unset" data-animation="zoomIn">
 
                         <div class="card-padding">
                             <h3 class="text-font">Meteor Consulting</h3>
@@ -236,7 +236,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card icard" data-animation="slideInLeft">
+                    <div class="card icard height-unset" data-animation="slideInLeft">
 
                         <div class="card-padding">
                             <h3 class="text-font">Data Security and Compliance:</h3>

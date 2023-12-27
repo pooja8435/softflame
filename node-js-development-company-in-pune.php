@@ -263,7 +263,7 @@
         </div>
         <div class="row margin-top mobile-margin-30">
             <div class="col-md-4">
-                <div class="card services-card" data-animation="flipInY" data-animation-delay="300ms">
+                <div class="card services-card height-unset" data-animation="flipInY" data-animation-delay="300ms">
                     <div class="card-body">
                         <h4 class="text-font"> Custom Application Development</h4>
                         <p class="init_text text-font">Tailored solutions to address your specific business needs,
@@ -274,7 +274,7 @@
                 </div>
             </div>
             <div class="col-md-4 mobile-margin-30">
-                <div class="card services-card" data-animation="flipInY" data-animation-delay="300ms">
+                <div class="card services-card height-unset" data-animation="flipInY" data-animation-delay="300ms">
                     <div class="card-body">
                         <h4 class="text-font">API Development and Integration</h4>
                         <p class="init_text  text-font">Seamless integration of APIs to enhance communication between
@@ -285,7 +285,7 @@
                 </div>
             </div>
             <div class="col-md-4 mobile-margin-30">
-                <div class="card services-card" data-animation="flipInY" data-animation-delay="300ms">
+                <div class="card services-card height-unset" data-animation="flipInY" data-animation-delay="300ms">
                     <div class="card-body">
                         <h4 class="text-font"> Real-time Application Development</h4>
                         <p class="init_text text-font">Building responsive and real-time applications, including chat
@@ -297,7 +297,7 @@
         </div>
         <div class="row margin-top mobile-margin-30">
             <div class="col-md-4">
-                <div class="card services-card" data-animation="flipInY" data-animation-delay="300ms">
+                <div class="card services-card height-unset" data-animation="flipInY" data-animation-delay="300ms">
                     <div class="card-body">
                         <h4 class="text-font">Microservices Architecture</h4>
                         <p class="init_text text-font">Designing scalable and modular applications through microservices
@@ -307,7 +307,7 @@
                 </div>
             </div>
             <div class="col-md-4 mobile-margin-30">
-                <div class="card services-card" data-animation="flipInY" data-animation-delay="300ms">
+                <div class="card services-card height-unset" data-animation="flipInY" data-animation-delay="300ms">
                     <div class="card-body">
                         <h4 class="text-font">Node.js Consulting</h4>
                         <p class="init_text text-font">Expert guidance on incorporating Node.js into your existing
@@ -318,7 +318,7 @@
                 </div>
             </div>
             <div class="col-md-4 mobile-margin-30">
-                <div class="card services-card" data-animation="flipInY" data-animation-delay="300ms">
+                <div class="card services-card height-unset" data-animation="flipInY" data-animation-delay="300ms">
                     <div class="card-body">
                         <h4 class="text-font"> Performance Optimization</h4>
                         <p class="init_text text-font">Fine-tuning and optimizing existing Node.js applications for
