@@ -10,6 +10,14 @@
   color: #575a7b;
 }
 
+.sub-nav-head {
+  font-size: 55px !important;
+}
+
+.header-inner .inner{
+  top: 60px !important;
+}
+
 .init_text {
   text-align: justify !important;
 }
@@ -430,6 +438,10 @@
   .uber-img-1 {
     height: 210px !important;
     margin-left: unset !important;
+  }
+
+  .header-inner .inner{
+    top: 50px !important;
   }
 
   .car-img {

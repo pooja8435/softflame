@@ -31,12 +31,11 @@
 }
 
 .sub-nav-head {
-    font-size: 55px;
     font-weight: 600;
 }
 
 .padding-top {
-    padding-top: 175px !important;
+    padding-top: 132px !important;
 }
 
 .init_text {
@@ -300,9 +299,13 @@
     .header-inner.two .overlay {
         height: 540px !important;
     }
-
+/* 
     .header-inner.two {
         margin-top: -90px !important;
+    } */
+
+    .padding-top {
+        padding-top: 70px !important;
     }
 
     h1 {

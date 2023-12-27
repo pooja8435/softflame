@@ -92,7 +92,7 @@
         top: 80px;
     }
     .header-inner.two .overlay {
-        height: 160px;
+        height: 100%;
     }
     .header-inner .title {
         padding: 52px 0 0;
@@ -368,7 +368,7 @@
         top: 380px;
     }
     .header-inner.two .overlay {
-        height: 160px;
+        height: 100%;
     }
     .header-inner .title {
         padding: 52px 0 0;

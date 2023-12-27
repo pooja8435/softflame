@@ -183,8 +183,8 @@
     <div class="header-inner two">
         <div class="inner text-center col-md-6 padding-top">
             <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">Contact Us</h1>
-            <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Get Your Work Done
-            </h2>
+            <h3 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Get Your Work Done
+            </h3>
         </div>
         <div class="overlay bg-opacity-7"></div>
         <img src="images/services/sub-nav/contact-us-banner.jpg"

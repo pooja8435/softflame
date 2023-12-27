@@ -16,6 +16,10 @@
             margin-top: 80px;
         }
 
+        .header-inner .inner{
+            top: 55px !important;
+          }
+
         /* RESET */
 
         /* Box sizing rules */
@@ -212,4 +216,7 @@
                 width: 100%;
                 margin-top: 20px;
             }
+            .header-inner .inner{
+                top: 50px !important;
+              }
         }

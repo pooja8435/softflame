@@ -211,6 +211,9 @@ include 'header.php'; ?>
             <h3 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">We are passionate
                 about creating innovative software solutions
             </h3>
+            <button data-animation="slideInUp" data-animation-delay="800ms" type="button"
+                class="btn text-font book-appointment"> <a target="blank"
+                    href='contact.php'>Contact Us</a></button>
         </div>
         <div class="overlay bg-opacity-7"></div>
         <img src="images/about-us-banner.jpg" alt="Website Development Company in Pune, Bangalore, Delhi"
@@ -237,7 +240,7 @@ include 'header.php'; ?>
 
 <section class="sec-padding">
     <div class="container ">
-        <div class="row reveal">
+        <div class="row ">
             <div class="col-xs-12 text-center"></div>
             <div class="clearfix"></div>
             <div class="col-md-6">
