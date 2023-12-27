@@ -167,6 +167,7 @@
         .services-card {
             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
             padding: 20px;
+            height: 190px;
             border-top-right-radius: 25px;
             border-top-left-radius: 25px;
             border-bottom-right-radius: 25px;
@@ -220,11 +221,9 @@
     <div class="pagenation-holder">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                </div>
-                <div class="col-md-6 text-right">
-                    <div class="pagenation_links"><a href="index.php">Home</a><i> / </i><a
-                            href="services.php">services</a><i> / </i> <a href="#">node js development</a> </div>
+                <div class="col-md-12 text-center">
+                    <div class="pagenation_links text-font font-16"><a href="index.php">Home</a><i> / </i><a
+                            href="services.php">Services</a><i> / </i> NodeJs development </div>
                 </div>
             </div>
         </div>

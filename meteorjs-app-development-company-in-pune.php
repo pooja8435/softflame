@@ -76,6 +76,7 @@
     <style>
         .icard {
             margin: 25px;
+            height: 218px;
             box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
             background-image: url("images/services/info/pattern.png");
             background-size: cover;

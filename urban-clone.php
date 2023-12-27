@@ -302,7 +302,7 @@
                         <div class="notiglow"></div>
                         <div class="notiborderglow"></div>
                         <img class="img-40 text-center" src="images/products/info/graphic-design.png">
-                        <h4 class="notititle">Complete customizable</h4>
+                        <h4 class="notititle">It is completely customizable</h4>
                     </div>
                 </div>
                 <div class="col-md-6  mobile-margin-30">
@@ -338,7 +338,7 @@
                         <div class="notiglow"></div>
                         <div class="notiborderglow"></div>
                         <img class="img-40 text-center" src="images/products/info/programming.png">
-                        <h4 class="notititle">Build by experienced team of Web & Mobile developers</h4>
+                        <h4 class="notititle">Build by experienced team of developers</h4>
                     </div>
                 </div>
                 <div class="col-md-6  mobile-margin-30">

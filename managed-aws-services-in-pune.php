@@ -280,6 +280,7 @@
             background: #ffffff none repeat scroll 0 0;
             border: medium none;
             padding: 67px 40px 64px;
+            height: 325px;
         }
 
         .we-offer-area.text-center .item i {

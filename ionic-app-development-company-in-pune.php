@@ -76,13 +76,9 @@
     <style>
         .icard {
             margin: 25px;
+            height: 345px;
             box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
         }
-
-        /* .text-justify {
-            width: 380px;
-            text-align: justify;
-        } */
 
         .icon-img {
             height: 60px;
@@ -179,7 +175,7 @@
                         </svg>
                         <div class="card-padding">
                             <h3 class="text-font">Cross-Platform App Development</h3>
-                            <p class="init_text text-font">Leverage the efficiency of Ionic to build cross-platform
+                            <p class="text-font text-justify">Leverage the efficiency of Ionic to build cross-platform
                                 applications with a single
                                 codebase.
                                 Reach a broader audience by deploying your app on both iOS and Android platforms
@@ -196,7 +192,7 @@
                         </svg>
                         <div class="card-padding">
                             <h3 class="text-font"> Native-like Performance</h3>
-                            <p class="init_text text-font">With Ionic, we deliver applications that provide a
+                            <p class="text-font text-justify">With Ionic, we deliver applications that provide a
                                 native-like experience on both iOS and
                                 Android devices. Benefit from fast load times, smooth animations, and responsive
                                 interfaces for an optimal user experience.</p>
@@ -212,7 +208,7 @@
                         </svg>
                         <div class="card-padding">
                             <h3 class="text-font">UI/UX Design</h3>
-                            <p class="init_text text-font">Create intuitive and visually appealing user interfaces that
+                            <p class="text-font text-justify">Create intuitive and visually appealing user interfaces that
                                 enhance the overall user
                                 experience. Our design team works closely with clients to ensure that the Ionic apps we
                                 develop not only meet functional requirements but also delight users with a sleek and
@@ -232,7 +228,7 @@
                         </svg>
                         <div class="card-padding">
                             <h3 class="text-font">Integration with Backend Services</h3>
-                            <p class="init_text text-font">Ensure seamless connectivity and functionality by integrating
+                            <p class="text-font text-justify">Ensure seamless connectivity and functionality by integrating
                                 your Ionic app with backend
                                 services. We specialize in connecting Ionic applications with various backend
                                 technologies, enabling real-time data synchronization and robust functionality.</p>
@@ -248,7 +244,7 @@
                         </svg>
                         <div class="card-padding">
                             <h3 class="text-font">Maintenance and Support</h3>
-                            <p class="init_text text-font">Our commitment doesn’t end with the delivery of the app. We
+                            <p class="text-font text-justify">Our commitment doesn’t end with the delivery of the app. We
                                 provide ongoing maintenance
                                 and support services to ensure your Ionic application stays up-to-date, secure, and
                                 compatible with the latest platform updates.</p>
@@ -264,7 +260,7 @@
                         </svg>
                         <div class="card-padding">
                             <h3 class="text-font">Progressive Web App (PWA) Development</h3>
-                            <p class="init_text text-font">Extend your reach beyond native mobile platforms by opting
+                            <p class="text-font text-justify">Extend your reach beyond native mobile platforms by opting
                                 for Progressive Web App
                                 development with Ionic. Enjoy the benefits of a web application that behaves like a
                                 native app, providing an engaging user experience across all devices and browsers.</p>

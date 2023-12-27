@@ -195,7 +195,7 @@
                     <div class="card icard" data-animation="slideInRight">
                         <div class="card-padding">
                             <h3 class="text-font">Framework Mastery</h3>
-                            <p class="init_text text-font">We excel in utilizing top-notch cross-platform frameworks,
+                            <p class="text-justify text-font">We excel in utilizing top-notch cross-platform frameworks,
                                 such as React Native, Flutter, and Xamarin, to build versatile applications that work
                                 seamlessly on both iOS and Android devices. Our proficiency in these frameworks enables
                                 us to streamline development processes, reduce costs, and accelerate time-to-market for
@@ -217,11 +217,11 @@
                     <div class="card icard" data-animation="zoomIn">
                         <div class="card-padding">
                             <h3 class="text-font">UI/UX Design Excellence</h3>
-                            <p class="init_text text-font">A visually appealing and user-friendly interface is crucial
+                            <p class="text-justify text-font">A visually appealing and user-friendly interface is crucial
                                 for the success of any application. Our design team collaborates closely with clients to
                                 create intuitive and aesthetically pleasing designs that enhance user engagement and
-                                satisfaction. We prioritize a user-centric approach to ensure your app not only looks
-                                great but also delivers an exceptional user experience.</p>
+                                satisfaction. We prioritize a user-centric approach to ensure your app  looks
+                                great.</p>
                         </div>
                         <svg id="svg1" class="svg-design" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                             <path fill="lightgrey" fill-opacity="1"
@@ -242,7 +242,7 @@
 
                         <div class="card-padding">
                             <h3 class="text-font">Scalable and Robust Solutions</h3>
-                            <p class="init_text text-font">We understand the importance of scalability and robustness in
+                            <p class="text-justify text-font">We understand the importance of scalability and robustness in
                                 today's dynamic business environment. Our developers follow best practices to build
                                 scalable and maintainable cross-platform apps, ensuring they can evolve alongside your
                                 business and adapt to changing requirements.</p>
@@ -263,7 +263,7 @@
                     <div class="card icard" data-animation="zoomIn">
                         <div class="card-padding">
                             <h3 class="text-font">Integration and Compatibility</h3>
-                            <p class="init_text text-font">Seamless integration with third-party services and APIs is
+                            <p class="text-justify text-font">Seamless integration with third-party services and APIs is
                                 vital for the functionality of your app. Our team excels in integrating various features
                                 and ensuring compatibility across different platforms, providing a cohesive experience
                                 for users regardless of the device they use.</p>
