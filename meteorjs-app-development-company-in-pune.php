@@ -76,6 +76,7 @@
     <style>
         .icard {
             margin: 25px;
+            height: 218px;
             box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
             background-image: url("images/services/info/pattern.png");
             background-size: cover;
@@ -182,7 +183,7 @@
             </div>
             <div class="row">
                 <div class="col-md-4">
-                    <div class="card icard" data-animation="slideInRight">
+                    <div class="card icard height-unset" data-animation="slideInRight">
 
                         <div class="card-padding">
                             <h3 class="text-font"> Full Stack Meteor Development</h3>
@@ -192,7 +193,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card icard" data-animation="zoomIn">
+                    <div class="card icard height-unset" data-animation="zoomIn">
 
                         <div class="card-padding">
                             <h3 class="text-font">Real-Time Applications</h3>
@@ -202,7 +203,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card icard" data-animation="slideInRight">
+                    <div class="card icard height-unset" data-animation="slideInRight">
 
                         <div class="card-padding">
                             <h3 class="text-font">Meteor Package Development</h3>
@@ -215,7 +216,7 @@
             </div>
             <div class="row">
                 <div class="col-md-4">
-                    <div class="card icard" data-animation="slideInLeft">
+                    <div class="card icard height-unset" data-animation="slideInLeft">
 
                         <div class="card-padding">
                             <h3 class="text-font">Cross-Platform Compatibility</h3>
@@ -225,7 +226,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card icard" data-animation="zoomIn">
+                    <div class="card icard height-unset" data-animation="zoomIn">
 
                         <div class="card-padding">
                             <h3 class="text-font">Meteor Consulting</h3>
@@ -235,7 +236,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card icard" data-animation="slideInLeft">
+                    <div class="card icard height-unset" data-animation="slideInLeft">
 
                         <div class="card-padding">
                             <h3 class="text-font">Data Security and Compliance:</h3>

@@ -1168,6 +1168,10 @@ grayscale layout Styles
     .header-inner.two {
         height: 270px !important;
     }
+
+    .height-unset{
+        height: unset !important;
+    }
 }
 
 .parallax-section27 {

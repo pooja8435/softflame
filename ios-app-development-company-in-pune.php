@@ -153,6 +153,7 @@
         .icard {
             padding: 35px;
             margin: 20px;
+            height: 240px;
             box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
         }
 
@@ -244,7 +245,7 @@
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <div class="card  icard" data-animation="zoomReverseIn">
+                    <div class="card  icard height-unset" data-animation="zoomReverseIn">
                         <div class="card icard-body">
                             <div class="row">
                                 <div class="col-md-10">
@@ -266,7 +267,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="card mobile-margin-30 icard" data-animation="zoomReverseIn">
+                    <div class="card mobile-margin-30 icard height-unset" data-animation="zoomReverseIn">
                         <div class="card icard-body">
                             <div class="row">
                                 <div class="col-md-10">
@@ -290,7 +291,7 @@
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <div class="card mobile-margin-30 icard" data-animation="zoomReverseIn">
+                    <div class="card mobile-margin-30 icard height-unset" data-animation="zoomReverseIn">
                         <div class="card icard-body">
                             <div class="row">
                                 <div class="col-md-10">
@@ -311,7 +312,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="card mobile-margin-30 icard" data-animation="zoomReverseIn">
+                    <div class="card mobile-margin-30 icard height-unset" data-animation="zoomReverseIn">
                         <div class="card icard-body">
                             <div class="row">
                                 <div class="col-md-10">
@@ -333,7 +334,7 @@
             </div>
             <div class="row mobile-margin-30">
                 <div class="col-md-6">
-                    <div class="card  icard" data-animation="zoomReverseIn">
+                    <div class="card  icard height-unset" data-animation="zoomReverseIn">
                         <div class="card icard-body">
                             <div class="row">
                                 <div class="col-md-10">
@@ -355,7 +356,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="card mobile-margin-30 icard" data-animation="zoomReverseIn">
+                    <div class="card mobile-margin-30 icard height-unset" data-animation="zoomReverseIn">
                         <div class="card icard-body">
                             <div class="row">
                                 <div class="col-md-10">

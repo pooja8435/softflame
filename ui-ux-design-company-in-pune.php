@@ -163,7 +163,6 @@
             height: 200px;
             border-radius: 20px;
             font-weight: 600;
-            overflow: scroll;
         }
 
         .face--front {

@@ -218,7 +218,7 @@
     </div>
     <div class="row margin-top-70 mobile-margin-30">
         <div class="col-md-4">
-            <div class="card choose-card" data-animation="zoomReverseIn" >
+            <div class="card choose-card height-unset" data-animation="zoomReverseIn" >
                 <div class="flex">
                     <div class="div">
                         <h3 class="text-font">Convenience</h3>
@@ -231,7 +231,7 @@
             </div>
         </div>
         <div class="col-md-4 mobile-margin-30">
-            <div class="card choose-card" data-animation="zoomReverseIn" >
+            <div class="card choose-card height-unset" data-animation="zoomReverseIn" >
                 <div class="flex">
                     <div class="div">
                         <h3 class="text-font">Wide Coverage</h3>
@@ -244,7 +244,7 @@
             </div>
         </div>
         <div class="col-md-4 mobile-margin-30">
-            <div class="card choose-card" data-animation="zoomReverseIn" >
+            <div class="card choose-card height-unset" data-animation="zoomReverseIn" >
                 <div class="flex">
                     <div class="div">
                         <h3 class="text-font">Time-Efficiency</h3>
@@ -259,7 +259,7 @@
     </div>
     <div class="row margin-top-70 mobile-margin-30">
         <div class="col-md-4">
-            <div class="card choose-card" data-animation="zoomReverseIn" >
+            <div class="card choose-card height-unset" data-animation="zoomReverseIn" >
                 <div class="flex">
                     <div class="div">
                         <h3 class="text-font">Safety First</h3>
@@ -272,7 +272,7 @@
             </div>
         </div>
         <div class="col-md-4 mobile-margin-30">
-            <div class="card choose-card" data-animation="zoomReverseIn" >
+            <div class="card choose-card height-unset" data-animation="zoomReverseIn" >
                 <div class="flex">
                     <div class="div">
                         <h3 class="text-font">Transparent Pricing</h3>
@@ -285,7 +285,7 @@
             </div>
         </div>
         <div class="col-md-4 mobile-margin-30">
-            <div class="card choose-card" data-animation="zoomReverseIn" >
+            <div class="card choose-card height-unset" data-animation="zoomReverseIn" >
                 <div class="flex">
                     <div class="div">
                         <h3 class="text-font">Customer Satisfaction</h3>

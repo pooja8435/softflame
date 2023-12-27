@@ -280,6 +280,7 @@
             background: #ffffff none repeat scroll 0 0;
             border: medium none;
             padding: 67px 40px 64px;
+            height: 325px;
         }
 
         .we-offer-area.text-center .item i {
@@ -444,6 +445,13 @@
             top: -10px;
             width: 120px;
         }
+
+        @media only screen and (max-width: 768px) {
+            .we-offer-area.text-center .item {
+                height: unset !important;
+                padding: 20px !important;
+            }
+        }
     </style>
 
 
@@ -523,7 +531,7 @@
         </div>
     </div>
 
-    <section class="we-offer-area text-center bg-gray margin-top mobile-margin-30">
+    <section class="we-offer-area text-center height-unset bg-gray margin-top mobile-margin-30">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -533,7 +541,7 @@
             </div>
             <div class="row our-offer-items less-carousel margin-top mobile-margin-30">
                 <div class="col-md-2"></div>
-                <div class="col-md-4 col-sm-6 equal-height" data-animation="flipInY" data-animation-delay="300ms">
+                <div class="col-md-4 col-sm-12 equal-height" data-animation="flipInY" data-animation-delay="300ms">
                     <div class="item">
                         <i class="fa fa-edit"></i>
                         <h4 class="font-family"> AWS Cloud Architecture and Design</h4>
@@ -543,7 +551,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 equal-height" data-animation="flipInY" data-animation-delay="300ms">
+                <div class="col-md-4 col-sm-12 equal-height" data-animation="flipInY" data-animation-delay="300ms">
                     <div class="item">
                         <i class="fa fa-code"></i>
                         <h4 class="font-family">Infrastructure as Code (IaC) Implementation</h4>
@@ -559,7 +567,7 @@
 
             <div class="row our-offer-items less-carousel">
                 <div class="col-md-2"></div>
-                <div class="col-md-4 col-sm-6 equal-height" data-animation="flipInY" data-animation-delay="300ms">
+                <div class="col-md-4 col-sm-12 equal-height" data-animation="flipInY" data-animation-delay="300ms">
                     <div class="item">
                         <i class="fa fa-database"></i>
                         <h4 class="font-family"> Database Management</h4>
@@ -569,7 +577,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 equal-height" data-animation="flipInY" data-animation-delay="300ms">
+                <div class="col-md-4 col-sm-12 equal-height" data-animation="flipInY" data-animation-delay="300ms">
                     <div class="item">
                         <i class="fa fa-money"></i>
                         <h4 class="font-family">Cost Optimization Strategies</h4>

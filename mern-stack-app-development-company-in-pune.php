@@ -184,6 +184,18 @@
             box-shadow: -1rem 0 8rem #cfcdcd;
         }
 
+        @media only screen and (max-width: 768px) {
+            .MERN-container {
+
+                padding: 30px !important;
+            }
+
+            .MERN-cards {
+                margin-left: unset !important;
+            }
+
+        }
+
         .MERN-cards:hover {
 
             margin-right: 48px;
