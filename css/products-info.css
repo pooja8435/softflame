@@ -10,6 +10,11 @@
   color: #575a7b;
 }
 
+
+.header-inner .inner{
+  top: 60px !important;
+}
+
 .init_text {
   text-align: justify !important;
 }
@@ -65,6 +70,7 @@
 
 .choose-card {
   padding: 20px;
+  height: 175px;
   border-top: 5px solid #badfff;
   border-radius: 9px;
   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
@@ -430,6 +436,10 @@
   .uber-img-1 {
     height: 210px !important;
     margin-left: unset !important;
+  }
+
+  .header-inner .inner{
+    top: 50px !important;
   }
 
   .car-img {

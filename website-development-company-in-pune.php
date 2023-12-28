@@ -175,8 +175,8 @@
         <div class="inner text-center col-md-6 padding-top">
             <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">Website Development
                 Company </h1>
-            <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune, Bangalore,
-                Delhi</h2>
+            <h3 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune, Bangalore,
+                Delhi</h3>
             <button data-animation="slideInUp" data-animation-delay="800ms" type="button"
                 class="btn text-font book-appointment"> <a target="blank"
                     href='https://calendly.com/projects-vikasn/30min?back=1&month=2023-12'>Book a call with our
@@ -242,7 +242,7 @@
             </div>
             <div class="row text-center margin-top">
                 <div class="col-md-4 col-12">
-                    <div class="service-card" data-animation="flipInY">
+                    <div class="service-card height-unset" data-animation="flipInY">
                         <div class="icon-wrapper">
                             <img class="icons-height" src="images/services/info/icon1.png">
                         </div>
@@ -254,7 +254,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-12 mobile-margin-30">
-                    <div class="service-card" data-animation="flipInY">
+                    <div class="service-card height-unset" data-animation="flipInY">
                         <div class="icon-wrapper">
                             <img class="icons-height" src="images/services/info/icon2.png">
                         </div>
@@ -266,7 +266,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-12 mobile-margin-30">
-                    <div class="service-card" data-animation="flipInY">
+                    <div class="service-card height-unset" data-animation="flipInY">
                         <div class="icon-wrapper">
                             <img class="icons-height" src="images/services/info/icon3.png">
                         </div>
@@ -281,7 +281,7 @@
             </div>
             <div class="row text-center margin-top mobile-margin-30">
                 <div class="col-md-4 col-12">
-                    <div class="service-card" data-animation="flipInY">
+                    <div class="service-card height-unset" data-animation="flipInY">
                         <div class="icon-wrapper">
                             <img class="icons-height" src="images/services/info/icon7.png">
                         </div>
@@ -293,7 +293,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-12 mobile-margin-30">
-                    <div class="service-card" data-animation="flipInY">
+                    <div class="service-card height-unset" data-animation="flipInY">
                         <div class="icon-wrapper">
                             <img class="icons-height" src="images/services/info/icon5.png">
                         </div>
@@ -305,7 +305,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-12 mobile-margin-30">
-                    <div class="service-card" data-animation="flipInY">
+                    <div class="service-card height-unset" data-animation="flipInY">
                         <div class="icon-wrapper">
                             <img class="icons-height" src="images/services/info/icon6.png">
                         </div>

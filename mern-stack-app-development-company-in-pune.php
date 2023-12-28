@@ -184,6 +184,18 @@
             box-shadow: -1rem 0 8rem #cfcdcd;
         }
 
+        @media only screen and (max-width: 768px) {
+            .MERN-container {
+
+                padding: 30px !important;
+            }
+
+            .MERN-cards {
+                margin-left: unset !important;
+            }
+
+        }
+
         .MERN-cards:hover {
 
             margin-right: 48px;
@@ -210,8 +222,8 @@
         <div class="inner text-center col-md-6 padding-top">
             <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">MERN Stack
                 Development Company </h1>
-            <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family"> Pune, Bangalore,
-                Delhi</h2>
+            <h3 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family"> Pune, Bangalore,
+                Delhi</h3>
             <button data-animation="slideInUp" data-animation-delay="200ms" data-animation-delay="800ms" type="button"
                 class="btn text-font book-appointment"> <a target="blank"
                     href='https://calendly.com/projects-vikasn/30min?back=1&month=2023-12'>Book a call with our

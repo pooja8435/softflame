@@ -76,13 +76,9 @@
     <style>
         .icard {
             margin: 25px;
+            height: 345px;
             box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
         }
-
-        /* .text-justify {
-            width: 380px;
-            text-align: justify;
-        } */
 
         .icon-img {
             height: 60px;
@@ -111,8 +107,8 @@
         <div class="inner text-center col-md-6 padding-top">
             <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">Ionic App
                 Development Company</h1>
-            <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune, Bangalore,
-                Delhi</h2>
+            <h3 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune, Bangalore,
+                Delhi</h3>
             <button data-animation="slideInUp" data-animation-delay="800ms" type="button"
                 class="btn text-font book-appointment"> <a target="blank"
                     href='https://calendly.com/projects-vikasn/30min?back=1&month=2023-12'>Book a call with our
@@ -171,7 +167,7 @@
             </div>
             <div class="row">
                 <div class="col-md-4">
-                    <div class="card icard" data-animation="slideInRight">
+                    <div class="card icard height-unset" data-animation="slideInRight">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                             <path fill="lightskyblue" fill-opacity="1"
                                 d="M0,224L26.7,202.7C53.3,181,107,139,160,138.7C213.3,139,267,181,320,197.3C373.3,213,427,203,480,192C533.3,181,587,171,640,165.3C693.3,160,747,160,800,154.7C853.3,149,907,139,960,160C1013.3,181,1067,235,1120,266.7C1173.3,299,1227,309,1280,288C1333.3,267,1387,213,1413,186.7L1440,160L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z">
@@ -179,7 +175,7 @@
                         </svg>
                         <div class="card-padding">
                             <h3 class="text-font">Cross-Platform App Development</h3>
-                            <p class="init_text text-font">Leverage the efficiency of Ionic to build cross-platform
+                            <p class="text-font text-justify">Leverage the efficiency of Ionic to build cross-platform
                                 applications with a single
                                 codebase.
                                 Reach a broader audience by deploying your app on both iOS and Android platforms
@@ -188,7 +184,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card icard" data-animation="zoomIn">
+                    <div class="card icard height-unset" data-animation="zoomIn">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                             <path fill="lightskyblue" fill-opacity="1"
                                 d="M0,224L26.7,202.7C53.3,181,107,139,160,138.7C213.3,139,267,181,320,197.3C373.3,213,427,203,480,192C533.3,181,587,171,640,165.3C693.3,160,747,160,800,154.7C853.3,149,907,139,960,160C1013.3,181,1067,235,1120,266.7C1173.3,299,1227,309,1280,288C1333.3,267,1387,213,1413,186.7L1440,160L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z">
@@ -196,7 +192,7 @@
                         </svg>
                         <div class="card-padding">
                             <h3 class="text-font"> Native-like Performance</h3>
-                            <p class="init_text text-font">With Ionic, we deliver applications that provide a
+                            <p class="text-font text-justify">With Ionic, we deliver applications that provide a
                                 native-like experience on both iOS and
                                 Android devices. Benefit from fast load times, smooth animations, and responsive
                                 interfaces for an optimal user experience.</p>
@@ -204,7 +200,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card icard" data-animation="slideInRight">
+                    <div class="card icard height-unset" data-animation="slideInRight">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                             <path fill="lightskyblue" fill-opacity="1"
                                 d="M0,224L26.7,202.7C53.3,181,107,139,160,138.7C213.3,139,267,181,320,197.3C373.3,213,427,203,480,192C533.3,181,587,171,640,165.3C693.3,160,747,160,800,154.7C853.3,149,907,139,960,160C1013.3,181,1067,235,1120,266.7C1173.3,299,1227,309,1280,288C1333.3,267,1387,213,1413,186.7L1440,160L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z">
@@ -212,7 +208,7 @@
                         </svg>
                         <div class="card-padding">
                             <h3 class="text-font">UI/UX Design</h3>
-                            <p class="init_text text-font">Create intuitive and visually appealing user interfaces that
+                            <p class="text-font text-justify">Create intuitive and visually appealing user interfaces that
                                 enhance the overall user
                                 experience. Our design team works closely with clients to ensure that the Ionic apps we
                                 develop not only meet functional requirements but also delight users with a sleek and
@@ -224,7 +220,7 @@
             </div>
             <div class="row">
                 <div class="col-md-4">
-                    <div class="card icard" data-animation="slideInLeft">
+                    <div class="card icard height-unset" data-animation="slideInLeft">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                             <path fill="lightskyblue" fill-opacity="1"
                                 d="M0,224L26.7,202.7C53.3,181,107,139,160,138.7C213.3,139,267,181,320,197.3C373.3,213,427,203,480,192C533.3,181,587,171,640,165.3C693.3,160,747,160,800,154.7C853.3,149,907,139,960,160C1013.3,181,1067,235,1120,266.7C1173.3,299,1227,309,1280,288C1333.3,267,1387,213,1413,186.7L1440,160L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z">
@@ -232,7 +228,7 @@
                         </svg>
                         <div class="card-padding">
                             <h3 class="text-font">Integration with Backend Services</h3>
-                            <p class="init_text text-font">Ensure seamless connectivity and functionality by integrating
+                            <p class="text-font text-justify">Ensure seamless connectivity and functionality by integrating
                                 your Ionic app with backend
                                 services. We specialize in connecting Ionic applications with various backend
                                 technologies, enabling real-time data synchronization and robust functionality.</p>
@@ -240,7 +236,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card icard" data-animation="zoomIn">
+                    <div class="card icard height-unset" data-animation="zoomIn">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                             <path fill="lightskyblue" fill-opacity="1"
                                 d="M0,224L26.7,202.7C53.3,181,107,139,160,138.7C213.3,139,267,181,320,197.3C373.3,213,427,203,480,192C533.3,181,587,171,640,165.3C693.3,160,747,160,800,154.7C853.3,149,907,139,960,160C1013.3,181,1067,235,1120,266.7C1173.3,299,1227,309,1280,288C1333.3,267,1387,213,1413,186.7L1440,160L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z">
@@ -248,7 +244,7 @@
                         </svg>
                         <div class="card-padding">
                             <h3 class="text-font">Maintenance and Support</h3>
-                            <p class="init_text text-font">Our commitment doesn’t end with the delivery of the app. We
+                            <p class="text-font text-justify">Our commitment doesn’t end with the delivery of the app. We
                                 provide ongoing maintenance
                                 and support services to ensure your Ionic application stays up-to-date, secure, and
                                 compatible with the latest platform updates.</p>
@@ -256,7 +252,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card icard" data-animation="slideInLeft">
+                    <div class="card icard height-unset" data-animation="slideInLeft">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                             <path fill="lightskyblue" fill-opacity="1"
                                 d="M0,224L26.7,202.7C53.3,181,107,139,160,138.7C213.3,139,267,181,320,197.3C373.3,213,427,203,480,192C533.3,181,587,171,640,165.3C693.3,160,747,160,800,154.7C853.3,149,907,139,960,160C1013.3,181,1067,235,1120,266.7C1173.3,299,1227,309,1280,288C1333.3,267,1387,213,1413,186.7L1440,160L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z">
@@ -264,7 +260,7 @@
                         </svg>
                         <div class="card-padding">
                             <h3 class="text-font">Progressive Web App (PWA) Development</h3>
-                            <p class="init_text text-font">Extend your reach beyond native mobile platforms by opting
+                            <p class="text-font text-justify">Extend your reach beyond native mobile platforms by opting
                                 for Progressive Web App
                                 development with Ionic. Enjoy the benefits of a web application that behaves like a
                                 native app, providing an engaging user experience across all devices and browsers.</p>

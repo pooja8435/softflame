@@ -153,6 +153,7 @@
         .icard {
             padding: 35px;
             margin: 20px;
+            height: 240px;
             box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
         }
 
@@ -183,8 +184,8 @@
         <div class="inner text-center col-md-6 padding-top">
             <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">iPhone/iOS App
                 Development Company </h1>
-            <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune, Bangalore,
-                Delhi</h2>
+            <h3 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune, Bangalore,
+                Delhi</h3>
             <button data-animation="slideInUp" data-animation-delay="800ms" type="button"
                 class="btn text-font book-appointment"> <a target="blank"
                     href='https://calendly.com/projects-vikasn/30min?back=1&month=2023-12'>Book a call with our
@@ -244,7 +245,7 @@
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <div class="card  icard" data-animation="zoomReverseIn">
+                    <div class="card  icard height-unset" data-animation="zoomReverseIn">
                         <div class="card icard-body">
                             <div class="row">
                                 <div class="col-md-10">
@@ -266,7 +267,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="card mobile-margin-30 icard" data-animation="zoomReverseIn">
+                    <div class="card mobile-margin-30 icard height-unset" data-animation="zoomReverseIn">
                         <div class="card icard-body">
                             <div class="row">
                                 <div class="col-md-10">
@@ -290,7 +291,7 @@
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <div class="card mobile-margin-30 icard" data-animation="zoomReverseIn">
+                    <div class="card mobile-margin-30 icard height-unset" data-animation="zoomReverseIn">
                         <div class="card icard-body">
                             <div class="row">
                                 <div class="col-md-10">
@@ -311,7 +312,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="card mobile-margin-30 icard" data-animation="zoomReverseIn">
+                    <div class="card mobile-margin-30 icard height-unset" data-animation="zoomReverseIn">
                         <div class="card icard-body">
                             <div class="row">
                                 <div class="col-md-10">
@@ -333,7 +334,7 @@
             </div>
             <div class="row mobile-margin-30">
                 <div class="col-md-6">
-                    <div class="card  icard" data-animation="zoomReverseIn">
+                    <div class="card  icard height-unset" data-animation="zoomReverseIn">
                         <div class="card icard-body">
                             <div class="row">
                                 <div class="col-md-10">
@@ -355,7 +356,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="card mobile-margin-30 icard" data-animation="zoomReverseIn">
+                    <div class="card mobile-margin-30 icard height-unset" data-animation="zoomReverseIn">
                         <div class="card icard-body">
                             <div class="row">
                                 <div class="col-md-10">

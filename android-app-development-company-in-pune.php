@@ -179,8 +179,8 @@
         <div class="inner text-center col-md-6 padding-top">
             <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">Android App
                 Development Company</h1>
-            <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune, Bangalore,
-                Delhi</h2>
+            <h3 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune, Bangalore,
+                Delhi</h3>
             <button data-animation="slideInUp" data-animation-delay="800ms" type="button"
                 class="btn text-font book-appointment"> <a target="blank"
                     href='https://calendly.com/projects-vikasn/30min?back=1&month=2023-12'>Book a call with our
@@ -238,7 +238,7 @@
             </div>
             <div class="row" data-animation="zoomIn">
                 <div class="col-md-4">
-                    <div class="card android-card">
+                    <div class="card android-card height-unset">
                         <div class="img img1"></div>
                         <div class="content">
                             <h3 class="text-font">Development</h3>
@@ -249,7 +249,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card android-card">
+                    <div class="card android-card height-unset">
                         <div class="img img2"></div>
                         <div class="content">
                             <h3 class="text-font">UI/UX Design</h3>
@@ -260,7 +260,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card android-card">
+                    <div class="card android-card height-unset">
                         <div class="img img3"></div>
                         <div class="content">
                             <h3 class="text-font">Quality Assurance</h3>
@@ -273,7 +273,7 @@
             </div>
             <div class="row" data-animation="zoomIn">
                 <div class="col-md-4">
-                    <div class="card android-card">
+                    <div class="card android-card height-unset">
                         <div class="img img4"></div>
                         <div class="content">
                             <h3 class="text-font">Discovery and Planning</h3>
@@ -284,7 +284,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card android-card">
+                    <div class="card android-card height-unset">
                         <div class="img img5"></div>
                         <div class="content">
                             <h3 class="text-font">Deployment</h3>
@@ -295,7 +295,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card android-card">
+                    <div class="card android-card height-unset">
                         <div class="img img6"></div>
                         <div class="content">
                             <h3 class="text-font"> Maintenance and Support</h3>

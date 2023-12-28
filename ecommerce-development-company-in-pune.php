@@ -235,9 +235,9 @@
             <div class="header-inner two">
                 <div class="inner text-center col-md-6 padding-top">
                     <h1 data-animation="zoomReverseIn" class="font-family text-white sub-nav-head uppercase">Ecommerce Website Development Company</h1>
-                    <h2 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune,
+                    <h3 data-animation="zoomIn" data-animation-delay="500ms" class="text-white font-family">Pune,
                         Bangalore,
-                        Delhi</h2>
+                        Delhi</h3>
                 </div>
                 <div class="overlay bg-opacity-7"></div>
                 <img src="images/services/sub-nav/e-commerce-banner.jpg"

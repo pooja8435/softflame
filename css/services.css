@@ -193,11 +193,11 @@
       }
 
       .padding-top {
-          padding-top: 175px !important;
+          padding-top: 132px !important;
       }
 
       .sub-nav-head {
-          font-size: 55px;
+          /* font-size: 55px; */
           font-weight: 600;
       }
 
@@ -209,6 +209,10 @@
       @media only screen and (max-width: 768px) {
         .shape-box {
             width: 95%;
+        }
+
+        .padding-top {
+            padding-top: 70px !important;
         }
         .flex-center {
             flex-direction: column;
@@ -227,12 +231,9 @@
         }
 
         .header-inner.two .overlay {
-            height: 540px !important;
+            height: 100% !important;
         }
 
-        .header-inner.two {
-            margin-top: -90px !important;
-        }
 
         h1 {
             font-size: 24px !important;
