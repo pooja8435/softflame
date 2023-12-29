@@ -166,7 +166,7 @@ nav .wrapper{
     width:85%;
 }
 
-@media screen and (max-width: 1146px) {
+@media screen and (max-width: 1157px) {
   .wrapper .btn{
     display: block;
     margin-bottom:0 !important;

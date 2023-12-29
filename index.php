@@ -1562,6 +1562,215 @@ a {
   }
 }
 
+/* hero styling */
+.hero{
+  position: relative;
+  min-height:300px;
+  overflow: hidden;
+}
+#video{
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+}
+.hero__overlay{
+  position: absolute;
+  top: 0;
+  right:0;
+  /* background: rgba(0, 0, 0, 0.7); */
+  width: 100%;
+  height:100%;
+}
+.hero__text{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white; 
+  width:100%;
+  text-align:left;
+  margin-left:10%;
+  margin-right:10%;
+}
+
+.hero__title, .hero__p{
+  /* text-align: left; */
+  font-family: 'Nunito', sans-serif;
+  color:white;
+  margin-right:20%;
+  text-align:justify;
+}
+
+.hero__title{
+  font-size:5rem;
+  font-weight:700;
+  margin-bottom:30px;
+}
+.hero__p{
+  font-size:2rem;
+  line-height:3.5rem;
+  margin-bottom:30px;
+}
+
+.explore-div2{
+  display: flex;
+    gap: 20px;
+    margin-top:50px;
+}
+
+.explore2 {
+  font-size: 16px;
+  line-height: 28px;
+  color: black;
+  font-weight:700;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  cursor: pointer;
+  background-color: white;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 8px;
+  padding-right: 40px;
+  padding-bottom: 8px;
+  padding-left: 40px;
+  border-radius:5px;
+}
+
+.explore2:hover {
+  background-image: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: #f07f2c;
+  color: white;
+  border-top-width: initial;
+  border-right-width: initial;
+  border-bottom-width: initial;
+  border-left-width: initial;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-top-color: initial;
+  border-right-color: initial;
+  border-bottom-color: initial;
+  border-left-color: initial;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+}
+
+@media (max-width: 1024px) {
+
+  .explore2 {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+}
+@media (max-width: 500px) {
+  .explore2 {
+    padding: 6px 35px 6px 35px;
+    font-size: 15px;
+  }
+}
+    
+
+@media (max-width: 1024px) {
+  .explore2 {
+    padding-right: 15px; /* Adjusted padding for better tablet view */
+    padding-left: 15px; /* Adjusted padding for better tablet view */
+  }
+}
+
+@media (max-width: 500px) {
+  .explore-div2 {
+    display:flex;
+    margin-top:10px;
+    gap:20px;
+    /* width:50%; */
+}
+
+/* .hero__overlay{
+  background: rgba(0, 0, 0, 0.2);
+  
+} */
+  
+
+  .hero__text {
+    margin-left: 5%; /* Adjusted margin for better mobile view */
+    margin-right: 5%; /* Adjusted margin for better mobile view */
+  }
+
+  .hero__title {
+    font-size: 25px;
+    /* margin-top: 20px; */
+    margin-bottom: 0 !important;
+    text-align:left;
+  }
+
+  .hero__p {
+    font-size: 12px;
+    line-height: 2.5rem;
+    margin-bottom: 0 !important;
+    text-align:left;
+  }
+
+  .explore2 {
+    padding-right: 15px; /* Adjusted padding for better mobile view */
+    padding-left: 15px; /* Adjusted padding for better mobile view */
+  }
+
+  .hero{
+    margin-top:16%;
+  }
+  .displaynone{
+    display:none;
+  }
+}
+
+@media screen and (min-width:500px) and (max-width:800px) {
+  .hero{
+    margin-top:85px;
+  }
+  .hero__title {
+    font-size: 30px;
+    /* margin-top: 20px; */
+    margin-bottom: 15px;
+    text-align:left;
+  }
+
+  .hero__p {
+    font-size: 16px;
+    line-height: 2.5rem;
+    margin-bottom: 30px;
+    text-align:left;
+  }
+  
+}
+
+@media screen and (max-width:400px){
+  .explore2{
+    display:none;
+  }
+}
+
+
+
+
 
 
     </style>    
@@ -1705,7 +1914,7 @@ a {
 
         </div> -->
        
-        <header>
+        <!-- <header>
             <div class="owl-carousel owl-theme">
                 <div class="item">
                     <img src="img/homepagebanner.jpg" alt="images not found">
@@ -1722,7 +1931,25 @@ a {
                 </div>                    
                 
             </div>
-        </header>
+        </header> -->
+        <!-- hero video --->
+  <div class="hero">
+    <video id="video" muted autoplay="autoplay" loop="loop">
+    <source src="video/video (2160p).mp4" type="video/mp4">
+    </video>
+    <div class="hero__overlay"></div>
+    <div class="wrapper hero__text">
+        <h1 class="hero__title">Pioneering Digital Horizons</h1>
+      <p class="hero__p">Ignite Your Web Presence with Our Proven Expertise - Over a Decade of Excellence in Crafting Bespoke Web Solutions. <span class="displaynone">From Engaging Websites to Seamless Cloud Integration, Trust Us to Propel Your Digital Transformation Journey.</span></p>
+      <!-- <p class="hero__p">Bringing Innovation to Life</p> -->
+      <div class="explore-div2">
+      <a href="contact.php" class="explore2">
+        Let's Connect
+      </a>
+      <a class="explore2" target="blank" href="https://calendly.com/projects-vikasn/30min?back=1&month=2023-12">Book Appointment</a>
+      </div>
+      </div>
+  </div>
         <!-- end of masterslider -->
         <div class="responsive-container-block bigContainer">
   <div class="responsive-container-block Container bottomContainer">
@@ -1749,7 +1976,7 @@ a {
       <a href="services.php" class="explore">
         View Services
       </a>
-      <a class="explore" target="blank" href="https://calendly.com/projects-vikasn/30min?back=1&month=2023-12">Book Appointment</a>
+      <!-- <a class="explore" target="blank" href="https://calendly.com/projects-vikasn/30min?back=1&month=2023-12">Book Appointment</a> -->
       </div>
     </div>
   </div>
