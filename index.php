@@ -1768,6 +1768,29 @@ a {
   }
 }
 
+.hero {
+    position: relative;
+}
+
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    z-index:9999;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
 
 
 
@@ -1934,6 +1957,7 @@ a {
         </header> -->
         <!-- hero video --->
   <div class="hero">
+  <div class="loader"></div>
     <video id="video" muted autoplay="autoplay" loop="loop">
     <source src="video/video (2160p).mp4" type="video/mp4">
     </video>
@@ -2384,6 +2408,15 @@ a {
         reset: true,
         viewFactor: 0.5 // Adjust this value as needed
     }); -->
+
+    <script>
+    document.getElementById('video').addEventListener('loadeddata', function () {
+        // Video is loaded, hide the loader and display the video
+        document.querySelector('.loader').style.display = 'none';
+        document.getElementById('video').style.display = 'block';
+    });
+</script>
+
     <script src="https://unpkg.com/scrollreveal"></script>
 <script>
     window.sr = ScrollReveal();
